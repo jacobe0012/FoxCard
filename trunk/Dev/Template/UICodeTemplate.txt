@@ -1,0 +1,42 @@
+//---------------------------------------------------------------------
+// Author: xxx
+// Time: #CreateTime#
+//---------------------------------------------------------------------
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;(USING)
+
+namespace (NAMESPACE)
+{
+	[UIEvent(UIType.(UITypeName))]
+    internal sealed class (className)Event : AUIEvent(IUILayer)
+    {
+	    public override string Key => UIPathSet.(UITypeName);
+
+        public override bool IsFromPool => true;
+		
+		public override bool AllowManagement => (AllowManagement);
+		
+		(IUILayerCode)
+		
+        public override UI OnCreate()
+        {
+            return UI.Create<(className)>();
+        }
+    }
+
+    public partial class (className) : UI, IAwake
+	{	
+		public void Initialize()
+		{
+			
+		}
+		
+		protected override void OnClose()
+		{
+			base.OnClose();
+		}
+	}
+}

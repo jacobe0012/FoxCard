@@ -1,0 +1,3551 @@
+[
+  {
+    "skill_id": 100101,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 100102,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100001,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100103,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100002,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100104,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100003,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100105,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100004,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100106,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100005,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100107,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100005,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100108,
+    "group": 1001,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100005,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100201,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 100202,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100201,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100203,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100202,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100204,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100203,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100205,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100204,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100206,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100205,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100205,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100207,
+    "group": 1002,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100205,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100205,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100301,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 100302,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100301,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100301,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100303,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100302,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100302,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100304,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100303,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100303,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100305,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100304,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100304,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100306,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100305,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100305,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100307,
+    "group": 1003,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100305,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100305,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100401,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 100402,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100401,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100401,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100403,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100402,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100402,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100404,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100403,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100403,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100405,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100404,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100404,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100406,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100405,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100405,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100407,
+    "group": 1004,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100405,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100405,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100501,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 100502,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100501,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100501,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100503,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100502,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100502,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100504,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100503,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100503,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100505,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100504,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100504,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100506,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100505,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100505,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100507,
+    "group": 1005,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100505,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100505,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100601,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 100602,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100601,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100601,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100603,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100602,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100602,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100604,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100603,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100603,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100605,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100604,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100604,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100606,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100605,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100605,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 100607,
+    "group": 1006,
+    "type": 1,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 100605,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 100605,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 200101,
+    "group": 2001,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 220101,
+    "group": 2201,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 220102,
+    "group": 2201,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220101,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220103,
+    "group": 2201,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220102,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220104,
+    "group": 2201,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220103,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220105,
+    "group": 2201,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220104,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220106,
+    "group": 2201,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220105,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220201,
+    "group": 2202,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 220202,
+    "group": 2202,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220201,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220203,
+    "group": 2202,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220202,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220204,
+    "group": 2202,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220203,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220205,
+    "group": 2202,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220204,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220206,
+    "group": 2202,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220205,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220205,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220301,
+    "group": 2203,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 220302,
+    "group": 2203,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220301,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220301,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220303,
+    "group": 2203,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220302,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220302,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220304,
+    "group": 2203,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220303,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220303,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220305,
+    "group": 2203,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220304,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220304,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220306,
+    "group": 2203,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220305,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220305,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220401,
+    "group": 2204,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 220402,
+    "group": 2204,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220401,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220401,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220403,
+    "group": 2204,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220402,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220402,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220404,
+    "group": 2204,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220403,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220403,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220405,
+    "group": 2204,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220404,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220404,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 220406,
+    "group": 2204,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 220405,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 220405,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210101,
+    "group": 2101,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210102,
+    "group": 2101,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210101,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210103,
+    "group": 2101,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210102,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210104,
+    "group": 2101,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210103,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210105,
+    "group": 2101,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210104,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210106,
+    "group": 2101,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210105,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210201,
+    "group": 2102,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210202,
+    "group": 2102,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210201,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210203,
+    "group": 2102,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210202,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210204,
+    "group": 2102,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210203,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210205,
+    "group": 2102,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210204,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210206,
+    "group": 2102,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210205,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210205,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210301,
+    "group": 2103,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210302,
+    "group": 2103,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210301,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210301,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210303,
+    "group": 2103,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210302,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210302,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210304,
+    "group": 2103,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210303,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210303,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210305,
+    "group": 2103,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210304,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210304,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210306,
+    "group": 2103,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210305,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210305,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210401,
+    "group": 2104,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210402,
+    "group": 2104,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210401,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210401,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210403,
+    "group": 2104,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210402,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210402,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210404,
+    "group": 2104,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210403,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210403,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210405,
+    "group": 2104,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210404,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210404,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210406,
+    "group": 2104,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210405,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210405,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210501,
+    "group": 2105,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210502,
+    "group": 2105,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210501,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210501,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210503,
+    "group": 2105,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210502,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210502,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210504,
+    "group": 2105,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210503,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210503,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210505,
+    "group": 2105,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210504,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210504,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210506,
+    "group": 2105,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210505,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210505,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210601,
+    "group": 2106,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210602,
+    "group": 2106,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210601,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210601,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210603,
+    "group": 2106,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210602,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210602,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210604,
+    "group": 2106,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210603,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210603,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210605,
+    "group": 2106,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210604,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210604,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210606,
+    "group": 2106,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210605,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210605,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210701,
+    "group": 2107,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 210702,
+    "group": 2107,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210701,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210701,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210703,
+    "group": 2107,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210702,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210702,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210704,
+    "group": 2107,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210703,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210703,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210705,
+    "group": 2107,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210704,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210704,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 210706,
+    "group": 2107,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 210705,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 210705,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230101,
+    "group": 2301,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 230102,
+    "group": 2301,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230101,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230103,
+    "group": 2301,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230102,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230104,
+    "group": 2301,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230103,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230105,
+    "group": 2301,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230104,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230201,
+    "group": 2302,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 230202,
+    "group": 2302,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230201,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230203,
+    "group": 2302,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230202,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230204,
+    "group": 2302,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230203,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230205,
+    "group": 2302,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230204,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230301,
+    "group": 2303,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 230302,
+    "group": 2303,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230301,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230301,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230303,
+    "group": 2303,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230302,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230302,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230304,
+    "group": 2303,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230303,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230303,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 230305,
+    "group": 2303,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 230304,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 230304,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240101,
+    "group": 2401,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 240102,
+    "group": 2401,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240101,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240103,
+    "group": 2401,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240102,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240104,
+    "group": 2401,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240103,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240105,
+    "group": 2401,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240104,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240201,
+    "group": 2402,
+    "type": 2,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 240202,
+    "group": 2402,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240201,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240203,
+    "group": 2402,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240202,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240204,
+    "group": 2402,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240203,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 240205,
+    "group": 2402,
+    "type": 2,
+    "unlock_battle": [
+      {
+        "x": 1,
+        "y": 240204,
+        "z": 1
+      }
+    ],
+    "cost": [
+      {
+        "x": 1,
+        "y": 240204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "skill_id": 401012,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401013,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401014,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401015,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401016,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402012,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402013,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402014,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402015,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402016,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403012,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403013,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403014,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403015,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403016,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404012,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404013,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404014,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404015,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404016,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405012,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405013,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405014,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405015,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405016,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406012,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406013,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406014,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406015,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406016,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401022,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401023,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401024,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401025,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401026,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402022,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402023,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402024,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402025,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402026,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403022,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403023,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403024,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403025,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403026,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404022,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404023,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404024,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404025,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404026,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405022,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405023,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405024,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405025,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405026,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406022,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406023,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406024,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406025,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406026,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401032,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401033,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401034,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401035,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401036,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402032,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402033,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402034,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402035,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402036,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403032,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403033,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403034,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403035,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403036,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404032,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404033,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404034,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404035,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404036,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405032,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405033,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405034,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405035,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405036,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406032,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406033,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406034,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406035,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406036,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401042,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401043,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401044,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401045,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401046,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402042,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402043,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402044,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402045,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402046,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403042,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403043,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403044,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403045,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403046,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404042,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404043,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404044,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404045,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404046,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405042,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405043,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405044,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405045,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405046,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406042,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406043,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406044,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406045,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406046,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401052,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401053,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401054,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401055,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401056,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402052,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402053,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402054,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402055,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402056,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403052,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403053,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403054,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403055,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403056,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404052,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404053,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404054,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404055,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404056,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405052,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405053,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405054,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405055,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405056,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406052,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406053,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406054,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406055,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406056,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401062,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401063,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401064,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401065,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 401066,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402062,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402063,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402064,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402065,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 402066,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403062,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403063,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403064,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403065,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 403066,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404062,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404063,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404064,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404065,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 404066,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405062,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405063,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405064,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405065,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 405066,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406062,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406063,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406064,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406065,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  },
+  {
+    "skill_id": 406066,
+    "group": 0,
+    "type": 4,
+    "unlock_battle": [],
+    "cost": []
+  }
+]

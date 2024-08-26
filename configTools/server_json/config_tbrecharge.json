@@ -1,0 +1,88 @@
+[
+  {
+    "id": 101,
+    "tag_func": 1401,
+    "unit": 1,
+    "price": 1,
+    "value": 80,
+    "value_extra": 1,
+    "free_rule": []
+  },
+  {
+    "id": 102,
+    "tag_func": 1401,
+    "unit": 1,
+    "price": 4,
+    "value": 500,
+    "value_extra": 2,
+    "free_rule": []
+  },
+  {
+    "id": 103,
+    "tag_func": 1401,
+    "unit": 1,
+    "price": 6,
+    "value": 1200,
+    "value_extra": 3,
+    "free_rule": []
+  },
+  {
+    "id": 104,
+    "tag_func": 1401,
+    "unit": 1,
+    "price": 9,
+    "value": 2500,
+    "value_extra": 4,
+    "free_rule": []
+  },
+  {
+    "id": 105,
+    "tag_func": 1401,
+    "unit": 1,
+    "price": 11,
+    "value": 6500,
+    "value_extra": 5,
+    "free_rule": []
+  },
+  {
+    "id": 106,
+    "tag_func": 1401,
+    "unit": 1,
+    "price": 12,
+    "value": 14000,
+    "value_extra": 6,
+    "free_rule": []
+  },
+  {
+    "id": 201,
+    "tag_func": 1402,
+    "unit": 2,
+    "price": 30,
+    "value": 2,
+    "value_extra": 0,
+    "free_rule": [
+      {
+        "x": 2,
+        "y": 1
+      }
+    ]
+  },
+  {
+    "id": 202,
+    "tag_func": 1402,
+    "unit": 2,
+    "price": 90,
+    "value": 6,
+    "value_extra": 0,
+    "free_rule": []
+  },
+  {
+    "id": 203,
+    "tag_func": 1402,
+    "unit": 2,
+    "price": 288,
+    "value": 24,
+    "value_extra": 0,
+    "free_rule": []
+  }
+]

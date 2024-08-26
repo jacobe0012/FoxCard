@@ -1,0 +1,9934 @@
+[
+  {
+    "id": 100,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 100,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 100,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 200,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 200,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 200,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 300,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 300,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 300,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 400,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 400,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 400,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 500,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 500,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 500,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 600,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 600,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 600,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 0,
+    "main_entry_init": 0,
+    "main_entry_grow": 0,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 10,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 20,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      401012,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 30,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 50,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 70,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 132,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 154,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 176,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      401016,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 285,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      401016,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      401016,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 380,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      401016,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 101,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 450,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401012,
+      401013,
+      401014,
+      401015,
+      401016,
+      100101
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 10,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 20,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      401022,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 30,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 50,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 70,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 132,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 154,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 176,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      401026,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 285,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      401026,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      401026,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 380,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      401026,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 102,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 450,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401022,
+      401023,
+      401024,
+      401025,
+      401026,
+      100201
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 10,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 20,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      401032,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 30,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 50,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 70,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 132,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 154,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 176,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      401036,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 285,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      401036,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      401036,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 380,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      401036,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 103,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 450,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401032,
+      401033,
+      401034,
+      401035,
+      401036,
+      100301
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 10,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 20,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      401042,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 30,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 50,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 70,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 132,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 154,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 176,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      401046,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 285,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      401046,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      401046,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 380,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      401046,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 104,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 450,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401042,
+      401043,
+      401044,
+      401045,
+      401046,
+      100401
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 10,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 20,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      401052,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 30,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 50,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 70,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 132,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 154,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 176,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      401056,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 285,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      401056,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      401056,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 380,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      401056,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 105,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 450,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401052,
+      401053,
+      401054,
+      401055,
+      401056,
+      100501
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 75,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 90,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 105,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 297,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 347,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      401516,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 428,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      401516,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      401516,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 570,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      401516,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 151,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 675,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401512,
+      401513,
+      401514,
+      401515,
+      401516,
+      100601
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 75,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 90,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 105,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 297,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 347,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525,
+      401526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 428,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525,
+      401526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525,
+      401526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 570,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525,
+      401526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 152,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 675,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401522,
+      401523,
+      401524,
+      401525,
+      401526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 75,
+    "main_entry_grow": 9,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 90,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 105,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 198,
+    "main_entry_grow": 12,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 16,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 297,
+    "main_entry_grow": 18,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 347,
+    "main_entry_grow": 21,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535,
+      401536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 428,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535,
+      401536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535,
+      401536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 570,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535,
+      401536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 153,
+    "pos_id": 1,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 675,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      401532,
+      401533,
+      401534,
+      401535,
+      401536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 50,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 70,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      402012
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 100,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      402012,
+      402013
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 200,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 220,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 275,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 385,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 440,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 550,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015,
+      402016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 750,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015,
+      402016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1000,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015,
+      402016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1255,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015,
+      402016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 201,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402012,
+      402013,
+      402014,
+      402015,
+      402016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 50,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 70,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      402022
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 100,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      402022,
+      402023
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 200,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402022,
+      402024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 220,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402022,
+      402024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 275,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402022,
+      402024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402022,
+      402024,
+      402025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 385,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402022,
+      402024,
+      402025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 440,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402022,
+      402024,
+      402025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402022,
+      402024,
+      402025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 550,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402022,
+      402025,
+      402026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 750,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402022,
+      402025,
+      402026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1000,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402022,
+      402025,
+      402026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1255,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402022,
+      402025,
+      402026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 202,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402022,
+      402025,
+      402026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 50,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 70,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      402032
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 100,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      402032,
+      402033
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 200,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402032,
+      402034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 220,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402032,
+      402034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 275,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402032,
+      402034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402032,
+      402034,
+      402035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 385,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402032,
+      402034,
+      402035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 440,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402032,
+      402034,
+      402035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402032,
+      402034,
+      402035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 550,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402032,
+      402035,
+      402036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 750,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402032,
+      402035,
+      402036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1000,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402032,
+      402035,
+      402036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1255,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402032,
+      402035,
+      402036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 203,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402032,
+      402035,
+      402036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 50,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 70,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      402042
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 100,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      402042,
+      402043
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 200,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 220,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 275,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 385,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 440,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 550,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045,
+      402046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 750,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045,
+      402046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1000,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045,
+      402046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1255,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045,
+      402046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 204,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402042,
+      402043,
+      402044,
+      402045,
+      402046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 50,
+    "main_entry_grow": 5,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 70,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      402052
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 100,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      402052,
+      402053
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 200,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 220,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 275,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 385,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 440,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 550,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055,
+      402056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 750,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055,
+      402056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1000,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055,
+      402056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1255,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055,
+      402056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 205,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402052,
+      402053,
+      402054,
+      402055,
+      402056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 300,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 413,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 578,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 660,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 743,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 825,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515,
+      402516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 1125,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515,
+      402516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515,
+      402516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1883,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515,
+      402516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 251,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 2250,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402512,
+      402513,
+      402514,
+      402515,
+      402516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 300,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 413,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 578,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 660,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 743,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 825,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525,
+      402526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 1125,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525,
+      402526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525,
+      402526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1883,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525,
+      402526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 252,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 2250,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402522,
+      402523,
+      402524,
+      402525,
+      402526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 300,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 413,
+    "main_entry_grow": 25,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 578,
+    "main_entry_grow": 35,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 660,
+    "main_entry_grow": 40,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 743,
+    "main_entry_grow": 45,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 825,
+    "main_entry_grow": 50,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535,
+      402536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 1125,
+    "main_entry_grow": 70,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535,
+      402536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1500,
+    "main_entry_grow": 100,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535,
+      402536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1883,
+    "main_entry_grow": 120,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535,
+      402536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 253,
+    "pos_id": 2,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 2250,
+    "main_entry_grow": 150,
+    "unlock_skill_group": [
+      402532,
+      402533,
+      402534,
+      402535,
+      402536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 8,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 16,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      403012
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 24,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      403012,
+      403013
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 40,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 48,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 56,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 106,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 141,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 158,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015,
+      403016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 228,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015,
+      403016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015,
+      403016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 304,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015,
+      403016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 301,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 360,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403012,
+      403013,
+      403014,
+      403015,
+      403016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 8,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 16,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      403022
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 24,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      403022,
+      403023
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 40,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 48,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 56,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 106,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 141,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 158,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025,
+      403026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 228,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025,
+      403026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025,
+      403026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 304,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025,
+      403026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 302,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 360,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403022,
+      403023,
+      403024,
+      403025,
+      403026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 8,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 16,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      403032
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 24,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      403032,
+      403033
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 40,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 48,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 56,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 106,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 141,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 158,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035,
+      403036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 228,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035,
+      403036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035,
+      403036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 304,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035,
+      403036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 303,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 360,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403032,
+      403033,
+      403034,
+      403035,
+      403036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 8,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 16,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      403042
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 24,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      403042,
+      403043
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 40,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 48,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 56,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 106,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 141,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 158,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045,
+      403046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 228,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045,
+      403046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045,
+      403046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 304,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045,
+      403046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 304,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 360,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403042,
+      403043,
+      403044,
+      403045,
+      403046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 8,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 16,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      403052
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 24,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      403052,
+      403053
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 40,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 48,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 56,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 106,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 141,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 158,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055,
+      403056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 228,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055,
+      403056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 264,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055,
+      403056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 304,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055,
+      403056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 305,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 360,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403052,
+      403053,
+      403054,
+      403055,
+      403056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 72,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 84,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 159,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 212,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 237,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 278,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515,
+      403516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 342,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515,
+      403516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 396,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515,
+      403516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 456,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515,
+      403516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 351,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 540,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403512,
+      403513,
+      403514,
+      403515,
+      403516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 72,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 84,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 159,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 212,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 237,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 278,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525,
+      403526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 342,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525,
+      403526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 396,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525,
+      403526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 456,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525,
+      403526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 352,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 540,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403522,
+      403523,
+      403524,
+      403525,
+      403526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 60,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 72,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 84,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 159,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 212,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 237,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 278,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535,
+      403536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 342,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535,
+      403536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 396,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535,
+      403536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 456,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535,
+      403536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 353,
+    "pos_id": 3,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 540,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      403532,
+      403533,
+      403534,
+      403535,
+      403536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      404012
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      404012,
+      404013
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015,
+      404016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015,
+      404016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015,
+      404016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015,
+      404016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 401,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404012,
+      404013,
+      404014,
+      404015,
+      404016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      404022
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      404022,
+      404023
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404022,
+      404024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404022,
+      404024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404022,
+      404024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404022,
+      404024,
+      404025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404022,
+      404024,
+      404025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404022,
+      404024,
+      404025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404022,
+      404024,
+      404025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404022,
+      404025,
+      404026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404022,
+      404025,
+      404026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404022,
+      404025,
+      404026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404022,
+      404025,
+      404026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 402,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404022,
+      404025,
+      404026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      404032
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      404032,
+      404033
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404032,
+      404034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404032,
+      404034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404032,
+      404034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035,
+      404036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035,
+      404036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035,
+      404036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035,
+      404036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 403,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404032,
+      404034,
+      404035,
+      404036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      404042
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      404042,
+      404043
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045,
+      404046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045,
+      404046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045,
+      404046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045,
+      404046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 404,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404042,
+      404043,
+      404044,
+      404045,
+      404046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      404052
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      404052,
+      404053
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055,
+      404056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055,
+      404056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055,
+      404056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055,
+      404056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 405,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404052,
+      404053,
+      404054,
+      404055,
+      404056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 225,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 309,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 372,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 434,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 557,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 620,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515,
+      404516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 846,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515,
+      404516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1128,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515,
+      404516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1410,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515,
+      404516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 451,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1689,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404512,
+      404513,
+      404514,
+      404515,
+      404516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 225,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 309,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 372,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 434,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 557,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 620,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525,
+      404526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 846,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525,
+      404526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1128,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525,
+      404526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1410,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525,
+      404526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 452,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1689,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404522,
+      404523,
+      404524,
+      404525,
+      404526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 225,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 309,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 372,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 434,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 557,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 620,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535,
+      404536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 846,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535,
+      404536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1128,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535,
+      404536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1410,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535,
+      404536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 453,
+    "pos_id": 4,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1689,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      404532,
+      404533,
+      404534,
+      404535,
+      404536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 7,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 14,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      405012
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 21,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      405012,
+      405013
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 35,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 42,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 49,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 92,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 108,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 139,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015,
+      405016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 200,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015,
+      405016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015,
+      405016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 266,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015,
+      405016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 501,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 315,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405012,
+      405013,
+      405014,
+      405015,
+      405016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 7,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 14,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      405022
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 21,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      405022,
+      405023
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 35,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405022,
+      405024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 42,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405022,
+      405024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 49,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405022,
+      405024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 92,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405022,
+      405024,
+      405025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 108,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405022,
+      405024,
+      405025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405022,
+      405024,
+      405025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 139,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405022,
+      405024,
+      405025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405022,
+      405025,
+      405026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 200,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405022,
+      405025,
+      405026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405022,
+      405025,
+      405026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 266,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405022,
+      405025,
+      405026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 502,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 315,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405022,
+      405025,
+      405026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 7,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 14,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      405032
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 21,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      405032,
+      405033
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 35,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405032,
+      405034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 42,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405032,
+      405034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 49,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405032,
+      405034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 92,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405032,
+      405034,
+      405035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 108,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405032,
+      405034,
+      405035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405032,
+      405034,
+      405035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 139,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405032,
+      405034,
+      405035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405032,
+      405035,
+      405036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 200,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405032,
+      405035,
+      405036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405032,
+      405035,
+      405036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 266,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405032,
+      405035,
+      405036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 503,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 315,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405032,
+      405035,
+      405036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 7,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 14,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      405042
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 21,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      405042,
+      405043
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 35,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 42,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 49,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 92,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 108,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 139,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045,
+      405046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 200,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045,
+      405046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045,
+      405046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 266,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045,
+      405046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 504,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 315,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405042,
+      405043,
+      405044,
+      405045,
+      405046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 1,
+    "main_entry_id": 103010,
+    "main_entry_init": 7,
+    "main_entry_grow": 2,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 2,
+    "main_entry_id": 103010,
+    "main_entry_init": 14,
+    "main_entry_grow": 3,
+    "unlock_skill_group": [
+      405052
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 3,
+    "main_entry_id": 103010,
+    "main_entry_init": 21,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [
+      405052,
+      405053
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 35,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 42,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 49,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 92,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 108,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 123,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 139,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055,
+      405056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 200,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055,
+      405056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 231,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055,
+      405056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 266,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055,
+      405056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 505,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 315,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405052,
+      405053,
+      405054,
+      405055,
+      405056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 53,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 63,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 74,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 138,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 209,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 243,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515,
+      405516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 300,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515,
+      405516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 347,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515,
+      405516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 399,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515,
+      405516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 551,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 473,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405512,
+      405513,
+      405514,
+      405515,
+      405516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 53,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 63,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 74,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 138,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 209,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 243,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525,
+      405526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 300,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525,
+      405526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 347,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525,
+      405526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 399,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525,
+      405526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 552,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 473,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405522,
+      405523,
+      405524,
+      405525,
+      405526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 4,
+    "main_entry_id": 103010,
+    "main_entry_init": 53,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 5,
+    "main_entry_id": 103010,
+    "main_entry_init": 63,
+    "main_entry_grow": 7,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 6,
+    "main_entry_id": 103010,
+    "main_entry_init": 74,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 7,
+    "main_entry_id": 103010,
+    "main_entry_init": 138,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 8,
+    "main_entry_id": 103010,
+    "main_entry_init": 162,
+    "main_entry_grow": 10,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 9,
+    "main_entry_id": 103010,
+    "main_entry_init": 185,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 10,
+    "main_entry_id": 103010,
+    "main_entry_init": 209,
+    "main_entry_grow": 14,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 11,
+    "main_entry_id": 103010,
+    "main_entry_init": 243,
+    "main_entry_grow": 17,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535,
+      405536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 12,
+    "main_entry_id": 103010,
+    "main_entry_init": 300,
+    "main_entry_grow": 20,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535,
+      405536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 13,
+    "main_entry_id": 103010,
+    "main_entry_init": 347,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535,
+      405536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 14,
+    "main_entry_id": 103010,
+    "main_entry_init": 399,
+    "main_entry_grow": 28,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535,
+      405536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 553,
+    "pos_id": 5,
+    "quality": 15,
+    "main_entry_id": 103010,
+    "main_entry_init": 473,
+    "main_entry_grow": 32,
+    "unlock_skill_group": [
+      405532,
+      405533,
+      405534,
+      405535,
+      405536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      406012
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      406012,
+      406013
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406012,
+      406014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406012,
+      406014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406012,
+      406014
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015,
+      406016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015,
+      406016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015,
+      406016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015,
+      406016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 601,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406012,
+      406014,
+      406015,
+      406016
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      406022
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      406022,
+      406023
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025,
+      406026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025,
+      406026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025,
+      406026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025,
+      406026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 602,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406022,
+      406023,
+      406024,
+      406025,
+      406026
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      406032
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      406032,
+      406033
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406032,
+      406034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406032,
+      406034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406032,
+      406034
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406032,
+      406034,
+      406035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406032,
+      406034,
+      406035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406032,
+      406034,
+      406035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406032,
+      406034,
+      406035
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406032,
+      406035,
+      406036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406032,
+      406035,
+      406036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406032,
+      406035,
+      406036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406032,
+      406035,
+      406036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 603,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406032,
+      406035,
+      406036
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      406042
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      406042,
+      406043
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045,
+      406046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045,
+      406046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045,
+      406046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045,
+      406046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 604,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406042,
+      406043,
+      406044,
+      406045,
+      406046
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 1,
+    "main_entry_id": 102010,
+    "main_entry_init": 38,
+    "main_entry_grow": 4,
+    "unlock_skill_group": [],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 2,
+    "main_entry_id": 102010,
+    "main_entry_init": 53,
+    "main_entry_grow": 6,
+    "unlock_skill_group": [
+      406052
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 3,
+    "main_entry_id": 102010,
+    "main_entry_init": 75,
+    "main_entry_grow": 8,
+    "unlock_skill_group": [
+      406052,
+      406053
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 150,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 165,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 206,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 289,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 330,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 371,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 414,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055,
+      406056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 564,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055,
+      406056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 752,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055,
+      406056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 940,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055,
+      406056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 605,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1126,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406052,
+      406053,
+      406054,
+      406055,
+      406056
+    ],
+    "s_yn": 0
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 225,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 309,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 372,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 434,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 557,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 621,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515,
+      406516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 846,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515,
+      406516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1128,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515,
+      406516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1410,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515,
+      406516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 651,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1689,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406512,
+      406513,
+      406514,
+      406515,
+      406516
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 225,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 309,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 372,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 434,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 557,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 621,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525,
+      406526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 846,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525,
+      406526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1128,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525,
+      406526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1410,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525,
+      406526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 652,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1689,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406522,
+      406523,
+      406524,
+      406525,
+      406526
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 4,
+    "main_entry_id": 102010,
+    "main_entry_init": 225,
+    "main_entry_grow": 11,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 5,
+    "main_entry_id": 102010,
+    "main_entry_init": 248,
+    "main_entry_grow": 15,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 6,
+    "main_entry_id": 102010,
+    "main_entry_init": 309,
+    "main_entry_grow": 19,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 7,
+    "main_entry_id": 102010,
+    "main_entry_init": 372,
+    "main_entry_grow": 24,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 8,
+    "main_entry_id": 102010,
+    "main_entry_init": 434,
+    "main_entry_grow": 26,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 9,
+    "main_entry_id": 102010,
+    "main_entry_init": 495,
+    "main_entry_grow": 30,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 10,
+    "main_entry_id": 102010,
+    "main_entry_init": 557,
+    "main_entry_grow": 34,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 11,
+    "main_entry_id": 102010,
+    "main_entry_init": 621,
+    "main_entry_grow": 38,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535,
+      406536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 12,
+    "main_entry_id": 102010,
+    "main_entry_init": 846,
+    "main_entry_grow": 53,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535,
+      406536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 13,
+    "main_entry_id": 102010,
+    "main_entry_init": 1128,
+    "main_entry_grow": 74,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535,
+      406536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 14,
+    "main_entry_id": 102010,
+    "main_entry_init": 1410,
+    "main_entry_grow": 90,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535,
+      406536
+    ],
+    "s_yn": 1
+  },
+  {
+    "id": 653,
+    "pos_id": 6,
+    "quality": 15,
+    "main_entry_id": 102010,
+    "main_entry_init": 1689,
+    "main_entry_grow": 114,
+    "unlock_skill_group": [
+      406532,
+      406533,
+      406534,
+      406535,
+      406536
+    ],
+    "s_yn": 1
+  }
+]

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root Version="v2.0.0">
+  <Common ShowPackageView="False" ShowEditorAlias="False" UniqueBundleName="False" />
+  <Package PackageName="DefaultPackage" PackageDesc="" AutoAddressable="True" LocationToLower="False" IncludeAssetGUID="False" IgnoreDefaultType="True">
+    <Group GroupActiveRule="EnableGroup" GroupName="Assets" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/FoxCard/Art_Resources" CollectGUID="99d451f4a5705ee48b70c6adeaf9dc9e" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+      <Collector CollectPath="Assets/Scenes" CollectGUID="109e9bdd0fcc649c5bc59085c35bdc83" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="HotFixPrefabs" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/FoxCard/Scripts/HotFix/HotFixPrefab" CollectGUID="e620b86dfaf14a24ca4e54b08053a8ce" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+    <Group GroupActiveRule="EnableGroup" GroupName="HotFixDlls" GroupDesc="" AssetTags="">
+      <Collector CollectPath="Assets/FoxCard/HotFixDlls" CollectGUID="953087a69dd6e3b4da85ae5e1f739cec" CollectType="MainAssetCollector" AddressRule="AddressByFileName" PackRule="PackDirectory" FilterRule="CollectAll" UserData="" AssetTags="" />
+    </Group>
+  </Package>
+</root>

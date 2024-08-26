@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43d68806fcafe6f4abb6b9ae1145357e, type: 3}
+  m_Name: UIReferenceConfig
+  m_EditorClassIdentifier: 
+  ClassExploer: Assets/FoxCard/Scripts/HotFix/UI/XFDemo/Game/UI
+  CodeTemplateFilePath: ./Template/UICodeTemplate.txt
+  KeyTemplateFilePath: ./Template/UIReferenceKeyTemplate.txt
+  UIPathSetFilePath: Assets/FoxCard/Scripts/HotFix/UI/XFDemo/Game/UI/Types/UIPathSet.cs
+  UITypeFilePath: Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\Types/UIType.cs
+  Namespace: XFramework

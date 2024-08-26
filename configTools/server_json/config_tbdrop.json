@@ -1,0 +1,11810 @@
+[
+  {
+    "assist": 1,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1200,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020001,
+        "z": 6
+      }
+    ]
+  },
+  {
+    "assist": 2,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1000,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020001,
+        "z": 7
+      }
+    ]
+  },
+  {
+    "assist": 3,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 750,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020001,
+        "z": 8
+      }
+    ]
+  },
+  {
+    "assist": 4,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1200,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020002,
+        "z": 6
+      }
+    ]
+  },
+  {
+    "assist": 5,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1000,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020002,
+        "z": 7
+      }
+    ]
+  },
+  {
+    "assist": 6,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 750,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020002,
+        "z": 8
+      }
+    ]
+  },
+  {
+    "assist": 7,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1200,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020003,
+        "z": 6
+      }
+    ]
+  },
+  {
+    "assist": 8,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1000,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020003,
+        "z": 7
+      }
+    ]
+  },
+  {
+    "assist": 9,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 750,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020003,
+        "z": 8
+      }
+    ]
+  },
+  {
+    "assist": 10,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1200,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020004,
+        "z": 6
+      }
+    ]
+  },
+  {
+    "assist": 11,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1000,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020004,
+        "z": 7
+      }
+    ]
+  },
+  {
+    "assist": 12,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 750,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020004,
+        "z": 8
+      }
+    ]
+  },
+  {
+    "assist": 13,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1200,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020005,
+        "z": 6
+      }
+    ]
+  },
+  {
+    "assist": 14,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1000,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020005,
+        "z": 7
+      }
+    ]
+  },
+  {
+    "assist": 15,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 750,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020005,
+        "z": 8
+      }
+    ]
+  },
+  {
+    "assist": 16,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1200,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020006,
+        "z": 6
+      }
+    ]
+  },
+  {
+    "assist": 17,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1000,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020006,
+        "z": 7
+      }
+    ]
+  },
+  {
+    "assist": 18,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 750,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020006,
+        "z": 8
+      }
+    ]
+  },
+  {
+    "assist": 19,
+    "id": 1000,
+    "pack_ind_yn": 0,
+    "pack_id": 7100102,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 1,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1010002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 20,
+    "id": 1000,
+    "pack_ind_yn": 1,
+    "pack_id": 7100103,
+    "pack_power": 1000000,
+    "item_ind_yn": 0,
+    "item_power": 150,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 50
+      }
+    ]
+  },
+  {
+    "assist": 21,
+    "id": 1000,
+    "pack_ind_yn": 1,
+    "pack_id": 7100103,
+    "pack_power": 1000000,
+    "item_ind_yn": 0,
+    "item_power": 50,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 100
+      }
+    ]
+  },
+  {
+    "assist": 22,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 23,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 24,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 25,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 26,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 27,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 28,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 29,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 30,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 31,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 32,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 33,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 34,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 35,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 36,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 37,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 38,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 39,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 40,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 41,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 42,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 43,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 44,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 45,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 46,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 47,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 48,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 49,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 50,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 51,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001002,
+    "pack_power": 670895,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 52,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 53,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 54,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 55,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 56,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 57,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 58,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 59,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 60,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 61,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 62,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 63,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 64,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 65,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 66,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 67,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 68,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 69,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 70,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 71,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 72,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 73,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 74,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 75,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 76,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 77,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 78,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 79,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 80,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 81,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001003,
+    "pack_power": 313842,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 82,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 83,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 84,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 85,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 86,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 87,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 88,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 89,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 90,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 91,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 92,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 93,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 94,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 95,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 96,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 97,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 98,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 99,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 100,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 101,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 102,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 103,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 104,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 105,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 106,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 107,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 108,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 109,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 110,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 111,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001004,
+    "pack_power": 15133,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 112,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 151,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 113,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 152,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 114,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 153,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 115,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 251,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 116,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 252,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 117,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 253,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 118,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 351,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 119,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 352,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 120,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 353,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 121,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 451,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 122,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 452,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 123,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 453,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 124,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 551,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 125,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 552,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 126,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 553,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 127,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 651,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 128,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 652,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 129,
+    "id": 20010,
+    "pack_ind_yn": 0,
+    "pack_id": 2001054,
+    "pack_power": 129,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 653,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 130,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 131,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001102,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 132,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001103,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 133,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001104,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 134,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001105,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 135,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001106,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 136,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001107,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 137,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001108,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 138,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001109,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 139,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001110,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 140,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001111,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 141,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001112,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 142,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001113,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 143,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001114,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 144,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001115,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 145,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001116,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 146,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001117,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 147,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001118,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 148,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001119,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 149,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001120,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 150,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001121,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 151,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001122,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 152,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001123,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 153,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001124,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 154,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001125,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 155,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001126,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 156,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001127,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 157,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001128,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 158,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001129,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 159,
+    "id": 20011,
+    "pack_ind_yn": 0,
+    "pack_id": 2001130,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 160,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001201,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 151,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 161,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001202,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 152,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 162,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001203,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 153,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 163,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001204,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 251,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 164,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001205,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 252,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 165,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001206,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 253,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 166,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001207,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 351,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 167,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001208,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 352,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 168,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001209,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 353,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 169,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001210,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 451,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 170,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001211,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 452,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 171,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001212,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 453,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 172,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001213,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 551,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 173,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001214,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 552,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 174,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001215,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 553,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 175,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001216,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 651,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 176,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001217,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 652,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 177,
+    "id": 20012,
+    "pack_ind_yn": 0,
+    "pack_id": 2001218,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 653,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 178,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 179,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 180,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 181,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 182,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 183,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 184,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 185,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 186,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 187,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 188,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 189,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 190,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 191,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 192,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 193,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 194,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 195,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 196,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 197,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 198,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 199,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 200,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 201,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 202,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 203,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 204,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 205,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 206,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 207,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001001,
+    "pack_power": 676600,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 208,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 209,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 210,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 211,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 212,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 213,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 214,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 215,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 216,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 217,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 218,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 219,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 220,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 221,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 222,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 223,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 224,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 225,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 226,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 227,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 228,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 229,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 230,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 231,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 232,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 233,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 234,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 235,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 236,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 237,
+    "id": 30010,
+    "pack_ind_yn": 0,
+    "pack_id": 3001002,
+    "pack_power": 323400,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 238,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 239,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001102,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 240,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001103,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 241,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001104,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 242,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001105,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 243,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001106,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 244,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001107,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 245,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001108,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 246,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001109,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 247,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001110,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 248,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001111,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 249,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001112,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 250,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001113,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 251,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001114,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 252,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001115,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 253,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001116,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 254,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001117,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 255,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001118,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 256,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001119,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 257,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001120,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 258,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001121,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 259,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001122,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 260,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001123,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 261,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001124,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 262,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001125,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 263,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001126,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 264,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001127,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 265,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001128,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 266,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001129,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 267,
+    "id": 30011,
+    "pack_ind_yn": 0,
+    "pack_id": 3001130,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 268,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 269,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 270,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 271,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 272,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 273,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 274,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 275,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 276,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 277,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 278,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 279,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 280,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 281,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 282,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 283,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 284,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 285,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 286,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 287,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 288,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 289,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 290,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 291,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 292,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 293,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 294,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 295,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 296,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 297,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002002,
+    "pack_power": 666564,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "assist": 298,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 299,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 300,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 301,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 302,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 303,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 304,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 305,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 306,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 307,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 308,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 309,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 310,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 311,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 312,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 313,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 314,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 315,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 316,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 317,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 318,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 319,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 320,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 321,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 322,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 323,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 324,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 325,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 326,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 327,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002003,
+    "pack_power": 308492,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 3
+      }
+    ]
+  },
+  {
+    "assist": 328,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 329,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 330,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 331,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 332,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 333,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 334,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 335,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 336,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 337,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 338,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 339,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 340,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 341,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 342,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 343,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 344,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 345,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 346,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 347,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 348,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 349,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 350,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 351,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 352,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 353,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 354,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 355,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 356,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 357,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002004,
+    "pack_power": 17230,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 358,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 151,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 359,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 152,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 360,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 153,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 361,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 251,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 362,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 252,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 363,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 253,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 364,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 351,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 365,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 352,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 366,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 353,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 367,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 451,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 368,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 452,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 369,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 453,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 370,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 551,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 371,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 552,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 372,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 553,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 373,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 651,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 374,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 652,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 375,
+    "id": 30020,
+    "pack_ind_yn": 0,
+    "pack_id": 3002054,
+    "pack_power": 7712,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 653,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 376,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002101,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 377,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002102,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 378,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002103,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 379,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002104,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 380,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002105,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 381,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002106,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 382,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002107,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 383,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002108,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 384,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002109,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 385,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002110,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 386,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002111,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 387,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002112,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 388,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002113,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 389,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002114,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 390,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002115,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 391,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002116,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 392,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002117,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 393,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002118,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 394,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002119,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 395,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002120,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 396,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002121,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 397,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002122,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 398,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002123,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 399,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002124,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 400,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002125,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 401,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002126,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 402,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002127,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 403,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002128,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 404,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002129,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 405,
+    "id": 30021,
+    "pack_ind_yn": 0,
+    "pack_id": 3002130,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 4
+      }
+    ]
+  },
+  {
+    "assist": 406,
+    "id": 1020000,
+    "pack_ind_yn": 0,
+    "pack_id": 10200001,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 407,
+    "id": 1020000,
+    "pack_ind_yn": 0,
+    "pack_id": 10200002,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 408,
+    "id": 1020000,
+    "pack_ind_yn": 0,
+    "pack_id": 10200003,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020003,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 409,
+    "id": 1020000,
+    "pack_ind_yn": 0,
+    "pack_id": 10200004,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020004,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 410,
+    "id": 1020000,
+    "pack_ind_yn": 0,
+    "pack_id": 10200005,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020005,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 411,
+    "id": 1020000,
+    "pack_ind_yn": 0,
+    "pack_id": 10200006,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020006,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 412,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120011,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 101,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 413,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120012,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 102,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 414,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120013,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 103,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 415,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120014,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 104,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 416,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120015,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 105,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 417,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120016,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 201,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 418,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120017,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 202,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 419,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120018,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 203,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 420,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120019,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 204,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 421,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120020,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 205,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 422,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120021,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 301,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 423,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120022,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 302,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 424,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120023,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 303,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 425,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120024,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 304,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 426,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120025,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 305,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 427,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120026,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 401,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 428,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120027,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 402,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 429,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120028,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 403,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 430,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120029,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 404,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 431,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120030,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 405,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 432,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120031,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 501,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 433,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120032,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 502,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 434,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120033,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 503,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 435,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120034,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 504,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 436,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120035,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 505,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 437,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120036,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 601,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 438,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120037,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 602,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 439,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120038,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 603,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 440,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120039,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 604,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 441,
+    "id": 5012001,
+    "pack_ind_yn": 0,
+    "pack_id": 50120040,
+    "pack_power": 100,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 11,
+        "y": 605,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 442,
+    "id": 10001,
+    "pack_ind_yn": 1,
+    "pack_id": 100011,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 443,
+    "id": 10001,
+    "pack_ind_yn": 1,
+    "pack_id": 100012,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 444,
+    "id": 10001,
+    "pack_ind_yn": 1,
+    "pack_id": 100013,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 445,
+    "id": 10002,
+    "pack_ind_yn": 1,
+    "pack_id": 100021,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 446,
+    "id": 10002,
+    "pack_ind_yn": 1,
+    "pack_id": 100022,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 447,
+    "id": 10002,
+    "pack_ind_yn": 1,
+    "pack_id": 100023,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 448,
+    "id": 10003,
+    "pack_ind_yn": 1,
+    "pack_id": 100031,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 449,
+    "id": 10003,
+    "pack_ind_yn": 1,
+    "pack_id": 100032,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 450,
+    "id": 10003,
+    "pack_ind_yn": 1,
+    "pack_id": 100033,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 451,
+    "id": 10004,
+    "pack_ind_yn": 1,
+    "pack_id": 100041,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 452,
+    "id": 10004,
+    "pack_ind_yn": 1,
+    "pack_id": 100042,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 453,
+    "id": 10004,
+    "pack_ind_yn": 1,
+    "pack_id": 100043,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 454,
+    "id": 10005,
+    "pack_ind_yn": 1,
+    "pack_id": 100051,
+    "pack_power": 200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 455,
+    "id": 10005,
+    "pack_ind_yn": 1,
+    "pack_id": 100052,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 456,
+    "id": 10005,
+    "pack_ind_yn": 1,
+    "pack_id": 100053,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 457,
+    "id": 10006,
+    "pack_ind_yn": 1,
+    "pack_id": 100061,
+    "pack_power": 200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 458,
+    "id": 10006,
+    "pack_ind_yn": 1,
+    "pack_id": 100062,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 459,
+    "id": 10006,
+    "pack_ind_yn": 1,
+    "pack_id": 100063,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 460,
+    "id": 10007,
+    "pack_ind_yn": 1,
+    "pack_id": 100071,
+    "pack_power": 233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 461,
+    "id": 10007,
+    "pack_ind_yn": 1,
+    "pack_id": 100072,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 462,
+    "id": 10007,
+    "pack_ind_yn": 1,
+    "pack_id": 100073,
+    "pack_power": 0,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 463,
+    "id": 10008,
+    "pack_ind_yn": 1,
+    "pack_id": 100081,
+    "pack_power": 233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 464,
+    "id": 10008,
+    "pack_ind_yn": 1,
+    "pack_id": 100082,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 465,
+    "id": 10008,
+    "pack_ind_yn": 1,
+    "pack_id": 100083,
+    "pack_power": 1666666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 466,
+    "id": 10009,
+    "pack_ind_yn": 1,
+    "pack_id": 100091,
+    "pack_power": 233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 467,
+    "id": 10009,
+    "pack_ind_yn": 1,
+    "pack_id": 100092,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 468,
+    "id": 10009,
+    "pack_ind_yn": 1,
+    "pack_id": 100093,
+    "pack_power": 1666666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 469,
+    "id": 10010,
+    "pack_ind_yn": 1,
+    "pack_id": 100101,
+    "pack_power": 266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 470,
+    "id": 10010,
+    "pack_ind_yn": 1,
+    "pack_id": 100102,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 471,
+    "id": 10010,
+    "pack_ind_yn": 1,
+    "pack_id": 100103,
+    "pack_power": 1666666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 472,
+    "id": 10011,
+    "pack_ind_yn": 1,
+    "pack_id": 100111,
+    "pack_power": 266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 473,
+    "id": 10011,
+    "pack_ind_yn": 1,
+    "pack_id": 100112,
+    "pack_power": 33333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 474,
+    "id": 10011,
+    "pack_ind_yn": 1,
+    "pack_id": 100113,
+    "pack_power": 1700000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 475,
+    "id": 10012,
+    "pack_ind_yn": 1,
+    "pack_id": 100121,
+    "pack_power": 266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 476,
+    "id": 10012,
+    "pack_ind_yn": 1,
+    "pack_id": 100122,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 477,
+    "id": 10012,
+    "pack_ind_yn": 1,
+    "pack_id": 100123,
+    "pack_power": 1733333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 478,
+    "id": 10013,
+    "pack_ind_yn": 1,
+    "pack_id": 100131,
+    "pack_power": 300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 479,
+    "id": 10013,
+    "pack_ind_yn": 1,
+    "pack_id": 100132,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 480,
+    "id": 10013,
+    "pack_ind_yn": 1,
+    "pack_id": 100133,
+    "pack_power": 1766666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 481,
+    "id": 10014,
+    "pack_ind_yn": 1,
+    "pack_id": 100141,
+    "pack_power": 300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 482,
+    "id": 10014,
+    "pack_ind_yn": 1,
+    "pack_id": 100142,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 483,
+    "id": 10014,
+    "pack_ind_yn": 1,
+    "pack_id": 100143,
+    "pack_power": 1800000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 484,
+    "id": 10015,
+    "pack_ind_yn": 1,
+    "pack_id": 100151,
+    "pack_power": 300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 485,
+    "id": 10015,
+    "pack_ind_yn": 1,
+    "pack_id": 100152,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 486,
+    "id": 10015,
+    "pack_ind_yn": 1,
+    "pack_id": 100153,
+    "pack_power": 1833333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 487,
+    "id": 10016,
+    "pack_ind_yn": 1,
+    "pack_id": 100161,
+    "pack_power": 300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 488,
+    "id": 10016,
+    "pack_ind_yn": 1,
+    "pack_id": 100162,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 489,
+    "id": 10016,
+    "pack_ind_yn": 1,
+    "pack_id": 100163,
+    "pack_power": 1866666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 490,
+    "id": 10017,
+    "pack_ind_yn": 1,
+    "pack_id": 100171,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 491,
+    "id": 10017,
+    "pack_ind_yn": 1,
+    "pack_id": 100172,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 492,
+    "id": 10017,
+    "pack_ind_yn": 1,
+    "pack_id": 100173,
+    "pack_power": 1900000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 493,
+    "id": 10018,
+    "pack_ind_yn": 1,
+    "pack_id": 100181,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 494,
+    "id": 10018,
+    "pack_ind_yn": 1,
+    "pack_id": 100182,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 495,
+    "id": 10018,
+    "pack_ind_yn": 1,
+    "pack_id": 100183,
+    "pack_power": 1933333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 496,
+    "id": 10019,
+    "pack_ind_yn": 1,
+    "pack_id": 100191,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 497,
+    "id": 10019,
+    "pack_ind_yn": 1,
+    "pack_id": 100192,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 498,
+    "id": 10019,
+    "pack_ind_yn": 1,
+    "pack_id": 100193,
+    "pack_power": 1966666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 499,
+    "id": 10020,
+    "pack_ind_yn": 1,
+    "pack_id": 100201,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 500,
+    "id": 10020,
+    "pack_ind_yn": 1,
+    "pack_id": 100202,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 501,
+    "id": 10020,
+    "pack_ind_yn": 1,
+    "pack_id": 100203,
+    "pack_power": 2000000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 502,
+    "id": 10021,
+    "pack_ind_yn": 1,
+    "pack_id": 100211,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 503,
+    "id": 10021,
+    "pack_ind_yn": 1,
+    "pack_id": 100212,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 504,
+    "id": 10021,
+    "pack_ind_yn": 1,
+    "pack_id": 100213,
+    "pack_power": 2000000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 505,
+    "id": 10022,
+    "pack_ind_yn": 1,
+    "pack_id": 100221,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 506,
+    "id": 10022,
+    "pack_ind_yn": 1,
+    "pack_id": 100222,
+    "pack_power": 66666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 507,
+    "id": 10022,
+    "pack_ind_yn": 1,
+    "pack_id": 100223,
+    "pack_power": 2033333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 508,
+    "id": 10023,
+    "pack_ind_yn": 1,
+    "pack_id": 100231,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 509,
+    "id": 10023,
+    "pack_ind_yn": 1,
+    "pack_id": 100232,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 510,
+    "id": 10023,
+    "pack_ind_yn": 1,
+    "pack_id": 100233,
+    "pack_power": 2033333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 511,
+    "id": 10024,
+    "pack_ind_yn": 1,
+    "pack_id": 100241,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 512,
+    "id": 10024,
+    "pack_ind_yn": 1,
+    "pack_id": 100242,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 513,
+    "id": 10024,
+    "pack_ind_yn": 1,
+    "pack_id": 100243,
+    "pack_power": 2066666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 514,
+    "id": 10025,
+    "pack_ind_yn": 1,
+    "pack_id": 100251,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 515,
+    "id": 10025,
+    "pack_ind_yn": 1,
+    "pack_id": 100252,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 516,
+    "id": 10025,
+    "pack_ind_yn": 1,
+    "pack_id": 100253,
+    "pack_power": 2066666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 517,
+    "id": 10026,
+    "pack_ind_yn": 1,
+    "pack_id": 100261,
+    "pack_power": 333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 518,
+    "id": 10026,
+    "pack_ind_yn": 1,
+    "pack_id": 100262,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 519,
+    "id": 10026,
+    "pack_ind_yn": 1,
+    "pack_id": 100263,
+    "pack_power": 2066666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 520,
+    "id": 10027,
+    "pack_ind_yn": 1,
+    "pack_id": 100271,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 521,
+    "id": 10027,
+    "pack_ind_yn": 1,
+    "pack_id": 100272,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 522,
+    "id": 10027,
+    "pack_ind_yn": 1,
+    "pack_id": 100273,
+    "pack_power": 2100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 523,
+    "id": 10028,
+    "pack_ind_yn": 1,
+    "pack_id": 100281,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 524,
+    "id": 10028,
+    "pack_ind_yn": 1,
+    "pack_id": 100282,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 525,
+    "id": 10028,
+    "pack_ind_yn": 1,
+    "pack_id": 100283,
+    "pack_power": 2100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 526,
+    "id": 10029,
+    "pack_ind_yn": 1,
+    "pack_id": 100291,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 527,
+    "id": 10029,
+    "pack_ind_yn": 1,
+    "pack_id": 100292,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 528,
+    "id": 10029,
+    "pack_ind_yn": 1,
+    "pack_id": 100293,
+    "pack_power": 2100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 529,
+    "id": 10030,
+    "pack_ind_yn": 1,
+    "pack_id": 100301,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 530,
+    "id": 10030,
+    "pack_ind_yn": 1,
+    "pack_id": 100302,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 531,
+    "id": 10030,
+    "pack_ind_yn": 1,
+    "pack_id": 100303,
+    "pack_power": 2100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 532,
+    "id": 10031,
+    "pack_ind_yn": 1,
+    "pack_id": 100311,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 533,
+    "id": 10031,
+    "pack_ind_yn": 1,
+    "pack_id": 100312,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 534,
+    "id": 10031,
+    "pack_ind_yn": 1,
+    "pack_id": 100313,
+    "pack_power": 2133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 535,
+    "id": 10032,
+    "pack_ind_yn": 1,
+    "pack_id": 100321,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 536,
+    "id": 10032,
+    "pack_ind_yn": 1,
+    "pack_id": 100322,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 537,
+    "id": 10032,
+    "pack_ind_yn": 1,
+    "pack_id": 100323,
+    "pack_power": 2133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 538,
+    "id": 10033,
+    "pack_ind_yn": 1,
+    "pack_id": 100331,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 539,
+    "id": 10033,
+    "pack_ind_yn": 1,
+    "pack_id": 100332,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 540,
+    "id": 10033,
+    "pack_ind_yn": 1,
+    "pack_id": 100333,
+    "pack_power": 2133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 541,
+    "id": 10034,
+    "pack_ind_yn": 1,
+    "pack_id": 100341,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 542,
+    "id": 10034,
+    "pack_ind_yn": 1,
+    "pack_id": 100342,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 543,
+    "id": 10034,
+    "pack_ind_yn": 1,
+    "pack_id": 100343,
+    "pack_power": 2133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 544,
+    "id": 10035,
+    "pack_ind_yn": 1,
+    "pack_id": 100351,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 545,
+    "id": 10035,
+    "pack_ind_yn": 1,
+    "pack_id": 100352,
+    "pack_power": 100000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 546,
+    "id": 10035,
+    "pack_ind_yn": 1,
+    "pack_id": 100353,
+    "pack_power": 2133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 547,
+    "id": 10036,
+    "pack_ind_yn": 1,
+    "pack_id": 100361,
+    "pack_power": 366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 548,
+    "id": 10036,
+    "pack_ind_yn": 1,
+    "pack_id": 100362,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 549,
+    "id": 10036,
+    "pack_ind_yn": 1,
+    "pack_id": 100363,
+    "pack_power": 2166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 550,
+    "id": 10037,
+    "pack_ind_yn": 1,
+    "pack_id": 100371,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 551,
+    "id": 10037,
+    "pack_ind_yn": 1,
+    "pack_id": 100372,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 552,
+    "id": 10037,
+    "pack_ind_yn": 1,
+    "pack_id": 100373,
+    "pack_power": 2166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 553,
+    "id": 10038,
+    "pack_ind_yn": 1,
+    "pack_id": 100381,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 554,
+    "id": 10038,
+    "pack_ind_yn": 1,
+    "pack_id": 100382,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 555,
+    "id": 10038,
+    "pack_ind_yn": 1,
+    "pack_id": 100383,
+    "pack_power": 2166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 556,
+    "id": 10039,
+    "pack_ind_yn": 1,
+    "pack_id": 100391,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 557,
+    "id": 10039,
+    "pack_ind_yn": 1,
+    "pack_id": 100392,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 558,
+    "id": 10039,
+    "pack_ind_yn": 1,
+    "pack_id": 100393,
+    "pack_power": 2166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 559,
+    "id": 10040,
+    "pack_ind_yn": 1,
+    "pack_id": 100401,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 560,
+    "id": 10040,
+    "pack_ind_yn": 1,
+    "pack_id": 100402,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 561,
+    "id": 10040,
+    "pack_ind_yn": 1,
+    "pack_id": 100403,
+    "pack_power": 2166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 562,
+    "id": 10041,
+    "pack_ind_yn": 1,
+    "pack_id": 100411,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 563,
+    "id": 10041,
+    "pack_ind_yn": 1,
+    "pack_id": 100412,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 564,
+    "id": 10041,
+    "pack_ind_yn": 1,
+    "pack_id": 100413,
+    "pack_power": 2166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 565,
+    "id": 10042,
+    "pack_ind_yn": 1,
+    "pack_id": 100421,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 566,
+    "id": 10042,
+    "pack_ind_yn": 1,
+    "pack_id": 100422,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 567,
+    "id": 10042,
+    "pack_ind_yn": 1,
+    "pack_id": 100423,
+    "pack_power": 2200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 568,
+    "id": 10043,
+    "pack_ind_yn": 1,
+    "pack_id": 100431,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 569,
+    "id": 10043,
+    "pack_ind_yn": 1,
+    "pack_id": 100432,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 570,
+    "id": 10043,
+    "pack_ind_yn": 1,
+    "pack_id": 100433,
+    "pack_power": 2200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 571,
+    "id": 10044,
+    "pack_ind_yn": 1,
+    "pack_id": 100441,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 572,
+    "id": 10044,
+    "pack_ind_yn": 1,
+    "pack_id": 100442,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 573,
+    "id": 10044,
+    "pack_ind_yn": 1,
+    "pack_id": 100443,
+    "pack_power": 2200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 574,
+    "id": 10045,
+    "pack_ind_yn": 1,
+    "pack_id": 100451,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 575,
+    "id": 10045,
+    "pack_ind_yn": 1,
+    "pack_id": 100452,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 576,
+    "id": 10045,
+    "pack_ind_yn": 1,
+    "pack_id": 100453,
+    "pack_power": 2200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 577,
+    "id": 10046,
+    "pack_ind_yn": 1,
+    "pack_id": 100461,
+    "pack_power": 400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 578,
+    "id": 10046,
+    "pack_ind_yn": 1,
+    "pack_id": 100462,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 579,
+    "id": 10046,
+    "pack_ind_yn": 1,
+    "pack_id": 100463,
+    "pack_power": 2200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 580,
+    "id": 10047,
+    "pack_ind_yn": 1,
+    "pack_id": 100471,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 581,
+    "id": 10047,
+    "pack_ind_yn": 1,
+    "pack_id": 100472,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 582,
+    "id": 10047,
+    "pack_ind_yn": 1,
+    "pack_id": 100473,
+    "pack_power": 2200000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 583,
+    "id": 10048,
+    "pack_ind_yn": 1,
+    "pack_id": 100481,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 584,
+    "id": 10048,
+    "pack_ind_yn": 1,
+    "pack_id": 100482,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 585,
+    "id": 10048,
+    "pack_ind_yn": 1,
+    "pack_id": 100483,
+    "pack_power": 2233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 586,
+    "id": 10049,
+    "pack_ind_yn": 1,
+    "pack_id": 100491,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 587,
+    "id": 10049,
+    "pack_ind_yn": 1,
+    "pack_id": 100492,
+    "pack_power": 133333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 588,
+    "id": 10049,
+    "pack_ind_yn": 1,
+    "pack_id": 100493,
+    "pack_power": 2233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 589,
+    "id": 10050,
+    "pack_ind_yn": 1,
+    "pack_id": 100501,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 590,
+    "id": 10050,
+    "pack_ind_yn": 1,
+    "pack_id": 100502,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 591,
+    "id": 10050,
+    "pack_ind_yn": 1,
+    "pack_id": 100503,
+    "pack_power": 2233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 592,
+    "id": 10051,
+    "pack_ind_yn": 1,
+    "pack_id": 100511,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 593,
+    "id": 10051,
+    "pack_ind_yn": 1,
+    "pack_id": 100512,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 594,
+    "id": 10051,
+    "pack_ind_yn": 1,
+    "pack_id": 100513,
+    "pack_power": 2233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 595,
+    "id": 10052,
+    "pack_ind_yn": 1,
+    "pack_id": 100521,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 596,
+    "id": 10052,
+    "pack_ind_yn": 1,
+    "pack_id": 100522,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 597,
+    "id": 10052,
+    "pack_ind_yn": 1,
+    "pack_id": 100523,
+    "pack_power": 2233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 598,
+    "id": 10053,
+    "pack_ind_yn": 1,
+    "pack_id": 100531,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 599,
+    "id": 10053,
+    "pack_ind_yn": 1,
+    "pack_id": 100532,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 600,
+    "id": 10053,
+    "pack_ind_yn": 1,
+    "pack_id": 100533,
+    "pack_power": 2233333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 601,
+    "id": 10054,
+    "pack_ind_yn": 1,
+    "pack_id": 100541,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 602,
+    "id": 10054,
+    "pack_ind_yn": 1,
+    "pack_id": 100542,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 603,
+    "id": 10054,
+    "pack_ind_yn": 1,
+    "pack_id": 100543,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 604,
+    "id": 10055,
+    "pack_ind_yn": 1,
+    "pack_id": 100551,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 605,
+    "id": 10055,
+    "pack_ind_yn": 1,
+    "pack_id": 100552,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 606,
+    "id": 10055,
+    "pack_ind_yn": 1,
+    "pack_id": 100553,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 607,
+    "id": 10056,
+    "pack_ind_yn": 1,
+    "pack_id": 100561,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 608,
+    "id": 10056,
+    "pack_ind_yn": 1,
+    "pack_id": 100562,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 609,
+    "id": 10056,
+    "pack_ind_yn": 1,
+    "pack_id": 100563,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 610,
+    "id": 10057,
+    "pack_ind_yn": 1,
+    "pack_id": 100571,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 611,
+    "id": 10057,
+    "pack_ind_yn": 1,
+    "pack_id": 100572,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 612,
+    "id": 10057,
+    "pack_ind_yn": 1,
+    "pack_id": 100573,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 613,
+    "id": 10058,
+    "pack_ind_yn": 1,
+    "pack_id": 100581,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 614,
+    "id": 10058,
+    "pack_ind_yn": 1,
+    "pack_id": 100582,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 615,
+    "id": 10058,
+    "pack_ind_yn": 1,
+    "pack_id": 100583,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 616,
+    "id": 10059,
+    "pack_ind_yn": 1,
+    "pack_id": 100591,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 617,
+    "id": 10059,
+    "pack_ind_yn": 1,
+    "pack_id": 100592,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 618,
+    "id": 10059,
+    "pack_ind_yn": 1,
+    "pack_id": 100593,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 619,
+    "id": 10060,
+    "pack_ind_yn": 1,
+    "pack_id": 100601,
+    "pack_power": 433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 620,
+    "id": 10060,
+    "pack_ind_yn": 1,
+    "pack_id": 100602,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 621,
+    "id": 10060,
+    "pack_ind_yn": 1,
+    "pack_id": 100603,
+    "pack_power": 2266666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 622,
+    "id": 10061,
+    "pack_ind_yn": 1,
+    "pack_id": 100611,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 623,
+    "id": 10061,
+    "pack_ind_yn": 1,
+    "pack_id": 100612,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 624,
+    "id": 10061,
+    "pack_ind_yn": 1,
+    "pack_id": 100613,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 625,
+    "id": 10062,
+    "pack_ind_yn": 1,
+    "pack_id": 100621,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 626,
+    "id": 10062,
+    "pack_ind_yn": 1,
+    "pack_id": 100622,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 627,
+    "id": 10062,
+    "pack_ind_yn": 1,
+    "pack_id": 100623,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 628,
+    "id": 10063,
+    "pack_ind_yn": 1,
+    "pack_id": 100631,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 629,
+    "id": 10063,
+    "pack_ind_yn": 1,
+    "pack_id": 100632,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 630,
+    "id": 10063,
+    "pack_ind_yn": 1,
+    "pack_id": 100633,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 631,
+    "id": 10064,
+    "pack_ind_yn": 1,
+    "pack_id": 100641,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 632,
+    "id": 10064,
+    "pack_ind_yn": 1,
+    "pack_id": 100642,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 633,
+    "id": 10064,
+    "pack_ind_yn": 1,
+    "pack_id": 100643,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 634,
+    "id": 10065,
+    "pack_ind_yn": 1,
+    "pack_id": 100651,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 635,
+    "id": 10065,
+    "pack_ind_yn": 1,
+    "pack_id": 100652,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 636,
+    "id": 10065,
+    "pack_ind_yn": 1,
+    "pack_id": 100653,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 637,
+    "id": 10066,
+    "pack_ind_yn": 1,
+    "pack_id": 100661,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 638,
+    "id": 10066,
+    "pack_ind_yn": 1,
+    "pack_id": 100662,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 639,
+    "id": 10066,
+    "pack_ind_yn": 1,
+    "pack_id": 100663,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 640,
+    "id": 10067,
+    "pack_ind_yn": 1,
+    "pack_id": 100671,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 641,
+    "id": 10067,
+    "pack_ind_yn": 1,
+    "pack_id": 100672,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 642,
+    "id": 10067,
+    "pack_ind_yn": 1,
+    "pack_id": 100673,
+    "pack_power": 2300000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 643,
+    "id": 10068,
+    "pack_ind_yn": 1,
+    "pack_id": 100681,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 644,
+    "id": 10068,
+    "pack_ind_yn": 1,
+    "pack_id": 100682,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 645,
+    "id": 10068,
+    "pack_ind_yn": 1,
+    "pack_id": 100683,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 646,
+    "id": 10069,
+    "pack_ind_yn": 1,
+    "pack_id": 100691,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 647,
+    "id": 10069,
+    "pack_ind_yn": 1,
+    "pack_id": 100692,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 648,
+    "id": 10069,
+    "pack_ind_yn": 1,
+    "pack_id": 100693,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 649,
+    "id": 10070,
+    "pack_ind_yn": 1,
+    "pack_id": 100701,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 650,
+    "id": 10070,
+    "pack_ind_yn": 1,
+    "pack_id": 100702,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 651,
+    "id": 10070,
+    "pack_ind_yn": 1,
+    "pack_id": 100703,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 652,
+    "id": 10071,
+    "pack_ind_yn": 1,
+    "pack_id": 100711,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 653,
+    "id": 10071,
+    "pack_ind_yn": 1,
+    "pack_id": 100712,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 654,
+    "id": 10071,
+    "pack_ind_yn": 1,
+    "pack_id": 100713,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 655,
+    "id": 10072,
+    "pack_ind_yn": 1,
+    "pack_id": 100721,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 656,
+    "id": 10072,
+    "pack_ind_yn": 1,
+    "pack_id": 100722,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 657,
+    "id": 10072,
+    "pack_ind_yn": 1,
+    "pack_id": 100723,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 658,
+    "id": 10073,
+    "pack_ind_yn": 1,
+    "pack_id": 100731,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 659,
+    "id": 10073,
+    "pack_ind_yn": 1,
+    "pack_id": 100732,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 660,
+    "id": 10073,
+    "pack_ind_yn": 1,
+    "pack_id": 100733,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 661,
+    "id": 10074,
+    "pack_ind_yn": 1,
+    "pack_id": 100741,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 662,
+    "id": 10074,
+    "pack_ind_yn": 1,
+    "pack_id": 100742,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 663,
+    "id": 10074,
+    "pack_ind_yn": 1,
+    "pack_id": 100743,
+    "pack_power": 2333333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 664,
+    "id": 10075,
+    "pack_ind_yn": 1,
+    "pack_id": 100751,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 665,
+    "id": 10075,
+    "pack_ind_yn": 1,
+    "pack_id": 100752,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 666,
+    "id": 10075,
+    "pack_ind_yn": 1,
+    "pack_id": 100753,
+    "pack_power": 2366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 667,
+    "id": 10076,
+    "pack_ind_yn": 1,
+    "pack_id": 100761,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 668,
+    "id": 10076,
+    "pack_ind_yn": 1,
+    "pack_id": 100762,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 669,
+    "id": 10076,
+    "pack_ind_yn": 1,
+    "pack_id": 100763,
+    "pack_power": 2366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 670,
+    "id": 10077,
+    "pack_ind_yn": 1,
+    "pack_id": 100771,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 671,
+    "id": 10077,
+    "pack_ind_yn": 1,
+    "pack_id": 100772,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 672,
+    "id": 10077,
+    "pack_ind_yn": 1,
+    "pack_id": 100773,
+    "pack_power": 2366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 673,
+    "id": 10078,
+    "pack_ind_yn": 1,
+    "pack_id": 100781,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 674,
+    "id": 10078,
+    "pack_ind_yn": 1,
+    "pack_id": 100782,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 675,
+    "id": 10078,
+    "pack_ind_yn": 1,
+    "pack_id": 100783,
+    "pack_power": 2366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 676,
+    "id": 10079,
+    "pack_ind_yn": 1,
+    "pack_id": 100791,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 677,
+    "id": 10079,
+    "pack_ind_yn": 1,
+    "pack_id": 100792,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 678,
+    "id": 10079,
+    "pack_ind_yn": 1,
+    "pack_id": 100793,
+    "pack_power": 2366666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 679,
+    "id": 10080,
+    "pack_ind_yn": 1,
+    "pack_id": 100801,
+    "pack_power": 466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 680,
+    "id": 10080,
+    "pack_ind_yn": 1,
+    "pack_id": 100802,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 681,
+    "id": 10080,
+    "pack_ind_yn": 1,
+    "pack_id": 100803,
+    "pack_power": 2400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 682,
+    "id": 10081,
+    "pack_ind_yn": 1,
+    "pack_id": 100811,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 683,
+    "id": 10081,
+    "pack_ind_yn": 1,
+    "pack_id": 100812,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 684,
+    "id": 10081,
+    "pack_ind_yn": 1,
+    "pack_id": 100813,
+    "pack_power": 2400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 685,
+    "id": 10082,
+    "pack_ind_yn": 1,
+    "pack_id": 100821,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 686,
+    "id": 10082,
+    "pack_ind_yn": 1,
+    "pack_id": 100822,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 687,
+    "id": 10082,
+    "pack_ind_yn": 1,
+    "pack_id": 100823,
+    "pack_power": 2400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 688,
+    "id": 10083,
+    "pack_ind_yn": 1,
+    "pack_id": 100831,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 689,
+    "id": 10083,
+    "pack_ind_yn": 1,
+    "pack_id": 100832,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 690,
+    "id": 10083,
+    "pack_ind_yn": 1,
+    "pack_id": 100833,
+    "pack_power": 2400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 691,
+    "id": 10084,
+    "pack_ind_yn": 1,
+    "pack_id": 100841,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 692,
+    "id": 10084,
+    "pack_ind_yn": 1,
+    "pack_id": 100842,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 693,
+    "id": 10084,
+    "pack_ind_yn": 1,
+    "pack_id": 100843,
+    "pack_power": 2400000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 694,
+    "id": 10085,
+    "pack_ind_yn": 1,
+    "pack_id": 100851,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 695,
+    "id": 10085,
+    "pack_ind_yn": 1,
+    "pack_id": 100852,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 696,
+    "id": 10085,
+    "pack_ind_yn": 1,
+    "pack_id": 100853,
+    "pack_power": 2433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 697,
+    "id": 10086,
+    "pack_ind_yn": 1,
+    "pack_id": 100861,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 698,
+    "id": 10086,
+    "pack_ind_yn": 1,
+    "pack_id": 100862,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 699,
+    "id": 10086,
+    "pack_ind_yn": 1,
+    "pack_id": 100863,
+    "pack_power": 2433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 700,
+    "id": 10087,
+    "pack_ind_yn": 1,
+    "pack_id": 100871,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 701,
+    "id": 10087,
+    "pack_ind_yn": 1,
+    "pack_id": 100872,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 702,
+    "id": 10087,
+    "pack_ind_yn": 1,
+    "pack_id": 100873,
+    "pack_power": 2433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 703,
+    "id": 10088,
+    "pack_ind_yn": 1,
+    "pack_id": 100881,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 704,
+    "id": 10088,
+    "pack_ind_yn": 1,
+    "pack_id": 100882,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 705,
+    "id": 10088,
+    "pack_ind_yn": 1,
+    "pack_id": 100883,
+    "pack_power": 2433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 706,
+    "id": 10089,
+    "pack_ind_yn": 1,
+    "pack_id": 100891,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 707,
+    "id": 10089,
+    "pack_ind_yn": 1,
+    "pack_id": 100892,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 708,
+    "id": 10089,
+    "pack_ind_yn": 1,
+    "pack_id": 100893,
+    "pack_power": 2433333,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 709,
+    "id": 10090,
+    "pack_ind_yn": 1,
+    "pack_id": 100901,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 710,
+    "id": 10090,
+    "pack_ind_yn": 1,
+    "pack_id": 100902,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 711,
+    "id": 10090,
+    "pack_ind_yn": 1,
+    "pack_id": 100903,
+    "pack_power": 2466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 712,
+    "id": 10091,
+    "pack_ind_yn": 1,
+    "pack_id": 100911,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 713,
+    "id": 10091,
+    "pack_ind_yn": 1,
+    "pack_id": 100912,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 714,
+    "id": 10091,
+    "pack_ind_yn": 1,
+    "pack_id": 100913,
+    "pack_power": 2466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 715,
+    "id": 10092,
+    "pack_ind_yn": 1,
+    "pack_id": 100921,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 716,
+    "id": 10092,
+    "pack_ind_yn": 1,
+    "pack_id": 100922,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 717,
+    "id": 10092,
+    "pack_ind_yn": 1,
+    "pack_id": 100923,
+    "pack_power": 2466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 718,
+    "id": 10093,
+    "pack_ind_yn": 1,
+    "pack_id": 100931,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 719,
+    "id": 10093,
+    "pack_ind_yn": 1,
+    "pack_id": 100932,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 720,
+    "id": 10093,
+    "pack_ind_yn": 1,
+    "pack_id": 100933,
+    "pack_power": 2466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 721,
+    "id": 10094,
+    "pack_ind_yn": 1,
+    "pack_id": 100941,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 722,
+    "id": 10094,
+    "pack_ind_yn": 1,
+    "pack_id": 100942,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 723,
+    "id": 10094,
+    "pack_ind_yn": 1,
+    "pack_id": 100943,
+    "pack_power": 2466666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 724,
+    "id": 10095,
+    "pack_ind_yn": 1,
+    "pack_id": 100951,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 725,
+    "id": 10095,
+    "pack_ind_yn": 1,
+    "pack_id": 100952,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 726,
+    "id": 10095,
+    "pack_ind_yn": 1,
+    "pack_id": 100953,
+    "pack_power": 2500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 727,
+    "id": 10096,
+    "pack_ind_yn": 1,
+    "pack_id": 100961,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 728,
+    "id": 10096,
+    "pack_ind_yn": 1,
+    "pack_id": 100962,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 729,
+    "id": 10096,
+    "pack_ind_yn": 1,
+    "pack_id": 100963,
+    "pack_power": 2500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 730,
+    "id": 10097,
+    "pack_ind_yn": 1,
+    "pack_id": 100971,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 731,
+    "id": 10097,
+    "pack_ind_yn": 1,
+    "pack_id": 100972,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 732,
+    "id": 10097,
+    "pack_ind_yn": 1,
+    "pack_id": 100973,
+    "pack_power": 2500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 733,
+    "id": 10098,
+    "pack_ind_yn": 1,
+    "pack_id": 100981,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 734,
+    "id": 10098,
+    "pack_ind_yn": 1,
+    "pack_id": 100982,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 735,
+    "id": 10098,
+    "pack_ind_yn": 1,
+    "pack_id": 100983,
+    "pack_power": 2500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 736,
+    "id": 10099,
+    "pack_ind_yn": 1,
+    "pack_id": 100991,
+    "pack_power": 500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1020000,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 737,
+    "id": 10099,
+    "pack_ind_yn": 1,
+    "pack_id": 100992,
+    "pack_power": 166666,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 5012001,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "assist": 738,
+    "id": 10099,
+    "pack_ind_yn": 1,
+    "pack_id": 100993,
+    "pack_power": 2500000,
+    "item_ind_yn": 0,
+    "item_power": 100,
+    "reward": [
+      {
+        "x": 5,
+        "y": 1030002,
+        "z": 1
+      }
+    ]
+  }
+]

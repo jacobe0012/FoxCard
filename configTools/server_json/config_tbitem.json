@@ -1,0 +1,2843 @@
+[
+  {
+    "id": 1010001,
+    "value": 200,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1010002,
+    "value": 50,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020000,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 1020000
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020001,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020002,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020003,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020004,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020005,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1020006,
+    "value": 1,
+    "value_coin": 2000,
+    "type": 1,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1030001,
+    "value": 0,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1030002,
+    "value": 0,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 3,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1030003,
+    "value": 0,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1030004,
+    "value": 0,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 1030005,
+    "value": 0,
+    "value_coin": 0,
+    "type": 1,
+    "subtype": 3,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 2010001,
+    "value": 80,
+    "value_coin": 0,
+    "type": 2,
+    "subtype": 1,
+    "quality": 3,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 2010002,
+    "value": 300,
+    "value_coin": 0,
+    "type": 2,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 2010003,
+    "value": 300,
+    "value_coin": 0,
+    "type": 2,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 2020001,
+    "value": 80,
+    "value_coin": 0,
+    "type": 2,
+    "subtype": 2,
+    "quality": 3,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 2020002,
+    "value": 300,
+    "value_coin": 0,
+    "type": 2,
+    "subtype": 2,
+    "quality": 4,
+    "purchase_yn": 1,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 3031001,
+    "value": 300,
+    "value_coin": 0,
+    "type": 3,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 3031002,
+    "value": 300,
+    "value_coin": 0,
+    "type": 3,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 3031003,
+    "value": 300,
+    "value_coin": 0,
+    "type": 3,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4010001,
+    "value": 95,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4010001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4010002,
+    "value": 282,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4010002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4010003,
+    "value": 845,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4010003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4010004,
+    "value": 2532,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4010004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4010005,
+    "value": 20250,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4010005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4010006,
+    "value": 243000,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4010006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011001,
+    "value": 20100,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011002,
+    "value": 55388,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011003,
+    "value": 348413,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011101,
+    "value": 20100,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011101
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011102,
+    "value": 55388,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011102
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011103,
+    "value": 348413,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011103
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011201,
+    "value": 20100,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011201
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011202,
+    "value": 55388,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011202
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011203,
+    "value": 348413,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011203
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011301,
+    "value": 20100,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011301
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011302,
+    "value": 55388,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011302
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4011303,
+    "value": 348413,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4011303
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4020001,
+    "value": 30,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4020001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4020002,
+    "value": 90,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 2,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4020002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4020003,
+    "value": 270,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 2,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4020003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4020004,
+    "value": 810,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 2,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4020004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4020005,
+    "value": 6480,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4020005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4020006,
+    "value": 38880,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 2,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4020006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4030001,
+    "value": 36000,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4030001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4030002,
+    "value": 450,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4030002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4040001,
+    "value": 45,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4040001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4040002,
+    "value": 135,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4040002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4040003,
+    "value": 405,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4040003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4040004,
+    "value": 1215,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4040004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4040005,
+    "value": 9720,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4040005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4040006,
+    "value": 155520,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4040006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4041001,
+    "value": 45,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4041001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4041002,
+    "value": 135,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4041002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4041003,
+    "value": 405,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4041003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4041004,
+    "value": 1215,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4041004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4041005,
+    "value": 9720,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4041005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4041006,
+    "value": 155520,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4041006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4042001,
+    "value": 45,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4042001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4042002,
+    "value": 135,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4042002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4042003,
+    "value": 405,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4042003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4042004,
+    "value": 1215,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4042004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4042005,
+    "value": 9720,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4042005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 4042006,
+    "value": 155520,
+    "value_coin": 0,
+    "type": 4,
+    "subtype": 4,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 4,
+        "y": 4042006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010000,
+    "value": 844,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010000
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010001,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010002,
+    "value": 188,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010003,
+    "value": 563,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010004,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010005,
+    "value": 13500,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5010006,
+    "value": 162000,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5010006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011001,
+    "value": 13400,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011002,
+    "value": 36925,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011003,
+    "value": 232275,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011101,
+    "value": 13400,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011101
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011102,
+    "value": 36925,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011102
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011103,
+    "value": 232275,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011103
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011201,
+    "value": 13400,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011201
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011202,
+    "value": 36925,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011202
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011203,
+    "value": 232275,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011203
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011301,
+    "value": 13400,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011301
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011302,
+    "value": 36925,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011302
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5011303,
+    "value": 232275,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5011303
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5012001,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5012001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5012002,
+    "value": 188,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5012002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5012003,
+    "value": 563,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5012003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5012004,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5012004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5012005,
+    "value": 13500,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5012005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5012006,
+    "value": 162000,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5012006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013001,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013002,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013003,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013004,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013005,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013006,
+    "value": 63,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013101,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013101
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013102,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013102
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013103,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013103
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013104,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013104
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013105,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013105
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5013106,
+    "value": 1688,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 1,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5013106
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5020001,
+    "value": 20,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 2,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5020001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5020002,
+    "value": 60,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 2,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5020002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5020003,
+    "value": 180,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 2,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5020003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5020004,
+    "value": 540,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 2,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5020004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5020005,
+    "value": 4320,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5020005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5020006,
+    "value": 25920,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 2,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5020006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5030001,
+    "value": 24000,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5030001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5030002,
+    "value": 300,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 3,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5030002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040000,
+    "value": 405,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040000
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040001,
+    "value": 30,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040002,
+    "value": 90,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040003,
+    "value": 270,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040004,
+    "value": 810,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040005,
+    "value": 6480,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5040006,
+    "value": 103680,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5040006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5041001,
+    "value": 30,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5041001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5041002,
+    "value": 90,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5041002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5041003,
+    "value": 270,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5041003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5041004,
+    "value": 810,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5041004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5041005,
+    "value": 6480,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5041005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5041006,
+    "value": 103680,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5041006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5042001,
+    "value": 30,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 1,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5042001
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5042002,
+    "value": 90,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 2,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5042002
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5042003,
+    "value": 270,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 3,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5042003
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5042004,
+    "value": 810,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5042004
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5042005,
+    "value": 6480,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5042005
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 5042006,
+    "value": 103680,
+    "value_coin": 0,
+    "type": 5,
+    "subtype": 4,
+    "quality": 6,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [
+      {
+        "x": 5,
+        "y": 5042006
+      }
+    ],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6011001,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6011002,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6011003,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6012001,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6012002,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6012003,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6013001,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6013002,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6013003,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6021001,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6021002,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6021003,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6022001,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6022002,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6022003,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6023001,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6023002,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 6023003,
+    "value": 2000,
+    "value_coin": 0,
+    "type": 6,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7010001,
+    "value": 1000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7010002,
+    "value": 1000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7010003,
+    "value": 1000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7020001,
+    "value": 800,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7020002,
+    "value": 800,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7020003,
+    "value": 800,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 2,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7030101,
+    "value": 3000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7030102,
+    "value": 3000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7030103,
+    "value": 3000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7030201,
+    "value": 3000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7030202,
+    "value": 3000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 7030203,
+    "value": 3000,
+    "value_coin": 0,
+    "type": 7,
+    "subtype": 3,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 0,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 8010001,
+    "value": 20,
+    "value_coin": 0,
+    "type": 8,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 8010002,
+    "value": 50,
+    "value_coin": 0,
+    "type": 8,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 8010003,
+    "value": 200,
+    "value_coin": 0,
+    "type": 8,
+    "subtype": 1,
+    "quality": 4,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  },
+  {
+    "id": 8010004,
+    "value": 500,
+    "value_coin": 0,
+    "type": 8,
+    "subtype": 1,
+    "quality": 5,
+    "purchase_yn": 0,
+    "auto_yn": 0,
+    "use_yn": 1,
+    "use_effect": [],
+    "use_drop": [],
+    "recovery": []
+  }
+]

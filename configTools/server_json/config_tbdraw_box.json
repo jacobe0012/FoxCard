@@ -1,0 +1,76 @@
+[
+  {
+    "id": 2001,
+    "tag_func": 1102,
+    "limit_type": 1,
+    "date_limit": [],
+    "times_limit": 0,
+    "money": 300,
+    "drop_id": 20010,
+    "guarantee_para": [
+      {
+        "x": 4,
+        "y": 10
+      },
+      {
+        "x": 54,
+        "y": 50
+      }
+    ],
+    "guarantee_drop": [
+      20011,
+      20012
+    ],
+    "draw_type": 4,
+    "ad_cd": 0,
+    "item": 2010003,
+    "one": 300,
+    "ten": 2680
+  },
+  {
+    "id": 3001,
+    "tag_func": 1103,
+    "limit_type": 1,
+    "date_limit": [],
+    "times_limit": 0,
+    "money": 80,
+    "drop_id": 30010,
+    "guarantee_para": [
+      {
+        "x": 2,
+        "y": 10
+      }
+    ],
+    "guarantee_drop": [
+      30011
+    ],
+    "draw_type": 5,
+    "ad_cd": 79200,
+    "item": 2010001,
+    "one": 80,
+    "ten": 0
+  },
+  {
+    "id": 3002,
+    "tag_func": 1103,
+    "limit_type": 1,
+    "date_limit": [],
+    "times_limit": 0,
+    "money": 300,
+    "drop_id": 30020,
+    "guarantee_para": [
+      {
+        "x": 4,
+        "y": 10
+      }
+    ],
+    "guarantee_drop": [
+      30021
+    ],
+    "draw_type": 5,
+    "ad_cd": 345600,
+    "item": 2010002,
+    "one": 0,
+    "ten": 0
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "lang_id": "cardgroup_highcard",
+    "is_disable": 0,
+    "init_add": 5,
+    "init_mul": 1,
+    "score_add": 10,
+    "score_mul": 1
+  },
+  {
+    "id": 1,
+    "lang_id": "cardgroup_onepair",
+    "is_disable": 0,
+    "init_add": 10,
+    "init_mul": 2,
+    "score_add": 15,
+    "score_mul": 1
+  },
+  {
+    "id": 2,
+    "lang_id": "cardgroup_twopair",
+    "is_disable": 0,
+    "init_add": 20,
+    "init_mul": 2,
+    "score_add": 20,
+    "score_mul": 1
+  },
+  {
+    "id": 3,
+    "lang_id": "cardgroup_threeofakind",
+    "is_disable": 0,
+    "init_add": 30,
+    "init_mul": 3,
+    "score_add": 20,
+    "score_mul": 2
+  },
+  {
+    "id": 4,
+    "lang_id": "cardgroup_straight",
+    "is_disable": 0,
+    "init_add": 30,
+    "init_mul": 4,
+    "score_add": 30,
+    "score_mul": 2
+  },
+  {
+    "id": 5,
+    "lang_id": "cardgroup_flush",
+    "is_disable": 0,
+    "init_add": 35,
+    "init_mul": 4,
+    "score_add": 15,
+    "score_mul": 2
+  },
+  {
+    "id": 6,
+    "lang_id": "cardgroup_fullhouse",
+    "is_disable": 0,
+    "init_add": 40,
+    "init_mul": 4,
+    "score_add": 25,
+    "score_mul": 2
+  },
+  {
+    "id": 7,
+    "lang_id": "cardgroup_fourofakind",
+    "is_disable": 0,
+    "init_add": 60,
+    "init_mul": 7,
+    "score_add": 30,
+    "score_mul": 3
+  },
+  {
+    "id": 8,
+    "lang_id": "cardgroup_straightflush",
+    "is_disable": 0,
+    "init_add": 100,
+    "init_mul": 8,
+    "score_add": 40,
+    "score_mul": 3
+  },
+  {
+    "id": 9,
+    "lang_id": "cardgroup_royalflush",
+    "is_disable": 1,
+    "init_add": 100,
+    "init_mul": 8,
+    "score_add": 40,
+    "score_mul": 3
+  },
+  {
+    "id": 10,
+    "lang_id": "cardgroup_fiveofakind",
+    "is_disable": 1,
+    "init_add": 120,
+    "init_mul": 12,
+    "score_add": 35,
+    "score_mul": 3
+  },
+  {
+    "id": 11,
+    "lang_id": "cardgroup_fiveofakindflush",
+    "is_disable": 1,
+    "init_add": 160,
+    "init_mul": 16,
+    "score_add": 40,
+    "score_mul": 3
+  },
+  {
+    "id": 12,
+    "lang_id": "cardgroup_fullhouseflush",
+    "is_disable": 1,
+    "init_add": 140,
+    "init_mul": 14,
+    "score_add": 40,
+    "score_mul": 3
+  }
+]

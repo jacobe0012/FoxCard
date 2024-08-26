@@ -1,0 +1,142 @@
+[
+  {
+    "lang_id": "cardgroup_highcard",
+    "zh_cn": "高牌",
+    "en": "High card",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_onepair",
+    "zh_cn": "一对",
+    "en": "One pair",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_twopair",
+    "zh_cn": "两对",
+    "en": "Two pair",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_threeofakind",
+    "zh_cn": "三条",
+    "en": "Three of a kind",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_straight",
+    "zh_cn": "顺子",
+    "en": "Straight",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_flush",
+    "zh_cn": "同花",
+    "en": "Flush",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_fourofakind",
+    "zh_cn": "四条",
+    "en": "Four of a kind",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_straightflush",
+    "zh_cn": "同花顺",
+    "en": "Straight Flush",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_royalflush",
+    "zh_cn": "皇家同花顺",
+    "en": "Royal Flush",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_fullhouse",
+    "zh_cn": "葫芦",
+    "en": "Full House",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_fullhouseflush",
+    "zh_cn": "同花葫芦",
+    "en": "FullHouse Flush",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_fiveofakindflush",
+    "zh_cn": "同花五条",
+    "en": "FiveOfAKindFlush",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "cardgroup_fiveofakind",
+    "zh_cn": "五条",
+    "en": "FiveOfAKind",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  },
+  {
+    "lang_id": "common_grade",
+    "zh_cn": "等级",
+    "en": "Lv",
+    "de": "",
+    "fr": "",
+    "es": "",
+    "jp": "",
+    "current": ""
+  }
+]
