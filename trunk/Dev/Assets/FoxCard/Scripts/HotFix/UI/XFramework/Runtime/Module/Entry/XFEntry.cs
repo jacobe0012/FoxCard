@@ -19,12 +19,7 @@ namespace XFramework
             TimeInfo.Instance.Dispose();
             ResourcesManager.Instance.Dispose();
             SceneResManager.Instance.Dispose();
-            ConfigManager.Instance.Dispose();
-            //WebMessageHandler.Instance.Dispose();
-            NetWorkManager.Instance.Dispose();
-            ResourcesSingleton.Instance.Dispose();
-            JsonManager.Instance.Dispose();
-            RedDotManager.Instance.Dispose();
+           
         }
 
         public virtual void Update()
@@ -74,10 +69,9 @@ namespace XFramework
             ObjectFactory.Create<UserDataManager>(); // 本地存档管理
             //ObjectFactory.Create<RedDotManager>(); // 红点管理
 
-            NetWorkManager.Instance.Init();
-            ResourcesSingleton.Instance.Init();
-            JsonManager.Instance.Init();
-            RedDotManager.Instance.Init();
+
+
         }
+        
     }
 }

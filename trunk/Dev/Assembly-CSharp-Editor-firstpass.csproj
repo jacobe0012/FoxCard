@@ -43,13 +43,13 @@
   <ItemGroup>
     <None Include="Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\UnityEditor\2022.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
+      <HintPath>D:\UNITYEDITOR\2022.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\UnityEditor\2022.3.20f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>D:\UNITYEDITOR\2022.3.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-      <HintPath>D:\UnityEditor\2022.3.20f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
+      <HintPath>D:\UNITYEDITOR\2022.3.29f1\Editor\Data\Managed\UnityEngine\UnityEditor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

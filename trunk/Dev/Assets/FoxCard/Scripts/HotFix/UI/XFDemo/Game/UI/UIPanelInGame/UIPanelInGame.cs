@@ -124,8 +124,10 @@ namespace XFramework
             var KText_Grade = GetFromReference(UIPanelInGame.KText_Grade);
             var list = KHorizontalPos_HandArea.GetList();
             list.Clear();
+            //Log.Debug($"1 asfasf");
             foreach (var item in randomSelectedList)
             {
+                //Log.Debug($"{item} asfasf");
                 var ui = await list.CreateWithUITypeAsync(UIType.UICard, item, false) as UICard;
                 var KBtn_Card = ui.GetFromReference(UICard.KBtn_Card);
                 KBtn_Card.GetRectTransform().SetAnchoredPosition(Vector2.zero);
@@ -179,7 +181,7 @@ namespace XFramework
                 var uib = b as UICard;
                 return uib.card.points.CompareTo(uia.card.points);
             });
-            JiYuUIHelper.ForceRefreshLayout(KHorizontalPos_HandArea);
+            //JiYuUIHelper.ForceRefreshLayout(KHorizontalPos_HandArea);
         }
 
         private void SortHandCards(bool sortByColor = false)

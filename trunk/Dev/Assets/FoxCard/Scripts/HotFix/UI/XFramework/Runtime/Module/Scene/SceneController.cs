@@ -9,7 +9,7 @@ namespace XFramework
         public Scene Scene => sceneObject?.Scene;
 
         /// <summary>
-        /// –∂‘ÿµ±«∞≥°æ∞
+        /// Âç∏ËΩΩÂΩìÂâçÂú∫ÊôØ
         /// </summary>
         private void UnLoadCurrentScene()
         {
@@ -18,7 +18,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// “Ï≤Ωº”‘ÿ≥°æ∞
+        /// ÂºÇÊ≠•Âä†ËΩΩÂú∫ÊôØ
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
@@ -30,7 +30,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ¥¥Ω®≥°æ∞¿‡
+        /// ÂàõÂª∫Âú∫ÊôØÁ±ª
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="key"></param>
@@ -52,7 +52,7 @@ namespace XFramework
         public SceneObject LoadSceneAsync<T>(string key,
             LoadSceneMode loadSceneMode = LoadSceneMode.Single, bool isFromPool = true) where T : Scene, new()
         {
-            //Log.Error("º”‘ÿScene {0}", key);
+            //Log.Error("Âä†ËΩΩScene {0}", key);
             var scene = this.InnerCreateScene<T>(key, isFromPool, loadSceneMode);
             if (scene != null)
                 ObjectHelper.Awake(scene);

@@ -6,6 +6,9 @@
 
 using System;
 using System.IO;
+using Best.SignalR;
+using Best.SignalR.Encoders;
+using Best.SignalR.Messages;
 using Newtonsoft.Json;
 using UnityEngine;
 using XFramework;
@@ -39,6 +42,7 @@ namespace HotFix_UI
             [JsonProperty("webUrl")] public string webUrl;
         }
 
+        private HubConnection hub;
 
         private void CreateSampleData()
         {
@@ -50,30 +54,65 @@ namespace HotFix_UI
         }
 
 
-        public void Init()
+        public async void Init()
         {
-            if (!File.Exists(savePath))
-            {
-                // 如果 JSON 文件不存在，创建一个示例 JSON 数据
-                CreateSampleData();
-            }
-
-            // 读取数据
-            string json = File.ReadAllText(savePath);
-            WebUrlData data = JsonConvert.DeserializeObject<WebUrlData>(json);
-            string url = data.webUrl;
+            // if (!File.Exists(savePath))
+            // {
+            //     // 如果 JSON 文件不存在，创建一个示例 JSON 数据
+            //     CreateSampleData();
+            // }
+            //
+            // // 读取数据
+            // string json = File.ReadAllText(savePath);
+            // WebUrlData data = JsonConvert.DeserializeObject<WebUrlData>(json);
+            // string url = data.webUrl;
 
             //Log.Error($"{url}");
 
             debugColor = Color.cyan;
 
             // 注册回调
-            // socket.OnOpen += OnOpen;
-            // socket.OnClose += OnClose;
-            // socket.OnMessage += OnMessage;
-            // socket.OnError += OnError;
-            // socket.ConnectAsync();
+            hub = new HubConnection(new Uri("https://192.168.28.112:7176/LoginHub"),
+                new JsonProtocol(new LitJsonEncoder()));
+            hub.ReconnectPolicy = new DefaultRetryPolicy();
+            hub.OnConnected += OnConnected;
+            hub.OnReconnected += OnReConnected;
+            hub.OnError += OnError;
+            hub.OnClosed += OnClosed;
+            hub.OnMessage += OnMessage;
+
+            await hub.ConnectAsync();
         }
+
+        bool OnMessage(HubConnection hub, Message msg)
+        {
+            bool processed = false;
+
+            Debug.Log($"OnMessage! {msg.ToString()}");
+
+            return processed;
+        }
+
+        void OnClosed(HubConnection hub)
+        {
+            Debug.Log("OnClosed!");
+        }
+
+        void OnError(HubConnection hub, string msg)
+        {
+            Debug.Log("OnError!");
+        }
+
+        void OnConnected(HubConnection hub)
+        {
+            Debug.Log("OnConnected!");
+        }
+
+        void OnReConnected(HubConnection hub)
+        {
+            Debug.Log("OnReConnected!");
+        }
+
 
         /// <summary>
         /// 开启定时器

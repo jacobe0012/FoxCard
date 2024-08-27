@@ -30,8 +30,8 @@ namespace XFramework
             allLayers.Add((int)UILayer.Mid, reference.GetChild<Transform>("Mid"));
             allLayers.Add((int)UILayer.High, reference.GetChild<Transform>("High"));
             allLayers.Add((int)UILayer.Overlay, reference.GetChild<Transform>("Overlay"));
-            BlurVolume = GameObject.Find("BlurVolume").transform;
-            BlurVolume?.SetViewActive(false);
+            // BlurVolume = GameObject.Find("BlurVolume").transform;
+            // BlurVolume?.SetViewActive(false);
         }
 
         protected override void Destroy()
