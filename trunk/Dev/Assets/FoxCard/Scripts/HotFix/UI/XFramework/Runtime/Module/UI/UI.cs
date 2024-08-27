@@ -722,7 +722,7 @@ namespace XFramework
 
         public void SetActive(bool active)
         {
-            this.gameObject.SetViewActive(active);
+            gameObject?.SetActive(active);
         }
 
         public void SetCanvasGroup(bool active)
@@ -755,6 +755,7 @@ namespace XFramework
         /// </summary>
         public virtual void OnFocus()
         {
+            //Log.Error($" OnFocus {name}");
         }
 
         /// <summary>
@@ -762,6 +763,14 @@ namespace XFramework
         /// </summary>
         public virtual void OnBlur()
         {
+            //TODO:
+            // if (this.name != UIType.UIPanel_JiyuGame)
+            // {
+            //     
+            // }
+
+
+            //Log.Error($"  OnBlur {name}");
         }
 
         /// <summary>

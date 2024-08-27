@@ -1,8 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XFramework
 {
@@ -15,6 +11,7 @@ namespace XFramework
                 list = new HashSet<TValue>();
                 base.Add(key, list);
             }
+
             return list.Add(value);
         }
 

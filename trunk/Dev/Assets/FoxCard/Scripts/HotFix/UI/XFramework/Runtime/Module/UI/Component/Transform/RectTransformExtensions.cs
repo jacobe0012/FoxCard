@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 
 namespace XFramework
@@ -1156,7 +1153,8 @@ namespace XFramework
 
         #region MiniTween
 
-        private static MiniTween DoVector3(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue, float duration, Action<Vector3> setter)
+        private static MiniTween DoVector3(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue,
+            float duration, Action<Vector3> setter)
         {
             var tweenMgr = Common.Instance.Get<MiniTweenManager>();
             if (tweenMgr is null)
@@ -1177,7 +1175,8 @@ namespace XFramework
             return tween;
         }
 
-        private static MiniTween DoVectorX(this Transform self, XObject parent, float startValue, float endValue, float duration, Func<Vector3> getter, Action<Vector3> setter)
+        private static MiniTween DoVectorX(this Transform self, XObject parent, float startValue, float endValue,
+            float duration, Func<Vector3> getter, Action<Vector3> setter)
         {
             var v3 = getter.Invoke();
             var target = v3;
@@ -1188,7 +1187,8 @@ namespace XFramework
             return self.DoVector3(parent, v3, target, duration, setter);
         }
 
-        private static MiniTween DoVectorY(this Transform self, XObject parent, float startValue, float endValue, float duration, Func<Vector3> getter, Action<Vector3> setter)
+        private static MiniTween DoVectorY(this Transform self, XObject parent, float startValue, float endValue,
+            float duration, Func<Vector3> getter, Action<Vector3> setter)
         {
             var v3 = getter.Invoke();
             var target = v3;
@@ -1199,7 +1199,8 @@ namespace XFramework
             return self.DoVector3(parent, v3, target, duration, setter);
         }
 
-        private static MiniTween DoVectorZ(this Transform self, XObject parent, float startValue, float endValue, float duration, Func<Vector3> getter, Action<Vector3> setter)
+        private static MiniTween DoVectorZ(this Transform self, XObject parent, float startValue, float endValue,
+            float duration, Func<Vector3> getter, Action<Vector3> setter)
         {
             var v3 = getter.Invoke();
             var target = v3;
@@ -1210,7 +1211,8 @@ namespace XFramework
             return self.DoVector3(parent, v3, target, duration, setter);
         }
 
-        private static MiniTween DoFloat(this Transform self, XObject parent, float startValue, float endValue, float duration, Action<float> setter)
+        private static MiniTween DoFloat(this Transform self, XObject parent, float startValue, float endValue,
+            float duration, Action<float> setter)
         {
             var tweenMgr = Common.Instance.Get<MiniTweenManager>();
             if (tweenMgr is null)
@@ -1236,7 +1238,8 @@ namespace XFramework
             return self.DoMove(parent, self.Position(), endValue, duration);
         }
 
-        public static MiniTween DoMove(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue, float duration)
+        public static MiniTween DoMove(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue,
+            float duration)
         {
             return self.DoVector3(parent, startValue, endValue, duration, self.SetPosition);
         }
@@ -1247,7 +1250,8 @@ namespace XFramework
             return self.DoMoveX(parent, position.x, endValue, duration);
         }
 
-        public static MiniTween DoMoveX(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoMoveX(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorX(parent, startValue, endValue, duration, self.Position, self.SetPosition);
         }
@@ -1258,7 +1262,8 @@ namespace XFramework
             return self.DoMoveY(parent, position.y, endValue, duration);
         }
 
-        public static MiniTween DoMoveY(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoMoveY(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorY(parent, startValue, endValue, duration, self.Position, self.SetPosition);
         }
@@ -1269,7 +1274,8 @@ namespace XFramework
             return self.DoMoveZ(parent, position.z, endValue, duration);
         }
 
-        public static MiniTween DoMoveZ(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoMoveZ(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorZ(parent, startValue, endValue, duration, self.Position, self.SetPosition);
         }
@@ -1282,7 +1288,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoMoveIncremental(this Transform self, XObject parent, Vector3 increaseValue, float duration)
+        public static MiniTween DoMoveIncremental(this Transform self, XObject parent, Vector3 increaseValue,
+            float duration)
         {
             return self.DoMove(parent, self.Position() + increaseValue, duration);
         }
@@ -1295,7 +1302,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoMoveIncrementalX(this Transform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoMoveIncrementalX(this Transform self, XObject parent, float increaseValue,
+            float duration)
         {
             var position = self.Position();
             return self.DoMoveX(parent, position.x + increaseValue, duration);
@@ -1309,7 +1317,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoMoveIncrementalY(this Transform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoMoveIncrementalY(this Transform self, XObject parent, float increaseValue,
+            float duration)
         {
             var position = self.Position();
             return self.DoMoveY(parent, position.y + increaseValue, duration);
@@ -1323,7 +1332,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoMoveIncrementalZ(this Transform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoMoveIncrementalZ(this Transform self, XObject parent, float increaseValue,
+            float duration)
         {
             var position = self.Position();
             return self.DoMoveZ(parent, position.z + increaseValue, duration);
@@ -1334,7 +1344,8 @@ namespace XFramework
             return self.DoLocalMove(parent, self.LocalPosition(), endValue, duration);
         }
 
-        public static MiniTween DoLocalMove(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue, float duration)
+        public static MiniTween DoLocalMove(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue,
+            float duration)
         {
             return self.DoVector3(parent, startValue, endValue, duration, self.SetLocalPosition);
         }
@@ -1345,7 +1356,8 @@ namespace XFramework
             return self.DoLocalMoveX(parent, position.x, endValue, duration);
         }
 
-        public static MiniTween DoLocalMoveX(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoLocalMoveX(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorX(parent, startValue, endValue, duration, self.LocalPosition, self.SetLocalPosition);
         }
@@ -1356,7 +1368,8 @@ namespace XFramework
             return self.DoLocalMoveY(parent, position.y, endValue, duration);
         }
 
-        public static MiniTween DoLocalMoveY(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoLocalMoveY(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorY(parent, startValue, endValue, duration, self.LocalPosition, self.SetLocalPosition);
         }
@@ -1367,7 +1380,8 @@ namespace XFramework
             return self.DoLocalMoveZ(parent, position.z, endValue, duration);
         }
 
-        public static MiniTween DoLocalMoveZ(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoLocalMoveZ(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorZ(parent, startValue, endValue, duration, self.LocalPosition, self.SetLocalPosition);
         }
@@ -1380,7 +1394,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoLocalMoveIncremental(this Transform self, XObject parent, Vector3 increaseValue, float duration)
+        public static MiniTween DoLocalMoveIncremental(this Transform self, XObject parent, Vector3 increaseValue,
+            float duration)
         {
             return self.DoLocalMove(parent, self.LocalPosition() + increaseValue, duration);
         }
@@ -1393,7 +1408,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoLocalMoveIncrementalX(this Transform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoLocalMoveIncrementalX(this Transform self, XObject parent, float increaseValue,
+            float duration)
         {
             var position = self.LocalPosition();
             return self.DoLocalMoveX(parent, position.x + increaseValue, duration);
@@ -1407,7 +1423,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoLocalMoveIncrementalY(this Transform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoLocalMoveIncrementalY(this Transform self, XObject parent, float increaseValue,
+            float duration)
         {
             var position = self.LocalPosition();
             return self.DoLocalMoveY(parent, position.y + increaseValue, duration);
@@ -1421,7 +1438,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoLocalMoveIncrementalZ(this Transform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoLocalMoveIncrementalZ(this Transform self, XObject parent, float increaseValue,
+            float duration)
         {
             var position = self.LocalPosition();
             return self.DoLocalMoveZ(parent, position.z + increaseValue, duration);
@@ -1433,7 +1451,8 @@ namespace XFramework
             return self.DoScale(parent, scale, endValue, duration);
         }
 
-        public static MiniTween DoScale(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue, float duration)
+        public static MiniTween DoScale(this Transform self, XObject parent, Vector3 startValue, Vector3 endValue,
+            float duration)
         {
             return self.DoVector3(parent, startValue, endValue, duration, self.SetScale);
         }
@@ -1444,7 +1463,8 @@ namespace XFramework
             return self.DoScale2(parent, scale, endValue, duration);
         }
 
-        public static MiniTween DoScale2(this Transform self, XObject parent, Vector2 startValue, Vector2 endValue, float duration)
+        public static MiniTween DoScale2(this Transform self, XObject parent, Vector2 startValue, Vector2 endValue,
+            float duration)
         {
             var z = self.Scale().z;
             Vector3 start = new Vector3(startValue.x, startValue.y, z);
@@ -1458,7 +1478,8 @@ namespace XFramework
             return self.DoScaleX(parent, scale.x, endValue, duration);
         }
 
-        public static MiniTween DoScaleX(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoScaleX(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorX(parent, startValue, endValue, duration, self.Scale, self.SetScale);
         }
@@ -1469,7 +1490,8 @@ namespace XFramework
             return self.DoScaleY(parent, scale.y, endValue, duration);
         }
 
-        public static MiniTween DoScaleY(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoScaleY(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorY(parent, startValue, endValue, duration, self.Scale, self.SetScale);
         }
@@ -1480,12 +1502,14 @@ namespace XFramework
             return self.DoScaleZ(parent, scale.z, endValue, duration);
         }
 
-        public static MiniTween DoScaleZ(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoScaleZ(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoVectorZ(parent, startValue, endValue, duration, self.Scale, self.SetScale);
         }
 
-        public static MiniTween DoRotation(this Transform self, XObject parent, Quaternion startValue, Quaternion endValue, float duration)
+        public static MiniTween DoRotation(this Transform self, XObject parent, Quaternion startValue,
+            Quaternion endValue, float duration)
         {
             var tweenMgr = Common.Instance.Get<MiniTweenManager>();
             if (tweenMgr == null)
@@ -1513,7 +1537,8 @@ namespace XFramework
             return self.DoEulerAngleX(parent, euler.x, endValue, duration);
         }
 
-        public static MiniTween DoEulerAngleX(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoEulerAngleX(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoFloat(parent, startValue, endValue, duration, self.SetEulerAnglesX);
         }
@@ -1525,7 +1550,8 @@ namespace XFramework
             return self.DoEulerAngleY(parent, euler.y, endValue, duration);
         }
 
-        public static MiniTween DoEulerAngleY(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoEulerAngleY(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoFloat(parent, startValue, endValue, duration, self.SetEulerAnglesY);
         }
@@ -1537,7 +1563,8 @@ namespace XFramework
             return self.DoEulerAngleZ(parent, euler.z, endValue, duration);
         }
 
-        public static MiniTween DoEulerAngleZ(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoEulerAngleZ(this Transform self, XObject parent, float startValue, float endValue,
+            float duration)
         {
             return self.DoFloat(parent, startValue, endValue, duration, self.SetEulerAnglesZ);
         }
@@ -1549,7 +1576,8 @@ namespace XFramework
             return self.DoLocalEulerAngleX(parent, euler.x, endValue, duration);
         }
 
-        public static MiniTween DoLocalEulerAngleX(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoLocalEulerAngleX(this Transform self, XObject parent, float startValue,
+            float endValue, float duration)
         {
             return self.DoFloat(parent, startValue, endValue, duration, self.SetLocalEulerAnglesX);
         }
@@ -1561,7 +1589,8 @@ namespace XFramework
             return self.DoLocalEulerAngleY(parent, euler.y, endValue, duration);
         }
 
-        public static MiniTween DoLocalEulerAngleY(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoLocalEulerAngleY(this Transform self, XObject parent, float startValue,
+            float endValue, float duration)
         {
             return self.DoFloat(parent, startValue, endValue, duration, self.SetLocalEulerAnglesY);
         }
@@ -1573,18 +1602,21 @@ namespace XFramework
             return self.DoLocalEulerAngleZ(parent, euler.z, endValue, duration);
         }
 
-        public static MiniTween DoLocalEulerAngleZ(this Transform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoLocalEulerAngleZ(this Transform self, XObject parent, float startValue,
+            float endValue, float duration)
         {
             return self.DoFloat(parent, startValue, endValue, duration, self.SetLocalEulerAnglesZ);
         }
 
-        public static MiniTween DoAnchoredPosition(this RectTransform self, XObject parent, Vector2 endValue, float duration)
+        public static MiniTween DoAnchoredPosition(this RectTransform self, XObject parent, Vector2 endValue,
+            float duration)
         {
             var position = self.AnchoredPosition();
             return self.DoAnchoredPosition(parent, position, endValue, duration);
         }
 
-        public static MiniTween DoAnchoredPosition(this RectTransform self, XObject parent, Vector2 startValue, Vector2 endValue, float duration)
+        public static MiniTween DoAnchoredPosition(this RectTransform self, XObject parent, Vector2 startValue,
+            Vector2 endValue, float duration)
         {
             var z = self.AnchoredPosition3D().z;
             var start = new Vector3(startValue.x, startValue.y, z);
@@ -1593,26 +1625,32 @@ namespace XFramework
             return self.DoVector3(parent, start, end, duration, self.SetAnchoredPosition3D);
         }
 
-        public static MiniTween DoAnchoredPositionX(this RectTransform self, XObject parent, float endValue, float duration)
+        public static MiniTween DoAnchoredPositionX(this RectTransform self, XObject parent, float endValue,
+            float duration)
         {
             var position = self.AnchoredPosition();
             return self.DoAnchoredPositionX(parent, position.x, endValue, duration);
         }
 
-        public static MiniTween DoAnchoredPositionX(this RectTransform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoAnchoredPositionX(this RectTransform self, XObject parent, float startValue,
+            float endValue, float duration)
         {
-            return self.DoVectorX(parent, startValue, endValue, duration, self.AnchoredPosition3D, self.SetAnchoredPosition3D);
+            return self.DoVectorX(parent, startValue, endValue, duration, self.AnchoredPosition3D,
+                self.SetAnchoredPosition3D);
         }
 
-        public static MiniTween DoAnchoredPositionY(this RectTransform self, XObject parent, float endValue, float duration)
+        public static MiniTween DoAnchoredPositionY(this RectTransform self, XObject parent, float endValue,
+            float duration)
         {
             var position = self.AnchoredPosition();
             return self.DoAnchoredPositionY(parent, position.y, endValue, duration);
         }
 
-        public static MiniTween DoAnchoredPositionY(this RectTransform self, XObject parent, float startValue, float endValue, float duration)
+        public static MiniTween DoAnchoredPositionY(this RectTransform self, XObject parent, float startValue,
+            float endValue, float duration)
         {
-            return self.DoVectorY(parent, startValue, endValue, duration, self.AnchoredPosition3D, self.SetAnchoredPosition3D);
+            return self.DoVectorY(parent, startValue, endValue, duration, self.AnchoredPosition3D,
+                self.SetAnchoredPosition3D);
         }
 
         /// <summary>
@@ -1623,7 +1661,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoAnchoredPositionIncremental(this RectTransform self, XObject parent, Vector2 increaseValue, float duration)
+        public static MiniTween DoAnchoredPositionIncremental(this RectTransform self, XObject parent,
+            Vector2 increaseValue, float duration)
         {
             var position = self.AnchoredPosition();
             return self.DoAnchoredPosition(parent, position + increaseValue, duration);
@@ -1637,7 +1676,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoAnchoredPositionIncrementalX(this RectTransform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoAnchoredPositionIncrementalX(this RectTransform self, XObject parent,
+            float increaseValue, float duration)
         {
             var position = self.AnchoredPosition();
             return self.DoAnchoredPositionX(parent, position.x + increaseValue, duration);
@@ -1651,7 +1691,8 @@ namespace XFramework
         /// <param name="increaseValue"></param>
         /// <param name="duration"></param>
         /// <returns></returns>
-        public static MiniTween DoAnchoredPositionIncrementalY(this RectTransform self, XObject parent, float increaseValue, float duration)
+        public static MiniTween DoAnchoredPositionIncrementalY(this RectTransform self, XObject parent,
+            float increaseValue, float duration)
         {
             var position = self.AnchoredPosition();
             return self.DoAnchoredPositionY(parent, position.y + increaseValue, duration);

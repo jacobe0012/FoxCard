@@ -1,6 +1,5 @@
-using System;
-using System.Diagnostics;
-using System.Drawing;
+﻿using System;
+using HotFix_UI;
 
 namespace XFramework
 {
@@ -100,7 +99,7 @@ namespace XFramework
             //拿到1970到当前时间的时间戳
             long NowTime = ClientNowSeconds();
 
-            long NowToTodayTime = NowTime - todayTime/1000;
+            long NowToTodayTime = NowTime - todayTime / 1000;
             return NowToTodayTime;
         }
 
@@ -110,8 +109,6 @@ namespace XFramework
         /// <returns></returns>
         public static long GetToTomorrowTime()
         {
-
-
             DateTime now = DateTime.Now;
 
             // 获取明天的日期
@@ -128,6 +125,8 @@ namespace XFramework
 
             return timestamp;
         }
+
+        
 
         /// <summary>
         /// 获得下周一0点到现在的时间戳 秒

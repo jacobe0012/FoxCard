@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 
 namespace XFramework
 {
@@ -13,7 +12,7 @@ namespace XFramework
             // 如果action是null，绝对不能添加,要抛异常，说明有协程泄漏
             this.actions.Add(callback);
         }
-        
+
         public void Remove(Action callback)
         {
             this.actions?.Remove(callback);

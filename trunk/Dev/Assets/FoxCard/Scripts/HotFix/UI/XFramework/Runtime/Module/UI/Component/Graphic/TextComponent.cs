@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace XFramework
@@ -61,7 +55,6 @@ namespace XFramework
 
     public class TextComponent : TextComponent<Text>
     {
-        
     }
 
     public static class UITextExtensions
@@ -157,7 +150,8 @@ namespace XFramework
             return self.DoLong(parent, startValue, endValue, duration, self.SetNumber);
         }
 
-        private static MiniTween DoLong(this Text self, XObject parent, long startValue, long endValue, float duration, Action<long> setValue)
+        private static MiniTween DoLong(this Text self, XObject parent, long startValue, long endValue, float duration,
+            Action<long> setValue)
         {
             var tweenMgr = Common.Instance.Get<MiniTweenManager>();
             if (tweenMgr is null)

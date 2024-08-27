@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XFramework
 {
@@ -16,7 +12,7 @@ namespace XFramework
     }
 
     [ObjectSystem]
-    public abstract class DestroySystem<T> : IDestroySystem  where T : IDestroy
+    public abstract class DestroySystem<T> : IDestroySystem where T : IDestroy
     {
         public Type GetObjectType()
         {

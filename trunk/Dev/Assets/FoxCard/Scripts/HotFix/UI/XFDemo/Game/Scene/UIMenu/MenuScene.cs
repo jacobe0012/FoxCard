@@ -22,7 +22,7 @@ namespace XFramework
             var global = Common.Instance.Get<Global>();
 
             Log.Debug($"MenuScene");
-            AudioManager.Instance.PlayFModAudio("UIBGM");
+            //AudioManager.Instance.PlayFModAudio("UIBGM");
             await UIHelper.CreateAsync(UIType.UIPanelInGame);
             global.GameObjects.Cover.SetActive(false);
         }

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace XFramework
 {
@@ -45,6 +40,7 @@ namespace XFramework
                 value = PlayerPrefs.GetString(key);
                 return true;
             }
+
             return false;
         }
 
@@ -56,6 +52,7 @@ namespace XFramework
                 value = PlayerPrefs.GetInt(key);
                 return true;
             }
+
             return false;
         }
 
@@ -67,6 +64,7 @@ namespace XFramework
                 value = PlayerPrefs.GetInt(key) != 0;
                 return true;
             }
+
             return false;
         }
 
@@ -78,6 +76,7 @@ namespace XFramework
                 value = PlayerPrefs.GetFloat(key);
                 return true;
             }
+
             return false;
         }
 

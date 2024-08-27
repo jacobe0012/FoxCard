@@ -6,24 +6,26 @@ namespace XFramework
     public enum MiniLoopType
     {
         /// <summary>
-        /// ²»Ñ­»·
+        /// ä¸å¾ªç¯
         /// </summary>
         None,
+
         /// <summary>
-        /// ÖØĞÂ¿ªÊ¼
+        /// é‡æ–°å¼€å§‹
         /// </summary>
         Restart,
+
         /// <summary>
-        /// Aµ½B£¬Bµ½A
-        /// <para>Aµ½BËãÒ»´Î£¬Bµ½AÒ²ËãÒ»´Î</para>
+        /// Aåˆ°Bï¼ŒBåˆ°A
+        /// <para>Aåˆ°Bç®—ä¸€æ¬¡ï¼ŒBåˆ°Aä¹Ÿç®—ä¸€æ¬¡</para>
         /// </summary>
         Yoyo,
     }
 
     /// <summary>
-    /// ²»Òª´æ´¢MiniTweenµÄÒıÓÃ£¬Ó¦µ±´æ´¢MiniTween.InstanceId(±íÊ¾MiniTweenµÄÎ¨Ò»Id)
-    /// <para>Èç¹ûĞèÒª»ñÈ¡ÒıÓÃ£¬¿ÉÒÔÍ¨¹ı¹ÜÀíÆ÷Get(id)ÄÃ³öTween</para>
-    /// <para>Èç¹û´æ´¢MiniTweenµÄÒıÓÃ£¬¿ÉÄÜ»á²úÉúÔÖÄÑĞÔºó¹û</para>
+    /// ä¸è¦å­˜å‚¨MiniTweençš„å¼•ç”¨ï¼Œåº”å½“å­˜å‚¨MiniTween.InstanceId(è¡¨ç¤ºMiniTweençš„å”¯ä¸€Id)
+    /// <para>å¦‚æœéœ€è¦è·å–å¼•ç”¨ï¼Œå¯ä»¥é€šè¿‡ç®¡ç†å™¨Get(id)æ‹¿å‡ºTween</para>
+    /// <para>å¦‚æœå­˜å‚¨MiniTweençš„å¼•ç”¨ï¼Œå¯èƒ½ä¼šäº§ç”Ÿç¾éš¾æ€§åæœ</para>
     /// </summary>
     public abstract class MiniTween : XObject
     {
@@ -34,7 +36,7 @@ namespace XFramework
         public long InstanceId { get; private set; }
 
         /// <summary>
-        /// ÒÑ¾­Íê³É/È¡Ïû
+        /// å·²ç»å®Œæˆ/å–æ¶ˆ
         /// </summary>
         public bool IsCancel { get; protected set; }
 
@@ -43,57 +45,57 @@ namespace XFramework
         public bool Pause { get; set; }
 
         /// <summary>
-        /// ÑÓ³ÙÊ±¼ä
+        /// å»¶è¿Ÿæ—¶é—´
         /// </summary>
         protected float delayTime;
 
         /// <summary>
-        /// ÒÑ¹ıÊ±¼ä
+        /// å·²è¿‡æ—¶é—´
         /// </summary>
         protected float elapsedTime;
 
         /// <summary>
-        /// ³ÖĞøÊ±¼ä
+        /// æŒç»­æ—¶é—´
         /// </summary>
         protected float duration;
 
         /// <summary>
-        /// Ö´ĞĞ´ÎÊı
+        /// æ‰§è¡Œæ¬¡æ•°
         /// </summary>
         protected int executeCount;
 
         /// <summary>
-        /// Ñ­»·ÀàĞÍ
+        /// å¾ªç¯ç±»å‹
         /// </summary>
         protected MiniLoopType loopType;
 
         /// <summary>
-        /// tweenÄ£Ê½
+        /// tweenæ¨¡å¼
         /// </summary>
         protected MiniTweenMode tweenMode;
 
         /// <summary>
-        /// tweenÌá¹©Õß (Ë­´´½¨µÄtween)
+        /// tweenæä¾›è€… (è°åˆ›å»ºçš„tween)
         /// </summary>
         private MiniTweenProvider provider;
 
         /// <summary>
-        /// Íê³ÉºóµÄ»Øµ÷
+        /// å®Œæˆåçš„å›è°ƒ
         /// </summary>
         protected Action completed_Action { get; set; }
 
         /// <summary>
-        /// ÊÍ·ÅÊ±µÄ»Øµ÷
+        /// é‡Šæ”¾æ—¶çš„å›è°ƒ
         /// </summary>
         protected Action destroy_Action { get; set; }
 
         /// <summary>
-        /// µ±Ç°½ø¶È
+        /// å½“å‰è¿›åº¦
         /// </summary>
         public float Progress => this.duration > 0 ? Mathf.Clamp01(this.elapsedTime / this.duration) : -1f;
 
         /// <summary>
-        /// ÊÇ·ñÒÑÍê³É
+        /// æ˜¯å¦å·²å®Œæˆ
         /// </summary>
         public bool IsCompelted => (this.Progress >= 1f && this.executeCount == 0) || this.IsCancel;
 
@@ -108,7 +110,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÉèÖÃÌá¹©Õß
+        /// è®¾ç½®æä¾›è€…
         /// </summary>
         /// <param name="provider"></param>
         internal void SetProvider(MiniTweenProvider provider)
@@ -134,21 +136,21 @@ namespace XFramework
         }
 
         /// <summary>
-        /// »ñÈ¡²îÖµ
+        /// è·å–å·®å€¼
         /// </summary>
         /// <returns></returns>
         protected abstract float GetDiffValue();
 
         /// <summary>
-        /// È¡Ïû
+        /// å–æ¶ˆ
         /// </summary>
-        /// <param name="completed">Á¢¼´Íê³É</param>
+        /// <param name="completed">ç«‹å³å®Œæˆ</param>
         public abstract void Cancel(XObject parent, bool completed);
 
         /// <summary>
-        /// È¡Ïû
+        /// å–æ¶ˆ
         /// </summary>
-        /// <param name="parent">ÒòÎªTweenÊ¹ÓÃµÄÀà¶ÔÏó³Ø£¬ÎªÁË±ÜÃâ×Ô¼º´æ´¢ºó²»¼°Ê±ÊÍ·Å£¬ËùÒÔÒª¼ìÑéparentÊÇ·ñÓëÄÚ²¿µÄparentÒ»ÖÂ</param>
+        /// <param name="parent">å› ä¸ºTweenä½¿ç”¨çš„ç±»å¯¹è±¡æ± ï¼Œä¸ºäº†é¿å…è‡ªå·±å­˜å‚¨åä¸åŠæ—¶é‡Šæ”¾ï¼Œæ‰€ä»¥è¦æ£€éªŒparentæ˜¯å¦ä¸å†…éƒ¨çš„parentä¸€è‡´</param>
         public virtual void Cancel(XObject parent)
         {
             if (!this.CheckParentValid(parent))
@@ -158,7 +160,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÉèÖÃÒ»¸öÑÓ³ÙÊ±¼ä
+        /// è®¾ç½®ä¸€ä¸ªå»¶è¿Ÿæ—¶é—´
         /// </summary>
         /// <param name="delay"></param>
         public void SetDelayTime(float delay)
@@ -167,7 +169,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// È¡Ïû/Íê³É
+        /// å–æ¶ˆ/å®Œæˆ
         /// </summary>
         protected void SetResult(bool completed)
         {
@@ -182,17 +184,17 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ôö¼ÓÒÑ¹ıÊ±¼äÖ®ºó
+        /// å¢åŠ å·²è¿‡æ—¶é—´ä¹‹å
         /// </summary>
         protected abstract void AddElapsedTimeAfter();
 
         /// <summary>
-        /// ÖØÖÃ
+        /// é‡ç½®
         /// </summary>
         protected abstract void Reset();
 
         /// <summary>
-        /// Ôö¼ÓÒÑ¹ıÊ±¼ä
+        /// å¢åŠ å·²è¿‡æ—¶é—´
         /// </summary>
         /// <param name="deltaTime"></param>
         internal void AddElapsedTime(float deltaTime)
@@ -213,7 +215,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÉèÖÃÒÑ¹ıÊ±¼ä
+        /// è®¾ç½®å·²è¿‡æ—¶é—´
         /// </summary>
         /// <param name="elapsedTime"></param>
         protected void SetElapsedTime(float elapsedTime)
@@ -230,7 +232,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ¼ìÑéÊÇ·ñÓĞĞ§
+        /// æ£€éªŒæ˜¯å¦æœ‰æ•ˆ
         /// </summary>
         /// <returns></returns>
         private bool CheckIsValid()
@@ -248,7 +250,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ¼ìÑéÊÇ·ñÍê³É
+        /// æ£€éªŒæ˜¯å¦å®Œæˆ
         /// </summary>
         /// <returns></returns>
         protected void CheckCompleted()
@@ -281,7 +283,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ¼ìÑé´«½øÀ´µÄparentÊÇ·ñºÍtweenµÄparentÍêÈ«Ò»ÖÂ
+        /// æ£€éªŒä¼ è¿›æ¥çš„parentæ˜¯å¦å’Œtweençš„parentå®Œå…¨ä¸€è‡´
         /// </summary>
         /// <param name="parent"></param>
         /// <returns></returns>
@@ -291,7 +293,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ìí¼ÓÍê³ÉºóµÄ¼àÌı
+        /// æ·»åŠ å®Œæˆåçš„ç›‘å¬
         /// </summary>
         /// <param name="action"></param>
         public void AddOnCompleted(Action action)
@@ -300,7 +302,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ıÍê³ÉºóµÄ¼àÌı
+        /// ç§»é™¤å®Œæˆåçš„ç›‘å¬
         /// </summary>
         /// <param name="action"></param>
         public void RemoveOnCompleted(Action action)
@@ -309,7 +311,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ıËùÓĞÍê³ÉºóµÄ¼àÌı
+        /// ç§»é™¤æ‰€æœ‰å®Œæˆåçš„ç›‘å¬
         /// </summary>
         public void RemoveAllOnCompleted()
         {
@@ -317,7 +319,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ìí¼ÓÊÍ·ÅÊ±µÄ¼àÌı
+        /// æ·»åŠ é‡Šæ”¾æ—¶çš„ç›‘å¬
         /// </summary>
         /// <param name="action"></param>
         public void AddOnDestroy(Action action)
@@ -326,7 +328,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ıÊÍ·ÅÊ±µÄ¼àÌı
+        /// ç§»é™¤é‡Šæ”¾æ—¶çš„ç›‘å¬
         /// </summary>
         /// <param name="action"></param>
         public void RemoveOnDestroy(Action action)
@@ -335,7 +337,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ıËùÓĞÊÍ·ÅÊ±µÄ¼àÌı
+        /// ç§»é™¤æ‰€æœ‰é‡Šæ”¾æ—¶çš„ç›‘å¬
         /// </summary>
         public void RemoveAllOnDestroy()
         {
@@ -343,10 +345,10 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÉèÖÃÑ­»·Ö´ĞĞ
+        /// è®¾ç½®å¾ªç¯æ‰§è¡Œ
         /// </summary>
         /// <param name="loopType"></param>
-        /// <param name="count">Ö´ĞĞ´ÎÊı£¬Ğ¡ÓÚ0Ê±ÎªÎŞÏŞÑ­»·£¬0ÎŞĞ§</param>
+        /// <param name="count">æ‰§è¡Œæ¬¡æ•°ï¼Œå°äº0æ—¶ä¸ºæ— é™å¾ªç¯ï¼Œ0æ— æ•ˆ</param>
         public void SetLoop(MiniLoopType loopType, int count = 1)
         {
             if (count == 0)
@@ -375,7 +377,9 @@ namespace XFramework
             provider?.Remove(this);
             provider = null;
             InstanceId = 0;
-            bool completed = this.Progress >= 1f && executeCount == 0;// this.Progress >= 0f && this.Progress < 1f || executeCount != 0;
+            bool completed =
+                this.Progress >= 1f &&
+                executeCount == 0; // this.Progress >= 0f && this.Progress < 1f || executeCount != 0;
 
             var action = this.destroy_Action;
             RemoveAllOnDestroy();
@@ -405,24 +409,24 @@ namespace XFramework
     }
 
     /// <summary>
-    /// ²»Òª´æ´¢MiniTweenµÄÒıÓÃ£¬Ó¦µ±´æ´¢MiniTween.InstanceId(±íÊ¾MiniTweenµÄÎ¨Ò»Id)
-    /// <para>Èç¹ûĞèÒª»ñÈ¡ÒıÓÃ£¬¿ÉÒÔÍ¨¹ı¹ÜÀíÆ÷Get(id)ÄÃ³öTween</para>
-    /// <para>Èç¹û´æ´¢MiniTweenµÄÒıÓÃ£¬¿ÉÄÜ»á²úÉúÔÖÄÑĞÔºó¹û</para>
+    /// ä¸è¦å­˜å‚¨MiniTweençš„å¼•ç”¨ï¼Œåº”å½“å­˜å‚¨MiniTween.InstanceId(è¡¨ç¤ºMiniTweençš„å”¯ä¸€Id)
+    /// <para>å¦‚æœéœ€è¦è·å–å¼•ç”¨ï¼Œå¯ä»¥é€šè¿‡ç®¡ç†å™¨Get(id)æ‹¿å‡ºTween</para>
+    /// <para>å¦‚æœå­˜å‚¨MiniTweençš„å¼•ç”¨ï¼Œå¯èƒ½ä¼šäº§ç”Ÿç¾éš¾æ€§åæœ</para>
     /// </summary>
     public class MiniTween<T> : MiniTween, IAwake<XObject, T, T, float, MiniTweenMode>
     {
         /// <summary>
-        /// ¶¯Ì¬±ä»¯Ê±µÄ¼àÌı
+        /// åŠ¨æ€å˜åŒ–æ—¶çš„ç›‘å¬
         /// </summary>
         protected Action<T> setValue_Action;
 
         /// <summary>
-        /// ÆğÊ¼Öµ
+        /// èµ·å§‹å€¼
         /// </summary>
         protected T startValue;
 
         /// <summary>
-        /// Ä¿±êÖµ
+        /// ç›®æ ‡å€¼
         /// </summary>
         protected T endValue;
 
@@ -503,7 +507,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ìí¼Ó¶¯Ì¬¼àÌı£¬Ã¿±ä»¯Ò»´Îµ÷ÓÃÒ»´Î¼àÌı
+        /// æ·»åŠ åŠ¨æ€ç›‘å¬ï¼Œæ¯å˜åŒ–ä¸€æ¬¡è°ƒç”¨ä¸€æ¬¡ç›‘å¬
         /// </summary>
         /// <param name="action"></param>
         public void AddListener(Action<T> action)
@@ -513,7 +517,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ı¶¯Ì¬¼àÌı
+        /// ç§»é™¤åŠ¨æ€ç›‘å¬
         /// </summary>
         /// <param name="action"></param>
         public void RemoveListener(Action<T> action)
@@ -522,7 +526,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ıËùÓĞµÄ¶¯Ì¬¼àÌı
+        /// ç§»é™¤æ‰€æœ‰çš„åŠ¨æ€ç›‘å¬
         /// </summary>
         public void RemoveAllListeners()
         {
@@ -548,7 +552,6 @@ namespace XFramework
 
         protected virtual void EndInit()
         {
-
         }
 
         private void SetTask()

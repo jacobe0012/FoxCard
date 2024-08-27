@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -19,9 +15,9 @@ namespace XFramework
             return parent as T;
         }
 
-        protected sealed override void OnStart() 
-        { 
-            base.OnStart(); 
+        protected sealed override void OnStart()
+        {
+            base.OnStart();
         }
 
         internal void SetParent(Type fixedType, UI parent)
@@ -52,7 +48,6 @@ namespace XFramework
 
         protected virtual void SetParentAfter()
         {
-
         }
 
         protected override void OnDestroy()
@@ -87,7 +82,6 @@ namespace XFramework
 
         protected virtual void EndInitialize()
         {
-            
         }
 
         public T Get() => this.unityComponent;
@@ -101,7 +95,6 @@ namespace XFramework
 
         protected virtual void Destroy()
         {
-
         }
     }
 

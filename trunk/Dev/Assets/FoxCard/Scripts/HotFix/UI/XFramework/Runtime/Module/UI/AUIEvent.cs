@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace XFramework
+﻿namespace XFramework
 {
     public abstract class AUIEvent
     {
@@ -27,7 +21,6 @@ namespace XFramework
 
         public virtual void OnRemove(UI ui)
         {
-
         }
     }
 

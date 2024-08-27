@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XFramework
 {
     public interface IInternalEvent
     {
-        
     }
 
     public interface IInternalEvent<T> : IInternalEvent where T : struct
@@ -120,7 +115,7 @@ namespace XFramework
             foreach (var o in handleList)
             {
                 try
-                {                    
+                {
                     // 防止在执行事件的时候同时添加移除事件，导致报错
                     // 如果在执行第1个事件的时候，删除了第3个事件，那么第3个事件就不能被执行了
                     if (!list.Contains(o))

@@ -1,6 +1,6 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace XFramework
 {
@@ -14,8 +14,7 @@ namespace XFramework
         /// <summary>
         /// 唯一的id，如果存到listData里，则需通过此id获取
         /// </summary>
-        [JsonProperty(Order = 10000)]
-        private long id;
+        [JsonProperty(Order = 10000)] private long id;
 
         /// <summary>
         /// 用于序列化dictData
@@ -34,38 +33,32 @@ namespace XFramework
         /// <summary>
         /// 存储不能重复的数据类型
         /// </summary>
-        [JsonIgnore]
-        protected Dictionary<Type, UserData> dictData;
+        [JsonIgnore] protected Dictionary<Type, UserData> dictData;
 
         /// <summary>
         /// 存储可以重复的数据类型
         /// </summary>
-        [JsonIgnore]
-        protected Dictionary<long, UserData> listData;
+        [JsonIgnore] protected Dictionary<long, UserData> listData;
 
         /// <summary>
         /// 依附的父数据类
         /// </summary>
-        [JsonIgnore]
-        private UserData parent;
+        [JsonIgnore] private UserData parent;
 
         /// <summary>
         /// 来自dictData字典
         /// </summary>
-        [JsonIgnore]
-        private bool fromDict;
+        [JsonIgnore] private bool fromDict;
 
         /// <summary>
         /// 类型名称
         /// </summary>
-        [JsonProperty]
-        private string typeName;
+        [JsonProperty] private string typeName;
 
         /// <summary>
         /// 程序集名称
         /// </summary>
-        [JsonProperty]
-        private string assemblyName;
+        [JsonProperty] private string assemblyName;
 
         /// <summary>
         /// 唯一的id，如果存到listData里，则需通过此id获取
@@ -112,7 +105,6 @@ namespace XFramework
 
         protected UserData()
         {
-
         }
 
         protected sealed override void OnStart()
@@ -169,7 +161,6 @@ namespace XFramework
         /// </summary>
         protected virtual void OnDeserialize()
         {
-
         }
 
         /// <summary>
@@ -177,7 +168,6 @@ namespace XFramework
         /// </summary>
         protected virtual void SetParentAfter()
         {
-
         }
 
         private void SetParent(UserData parent, bool isFromDict)
@@ -226,8 +216,8 @@ namespace XFramework
                 {
                     ObjectPool.Instance.Recycle(this._dictArchives);
                     this._dictArchives = null;
-                }                    
-            }                
+                }
+            }
         }
 
         /// <summary>
@@ -391,7 +381,6 @@ namespace XFramework
 
         protected virtual void Destroy()
         {
-            
         }
 
         protected sealed override void OnDestroy()
@@ -402,6 +391,7 @@ namespace XFramework
             {
                 data.Dispose();
             }
+
             dictData.Clear();
             ObjectPool.Instance.Recycle(dictData);
             dictData = null;
@@ -410,6 +400,7 @@ namespace XFramework
             {
                 data.Dispose();
             }
+
             listData.Clear();
             ObjectPool.Instance.Recycle(listData);
             listData = null;

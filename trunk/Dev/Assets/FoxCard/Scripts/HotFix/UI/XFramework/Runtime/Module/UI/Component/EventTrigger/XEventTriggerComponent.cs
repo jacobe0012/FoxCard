@@ -75,7 +75,6 @@ namespace XFramework
 
     public class XEventTriggerComponent : XEventTriggerComponent<XEventTrigger>
     {
-        
     }
 
     public static class EventTriggerExtensions

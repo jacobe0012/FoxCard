@@ -1,10 +1,4 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using UnityEngine;
 using UnityEngine.SceneManagement;
-using UScene = UnityEngine.SceneManagement.Scene;
 
 namespace XFramework
 {
@@ -15,7 +9,7 @@ namespace XFramework
         public Scene Scene => sceneObject?.Scene;
 
         /// <summary>
-        /// Âç∏ËΩΩÂΩìÂâçÂú∫ÊôØ
+        /// –∂‘ÿµ±«∞≥°æ∞
         /// </summary>
         private void UnLoadCurrentScene()
         {
@@ -24,7 +18,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÂºÇÊ≠•Âä†ËΩΩÂú∫ÊôØ
+        /// “Ï≤Ωº”‘ÿ≥°æ∞
         /// </summary>
         /// <param name="key"></param>
         /// <returns></returns>
@@ -36,7 +30,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÂàõÂª∫Âú∫ÊôØÁ±ª
+        /// ¥¥Ω®≥°æ∞¿‡
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="key"></param>
@@ -58,7 +52,7 @@ namespace XFramework
         public SceneObject LoadSceneAsync<T>(string key,
             LoadSceneMode loadSceneMode = LoadSceneMode.Single, bool isFromPool = true) where T : Scene, new()
         {
-            //Log.Error("Âä†ËΩΩScene {0}", key);
+            //Log.Error("º”‘ÿScene {0}", key);
             var scene = this.InnerCreateScene<T>(key, isFromPool, loadSceneMode);
             if (scene != null)
                 ObjectHelper.Awake(scene);

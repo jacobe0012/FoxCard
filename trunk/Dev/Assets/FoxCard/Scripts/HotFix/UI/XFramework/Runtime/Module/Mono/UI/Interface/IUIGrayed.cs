@@ -1,6 +1,4 @@
-﻿using UnityEngine;
-
-namespace XFramework
+﻿namespace XFramework
 {
     public interface IUIGrayed
     {

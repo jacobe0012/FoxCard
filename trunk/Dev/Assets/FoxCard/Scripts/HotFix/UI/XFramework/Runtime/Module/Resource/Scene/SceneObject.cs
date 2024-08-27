@@ -1,11 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Cysharp.Threading.Tasks;
-
-namespace XFramework
+﻿namespace XFramework
 {
     public class SceneObject : XObject, IAwake<string, object>
     {

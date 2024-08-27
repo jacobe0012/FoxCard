@@ -8,8 +8,7 @@ namespace XFramework
 
         public static User Instance => _instance;
 
-        [JsonIgnore]
-        public long UserId => this.Id;
+        [JsonIgnore] public long UserId => this.Id;
 
         public void Initialize()
         {

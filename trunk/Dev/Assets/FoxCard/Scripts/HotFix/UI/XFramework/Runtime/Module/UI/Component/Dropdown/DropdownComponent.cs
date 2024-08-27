@@ -88,7 +88,6 @@ namespace XFramework
 
     public class DropdownComponent : DropdownComponent<Dropdown>
     {
-        
     }
 
     public static class DropdownExtensions

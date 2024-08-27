@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
@@ -16,6 +11,7 @@ namespace XFramework
         public UI Content => content;
 
         public UnityEvent<Vector2> OnValueChanged => this.Get().onValueChanged;
+
 
         protected override void SetParentAfter()
         {
@@ -74,7 +70,6 @@ namespace XFramework
 
     public class ScrollRectComponent : ScrollRectComponent<ScrollRect>
     {
-        
     }
 
     public static class ScrollRectExtensions
@@ -110,7 +105,8 @@ namespace XFramework
             }
 
             RectTransform rectTransform = scrollRect.GetComponent<RectTransform>();
-            Vector3 itemCurrentLocalPostion = rectTransform.InverseTransformVector(self.ConvertLocalPosToWorldPos(item));
+            Vector3 itemCurrentLocalPostion =
+                rectTransform.InverseTransformVector(self.ConvertLocalPosToWorldPos(item));
             Vector3 itemTargetLocalPos = rectTransform.InverseTransformVector(self.ConvertLocalPosToWorldPos(viewport));
 
             Vector3 diff = itemTargetLocalPos - itemCurrentLocalPostion;
@@ -119,14 +115,15 @@ namespace XFramework
             var newNormalizedPosition = new Vector2(
                 diff.x / (content.rect.width - viewport.rect.width),
                 diff.y / (content.rect.height - viewport.rect.height)
-                );
+            );
 
             newNormalizedPosition = scrollRect.normalizedPosition - newNormalizedPosition;
 
             newNormalizedPosition.x = Mathf.Clamp01(newNormalizedPosition.x);
             newNormalizedPosition.y = Mathf.Clamp01(newNormalizedPosition.y);
 
-            DG.Tweening.DOTween.To(() => scrollRect.normalizedPosition, x => scrollRect.normalizedPosition = x, newNormalizedPosition, duration);
+            DG.Tweening.DOTween.To(() => scrollRect.normalizedPosition, x => scrollRect.normalizedPosition = x,
+                newNormalizedPosition, duration);
         }
 
         private static Vector3 ConvertLocalPosToWorldPos(this ScrollRect self, RectTransform target)

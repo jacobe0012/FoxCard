@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using Random = System.Random;
 
 namespace XFramework
 {
@@ -83,6 +82,7 @@ namespace XFramework
 
                         list[i] = v++;
                     }
+
                     randomIdCount = Capacity;
                 }
 
@@ -94,6 +94,7 @@ namespace XFramework
                     randomIdList[index] = randomIdList[maxIndex];
                     randomIdList[maxIndex] = value;
                 }
+
                 --randomIdCount;
 
                 return value;
@@ -285,6 +286,7 @@ namespace XFramework
             {
                 return true;
             }
+
             int beginIndex = random.Next(0, sourceList.Count - 1);
             for (int i = beginIndex; i < beginIndex + randCount; i++)
             {

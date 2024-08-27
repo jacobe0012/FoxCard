@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -106,7 +105,8 @@ namespace XFramework
         /// <param name="self"></param>
         /// <param name="prefix">前缀</param>
         /// <param name="result">存储结果</param>
-        public static void FindChildrenWithPrefix(this GameObject self, string prefix, Dictionary<string, GameObject> result)
+        public static void FindChildrenWithPrefix(this GameObject self, string prefix,
+            Dictionary<string, GameObject> result)
         {
             FindWithPrefix(self, prefix, result);
         }
@@ -118,7 +118,8 @@ namespace XFramework
         /// <param name="self"></param>
         /// <param name="prefix">前缀</param>
         /// <param name="result">存储结果</param>
-        public static void FindChildrenWithPrefix(this Transform self, string prefix, Dictionary<string, GameObject> result)
+        public static void FindChildrenWithPrefix(this Transform self, string prefix,
+            Dictionary<string, GameObject> result)
         {
             self.gameObject.FindChildrenWithPrefix(prefix, result);
         }
@@ -141,7 +142,7 @@ namespace XFramework
                 {
                     string name = trans.name.Substring(prefix.Length);
                     if (!result.ContainsKey(name))
-                        result.Add(name, trans.gameObject); 
+                        result.Add(name, trans.gameObject);
                 }
             }
         }
@@ -173,8 +174,9 @@ namespace XFramework
         /// <param name="active"></param>
         public static void SetViewActive(this GameObject self, bool active)
         {
-            if (self.activeSelf != active)
-                self.SetActive(active);
+            self?.SetActive(active);
+            // if (self?.activeSelf != active)
+            //     self?.SetActive(active);
         }
 
         /// <summary>

@@ -1,142 +1,142 @@
-using System;
-using System.Collections.Generic;
-
-namespace XFramework
-{
-    public sealed class ConfigManager1 : CommonObject
-    {
-        /// <summary>
-        /// ÅäÖÃÎÄ¼þÃû -> ¶þ½øÖÆÄÚÈÝ
-        /// </summary>
-        private Dictionary<string, byte[]> configBytes = new Dictionary<string, byte[]>();
-
-        /// <summary>
-        /// ÅäÖÃÀàÐÍ -> ·´ÐòÁÐ»¯³öÀ´µÄ¶ÔÏó
-        /// </summary>
-        private Dictionary<Type, object> configProtos = new Dictionary<Type, object>();
-
-        /// <summary>
-        /// ±ê¼ÇÁËConfigÌØÐÔµÄÅäÖÃÀà
-        /// <para>ÀàÃû -> ÀàÐÍ</para>
-        /// </summary>
-        private Dictionary<string, Type> configTypes = new Dictionary<string, Type>();
-
-        private IConfigLoader loader;
-
-        protected override void Init()
-        {
-            var types = TypesManager.Instance.GetTypes(typeof(ConfigAttribute));
-            foreach (var type in types)
-            {
-                configTypes.Add(type.Name, type);
-            }
-        }
-
-        public void SetLoader(IConfigLoader loader)
-        {
-            this.loader = loader;
-        }
-
-        /// <summary>
-        /// ¼ÓÔØËùÓÐÅäÖÃ
-        /// </summary>
-        /// <returns></returns>
-        public async XFTask LoadAllConfigsAsync()
-        {
-            var tagId = this.TagId;
-            configBytes = await loader.LoadAllAsync();
-            if (tagId != this.TagId)
-                return;
-
-            await DeserializeConfigs();
-        }
-
-        /// <summary>
-        /// ¼ÓÔØµ¥¸öÅäÖÃ
-        /// </summary>
-        /// <param name="configType"></param>
-        /// <returns></returns>
-        public async XFTask LoadOneConfigAsync(Type configType)
-        {
-            var tagId = this.TagId;
-            var bytes = await loader.LoadOneAsync(configType.Name);
-            if (tagId != this.TagId || bytes is null || bytes.Length == 0)
-                return;
-
-            await DeserializeAsync(configType, bytes);
-        }
-
-        /// <summary>
-        /// ¼ÓÔØµ¥¸öÅäÖÃ
-        /// </summary>
-        /// <param name="configType"></param>
-        public void LoadOneConfig(Type configType)
-        {
-            var bytes = loader.LoadOne(configType.Name);
-            if (bytes != null)
-            {
-                object configObj = ProtobufHelper.FromBytes(bytes, configType);
-                configProtos[configType] = configObj;
-            }
-        }
-
-        /// <summary>
-        /// ·´ÐòÁÐ»¯ËùÓÐµÄÅäÖÃ
-        /// </summary>
-        /// <returns></returns>
-        private async XFTask DeserializeConfigs()
-        {
-            if (configTypes.Count == configProtos.Count)
-                return;
-
-            if (configBytes.Count == 0)
-                return;
-
-            using var tasks = XList<XFTask>.Create();
-            foreach (var configInfo in configTypes)
-            {
-                string name = configInfo.Key;
-                Type configType = configInfo.Value;
-                if (configBytes.TryGetValue(name, out var bytes))
-                {
-                    if (configProtos.ContainsKey(configType))
-                        continue;
-
-                    tasks.Add(DeserializeAsync(configType, bytes));
-                }
-                else
-                {
-                    Log.Error($"ÅäÖÃ¼ÓÔØÊ§°Ü£¬ÃûÎª{name}£¬Çë¼ì²éÅäÖÃÎÄ¼þ");
-                }
-            }
-
-            await XFTaskHelper.WaitAll(tasks);
-        }
-
-        /// <summary>
-        /// ·´ÐòÁÐ»¯ÅäÖÃ
-        /// </summary>
-        /// <param name="configType"></param>
-        /// <param name="bytes"></param>
-        /// <returns></returns>
-        private async XFTask DeserializeAsync(Type configType, byte[] bytes)
-        {
-            var task = System.Threading.Tasks.Task.Run(() =>
-            {
-                object obj = ProtobufHelper.FromBytes(bytes, configType);
-                return obj;
-            });
-
-            object configObj = await task;
-            configProtos[configType] = configObj;
-        }
-
-        protected override void Destroy()
-        {
-            configBytes.Clear();
-            configProtos.Clear();
-            configTypes.Clear();
-            loader = null;
-        }
-    }
-}
+// using System;
+// using System.Collections.Generic;
+//
+// namespace XFramework
+// {
+//     public sealed class ConfigManager1 : CommonObject
+//     {
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// </summary>
+//         private Dictionary<string, byte[]> configBytes = new Dictionary<string, byte[]>();
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½
+//         /// </summary>
+//         private Dictionary<Type, object> configProtos = new Dictionary<Type, object>();
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½ï¿½ï¿½Configï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// <para>ï¿½ï¿½ï¿½ï¿½ -> ï¿½ï¿½ï¿½ï¿½</para>
+//         /// </summary>
+//         private Dictionary<string, Type> configTypes = new Dictionary<string, Type>();
+//
+//         private IConfigLoader loader;
+//
+//         protected override void Init()
+//         {
+//             var types = TypesManager.Instance.GetTypes(typeof(ConfigAttribute));
+//             foreach (var type in types)
+//             {
+//                 configTypes.Add(type.Name, type);
+//             }
+//         }
+//
+//         public void SetLoader(IConfigLoader loader)
+//         {
+//             this.loader = loader;
+//         }
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// </summary>
+//         /// <returns></returns>
+//         public async XFTask LoadAllConfigsAsync()
+//         {
+//             var tagId = this.TagId;
+//             configBytes = await loader.LoadAllAsync();
+//             if (tagId != this.TagId)
+//                 return;
+//
+//             await DeserializeConfigs();
+//         }
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// </summary>
+//         /// <param name="configType"></param>
+//         /// <returns></returns>
+//         public async XFTask LoadOneConfigAsync(Type configType)
+//         {
+//             var tagId = this.TagId;
+//             var bytes = await loader.LoadOneAsync(configType.Name);
+//             if (tagId != this.TagId || bytes is null || bytes.Length == 0)
+//                 return;
+//
+//             await DeserializeAsync(configType, bytes);
+//         }
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// </summary>
+//         /// <param name="configType"></param>
+//         public void LoadOneConfig(Type configType)
+//         {
+//             var bytes = loader.LoadOne(configType.Name);
+//             if (bytes != null)
+//             {
+//                 object configObj = ProtobufHelper.FromBytes(bytes, configType);
+//                 configProtos[configType] = configObj;
+//             }
+//         }
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// </summary>
+//         /// <returns></returns>
+//         private async XFTask DeserializeConfigs()
+//         {
+//             if (configTypes.Count == configProtos.Count)
+//                 return;
+//
+//             if (configBytes.Count == 0)
+//                 return;
+//
+//             using var tasks = XList<XFTask>.Create();
+//             foreach (var configInfo in configTypes)
+//             {
+//                 string name = configInfo.Key;
+//                 Type configType = configInfo.Value;
+//                 if (configBytes.TryGetValue(name, out var bytes))
+//                 {
+//                     if (configProtos.ContainsKey(configType))
+//                         continue;
+//
+//                     tasks.Add(DeserializeAsync(configType, bytes));
+//                 }
+//                 else
+//                 {
+//                     Log.Error($"ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½ï¿½ï¿½Îª{name}ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½");
+//                 }
+//             }
+//
+//             await XFTaskHelper.WaitAll(tasks);
+//         }
+//
+//         /// <summary>
+//         /// ï¿½ï¿½ï¿½ï¿½ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½
+//         /// </summary>
+//         /// <param name="configType"></param>
+//         /// <param name="bytes"></param>
+//         /// <returns></returns>
+//         private async XFTask DeserializeAsync(Type configType, byte[] bytes)
+//         {
+//             var task = System.Threading.Tasks.Task.Run(() =>
+//             {
+//                 object obj = ProtobufHelper.FromBytes(bytes, configType);
+//                 return obj;
+//             });
+//
+//             object configObj = await task;
+//             configProtos[configType] = configObj;
+//         }
+//
+//         protected override void Destroy()
+//         {
+//             configBytes.Clear();
+//             configProtos.Clear();
+//             configTypes.Clear();
+//             loader = null;
+//         }
+//     }
+// }

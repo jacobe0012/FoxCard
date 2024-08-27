@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,8 +8,7 @@ namespace XFramework
     {
         private static Dictionary<int, Object> textList = new Dictionary<int, Object>();
 
-        [SerializeField, HideInInspector]
-        private List<ElementData> _textData = new List<ElementData>();
+        [SerializeField, HideInInspector] private List<ElementData> _textData = new List<ElementData>();
 
         private Dictionary<string, Object> _textDict = new Dictionary<string, Object>();
 
@@ -20,7 +18,7 @@ namespace XFramework
         }
 
         internal static void AddText(int instanceId, Object text)
-        { 
+        {
             if (!Application.isPlaying)
                 return;
 

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace XFramework
+﻿namespace XFramework
 {
     public interface ILanguageLoader
     {
@@ -52,7 +46,7 @@ namespace XFramework
                     _languageType = loader.GetDefaultLanguageType();
                 else
                     _languageType = type;
-            }                
+            }
         }
 
         /// <summary>

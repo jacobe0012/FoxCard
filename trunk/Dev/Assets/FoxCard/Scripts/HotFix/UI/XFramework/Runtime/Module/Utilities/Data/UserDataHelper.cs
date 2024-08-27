@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XFramework
 {
@@ -11,7 +7,7 @@ namespace XFramework
         private static bool GetUserMgr(out UserDataManager userMgr)
         {
             userMgr = Common.Instance.Get<UserDataManager>();
-            return userMgr != null; 
+            return userMgr != null;
         }
 
         /// <summary>

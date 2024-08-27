@@ -1,7 +1,5 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using Cysharp.Threading.Tasks;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -80,7 +78,8 @@ namespace XFramework
                 //SetOriginalRect(key, obj);
 
                 //
-                obj.SetViewActive(true);
+                obj?.SetActive(true);
+                //obj.SetViewActive(true);
             }
 
             return obj;
@@ -160,7 +159,6 @@ namespace XFramework
                     //
                 }
 
-
                 obj.transform.SetParent(parentObj.transform, false);
             }
             catch (Exception e)
@@ -235,6 +233,7 @@ namespace XFramework
                 pool.Add(key, queue);
             }
 
+            obj.SetActive(false);
             queue.Enqueue(obj);
         }
 

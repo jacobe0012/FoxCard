@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -10,13 +6,9 @@ namespace XFramework
 {
     public class XTextMeshProUGUI : TextMeshProUGUI, IMultilingual
     {
-        [Tooltip("忽略多语言")]
-        [SerializeField]
-        private bool m_IgnoreLanguage;
+        [Tooltip("忽略多语言")] [SerializeField] private bool m_IgnoreLanguage;
 
-        [Tooltip("多语言的Key")]
-        [SerializeField]
-        private string m_Key = string.Empty;
+        [Tooltip("多语言的Key")] [SerializeField] private string m_Key = string.Empty;
 
         private List<object> _objs = new List<object>();
 

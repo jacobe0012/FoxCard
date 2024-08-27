@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 namespace XFramework
 {
@@ -20,10 +17,7 @@ namespace XFramework
         /// </summary>
         public int TimeZone
         {
-            get
-            {
-                return this.timeZone;
-            }
+            get { return this.timeZone; }
             set
             {
                 this.timeZone = value;
@@ -90,7 +84,6 @@ namespace XFramework
 
         public virtual void Dispose()
         {
-            
         }
     }
 }

@@ -1,18 +1,17 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 namespace XFramework
 {
     /// <summary>
-    /// ¼ì²â×ÊÔ´ÊÇ·ñÓĞËùÒıÓÃ
+    /// æ£€æµ‹èµ„æºæ˜¯å¦æœ‰æ‰€å¼•ç”¨
     /// </summary>
     public sealed class ResourcesRefDetection : CommonObject, ILateUpdate
     {
         private class AssetRef : XObject, IAwake<Object, XObject>, IAwake<GameObject, XObject, string, bool>
         {
             /// <summary>
-            /// ÊÇ·ñÀ´×ÔÊµÀı»¯
+            /// æ˜¯å¦æ¥è‡ªå®ä¾‹åŒ–
             /// </summary>
             public bool IsInstantiate { get; private set; }
 
@@ -47,7 +46,7 @@ namespace XFramework
             }
 
             /// <summary>
-            /// ¸Ä±äËùÒÀÀµµÄ¸¸¶ÔÏó
+            /// æ”¹å˜æ‰€ä¾èµ–çš„çˆ¶å¯¹è±¡
             /// </summary>
             /// <param name="parent"></param>
             public void ChangeRef(XObject parent, bool isFromPool)
@@ -58,7 +57,7 @@ namespace XFramework
             }
 
             /// <summary>
-            /// ¼ì²é×ÊÔ´ÊÇ·ñÓĞĞ§
+            /// æ£€æŸ¥èµ„æºæ˜¯å¦æœ‰æ•ˆ
             /// </summary>
             /// <returns></returns>
             public bool Check()
@@ -76,7 +75,7 @@ namespace XFramework
             }
 
             /// <summary>
-            /// ÊÍ·Å×ÊÔ´
+            /// é‡Šæ”¾èµ„æº
             /// </summary>
             private void Clear()
             {
@@ -112,22 +111,22 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÊµÀı»¯×ÊÔ´
+        /// å®ä¾‹åŒ–èµ„æº
         /// </summary>
         private Dictionary<int, AssetRef> assets = new Dictionary<int, AssetRef>();
 
         /// <summary>
-        /// ÒıÓÃ×ÊÔ´
+        /// å¼•ç”¨èµ„æº
         /// </summary>
         private UnOrderMapSet<int, AssetRef> refAssets = new UnOrderMapSet<int, AssetRef>();
 
         /// <summary>
-        /// ËùÓĞ¼ÓÔØµÄ×ÊÔ´µÄKey -> Set(InstanceId)
+        /// æ‰€æœ‰åŠ è½½çš„èµ„æºçš„Key -> Set(InstanceId)
         /// </summary>
         private UnOrderMapSet<string, int> assetsKeyDict = new UnOrderMapSet<string, int>();
 
         /// <summary>
-        /// ¼ì²éËùÓĞµÄ×ÊÔ´ÊÇ·ñÓĞĞ§£¬ÎŞĞ§µÄÔòÒÆ³ı
+        /// æ£€æŸ¥æ‰€æœ‰çš„èµ„æºæ˜¯å¦æœ‰æ•ˆï¼Œæ— æ•ˆçš„åˆ™ç§»é™¤
         /// </summary>
         public void VerifyAllResources()
         {
@@ -174,7 +173,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ìí¼Ó×ÊÔ´½øĞĞ¹ÜÀí£¬Ê¹asset¹ØÁªparent£¬Èç¹ûparent±»ÊÍ·ÅÁË£¬ÔòassetÒ²»á±»ÊÍ·Å
+        /// æ·»åŠ èµ„æºè¿›è¡Œç®¡ç†ï¼Œä½¿assetå…³è”parentï¼Œå¦‚æœparentè¢«é‡Šæ”¾äº†ï¼Œåˆ™assetä¹Ÿä¼šè¢«é‡Šæ”¾
         /// </summary>
         /// <param name="parent"></param>
         /// <param name="asset"></param>
@@ -191,7 +190,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ìí¼ÓÊµÀı»¯¶ÔÏó£¬Ê¹obj¹ØÁªparent£¬Èç¹ûparent±»ÊÍ·ÅÁË£¬ÔòobjÒ²»á±»ÊÍ·Å
+        /// æ·»åŠ å®ä¾‹åŒ–å¯¹è±¡ï¼Œä½¿objå…³è”parentï¼Œå¦‚æœparentè¢«é‡Šæ”¾äº†ï¼Œåˆ™objä¹Ÿä¼šè¢«é‡Šæ”¾
         /// </summary>
         /// <param name="parent"></param>
         /// <param name="obj"></param>
@@ -205,7 +204,7 @@ namespace XFramework
             int id = obj.GetInstanceID();
             AssetRef assetRef =
                 ObjectFactory.Create<AssetRef, GameObject, XObject, string, bool>(obj, parent, key, isFromPool, true);
-            
+
             if (!this.assets.TryAdd(id, assetRef))
             {
                 //Log.Debug($"id{id}assetRef{assetRef} not added");
@@ -217,7 +216,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÄÃ³öÒ»¸öÊ§Ğ§µÄÊµÀı»¯¶ÔÏó²¢¸Ä±ä°ó¶¨µÄ¸¸Àà
+        /// æ‹¿å‡ºä¸€ä¸ªå¤±æ•ˆçš„å®ä¾‹åŒ–å¯¹è±¡å¹¶æ”¹å˜ç»‘å®šçš„çˆ¶ç±»
         /// </summary>
         /// <param name="parent"></param>
         /// <param name="key"></param>
@@ -244,7 +243,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÊÍ·ÅÊ§Ğ§µÄÊµÀı»¯¶ÔÏó
+        /// é‡Šæ”¾å¤±æ•ˆçš„å®ä¾‹åŒ–å¯¹è±¡
         /// </summary>
         /// <param name="key"></param>
         public void DisposeInvalidObjects(string key)

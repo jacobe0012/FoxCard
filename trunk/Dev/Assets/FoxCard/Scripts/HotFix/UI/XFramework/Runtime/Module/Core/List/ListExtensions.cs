@@ -68,10 +68,10 @@ namespace XFramework
         /// <param name="value"></param>
         public static void OrderlyAdd<TValue>(this IList<TValue> self, TValue value) where TValue : IComparable<TValue>
         {
-            if (self.IsReadOnly)    // 只读的不能添加
+            if (self.IsReadOnly) // 只读的不能添加
                 return;
 
-            if (self.Count == 0)    // 直接添加
+            if (self.Count == 0) // 直接添加
             {
                 self.Add(value);
                 return;
@@ -83,7 +83,7 @@ namespace XFramework
                 return;
             }
 
-            if (self.GetAt(-1).CompareTo(value) <= 0)   // 最后一个值不超过要添加的值，直接添加到末尾
+            if (self.GetAt(-1).CompareTo(value) <= 0) // 最后一个值不超过要添加的值，直接添加到末尾
             {
                 self.Add(value);
                 return;

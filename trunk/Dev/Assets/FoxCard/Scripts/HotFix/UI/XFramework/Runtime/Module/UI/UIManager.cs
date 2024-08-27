@@ -13,7 +13,14 @@ namespace XFramework
 
         private Stack<string> uiStack = new Stack<string>();
 
+        /// <summary>
+        /// 独立UI并且需要高斯模糊的UI栈
+        /// </summary>
+        private Stack<string> uiBlurStack = new Stack<string>();
+
         private const string CancelKeyCode = "Cancel";
+
+        public Transform BlurVolume { get; private set; }
 
         protected override void Init()
         {
@@ -22,6 +29,9 @@ namespace XFramework
             allLayers.Add((int)UILayer.Low, reference.GetChild<Transform>("Low"));
             allLayers.Add((int)UILayer.Mid, reference.GetChild<Transform>("Mid"));
             allLayers.Add((int)UILayer.High, reference.GetChild<Transform>("High"));
+            allLayers.Add((int)UILayer.Overlay, reference.GetChild<Transform>("Overlay"));
+            BlurVolume = GameObject.Find("BlurVolume").transform;
+            BlurVolume?.SetViewActive(false);
         }
 
         protected override void Destroy()
@@ -30,8 +40,9 @@ namespace XFramework
             allLayers.Clear();
         }
 
-        private void InitUI(UI ui, UILayer layer)
+        private void InitUI(string uiType, UI ui, UILayer layer)
         {
+            UILayer layerBlur = default;
             if (ui is null)
                 return;
 
@@ -43,6 +54,39 @@ namespace XFramework
             }
 
             uiStack.Push(ui.Name);
+
+            if (GetUIEventManager()?.Get(uiType) is IUILayer uiLayer)
+            {
+                layerBlur = uiLayer.Layer;
+            }
+
+            if (layerBlur == UILayer.Overlay)
+            {
+                UI childOverlay = GetTopOverlay();
+                if (childOverlay != null && !childOverlay.IsDisposed)
+                {
+                    //childOverlay.SetLayer(UILayer.Mid);
+                    childOverlay.GameObject?.transform?.SetParent(GetUILayer(UILayer.Mid), false);
+                }
+
+                uiBlurStack.Push(ui.Name);
+            }
+
+            BlurVolume?.SetViewActive(uiBlurStack.Count > 0);
+        }
+
+        /// <summary>
+        /// 拿到顶层的overlay层级的UI
+        /// </summary>
+        /// <returns></returns>
+        public UI GetTopOverlay()
+        {
+            if (uiBlurStack.Count == 0)
+                return null;
+
+            string uiType = uiBlurStack.Peek();
+
+            return Get(uiType);
         }
 
         private Transform GetParentObj(AUIEvent uiEvent)
@@ -77,6 +121,7 @@ namespace XFramework
                     Log.Error($"尝试创建UIType为{uiType}的UI到UIManager，因为{uiType}是不受管理的");
                     return null;
                 }
+                //TODO:
             }
 
             UI ui = uiEvent.OnCreate();
@@ -87,10 +132,26 @@ namespace XFramework
             ui.Bind(obj, uiType);
 
             if (allowManagement)
-                allUIs.Add(uiType, ui);
+            {
+                if (uiEvent.AllowManagement)
+                {
+                    allUIs.TryAdd(uiType, ui);
+                }
+            }
 
             return ui;
         }
+
+        public bool TryAddAllUIs(string uiType, UI ui)
+        {
+            if (allUIs.TryAdd(uiType, ui))
+            {
+                return true;
+            }
+
+            return false;
+        }
+
 
         /// <summary>
         /// 创建一个GameObject对象
@@ -131,6 +192,7 @@ namespace XFramework
         {
             Remove(uiType);
             var uiEvent = GetUIEventManager()?.Get(uiType);
+
             if (uiEvent is null)
                 return null;
 
@@ -159,7 +221,12 @@ namespace XFramework
             ui.Bind(obj, uiType);
 
             if (allowManagement)
-                allUIs.TryAdd(uiType, ui);
+            {
+                if (uiEvent.AllowManagement)
+                {
+                    allUIs.TryAdd(uiType, ui);
+                }
+            }
 
             return ui;
         }
@@ -221,7 +288,7 @@ namespace XFramework
             Transform parentObj = GetUILayer(layer, UILayer.Low);
             UI ui = CreateInner(uiType, parentObj, true);
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui);
 
             return ui;
@@ -232,7 +299,8 @@ namespace XFramework
             Transform parentObj = GetUILayer(layer, UILayer.Low);
             UI ui = CreateInner(uiType, parentObj, true);
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
+
             ObjectHelper.Awake(ui, p1);
 
             return ui;
@@ -250,7 +318,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui);
 
             return ui;
@@ -268,7 +336,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui, p1);
 
             return ui;
@@ -299,7 +367,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui, p1);
 
             return ui;
@@ -326,7 +394,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui);
 
             return ui;
@@ -367,7 +435,7 @@ namespace XFramework
             Transform parentObj = GetUILayer(layer, UILayer.Low);
             UI ui = await CreateInnerAsync(uiType, parentObj, true, cct);
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui);
 
             return ui;
@@ -379,8 +447,22 @@ namespace XFramework
             Transform parentObj = GetUILayer(layer, UILayer.Low);
             UI ui = await CreateInnerAsync(uiType, parentObj, true, cct);
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
+
             ObjectHelper.Awake(ui, p1);
+
+            return ui;
+        }
+
+        public async UniTask<UI> CreateAsync<P1, P2>(string uiType, P1 p1, P2 p2, UILayer layer,
+            CancellationToken cct = default)
+        {
+            Transform parentObj = GetUILayer(layer, UILayer.Low);
+            UI ui = await CreateInnerAsync(uiType, parentObj, true, cct);
+
+            InitUI(uiType, ui, layer);
+
+            ObjectHelper.Awake(ui, p1, p2);
 
             return ui;
         }
@@ -398,7 +480,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui);
 
             return ui;
@@ -417,7 +499,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui, p1);
 
             return ui;
@@ -436,7 +518,7 @@ namespace XFramework
                 layer = uiLayer.Layer;
             }
 
-            InitUI(ui, layer);
+            InitUI(uiType, ui, layer);
             ObjectHelper.Awake(ui, p1, p2);
 
             return ui;
@@ -462,10 +544,10 @@ namespace XFramework
         /// <returns></returns>
         public bool Remove(string uiType)
         {
-            if (allUIs.TryRemove(uiType, out UI child))
+            if (allUIs.TryRemove(uiType, out UI ui))
             {
-                GetUIEventManager()?.OnRemove(child);
-                child?.Dispose();
+                GetUIEventManager()?.OnRemove(ui);
+                ui?.Dispose();
 
                 if (uiStack.Count > 0)
                 {
@@ -476,7 +558,7 @@ namespace XFramework
                         while (uiStack.Count > 0)
                         {
                             type = uiStack.Peek();
-                            child = Get(type);
+                            var child = Get(type);
                             if (child != null && !child.IsDisposed)
                             {
                                 child.OnFocus();
@@ -489,6 +571,45 @@ namespace XFramework
                         }
                     }
                 }
+
+                UILayer layerBlur = default;
+                if (GetUIEventManager()?.Get(uiType) is IUILayer uiLayer)
+                {
+                    layerBlur = uiLayer.Layer;
+                }
+
+                if (layerBlur == UILayer.Overlay && uiBlurStack.Count > 0)
+                {
+                    string type = uiBlurStack.Peek();
+                    if (type == uiType)
+                    {
+                        uiBlurStack.Pop();
+                        while (uiBlurStack.Count > 0)
+                        {
+                            type = uiBlurStack.Peek();
+                            var child = Get(type);
+                            if (child != null && !child.IsDisposed)
+                            {
+                                //child.OnFocus();
+                                child.GameObject?.transform?.SetParent(GetUILayer(UILayer.Overlay), false);
+
+                                break;
+                            }
+                            else
+                            {
+                                uiBlurStack.Pop();
+                            }
+                        }
+
+                        BlurVolume?.SetViewActive(uiBlurStack.Count > 0);
+                    }
+                }
+
+                if (uiBlurStack.Count <= 0)
+                {
+                    BlurVolume?.SetViewActive(false);
+                }
+
 
                 return true;
             }
@@ -555,18 +676,19 @@ namespace XFramework
 
             allUIs.Clear();
             uiStack.Clear();
+            uiBlurStack.Clear();
         }
 
         public void Update()
         {
-            if (Input.GetButtonDown(CancelKeyCode))
-            {
-                UI child = GetTop();
-                if (child != null && !child.IsDisposed)
-                {
-                    child.OnCancel();
-                }
-            }
+            // if (Input.GetButtonDown(CancelKeyCode))
+            // {
+            //     UI child = GetTop();
+            //     if (child != null && !child.IsDisposed)
+            //     {
+            //         child.OnCancel();
+            //     }
+            // }
         }
     }
 }

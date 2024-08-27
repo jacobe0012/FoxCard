@@ -1,23 +1,19 @@
 ﻿using System;
 using System.Collections.Concurrent;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 
 namespace XFramework
 {
-    [AsyncMethodBuilder(typeof (ETAsyncTaskMethodBuilder))]
-    public class XFTask: ICriticalNotifyCompletion
+    [AsyncMethodBuilder(typeof(ETAsyncTaskMethodBuilder))]
+    public class XFTask : ICriticalNotifyCompletion
     {
         public static Action<Exception> ExceptionHandler;
-        
+
         public static XFTaskCompleted CompletedTask
         {
-            get
-            {
-                return new XFTaskCompleted();
-            }
+            get { return new XFTaskCompleted(); }
         }
 
         private static readonly ConcurrentQueue<XFTask> queue = new();
@@ -33,10 +29,12 @@ namespace XFramework
             {
                 return new XFTask();
             }
+
             if (!queue.TryDequeue(out XFTask task))
             {
-                return new XFTask() {fromPool = true}; 
+                return new XFTask() { fromPool = true };
             }
+
             return task;
         }
 
@@ -46,7 +44,7 @@ namespace XFramework
             {
                 return;
             }
-            
+
             this.state = AwaiterStatus.Pending;
             this.callback = null;
             // 太多了
@@ -54,6 +52,7 @@ namespace XFramework
             {
                 return;
             }
+
             queue.Enqueue(this);
         }
 
@@ -64,7 +63,7 @@ namespace XFramework
         private XFTask()
         {
         }
-        
+
         [DebuggerHidden]
         private async XFVoid InnerCoroutine()
         {
@@ -83,14 +82,10 @@ namespace XFramework
             return this;
         }
 
-        
+
         public bool IsCompleted
         {
-            [DebuggerHidden]
-            get
-            {
-                return this.state != AwaiterStatus.Pending;
-            }
+            [DebuggerHidden] get { return this.state != AwaiterStatus.Pending; }
         }
 
         [DebuggerHidden]
@@ -126,7 +121,8 @@ namespace XFramework
                     c?.Throw();
                     break;
                 default:
-                    throw new NotSupportedException("ETTask does not allow call GetResult directly when task not completed. Please use 'await'.");
+                    throw new NotSupportedException(
+                        "ETTask does not allow call GetResult directly when task not completed. Please use 'await'.");
             }
         }
 
@@ -162,11 +158,11 @@ namespace XFramework
         }
     }
 
-    [AsyncMethodBuilder(typeof (ETAsyncTaskMethodBuilder<>))]
-    public class XFTask<T>: ICriticalNotifyCompletion
+    [AsyncMethodBuilder(typeof(ETAsyncTaskMethodBuilder<>))]
+    public class XFTask<T> : ICriticalNotifyCompletion
     {
         private static readonly ConcurrentQueue<XFTask<T>> queue = new();
-        
+
         /// <summary>
         /// 请不要随便使用ETTask的对象池，除非你完全搞懂了ETTask!!!
         /// 假如开启了池,await之后不能再操作ETTask，否则可能操作到再次从池中分配出来的ETTask，产生灾难性的后果
@@ -178,20 +174,22 @@ namespace XFramework
             {
                 return new XFTask<T>();
             }
-            
+
             if (!queue.TryDequeue(out XFTask<T> task))
             {
-                return new XFTask<T>() {fromPool = true}; 
+                return new XFTask<T>() { fromPool = true };
             }
+
             return task;
         }
-        
+
         private void Recycle()
         {
             if (!this.fromPool)
             {
                 return;
             }
+
             this.callback = null;
             this.value = default;
             this.state = AwaiterStatus.Pending;
@@ -200,6 +198,7 @@ namespace XFramework
             {
                 return;
             }
+
             queue.Enqueue(this);
         }
 
@@ -246,19 +245,16 @@ namespace XFramework
                     c?.Throw();
                     return default;
                 default:
-                    throw new NotSupportedException("ETask does not allow call GetResult directly when task not completed. Please use 'await'.");
+                    throw new NotSupportedException(
+                        "ETask does not allow call GetResult directly when task not completed. Please use 'await'.");
             }
         }
 
 
         public bool IsCompleted
         {
-            [DebuggerHidden]
-            get
-            {
-                return state != AwaiterStatus.Pending;
-            }
-        } 
+            [DebuggerHidden] get { return state != AwaiterStatus.Pending; }
+        }
 
         [DebuggerHidden]
         public void UnsafeOnCompleted(Action action)
@@ -294,7 +290,7 @@ namespace XFramework
             this.callback = null;
             c?.Invoke();
         }
-        
+
         [DebuggerHidden]
         public void SetException(Exception e)
         {

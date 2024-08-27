@@ -8,6 +8,11 @@ namespace UnityEngine.UI
     [DisallowMultipleComponent]
     public class LoopVerticalScrollRect : LoopScrollRect
     {
+        protected LoopVerticalScrollRect()
+        {
+            direction = LoopScrollRectDirection.Vertical;
+        }
+
         protected override float GetSize(RectTransform item, bool includeSpacing)
         {
             float size = includeSpacing ? contentSpacing : 0;
@@ -17,7 +22,7 @@ namespace UnityEngine.UI
             }
             else
             {
-                size += item.rect.height;    // LayoutUtility.GetPreferredHeight(item);  这个方法不准确，原因未知
+                size += LoopScrollSizeUtils.GetPreferredHeight(item);
             }
             size *= m_Content.localScale.y;
             return size;
@@ -40,7 +45,6 @@ namespace UnityEngine.UI
 
         protected override void Awake()
         {
-            direction = LoopScrollRectDirection.Vertical;
             base.Awake();
             if (m_Content)
             {
@@ -115,6 +119,30 @@ namespace UnityEngine.UI
 
                 changed = true;
             }
+            // issue #149: new item before delete
+            if (viewBounds.min.y < contentBounds.min.y + m_ContentBottomPadding)
+            {
+                float size = NewItemAtEnd(), totalSize = size;
+                while (size > 0 && viewBounds.min.y < contentBounds.min.y + m_ContentBottomPadding - totalSize)
+                {
+                    size = NewItemAtEnd();
+                    totalSize += size;
+                }
+                if (totalSize > 0)
+                    changed = true;
+            }
+
+            if (viewBounds.max.y > contentBounds.max.y - m_ContentTopPadding)
+            {
+                float size = NewItemAtStart(), totalSize = size;
+                while (size > 0 && viewBounds.max.y > contentBounds.max.y - m_ContentTopPadding + totalSize)
+                {
+                    size = NewItemAtStart();
+                    totalSize += size;
+                }
+                if (totalSize > 0)
+                    changed = true;
+            }
 
             if (viewBounds.min.y > contentBounds.min.y + threshold + m_ContentBottomPadding)
             {
@@ -134,30 +162,6 @@ namespace UnityEngine.UI
                 while (size > 0 && viewBounds.max.y < contentBounds.max.y - threshold - m_ContentTopPadding - totalSize)
                 {
                     size = DeleteItemAtStart();
-                    totalSize += size;
-                }
-                if (totalSize > 0)
-                    changed = true;
-            }
-
-            if (viewBounds.min.y < contentBounds.min.y + m_ContentBottomPadding)
-            {
-                float size = NewItemAtEnd(), totalSize = size;
-                while (size > 0 && viewBounds.min.y < contentBounds.min.y + m_ContentBottomPadding - totalSize)
-                {
-                    size = NewItemAtEnd();
-                    totalSize += size;
-                }
-                if (totalSize > 0)
-                    changed = true;
-            }
-
-            if (viewBounds.max.y > contentBounds.max.y - m_ContentTopPadding)
-            {
-                float size = NewItemAtStart(), totalSize = size;
-                while (size > 0 && viewBounds.max.y > contentBounds.max.y - m_ContentTopPadding + totalSize)
-                {
-                    size = NewItemAtStart();
                     totalSize += size;
                 }
                 if (totalSize > 0)

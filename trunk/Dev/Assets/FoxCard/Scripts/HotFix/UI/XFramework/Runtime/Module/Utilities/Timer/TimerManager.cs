@@ -31,7 +31,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÒÆ³ıÒ»¸ö¶¨Ê±ÈÎÎñ
+        /// ç§»é™¤ä¸€ä¸ªå®šæ—¶ä»»åŠ¡
         /// </summary>
         /// <param name="timerId"></param>
         public void RemoveTimerId(ref long timerId)
@@ -40,9 +40,9 @@ namespace XFramework
         }
 
         /// <summary>
-        /// µÈ´ıÒ»¶¨Ê±¼ä
+        /// ç­‰å¾…ä¸€å®šæ—¶é—´
         /// </summary>
-        /// <param name="waitTime">µÈ´ıÊ±¼ä£¨ºÁÃë£©</param>
+        /// <param name="waitTime">ç­‰å¾…æ—¶é—´ï¼ˆæ¯«ç§’ï¼‰</param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
         public async XFTask<bool> WaitAsync(long waitTime, XCancellationToken cancellationToken = null)
@@ -51,7 +51,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// µÈ´ıÒ»Ö¡
+        /// ç­‰å¾…ä¸€å¸§
         /// </summary>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
@@ -61,10 +61,10 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ÑÓ³ÙÒ»¶¨Ê±¼äºóÖ´ĞĞ»Øµ÷
+        /// å»¶è¿Ÿä¸€å®šæ—¶é—´åæ‰§è¡Œå›è°ƒ
         /// </summary>
-        /// <param name="delayTime">ÑÓ³ÙÊ±¼ä£¨ºÁÃë£©</param>
-        /// <param name="action">»Øµ÷</param>
+        /// <param name="delayTime">å»¶è¿Ÿæ—¶é—´ï¼ˆæ¯«ç§’ï¼‰</param>
+        /// <param name="action">å›è°ƒ</param>
         /// <returns></returns>
         public long StartOnceTimer(long delayTime, Action action)
         {
@@ -72,10 +72,10 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ¿ªÆôÒ»¸öÖØ¸´Ö´ĞĞµÄÈÎÎñ
+        /// å¼€å¯ä¸€ä¸ªé‡å¤æ‰§è¡Œçš„ä»»åŠ¡
         /// </summary>
-        /// <param name="repeatTime">ÖØ¸´Ö´ĞĞµÄÊ±¼ä£¨ºÁÃë£©</param>
-        /// <param name="action">»Øµ÷</param>
+        /// <param name="repeatTime">é‡å¤æ‰§è¡Œçš„æ—¶é—´ï¼ˆæ¯«ç§’ï¼‰</param>
+        /// <param name="action">å›è°ƒ</param>
         /// <returns></returns>
         public long StartRepeatedTimer(long repeatTime, Action action)
         {
@@ -83,7 +83,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ã¿Ö¡Ö´ĞĞµÄÈÎÎñ
+        /// æ¯å¸§æ‰§è¡Œçš„ä»»åŠ¡
         /// </summary>
         /// <param name="action"></param>
         /// <returns></returns>
@@ -93,9 +93,9 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ö±µ½Ê±¼ä´ïµ½tillTimeÊ±Ö´ĞĞaction£¬Ò»°ãÓÃÓÚ²»ÒªÇóÂß¼­Á¬¹áµÄµØ·½
+        /// ç›´åˆ°æ—¶é—´è¾¾åˆ°tillTimeæ—¶æ‰§è¡Œactionï¼Œä¸€èˆ¬ç”¨äºä¸è¦æ±‚é€»è¾‘è¿è´¯çš„åœ°æ–¹
         /// </summary>
-        /// <param name="tillTime">Ö±µ½Ê±¼ä£¬ºÁÃë¼¶</param>
+        /// <param name="tillTime">ç›´åˆ°æ—¶é—´ï¼Œæ¯«ç§’çº§</param>
         /// <param name="action"></param>
         /// <returns></returns>
         public long WaitTill(long tillTime, Action action)
@@ -104,7 +104,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// Ö±µ½Ê±¼ä´ïµ½tillTimeÊ±·µ»Øtrue
+        /// ç›´åˆ°æ—¶é—´è¾¾åˆ°tillTimeæ—¶è¿”å›true
         /// </summary>
         /// <param name="tillTime"></param>
         /// <param name="cancellationToken"></param>

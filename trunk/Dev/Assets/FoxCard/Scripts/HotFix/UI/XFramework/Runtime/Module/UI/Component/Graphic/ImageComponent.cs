@@ -98,9 +98,9 @@ namespace XFramework
             self.SetOverrideSprite(sprite, setNativeSize);
         }
 
-        public async static void SetSprite(this Image self, XObject parent, string key, bool setNativeSize)
+        public static void SetSprite(this Image self, XObject parent, string key, bool setNativeSize)
         {
-            Sprite sprite = await ResourcesManager.LoadAssetAsync<Sprite>(parent, key);
+            Sprite sprite = ResourcesManager.LoadAsset<Sprite>(parent, key);
             if (sprite == null)
                 return;
 

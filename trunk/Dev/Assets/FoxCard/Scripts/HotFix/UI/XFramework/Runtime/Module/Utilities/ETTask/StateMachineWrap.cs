@@ -9,8 +9,8 @@ namespace XFramework
         Action MoveNext { get; }
         void Recycle();
     }
-    
-    public class StateMachineWrap<T>: IStateMachineWrap where T: IAsyncStateMachine
+
+    public class StateMachineWrap<T> : IStateMachineWrap where T : IAsyncStateMachine
     {
         private static readonly ConcurrentQueue<StateMachineWrap<T>> queue = new();
 
@@ -20,16 +20,18 @@ namespace XFramework
             {
                 stateMachineWrap = new StateMachineWrap<T>();
             }
+
             stateMachineWrap.StateMachine = stateMachine;
             return stateMachineWrap;
         }
-        
+
         public void Recycle()
         {
             if (queue.Count > 1000)
             {
                 return;
             }
+
             queue.Enqueue(this);
         }
 
@@ -37,10 +39,7 @@ namespace XFramework
 
         public Action MoveNext
         {
-            get
-            {
-                return this.moveNext;
-            }
+            get { return this.moveNext; }
         }
 
         private T StateMachine;

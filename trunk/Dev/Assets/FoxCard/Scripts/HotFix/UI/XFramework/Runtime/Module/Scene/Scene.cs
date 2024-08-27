@@ -6,14 +6,14 @@ namespace XFramework
     public class Scene : XObject, IUpdate, ILateUpdate, IFixedUpdate
     {
         /// <summary>
-        /// 鍦烘櫙鍚嶇О
+        /// 场景名称
         /// </summary>
         public string Name { get; protected set; }
 
         protected SceneObject sceneObject;
 
         /// <summary>
-        /// 鍦烘櫙鏄惁鍔犺浇瀹屾垚
+        /// 场景是否加载完成
         /// </summary>
         protected bool isCompleted;
 
@@ -67,7 +67,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// 绛夊緟鍦烘櫙鍔犺浇瀹屾瘯
+        /// 等待场景加载完毕
         /// </summary>
         /// <returns></returns>
         protected virtual async UniTask WaitForCompleted()
@@ -82,7 +82,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// 褰撳満鏅姞杞藉畬鎴愭椂鎵ц
+        /// 当场景加载完成时执行
         /// </summary>
         protected virtual void OnCompleted()
         {

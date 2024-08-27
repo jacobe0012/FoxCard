@@ -21,46 +21,39 @@ namespace XFramework
         /// <summary>
         /// 是否已经初始化过了
         /// </summary>
-        [JsonIgnore]
-        private bool isAwake = false;
+        [JsonIgnore] private bool isAwake = false;
 
         /// <summary>
         /// 是否来自对象池
         /// </summary>
-        [JsonIgnore]
-        private bool isFromPool = false;
+        [JsonIgnore] private bool isFromPool = false;
 
         /// <summary>
         /// 是否设置过池子
         /// </summary>
-        [JsonIgnore]
-        private bool setFromPool = false;
+        [JsonIgnore] private bool setFromPool = false;
 
         /// <summary>
         /// 之前的标记Id
         /// </summary>
-        [JsonIgnore]
-        private long beforeTagId = 0;
+        [JsonIgnore] private long beforeTagId = 0;
 
         /// <summary>
         /// 即将释放时
         /// </summary>
-        [JsonIgnore]
-        private Action _onDisposed;
+        [JsonIgnore] private Action _onDisposed;
 
         protected XObject()
         {
-
         }
 
         protected virtual void OnStart()
         {
-            AddEvent();    //这句话写在这的原因是不强求预先注册事件
+            AddEvent(); //这句话写在这的原因是不强求预先注册事件
         }
 
         protected virtual void OnDestroy()
         {
-
         }
 
         internal void Awake()
@@ -89,7 +82,7 @@ namespace XFramework
                 EventManager.Instance?.RemoveTarget(this);
 
             var cb = _onDisposed;
-            ClearOnDisposed();  //先移除，再执行cb
+            ClearOnDisposed(); //先移除，再执行cb
             try
             {
                 cb?.Invoke();

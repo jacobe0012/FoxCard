@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace XFramework
@@ -87,9 +82,9 @@ namespace XFramework
             self.material = material;
         }
 
-        public async static void SetMaterial(this Graphic self, XObject parent, string key)
+        public static void SetMaterial(this Graphic self, XObject parent, string key)
         {
-            Material material = await ResourcesManager.LoadAssetAsync<Material>(parent, key);
+            Material material = ResourcesManager.LoadAsset<Material>(parent, key);
             if (material == null)
                 return;
 
@@ -148,6 +143,13 @@ namespace XFramework
 
         public static void SetColor(this Graphic self, string hexColor)
         {
+            string trimmedString = hexColor.Trim();
+
+            if (trimmedString.Length > 0 && trimmedString[0] != '#')
+            {
+                hexColor = $"#{hexColor}";
+            }
+
             if (ColorUtility.TryParseHtmlString(hexColor, out var color))
             {
                 self.SetColor(color);

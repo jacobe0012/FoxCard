@@ -1,7 +1,6 @@
 using System;
 using System.Threading;
 using Cysharp.Threading.Tasks;
-using HotFix_UI;
 using UnityEngine;
 using Object = UnityEngine.Object;
 
@@ -290,13 +289,13 @@ namespace XFramework
             {
                 obj = Instance.GetGameObjectFromPool(refDetection, parent, key, parentObj, position, rotation);
 
-                //Log.Error($"isFromPool{obj?.name}");
+                //Log.Error($"isFromPool{obj?.name} {parentObj.name}");
             }
 
             if (!obj)
             {
                 obj = await Instance.Loader.InstantiateAsync(key, parentObj, position, rotation, cct);
-                //Log.Error($"!obj{obj.name}");
+                //Log.Error($"!obj{obj.name} {parentObj.name}");
             }
 
 
@@ -307,6 +306,7 @@ namespace XFramework
             }
 
             refDetection.AddInstantiate(parent, obj, key, isFromPool);
+
             return obj;
         }
 
@@ -375,16 +375,17 @@ namespace XFramework
             {
                 obj = refDetection.FetchInvalidObject(parent, key, true);
                 //refDetection.DisposeInvalidObjects(key);
-                //Log.Error($"!obj{obj?.name}");
+                //Log.Error($"!obj{obj?.name} {parentObj.name}");
             }
 
             if (obj)
             {
                 Transform trans = obj.transform;
-                trans.SetParent(parentObj, false);
-                trans.SetPositionAndRotation(position, rotation);
+                obj.transform.SetParent(parentObj, false);
+                obj.transform.SetPositionAndRotation(position, rotation);
                 //TODO:格伦新增
                 GameObjectPool.Instance.SetOriginalRect(key, obj);
+                //Log.Error($"!:格伦新增{obj?.name} {parentObj.name}");
             }
 
             return obj;

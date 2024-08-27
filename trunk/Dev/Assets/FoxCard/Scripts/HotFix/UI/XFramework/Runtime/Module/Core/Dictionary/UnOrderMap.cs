@@ -1,8 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XFramework
 {
@@ -26,6 +22,7 @@ namespace XFramework
                 dict = new Dictionary<TKey2, TValue>();
                 base.Add(key1, dict);
             }
+
             if (!dict.ContainsKey(key2))
             {
                 dict.Add(key2, value);

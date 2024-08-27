@@ -33,7 +33,7 @@ namespace XFramework
         Cancel = EventTriggerType.Cancel
     }
 
-    public class XEventTrigger : EventTrigger       
+    public class XEventTrigger : EventTrigger
     {
         private Dictionary<int, object> m_Delegates = new Dictionary<int, object>();
 
@@ -47,10 +47,12 @@ namespace XFramework
                 entry = new Entry { eventID = triggerType };
                 m_Entrys.Add(triggerType, entry);
             }
+
             if (!triggers.Contains(entry))
             {
                 triggers.Add(entry);
             }
+
             entry.callback.AddListener(action);
         }
 

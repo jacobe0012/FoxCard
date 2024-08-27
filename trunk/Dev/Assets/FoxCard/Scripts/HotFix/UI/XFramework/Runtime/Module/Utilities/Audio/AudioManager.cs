@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
+//using FMODUnity;
 using UnityEngine;
-using YooAsset;
 
 namespace XFramework
 {
@@ -68,7 +64,7 @@ namespace XFramework
             "SoundEffects.strings.bank",
         };
 
-        protected override void Init()
+        async protected override void Init()
         {
             base.Init();
 
@@ -104,49 +100,49 @@ namespace XFramework
             //LoadAudio().Forget();
         }
 
-        async UniTaskVoid LoadAudio()
-        {
-            foreach (var bank in banks)
-            {
-                var textAsset = await ResourcesManager.LoadAssetAsync<TextAsset>(bank);
-                //RuntimeManager.LoadBank(textAsset, false);
-            }
-
-            // RuntimeManager.
-
-            // if (RuntimeManager.HasBankLoaded("BGM"))
-            // {
-            // RuntimeManager.StudioSystem.getBankList(out var banks);
-            // foreach (var VARIABLE in banks)
-            // {
-            //     if (VARIABLE.isValid())
-            //     {
-            //         VARIABLE.getPath(out var path);
-            //         Log.Error($"{path}");
-            //     }
-            // }
-            // }
-
-            //RuntimeManager.AnyBankLoading()
-            //Master.
-            //RuntimeManager.ge
-            // if (!RuntimeManager.IsInitialized)
-            // {
-            //     Log.Error($"!IsInitialized");
-            //     return;
-            // }
-
-            // List<string> clipsList = new List<string>();
-            // //clipsList.Add("NormalCollideSound");
-            // clipsList.Add("PickGemSound");
-            // RuntimeManager.GetEventDescription("event:/PickGemSound");
-            //
-            //
-            // foreach (var VARIABLE in clipsList)
-            // {
-            //     var newstr = $"event:/{VARIABLE}";
-            // }
-        }
+        // async UniTaskVoid LoadAudio()
+        // {
+        //     foreach (var bank in banks)
+        //     {
+        //         var textAsset = await ResourcesManager.LoadAssetAsync<TextAsset>(bank);
+        //         RuntimeManager.LoadBank(textAsset, false);
+        //     }
+        //
+        //     // RuntimeManager.
+        //
+        //     // if (RuntimeManager.HasBankLoaded("BGM"))
+        //     // {
+        //     // RuntimeManager.StudioSystem.getBankList(out var banks);
+        //     // foreach (var VARIABLE in banks)
+        //     // {
+        //     //     if (VARIABLE.isValid())
+        //     //     {
+        //     //         VARIABLE.getPath(out var path);
+        //     //         Log.Error($"{path}");
+        //     //     }
+        //     // }
+        //     // }
+        //
+        //     //RuntimeManager.AnyBankLoading()
+        //     //Master.
+        //     //RuntimeManager.ge
+        //     // if (!RuntimeManager.IsInitialized)
+        //     // {
+        //     //     Log.Error($"!IsInitialized");
+        //     //     return;
+        //     // }
+        //
+        //     // List<string> clipsList = new List<string>();
+        //     // //clipsList.Add("NormalCollideSound");
+        //     // clipsList.Add("PickGemSound");
+        //     // RuntimeManager.GetEventDescription("event:/PickGemSound");
+        //     //
+        //     //
+        //     // foreach (var VARIABLE in clipsList)
+        //     // {
+        //     //     var newstr = $"event:/{VARIABLE}";
+        //     // }
+        // }
 
         protected override void Destroy()
         {
@@ -329,16 +325,16 @@ namespace XFramework
         /// 设置bgm静音
         /// </summary>
         /// <param name="mute"></param>
-        public void SetBgmMute(bool mute)
-        {
-            //RuntimeManager.StudioSystem.getBus("bus:/BGM", out var bus);
-
-
-            //bus.setMute(mute);
-
-
-            //this.SetMute(AudioType.BGM, mute);
-        }
+        // public void SetBgmMuteNew(bool mute)
+        // {
+        //     RuntimeManager.StudioSystem.getBus("bus:/BGM", out var bus);
+        //
+        //
+        //     bus.setMute(mute);
+        //
+        //
+        //     //this.SetMute(AudioType.BGM, mute);
+        // }
 
         /// <summary>
         /// 设置bgm循环播放
@@ -362,14 +358,14 @@ namespace XFramework
         /// 设置sfx静音
         /// </summary>
         /// <param name="mute"></param>
-        public void SetSFXMute(bool mute)
-        {
-            //RuntimeManager.StudioSystem.getBus("bus:/SoundEffects", out var bus);
-
-
-            //bus.setMute(mute);
-            //this.SetMute(AudioType.SFX, mute);
-        }
+        // public void SetSFXMuteNew(bool mute)
+        // {
+        //     RuntimeManager.StudioSystem.getBus("bus:/SoundEffects", out var bus);
+        //
+        //
+        //     bus.setMute(mute);
+        //     //this.SetMute(AudioType.SFX, mute);
+        // }
 
         /// <summary>
         /// 设置sfx循环播放
@@ -387,7 +383,7 @@ namespace XFramework
         /// <param name="audioType"></param>
         /// <param name="audioKey"></param>
         /// <param name="ignoreIfPlaying">如果正在播放音频，则忽略这一次播放</param>
-        public async void PlayAudio(AudioType audioType, string audioKey, bool ignoreIfPlaying)
+        public void PlayAudio(AudioType audioType, string audioKey, bool ignoreIfPlaying)
         {
             if (TryGetAudioSource(audioType, out var source))
             {
@@ -411,7 +407,7 @@ namespace XFramework
                     }
                 }
 
-                source.clip = await ResourcesManager.LoadAssetAsync<AudioClip>(this, audioKey);
+                source.clip = ResourcesManager.LoadAsset<AudioClip>(this, audioKey);
                 source.Play();
                 dictClipKeys[audioType] = audioKey;
             }
@@ -442,15 +438,6 @@ namespace XFramework
         /// </summary>
         /// <param name="audioKey"></param>
         /// <param name="ignoreIfPlaying">如果正在播放音频，则忽略这一次播放</param>
-        public void PlayFModAudio(string audioKey)
-        {
-            //var audio = RuntimeManager.GetEventDescription($"event:/{audioKey}");
-
-            //audio.createInstance(out var instance);
-
-            //instance.start();
-            //instance.release();
-        }
 
         /// <summary>
         /// 播放BGM

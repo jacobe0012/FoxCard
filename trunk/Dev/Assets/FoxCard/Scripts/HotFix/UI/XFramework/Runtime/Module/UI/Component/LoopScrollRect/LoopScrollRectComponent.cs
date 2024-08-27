@@ -7,7 +7,8 @@ using UnityEngine.UI;
 namespace XFramework
 {
     [UIComponentFlag]
-    public abstract class LoopScrollRectComponent : UIBehaviourComponent<LoopScrollRect>, ILoopScrollRectPrefabKey, LoopScrollDataSource, LoopScrollPrefabSource
+    public abstract class LoopScrollRectComponent : UIBehaviourComponent<LoopScrollRect>, ILoopScrollRectPrefabKey,
+        LoopScrollDataSource, LoopScrollPrefabSource
     {
         private string key;
 
@@ -18,6 +19,7 @@ namespace XFramework
         public UIListComponent List { get; private set; }
 
         public UnityEvent<Vector2> OnValueChanged => this.Get().onValueChanged;
+
 
         protected override void EndInitialize()
         {
@@ -83,9 +85,9 @@ namespace XFramework
             this.Get().totalCount = totalCount;
         }
 
-        public void RefillCells(int startItem = 0, bool fillViewRect = false, float contentOffset = 0)
+        public void RefillCells(int startItem = 0, float contentOffset = 0)
         {
-            this.Get().RefillCells(startItem, fillViewRect, contentOffset);
+            this.Get().RefillCells(startItem, contentOffset);
         }
 
         public void RefillCellsFromEnd(int endItem = 0, bool alignStart = false)
@@ -180,7 +182,7 @@ namespace XFramework
             this.RemoveChild(instanceId);
 
             string name = instanceId.ToString();
-            T child = UI.Create<T>(name, obj, true);        //这里创建之后并没有执行Awake，如果有需要可以在接收方法里自己调用Awake
+            T child = UI.Create<T>(name, obj, true); //这里创建之后并没有执行Awake，如果有需要可以在接收方法里自己调用Awake
             //this.Parent.AddChild(child);
             var list = this.List;
             list.AddChild(child, false);
@@ -200,7 +202,8 @@ namespace XFramework
 
     public static class LoopScrollRectExtensions
     {
-        public static LoopScrollRectComponent<T> GetLoopScrollRect<T>(this ILoopScrollRectProvide<T> self) where T : UI, new()
+        public static LoopScrollRectComponent<T> GetLoopScrollRect<T>(this ILoopScrollRectProvide<T> self)
+            where T : UI, new()
         {
             if (!(self is UI ui))
                 return null;
@@ -208,7 +211,8 @@ namespace XFramework
             return self.GetLoopScrollRect(ui);
         }
 
-        public static LoopScrollRectComponent<T> GetLoopScrollRect<T>(this ILoopScrollRectProvide<T> self, UI ui) where T : UI, new()
+        public static LoopScrollRectComponent<T> GetLoopScrollRect<T>(this ILoopScrollRectProvide<T> self, UI ui)
+            where T : UI, new()
         {
             var comp = ui.GetLoopScrollRect<T>();
             return comp;

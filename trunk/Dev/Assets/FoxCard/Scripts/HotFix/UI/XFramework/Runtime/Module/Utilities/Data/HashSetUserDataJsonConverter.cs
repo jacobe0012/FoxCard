@@ -1,8 +1,8 @@
-﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Reflection;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace XFramework
 {
@@ -16,7 +16,8 @@ namespace XFramework
             return true;
         }
 
-        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
+        public override object ReadJson(JsonReader reader, Type objectType, object existingValue,
+            JsonSerializer serializer)
         {
             var jArray = JArray.Load(reader);
             HashSet<UserData> list = new HashSet<UserData>();
@@ -30,6 +31,7 @@ namespace XFramework
                 var value = property.ToObject(type);
                 list.Add((UserData)value);
             }
+
             return list;
         }
 

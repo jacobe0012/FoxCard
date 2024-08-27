@@ -1,6 +1,9 @@
-﻿
+﻿using cfg;
+using Cysharp.Threading.Tasks;
 using HotFix_UI;
-
+using SimpleJSON;
+using UnityEngine;
+using YooAsset;
 
 namespace XFramework
 {
@@ -16,14 +19,13 @@ namespace XFramework
             TimeInfo.Instance.Dispose();
             ResourcesManager.Instance.Dispose();
             SceneResManager.Instance.Dispose();
-            // ConfigManager.Instance.Dispose();
-            // WebMessageHandler.Instance.Dispose();
-            // NetWorkManager.Instance.Dispose();
-          
-            //RedPointMgr.instance.Dispose();
+            ConfigManager.Instance.Dispose();
+            WebMessageHandler.Instance.Dispose();
+            NetWorkManager.Instance.Dispose();
             ResourcesSingleton.Instance.Dispose();
+            RedPointMgr.instance.Dispose();
             JsonManager.Instance.Dispose();
-            PlayerSingleton.Instance.Dispose();
+            RedDotManager.Instance.Dispose();
         }
 
         public virtual void Update()
@@ -43,10 +45,10 @@ namespace XFramework
 
         public virtual void Start()
         {
-            Init();
+            //Init();
         }
 
-        protected void Init()
+        protected async void Init()
         {
             ResourcesManager.Instance.SetLoader(new YooResourcesLoader()); // 资源管理，设置加载方式
             SceneResManager.Instance.SetLoader(new YooSceneLoader()); // 场景资源管理，设置加载方式
@@ -66,15 +68,17 @@ namespace XFramework
             ObjectFactory.Create<TimerManager>(); // 定时器
             ObjectFactory.Create<AudioManager>(); // 音频管理
             ObjectFactory.Create<MiniTweenManager>(); // 补间动画
-            ObjectFactory.Create<LanguageManager>(); // 多语言
+            //ObjectFactory.Create<LanguageManager>(); // 多语言
             ObjectFactory.Create<UIEventManager>(); // UIEvent集合
             ObjectFactory.Create<UIManager>(); // UI管理
             ObjectFactory.Create<SceneController>(); // 场景控制
-            //ObjectFactory.Create<UserDataManager>(); // 本地存档管理
+            ObjectFactory.Create<UserDataManager>(); // 本地存档管理
             //ObjectFactory.Create<RedDotManager>(); // 红点管理
+
+            NetWorkManager.Instance.Init();
             ResourcesSingleton.Instance.Init();
-            PlayerSingleton.Instance.Init();
             JsonManager.Instance.Init();
+            RedDotManager.Instance.Init();
         }
     }
 }

@@ -240,6 +240,21 @@ namespace XFramework
         }
 
         /// <summary>
+        /// 异步创建一个受UIManager管理的UI，通常是作为独立UI，带一个初始化参数，如果需要更多的参数，可以自行扩展或者使用struct
+        /// </summary>
+        /// <typeparam name="P1"></typeparam>
+        /// <param name="uiType"></param>
+        /// <param name="p1"></param>
+        /// <param name="layer"></param>
+        /// <returns></returns>
+        public static async UniTask<UI> CreateAsync<P1, P2>(string uiType, P1 p1, P2 p2, UILayer layer,
+            CancellationToken cct = default)
+        {
+            UI ui = await TryGetUIManager().CreateAsync(uiType, p1, p2, layer, cct);
+            return ui;
+        }
+
+        /// <summary>
         /// 异步创建一个受UIManager管理的UI，通常是作为独立UI
         /// <para>层级为默认配置层级</para>
         /// </summary>
@@ -267,6 +282,44 @@ namespace XFramework
             return ui;
         }
 
+        /// <summary>
+        /// 异步创建一个受UIManager管理的UI，通常是作为独立UI，带一个初始化参数，如果需要更多的参数，可以自行扩展或者使用struct
+        /// <para>层级为默认配置层级</para>
+        /// </summary>
+        /// <typeparam name="P1"></typeparam>
+        /// <param name="uiType"></param>
+        /// <param name="p1"></param>
+        /// <returns></returns>
+        public static async UniTask<UI> CreateAsync<P1, P2>(string uiType, P1 p1, P2 p2,
+            CancellationToken cct = default)
+        {
+            UI ui = await TryGetUIManager().CreateAsync(uiType, p1, p2, cct);
+            return ui;
+        }
+
+        #endregion
+
+        #region CreateOverLayTips
+
+        ///生成overlay层上面的tips类型UI
+        /// <summary>
+        /// 异步创建一个不受UIManager管理的UI，通常是作为某UI的子UI，带一个初始化参数，如果需要更多的参数，可以自行扩展或者使用struct
+        /// </summary>
+        /// <typeparam name="P1"></typeparam>
+        /// <param name="source"></param>
+        /// <param name="uiType"></param>
+        /// <param name="p1"></param>
+        /// <param name="parentObj"></param>
+        /// <returns></returns>
+        public static async UniTask<UI> CreateOverLayTipsAsync<P1>(XObject source, string uiType, P1 p1,
+            CancellationToken cct = default)
+        {
+            var overLayer = UIHelper.TryGetUIManager().GetUILayer(UILayer.Overlay);
+
+            var ui = await UIHelper.CreateAsync(source, uiType, p1, overLayer);
+            return ui;
+        }
+
         #endregion
 
         public static void Remove(string uiType)
@@ -286,6 +339,18 @@ namespace XFramework
             return uiManager;
         }
 
+        public static UIEventManager TryGetUIEventManager()
+        {
+            var uiManager = Common.Instance.Get<UIEventManager>();
+            if (uiManager == null)
+            {
+                Log.Error("UIManager is null");
+                return null;
+            }
+
+            return uiManager;
+        }
+        
         public static void Clear()
         {
             Common.Instance.Get<UIManager>()?.Clear();

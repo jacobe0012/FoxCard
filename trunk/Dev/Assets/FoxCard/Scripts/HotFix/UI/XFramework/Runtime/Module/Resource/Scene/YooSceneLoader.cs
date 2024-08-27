@@ -30,24 +30,11 @@ namespace XFramework
 
         public override object LoadScene(string key, LoadSceneMode loadSceneMode = LoadSceneMode.Single)
         {
-            Log.Error($"YooAsset缺少同步加载场景方法。");
-            // var op = Addressables.LoadSceneAsync(key, loadSceneMode);
-            // op.WaitForCompletion();
-            //
-            // if (!op.IsValid())
-            // {
-            //     Log.Error($"资源无效, key is {key}");
-            //     return null;
-            // }
-            //
-            // if (op.Status != AsyncOperationStatus.Succeeded)
-            // {
-            //     Log.Error($"场景加载失败, key is {key}");
-            //     return null;
-            // }
-            //
-            // var sceneInstance = new AASceneInstance(key, op);
-            return null;
+            var package = YooAssets.GetPackage("DefaultPackage");
+            SceneHandle op = package.LoadSceneSync(key, loadSceneMode);
+
+            var sceneInstance = new YooSceneInstance(key, op);
+            return sceneInstance;
         }
 
         public override object LoadSceneAsync(string key, LoadSceneMode loadSceneMode = LoadSceneMode.Single)

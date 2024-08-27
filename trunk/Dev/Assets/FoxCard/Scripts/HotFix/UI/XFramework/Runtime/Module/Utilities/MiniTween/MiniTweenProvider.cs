@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace XFramework
 {
-
     /// <summary>
     /// MiniTween基于什么模式驱动
     /// </summary>
@@ -16,6 +12,7 @@ namespace XFramework
         /// 持续时间
         /// </summary>
         Duration = 1,
+
         /// <summary>
         /// 速度
         /// </summary>
@@ -71,6 +68,7 @@ namespace XFramework
             {
                 tween?.Dispose();
             }
+
             this.tweenDict.Clear();
             this.allTweens.Clear();
             this.lastNow = 0;
@@ -151,6 +149,7 @@ namespace XFramework
                         Log.Error("MiniTween.To duration <= 0.");
                         return null;
                     }
+
                     break;
                 case MiniTweenMode.Speed:
                     if (arg == 0)
@@ -158,13 +157,15 @@ namespace XFramework
                         Log.Error("MiniTween.To Speed == 0.");
                         return null;
                     }
+
                     break;
                 default:
                     Log.Error($"不支持的TweenMode -> {tweenMode.ToString()}");
                     return null;
             }
 
-            MiniTween<T> tween = ObjectFactory.Create(tweenType, parent, startValue, endValue, arg, tweenMode, true) as MiniTween<T>;
+            MiniTween<T> tween =
+                ObjectFactory.Create(tweenType, parent, startValue, endValue, arg, tweenMode, true) as MiniTween<T>;
             this.Add(tween);
 
             return tween;

@@ -2,8 +2,7 @@
     "name": "LoopScrollRect.Editor",
     "rootNamespace": "",
     "references": [
-        "LoopScrollRect.Runtime",
-        "FoxCard.HotFix_UI"
+        "LoopScrollRect.Runtime"
     ],
     "includePlatforms": [
         "Editor"

@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using Cysharp.Threading.Tasks;
+using HotFix_UI;
 using UnityEngine;
 using XFramework.UIEventType;
 
@@ -347,7 +349,7 @@ namespace XFramework
             return child;
         }
 
-        private async XFTask<UI> InnerCreateWithUITypeAsync(string uiType, bool addToChildren,
+        private async UniTask<UI> InnerCreateWithUITypeAsync(string uiType, bool addToChildren,
             CancellationToken cct = default)
         {
             UI child = await UIHelper.CreateAsync(this, uiType, this.content, false, cct);
@@ -359,7 +361,19 @@ namespace XFramework
             return child;
         }
 
-        private async XFTask<T> InnerCreateWithKeyAsync<T>(string key, bool objFromPool, bool isFromPool)
+        private async UniTask<UI> InnerCreateWithUITypeAsync(string uiType, bool addToChildren, Transform parent,
+            CancellationToken cct = default)
+        {
+            UI child = await UIHelper.CreateAsync(this, uiType, parent, false, cct);
+            if (child is null)
+                return null;
+
+            this.AddChild(child, addToChildren);
+
+            return child;
+        }
+
+        private async UniTask<T> InnerCreateWithKeyAsync<T>(string key, bool objFromPool, bool isFromPool)
             where T : UI, new()
         {
             var tagId = this.TagId;
@@ -506,7 +520,47 @@ namespace XFramework
         /// <param name="uiType"></param>
         /// <param name="addToChildren">同时添加到父UI的Children里</param>
         /// <returns></returns>
-        public async XFTask<UI> CreateWithUITypeAsync(string uiType, bool addToChildren,
+        public async UniTask<UI> CreateWithUITypeAsync(string uiType, bool addToChildren, Transform parent,
+            CancellationToken cct = default)
+        {
+            UI child = await this.InnerCreateWithUITypeAsync(uiType, addToChildren, parent, cct);
+            if (child is null)
+                return null;
+
+            ObjectHelper.Awake(child);
+
+            return child;
+        }
+
+        /// <summary>
+        /// 通过UIType创建一个UI, 此UI需实现AUIEvent;
+        /// 可以接受一个初始化参数, 如果一个参数不够，可以用struct
+        /// </summary>
+        /// <typeparam name="P1"></typeparam>
+        /// <param name="uiType"></param>
+        /// <param name="arg"></param>
+        /// <param name="addToChildren">同时添加到父UI的Children里</param>
+        /// <returns></returns>
+        public async UniTask<UI> CreateWithUITypeAsync<P1>(string uiType, P1 arg, bool addToChildren, Transform parent,
+            CancellationToken cct = default)
+        {
+            UI child = await this.InnerCreateWithUITypeAsync(uiType, addToChildren, parent, cct);
+            if (child is null)
+                return null;
+
+            ObjectHelper.Awake(child, arg);
+
+            return child;
+        }
+
+
+        /// <summary>
+        /// 通过UIType创建一个UI, 此UI需实现AUIEvent
+        /// </summary>
+        /// <param name="uiType"></param>
+        /// <param name="addToChildren">同时添加到父UI的Children里</param>
+        /// <returns></returns>
+        public async UniTask<UI> CreateWithUITypeAsync(string uiType, bool addToChildren,
             CancellationToken cct = default)
         {
             UI child = await this.InnerCreateWithUITypeAsync(uiType, addToChildren, cct);
@@ -527,7 +581,7 @@ namespace XFramework
         /// <param name="arg"></param>
         /// <param name="addToChildren">同时添加到父UI的Children里</param>
         /// <returns></returns>
-        public async XFTask<UI> CreateWithUITypeAsync<P1>(string uiType, P1 arg, bool addToChildren,
+        public async UniTask<UI> CreateWithUITypeAsync<P1>(string uiType, P1 arg, bool addToChildren,
             CancellationToken cct = default)
         {
             UI child = await this.InnerCreateWithUITypeAsync(uiType, addToChildren, cct);
@@ -548,7 +602,7 @@ namespace XFramework
         /// <param name="arg"></param>
         /// <param name="addToChildren">同时添加到父UI的Children里</param>
         /// <returns></returns>
-        public async XFTask<UI> CreateWithUITypeAsync<P1, P2>(string uiType, P1 arg1, P2 arg2, bool addToChildren,
+        public async UniTask<UI> CreateWithUITypeAsync<P1, P2>(string uiType, P1 arg1, P2 arg2, bool addToChildren,
             CancellationToken cct = default)
         {
             UI child = await this.InnerCreateWithUITypeAsync(uiType, addToChildren, cct);
@@ -568,7 +622,7 @@ namespace XFramework
         /// <param name="objFromPool"></param>
         /// <param name="isFromPool"></param>
         /// <returns></returns>
-        public async XFTask<T> CreateWithKeyAsync<T>(string key, bool objFromPool = false, bool isFromPool = false)
+        public async UniTask<T> CreateWithKeyAsync<T>(string key, bool objFromPool = false, bool isFromPool = false)
             where T : UI, new()
         {
             T child = await this.InnerCreateWithKeyAsync<T>(key, objFromPool, isFromPool);
@@ -591,7 +645,7 @@ namespace XFramework
         /// <param name="objFromPool"></param>
         /// <param name="isFromPool"></param>
         /// <returns></returns>
-        public async XFTask<T> CreateWithKeyAsync<T, P1>(string key, P1 arg, bool objFromPool = false,
+        public async UniTask<T> CreateWithKeyAsync<T, P1>(string key, P1 arg, bool objFromPool = false,
             bool isFromPool = false) where T : UI, IAwake<P1>, new()
         {
             T child = await this.InnerCreateWithKeyAsync<T>(key, objFromPool, isFromPool);
@@ -610,7 +664,7 @@ namespace XFramework
         /// <param name="objFromPool"></param>
         /// <param name="isFromPool"></param>
         /// <returns></returns>
-        public async XFTask<UI> CreateWithKeyAsync(string key, bool objFromPool = false, bool isFromPool = false)
+        public async UniTask<UI> CreateWithKeyAsync(string key, bool objFromPool = false, bool isFromPool = false)
         {
             return await this.CreateWithKeyAsync<UI>(key, objFromPool, isFromPool);
         }
@@ -628,6 +682,9 @@ namespace XFramework
             {
                 this.children[i].GameObject.transform.SetSiblingIndex(i);
             }
+
+            //TODO：自加的强制重新排列
+            JiYuUIHelper.ForceRefreshLayout(this.Parent);
         }
 
         IEnumerator IEnumerable.GetEnumerator()

@@ -90,10 +90,7 @@ namespace XFramework
                 return;
 
             int archiveId = this.archiveId;
-            string json = await System.Threading.Tasks.Task.Run(() =>
-            {
-                return JsonHelper.ToJson(user);
-            });
+            string json = await System.Threading.Tasks.Task.Run(() => { return JsonHelper.ToJson(user); });
             SetString(archiveId, json);
         }
 
@@ -128,6 +125,7 @@ namespace XFramework
             {
                 timerMgr.RemoveTimerId(ref timerId);
             }
+
             timerId = timerMgr.StartRepeatedTimer(saveInterval, InnerSaveTimer);
         }
 

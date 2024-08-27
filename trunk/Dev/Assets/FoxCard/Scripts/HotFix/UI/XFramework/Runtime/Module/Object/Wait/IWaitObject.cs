@@ -67,7 +67,8 @@ namespace XFramework
         /// <param name="self"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        public static async XFTask<TResult> Wait<TResult>(this IWaitObject self, XCancellationToken cancellationToken = null) where TResult : struct, IWaitType
+        public static async XFTask<TResult> Wait<TResult>(this IWaitObject self,
+            XCancellationToken cancellationToken = null) where TResult : struct, IWaitType
         {
             self.WaitDict ??= new Dictionary<Type, object>();
             var type = typeof(TResult);
@@ -101,7 +102,8 @@ namespace XFramework
         /// <param name="timeout"></param>
         /// <param name="cancellationToken"></param>
         /// <returns></returns>
-        public static async XFTask<TResult> Wait<TResult>(this IWaitObject self, long timeout, XCancellationToken cancellationToken = null) where TResult : struct, IWaitType
+        public static async XFTask<TResult> Wait<TResult>(this IWaitObject self, long timeout,
+            XCancellationToken cancellationToken = null) where TResult : struct, IWaitType
         {
             self.WaitDict ??= new Dictionary<Type, object>();
             var type = typeof(TResult);

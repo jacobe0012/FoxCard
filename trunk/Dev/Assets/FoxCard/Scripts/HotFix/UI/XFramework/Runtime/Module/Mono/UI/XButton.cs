@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -7,6 +5,7 @@ using UnityEngine.UI;
 
 namespace XFramework
 {
+    //[AddComponentMenu("UI/XButton",90)]
     public class XButton : Button
     {
         [System.Serializable]

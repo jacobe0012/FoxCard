@@ -1,12 +1,10 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace XFramework
 {
     /// <summary>
-    /// ç±»å¯¹è±¡æ± 
+    /// Àà¶ÔÏó³Ø
     /// </summary>
     public sealed class ObjectPool : Singleton<ObjectPool>, IDisposable
     {
@@ -14,11 +12,10 @@ namespace XFramework
 
         public void Init()
         {
-
         }
 
         /// <summary>
-        /// ä»æ± å­é‡Œå–å‡ºä¸€ä¸ªå¯¹è±¡ï¼Œæ²¡æœ‰åˆ™åˆ›å»º
+        /// ´Ó³Ø×ÓÀïÈ¡³öÒ»¸ö¶ÔÏó£¬Ã»ÓĞÔò´´½¨
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
@@ -28,7 +25,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ä»æ± å­é‡Œå–å‡ºä¸€ä¸ªå¯¹è±¡ï¼Œæ²¡æœ‰åˆ™åˆ›å»º
+        /// ´Ó³Ø×ÓÀïÈ¡³öÒ»¸ö¶ÔÏó£¬Ã»ÓĞÔò´´½¨
         /// </summary>
         /// <param name="type"></param>
         /// <returns></returns>
@@ -44,7 +41,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// å›æ”¶å¯¹è±¡
+        /// »ØÊÕ¶ÔÏó
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <param name="o"></param>
@@ -71,7 +68,7 @@ namespace XFramework
 
             if (pool.TryGetValue(type, out Queue<object> queue))
             {
-                // å¤ªå¤šäº†
+                // Ì«¶àÁË
                 if (queue.Count > 1000)
                 {
                     queue.Clear();

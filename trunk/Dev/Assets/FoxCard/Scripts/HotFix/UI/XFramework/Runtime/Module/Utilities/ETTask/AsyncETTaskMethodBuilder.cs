@@ -8,7 +8,7 @@ namespace XFramework
     public struct ETAsyncTaskMethodBuilder
     {
         private IStateMachineWrap iStateMachineWrap;
-        
+
         private XFTask tcs;
 
         // 1. Static Create method.
@@ -20,8 +20,7 @@ namespace XFramework
         }
 
         // 2. TaskLike Task property.
-        [DebuggerHidden]
-        public XFTask Task => this.tcs;
+        [DebuggerHidden] public XFTask Task => this.tcs;
 
         // 3. SetException
         [DebuggerHidden]
@@ -32,6 +31,7 @@ namespace XFramework
                 this.iStateMachineWrap.Recycle();
                 this.iStateMachineWrap = null;
             }
+
             this.tcs.SetException(exception);
         }
 
@@ -44,12 +44,14 @@ namespace XFramework
                 this.iStateMachineWrap.Recycle();
                 this.iStateMachineWrap = null;
             }
+
             this.tcs.SetResult();
         }
 
         // 5. AwaitOnCompleted
         [DebuggerHidden]
-        public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
+        public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine)
+            where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
         {
             this.iStateMachineWrap ??= StateMachineWrap<TStateMachine>.Fetch(ref stateMachine);
             awaiter.OnCompleted(this.iStateMachineWrap.MoveNext);
@@ -58,7 +60,9 @@ namespace XFramework
         // 6. AwaitUnsafeOnCompleted
         [DebuggerHidden]
         [SecuritySafeCritical]
-        public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
+        public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter,
+            ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion
+            where TStateMachine : IAsyncStateMachine
         {
             this.iStateMachineWrap ??= StateMachineWrap<TStateMachine>.Fetch(ref stateMachine);
             awaiter.UnsafeOnCompleted(this.iStateMachineWrap.MoveNext);
@@ -81,7 +85,7 @@ namespace XFramework
     public struct ETAsyncTaskMethodBuilder<T>
     {
         private IStateMachineWrap iStateMachineWrap;
-        
+
         private XFTask<T> tcs;
 
         // 1. Static Create method.
@@ -93,8 +97,7 @@ namespace XFramework
         }
 
         // 2. TaskLike Task property.
-        [DebuggerHidden]
-        public XFTask<T> Task => this.tcs;
+        [DebuggerHidden] public XFTask<T> Task => this.tcs;
 
         // 3. SetException
         [DebuggerHidden]
@@ -105,6 +108,7 @@ namespace XFramework
                 this.iStateMachineWrap.Recycle();
                 this.iStateMachineWrap = null;
             }
+
             this.tcs.SetException(exception);
         }
 
@@ -117,12 +121,14 @@ namespace XFramework
                 this.iStateMachineWrap.Recycle();
                 this.iStateMachineWrap = null;
             }
+
             this.tcs.SetResult(ret);
         }
 
         // 5. AwaitOnCompleted
         [DebuggerHidden]
-        public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
+        public void AwaitOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine)
+            where TAwaiter : INotifyCompletion where TStateMachine : IAsyncStateMachine
         {
             this.iStateMachineWrap ??= StateMachineWrap<TStateMachine>.Fetch(ref stateMachine);
             awaiter.OnCompleted(this.iStateMachineWrap.MoveNext);
@@ -131,7 +137,9 @@ namespace XFramework
         // 6. AwaitUnsafeOnCompleted
         [DebuggerHidden]
         [SecuritySafeCritical]
-        public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter, ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion where TStateMachine : IAsyncStateMachine
+        public void AwaitUnsafeOnCompleted<TAwaiter, TStateMachine>(ref TAwaiter awaiter,
+            ref TStateMachine stateMachine) where TAwaiter : ICriticalNotifyCompletion
+            where TStateMachine : IAsyncStateMachine
         {
             this.iStateMachineWrap ??= StateMachineWrap<TStateMachine>.Fetch(ref stateMachine);
             awaiter.UnsafeOnCompleted(this.iStateMachineWrap.MoveNext);

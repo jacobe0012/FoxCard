@@ -1,48 +1,48 @@
-using System.Collections;
-using System.Collections.Generic;
 using System;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace XFramework
 {
     /// <summary>
-    /// ç±»å‹é›†åˆ
+    /// ÀàĞÍ¼¯ºÏ
     /// </summary>
     public sealed class TypesManager : Singleton<TypesManager>, IDisposable
     {
         /// <summary>
-        /// æ³¨å†Œè¿‡çš„ç¨‹åºé›†
+        /// ×¢²á¹ıµÄ³ÌĞò¼¯
         /// </summary>
         private Dictionary<string, Assembly> assemblies = new Dictionary<string, Assembly>();
 
         /// <summary>
-        /// å­˜å‚¨æ‰€æœ‰çš„è¢«æ ‡è®°äº†ClassBaseAttributeçš„ç±»
-        /// <para>Key : æ ‡è®°çš„Attribute</para>
-        /// <para>Value : è¢«æ ‡è®°çš„ç±»çš„Typeåˆ—è¡¨</para>
+        /// ´æ´¢ËùÓĞµÄ±»±ê¼ÇÁËClassBaseAttributeµÄÀà
+        /// <para>Key : ±ê¼ÇµÄAttribute</para>
+        /// <para>Value : ±»±ê¼ÇµÄÀàµÄTypeÁĞ±í</para>
         /// </summary>
         private UnOrderMapSet<Type, Type> allTypes = new UnOrderMapSet<Type, Type>();
 
         /// <summary>
-        /// æ‰€æœ‰ç»§æ‰¿äº†IEvent(T)æ¥å£çš„ç±»
-        /// <para>Key : ç±»çš„Type</para>
-        /// <para>Value : Tç±»å‹åˆ—è¡¨</para>
+        /// ËùÓĞ¼Ì³ĞÁËIEvent(T)½Ó¿ÚµÄÀà
+        /// <para>Key : ÀàµÄType</para>
+        /// <para>Value : TÀàĞÍÁĞ±í</para>
         /// </summary>
         private UnOrderMapSet<Type, Type> allEvents = new UnOrderMapSet<Type, Type>();
 
         /// <summary>
-        /// æ‰€æœ‰ç»§æ‰¿äº†IInternalEvent(T)æ¥å£çš„ç±»
-        /// <para>Key : ç±»çš„Type</para>
-        /// <para>Value : Tç±»å‹åˆ—è¡¨</para>
+        /// ËùÓĞ¼Ì³ĞÁËIInternalEvent(T)½Ó¿ÚµÄÀà
+        /// <para>Key : ÀàµÄType</para>
+        /// <para>Value : TÀàĞÍÁĞ±í</para>
         /// </summary>
         private UnOrderMapSet<Type, Type> allInternalEvents = new UnOrderMapSet<Type, Type>();
 
         /// <summary>
-        /// æ‰€æœ‰æ ‡è®°äº†ObjectSystemç±»
+        /// ËùÓĞ±ê¼ÇÁËObjectSystemÀà
         /// </summary>
-        private Dictionary<Type, UnOrderMapSet<Type, object>> allSystem = new Dictionary<Type, UnOrderMapSet<Type, object>>();
+        private Dictionary<Type, UnOrderMapSet<Type, object>> allSystem =
+            new Dictionary<Type, UnOrderMapSet<Type, object>>();
 
         /// <summary>
-        /// ç»§æ‰¿äº†IDestroyæ¥å£çš„æ¥å£ç±»å‹
+        /// ¼Ì³ĞÁËIDestroy½Ó¿ÚµÄ½Ó¿ÚÀàĞÍ
         /// </summary>
         private UnOrderMapSet<Type, Type> allSystem2 = new UnOrderMapSet<Type, Type>();
 
@@ -52,7 +52,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// æ·»åŠ ç¨‹åºé›†
+        /// Ìí¼Ó³ÌĞò¼¯
         /// </summary>
         /// <param name="ass"></param>
         public void Add(Assembly ass)
@@ -69,8 +69,8 @@ namespace XFramework
                     if (type.IsAbstract)
                         continue;
 
-                    //æ‰¾åˆ°æ‰€æœ‰æ ‡è®°äº†BaseAttributeç‰¹æ€§çš„ç±»ï¼ŒåŒ…æ‹¬å…¶ç»§æ‰¿çš„ç‰¹æ€§
-                    //ç„¶åå­˜åˆ°allTypeé‡Œé¢å»ï¼Œæ–¹ä¾¿åç»­è·å–æ ‡è®°ç‰¹æ€§çš„ç±»å‹
+                    //ÕÒµ½ËùÓĞ±ê¼ÇÁËBaseAttributeÌØĞÔµÄÀà£¬°üÀ¨Æä¼Ì³ĞµÄÌØĞÔ
+                    //È»ºó´æµ½allTypeÀïÃæÈ¥£¬·½±ãºóĞø»ñÈ¡±ê¼ÇÌØĞÔµÄÀàĞÍ
                     var clasAttris = type.GetCustomAttributes(typeof(BaseAttribute), true);
                     if (clasAttris.Length > 0)
                     {
@@ -86,7 +86,7 @@ namespace XFramework
                         foreach (Type interfaceType in interfaces)
                         {
                             //Log.Info(interfaceType.Name);
-                            //æ­¤å¤„æ˜¯å°†ç»§æ‰¿äº†IEvent<T>æ¥å£çš„ç±»é‡Œé¢çš„Tçš„ç±»å‹å­˜åœ¨ï¼Œæ–¹ä¾¿åç»­ä¸€æ¬¡æ€§æ³¨å†Œäº‹ä»¶
+                            //´Ë´¦ÊÇ½«¼Ì³ĞÁËIEvent<T>½Ó¿ÚµÄÀàÀïÃæµÄTµÄÀàĞÍ´æÔÚ£¬·½±ãºóĞøÒ»´ÎĞÔ×¢²áÊÂ¼ş
                             if (interfaceType.Name == "IEvent`1")
                             {
                                 Type[] genericArguments = interfaceType.GetGenericArguments();
@@ -121,7 +121,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// åˆ›å»ºç³»ç»Ÿç±»
+        /// ´´½¨ÏµÍ³Àà
         /// </summary>
         private void CreateSystem()
         {
@@ -137,6 +137,7 @@ namespace XFramework
                         dict = new UnOrderMapSet<Type, object>();
                         allSystem.Add(systemType.GetSystemType(), dict);
                     }
+
                     if (obj is IObjectType objectType)
                     {
                         dict.Add(objectType.GetObjectType(), obj);
@@ -146,7 +147,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// è·å–ç¨‹åºé›†
+        /// »ñÈ¡³ÌĞò¼¯
         /// </summary>
         /// <param name="assemblyName"></param>
         /// <returns></returns>
@@ -156,7 +157,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// è·å–ç¨‹åºé›†
+        /// »ñÈ¡³ÌĞò¼¯
         /// </summary>
         /// <param name="result"></param>
         public void GetAssemblies(ICollection<Assembly> result)
@@ -168,7 +169,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// è·å–æ ‡è®°äº†æŒ‡å®šç‰¹æ€§çš„ç±»
+        /// »ñÈ¡±ê¼ÇÁËÖ¸¶¨ÌØĞÔµÄÀà
         /// </summary>
         /// <param name="attributeType"></param>
         /// <returns></returns>
@@ -181,7 +182,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// è·å–æ‰€æœ‰ç»§æ‰¿äº†IEvent(T)å…¶ä¸­Tçš„ç±»å‹
+        /// »ñÈ¡ËùÓĞ¼Ì³ĞÁËIEvent(T)ÆäÖĞTµÄÀàĞÍ
         /// </summary>
         /// <param name="objectType"></param>
         /// <returns></returns>
@@ -194,7 +195,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// å°è¯•è·å–æ‰€æœ‰ç»§æ‰¿äº†IEvent(T)å…¶ä¸­Tçš„ç±»å‹
+        /// ³¢ÊÔ»ñÈ¡ËùÓĞ¼Ì³ĞÁËIEvent(T)ÆäÖĞTµÄÀàĞÍ
         /// </summary>
         /// <param name="objectType"></param>
         /// <param name="result"></param>
@@ -210,7 +211,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// å°è¯•è·å–æ‰€æœ‰ç»§æ‰¿äº†InternalIEvent(T)å…¶ä¸­Tçš„ç±»å‹
+        /// ³¢ÊÔ»ñÈ¡ËùÓĞ¼Ì³ĞÁËInternalIEvent(T)ÆäÖĞTµÄÀàĞÍ
         /// </summary>
         /// <param name="objectType"></param>
         /// <param name="result"></param>
@@ -226,7 +227,7 @@ namespace XFramework
         }
 
         /// <summary>
-        /// å°è¯•è·å–æŸç³»ç»Ÿåˆ—è¡¨
+        /// ³¢ÊÔ»ñÈ¡Ä³ÏµÍ³ÁĞ±í
         /// </summary>
         /// <param name="systemType"></param>
         /// <param name="result"></param>

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Drawing;
-using Color = UnityEngine.Color;
 
 namespace XFramework
 {
@@ -18,7 +16,7 @@ namespace XFramework
             where UIComponentType : UComponent, new()
             where UnityComponentType : UnityEngine.Component
         {
-            var comp = self.GetUIComponent<UIComponentType>(inherit);
+            var comp = self?.GetUIComponent<UIComponentType>(inherit);
             if (comp != null)
                 return comp;
 

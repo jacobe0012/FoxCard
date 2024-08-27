@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
 namespace XFramework
 {
@@ -45,24 +42,28 @@ namespace XFramework
             return Create(typeof(T), p1, isFromPool) as T;
         }
 
-        public static T Create<T, P1, P2>(P1 p1, P2 p2, bool isFromPool = false) where T : XObject, IAwake<P1, P2>, new()
+        public static T Create<T, P1, P2>(P1 p1, P2 p2, bool isFromPool = false)
+            where T : XObject, IAwake<P1, P2>, new()
         {
             return Create(typeof(T), p1, p2, isFromPool) as T;
         }
 
-        public static T Create<T, P1, P2, P3>(P1 p1, P2 p2, P3 p3, bool isFromPool = false) where T : XObject, IAwake<P1, P2, P3>, new()
+        public static T Create<T, P1, P2, P3>(P1 p1, P2 p2, P3 p3, bool isFromPool = false)
+            where T : XObject, IAwake<P1, P2, P3>, new()
         {
             return Create(typeof(T), p1, p2, p3, isFromPool) as T;
         }
 
-        public static T Create<T, P1, P2, P3, P4>(P1 p1, P2 p2, P3 p3, P4 p4, bool isFromPool = false) where T : XObject, IAwake<P1, P2, P3, P4>, new()
+        public static T Create<T, P1, P2, P3, P4>(P1 p1, P2 p2, P3 p3, P4 p4, bool isFromPool = false)
+            where T : XObject, IAwake<P1, P2, P3, P4>, new()
         {
             return Create(typeof(T), p1, p2, p3, p4, isFromPool) as T;
         }
 
-        public static T Create<T, P1, P2, P3, P4, P5>(P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, bool isFromPool = false) where T : XObject, IAwake<P1, P2, P3, P4, P5>, new()
+        public static T Create<T, P1, P2, P3, P4, P5>(P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, bool isFromPool = false)
+            where T : XObject, IAwake<P1, P2, P3, P4, P5>, new()
         {
-            return Create(typeof(T),p1, p2, p3, p4 ,p5,isFromPool) as T;
+            return Create(typeof(T), p1, p2, p3, p4, p5, isFromPool) as T;
         }
 
         public static XObject CreateNoInit(Type type, bool isFromPool = false)
@@ -147,7 +148,8 @@ namespace XFramework
             return obj;
         }
 
-        public static XObject Create<P1, P2, P3, P4, P5>(Type type, P1 p1, P2 p2, P3 p3, P4 p4, P5 p5, bool isFromPool = false)
+        public static XObject Create<P1, P2, P3, P4, P5>(Type type, P1 p1, P2 p2, P3 p3, P4 p4, P5 p5,
+            bool isFromPool = false)
         {
             var obj = Get(type, isFromPool);
 

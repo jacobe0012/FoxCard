@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace XFramework.UIEventType
+﻿namespace XFramework.UIEventType
 {
     /// <summary>
     /// 当子对象的索引改变

@@ -4,8 +4,8 @@ using System.Runtime.CompilerServices;
 
 namespace XFramework
 {
-    [AsyncMethodBuilder(typeof (AsyncETTaskCompletedMethodBuilder))]
-    public struct XFTaskCompleted: ICriticalNotifyCompletion
+    [AsyncMethodBuilder(typeof(AsyncETTaskCompletedMethodBuilder))]
+    public struct XFTaskCompleted : ICriticalNotifyCompletion
     {
         [DebuggerHidden]
         public XFTaskCompleted GetAwaiter()
@@ -13,8 +13,7 @@ namespace XFramework
             return this;
         }
 
-        [DebuggerHidden]
-        public bool IsCompleted => true;
+        [DebuggerHidden] public bool IsCompleted => true;
 
         [DebuggerHidden]
         public void GetResult()
