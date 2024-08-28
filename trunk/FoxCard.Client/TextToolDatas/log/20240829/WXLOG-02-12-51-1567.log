@@ -1,0 +1,94 @@
+﻿<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:51:8816</timestamp>
+  <msgtype>MsgWXLogLaunch</msgtype>
+  <content>[The WXLogger is launched!]</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Application.Options.OptionsConfig..ctor; File:.0
+[CALL STACK][1]: Method:WXTextureTools.Application.App..ctor; File:.0
+[CALL STACK][2]: Method:WXTextureTools.Program.Main; File:.0
+</stackFrames>
+</wxlog>
+<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:51:9547</timestamp>
+  <msgtype>MsgMixture</msgtype>
+  <content>string|String[]
+OptionsConfig,-option=fbDecompress
+-classDataPath=D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets\WX-WASM-SDK-V2\Editor/TextureEditor/classdata.tpk
+-dataDir=D:/GitProjects/FoxCard/trunk/FoxCard.Client/TextToolDatas
+-sourcePath=D:/GitProjects/FoxCard/trunk/FoxCard.Client/TextToolDatas\slim\backup.txt
+</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Application.App..ctor; File:.0
+[CALL STACK][1]: Method:WXTextureTools.Program.Main; File:.0
+</stackFrames>
+</wxlog>
+<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:51:9557</timestamp>
+  <msgtype>MsgMixture</msgtype>
+  <content>string|string
+UnityBridgeHandler - SetDataDir,D:/GitProjects/FoxCard/trunk/FoxCard.Client/TextToolDatas\temp</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Program.Main; File:.0
+</stackFrames>
+</wxlog>
+<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:51:9737</timestamp>
+  <msgtype>MsgMixture</msgtype>
+  <content>string|string
+BundlePicRecord initFile,D:/GitProjects/FoxCard/trunk/FoxCard.Client/TextToolDatas\FIRSTBUNDLETEXTURES.json</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Application.AppCmdExec.WXFirstBundleDecompressExec.todo; File:.0
+[CALL STACK][1]: Method:WXTextureTools.Application.App.process; File:.0
+[CALL STACK][2]: Method:WXTextureTools.Application.App..ctor; File:.0
+</stackFrames>
+</wxlog>
+<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:51:9747</timestamp>
+  <msgtype>MsgString</msgtype>
+  <content>BundlePicRecord initFile File</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Application.AppCmdExec.WXFirstBundleDecompressExec.todo; File:.0
+[CALL STACK][1]: Method:WXTextureTools.Application.App.process; File:.0
+[CALL STACK][2]: Method:WXTextureTools.Application.App..ctor; File:.0
+</stackFrames>
+</wxlog>
+<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:51:9757</timestamp>
+  <msgtype>MsgMixture</msgtype>
+  <content>string|string
+BundlePicRecord readAllRecord,</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Application.App.process; File:.0
+[CALL STACK][1]: Method:WXTextureTools.Application.App..ctor; File:.0
+[CALL STACK][2]: Method:WXTextureTools.Program.Main; File:.0
+</stackFrames>
+</wxlog>
+<wxlog>
+  <threadId>#main</threadId>
+  <timestamp>02:12:52:0987</timestamp>
+  <msgtype>MsgException</msgtype>
+  <content>
+要求非负数。
+参数名: count
+   在 System.IO.BinaryReader.ReadBytes(Int32 count)
+   在 AssetsTools.NET.AssetTypeTemplateField.ReadType(AssetsFileReader reader, AssetTypeValueField valueField, RefTypeManager refMan)
+   在 AssetsTools.NET.AssetTypeTemplateField.ReadType(AssetsFileReader reader, AssetTypeValueField valueField, RefTypeManager refMan)
+   在 AssetsTools.NET.AssetTypeTemplateField.ReadType(AssetsFileReader reader, AssetTypeValueField valueField, RefTypeManager refMan)
+   在 AssetsTools.NET.AssetTypeTemplateField.MakeValue(AssetsFileReader reader, RefTypeManager refMan)
+   在 AssetsTools.NET.Extra.AssetsManager.GetBaseField(AssetsFileInstance inst, AssetFileInfo info, AssetReadFlags readFlags)
+   在 WXTextureTools.Application.Texture.FirstBundleText.export(String outDir, String dstPath, String colorSpace, IgnoreHandler ignore, Boolean all)
+   在 WXTextureTools.Application.FirstBundle.FirstBundleHandler.splitText(String assetsOutDir, String colorSpace, IgnoreHandler ignore, Boolean all)
+   在 WXTextureTools.Application.AppCmdExec.WXFirstBundleDecompressExec.todo()
+   在 WXTextureTools.Application.App.process()
+   在 WXTextureTools.Application.App..ctor(String[] args)
+</content>
+  <stackFrames>
+[CALL STACK][0]: Method:WXTextureTools.Program.Main; File:.0
+</stackFrames>
+</wxlog>

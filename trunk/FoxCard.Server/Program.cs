@@ -1,10 +1,11 @@
 using System.Net;
-using Demo.Server.Hubs;
+using FoxCard.Server.Hubs;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // 添加 Redis 配置
+builder.Services.AddSingleton<HttpClient>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 {
     var config = new ConfigurationOptions
@@ -57,4 +58,4 @@ var app = builder.Build();
 // 配置中间件等
 app.MapHub<LoginHub>("/LoginHub");
 var url = $"https://{DeviceTool.GetLocalIp()}:7176";
-app.Run(url);
+app.Run();

@@ -26,7 +26,8 @@ namespace HotFix_Logic
             "UnityEngine.CoreModule.dll",
             "DOTween.dll",
             "Newtonsoft.Json.dll",
-            "YooAsset.dll"
+            "YooAsset.dll",
+            "Wx.dll"
         };
 
         /// <summary>

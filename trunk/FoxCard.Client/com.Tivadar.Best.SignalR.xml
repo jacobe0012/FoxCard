@@ -242,24 +242,6 @@
             Represents configuration options specific to the WebSocket transport.
             </summary>
         </member>
-        <member name="P:Best.SignalR.WebsocketOptions.ExtensionsFactory">
-            <summary>
-            Gets or sets the factory method to create WebSocket extensions.
-            Defaults to <see cref="M:Best.WebSockets.WebSocket.GetDefaultExtensions"/>.
-            </summary>
-        </member>
-        <member name="P:Best.SignalR.WebsocketOptions.PingIntervalOverride">
-            <summary>
-            Gets or sets the interval for sending ping messages to keep the <see cref="T:Best.WebSockets.WebSocket"/> connection alive.
-            If set to <see cref="F:System.TimeSpan.Zero"/>, it means there's no specific interval set and the default or global settings should be used.
-            </summary>
-        </member>
-        <member name="P:Best.SignalR.WebsocketOptions.CloseAfterNoMessageOverride">
-            <summary>
-            Gets or sets the maximum time allowed after not receiving any message on the WebSocket connection before considering closing it.
-            If set to <c>null</c>, it means there's no specific limit set and the connection won't be closed due to inactivity.
-            </summary>
-        </member>
         <member name="T:Best.SignalR.HubOptions">
             <summary>
             Represents the configuration options for a <see cref="T:Best.SignalR.HubConnection"/>.

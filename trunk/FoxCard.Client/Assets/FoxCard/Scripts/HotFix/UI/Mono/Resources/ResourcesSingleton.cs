@@ -17,6 +17,7 @@ namespace HotFix_UI
     {
         public uint seed;
 
+
         public void Init()
         {
             InitSeed();

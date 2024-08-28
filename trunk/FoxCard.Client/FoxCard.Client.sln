@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "UniTask.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoxCard.HotFix_UI", "FoxCard.HotFix_UI.csproj", "{4f42898f-eddb-8b09-3977-3d9726c864c8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx", "Wx.csproj", "{20b419ee-4c1f-e793-f571-cc88ed1beb85}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WxEditor", "WxEditor.csproj", "{79df3cd1-bc09-4c54-69d9-62e4d33f26fe}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Linq", "UniTask.Linq.csproj", "{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}"
@@ -36,6 +34,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.Tivadar.Best.TLSSecurity.Samples.BatchedTests", "com.Tivadar.Best.TLSSecurity.Samples.BatchedTests.csproj", "{4f5f8a68-ea00-4d99-341a-56130430fed5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.Tivadar.Best.TLSSecurity.Editor", "com.Tivadar.Best.TLSSecurity.Editor.csproj", "{a0e908c9-a3a7-3916-c87c-e88a2f4853bb}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx", "Wx.csproj", "{20b419ee-4c1f-e793-f571-cc88ed1beb85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.YooAsset", "UniTask.YooAsset.csproj", "{d4b64a7e-0b73-20f9-839d-e5dd223369e6}"
 EndProject
@@ -78,8 +78,6 @@ Global
 		{9b23b381-f432-078e-1664-9d2364225294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4f42898f-eddb-8b09-3977-3d9726c864c8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4f42898f-eddb-8b09-3977-3d9726c864c8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20b419ee-4c1f-e793-f571-cc88ed1beb85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20b419ee-4c1f-e793-f571-cc88ed1beb85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79df3cd1-bc09-4c54-69d9-62e4d33f26fe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{79df3cd1-bc09-4c54-69d9-62e4d33f26fe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -104,6 +102,8 @@ Global
 		{4f5f8a68-ea00-4d99-341a-56130430fed5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{a0e908c9-a3a7-3916-c87c-e88a2f4853bb}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{a0e908c9-a3a7-3916-c87c-e88a2f4853bb}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20b419ee-4c1f-e793-f571-cc88ed1beb85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20b419ee-4c1f-e793-f571-cc88ed1beb85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d4b64a7e-0b73-20f9-839d-e5dd223369e6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{d4b64a7e-0b73-20f9-839d-e5dd223369e6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{585442b1-7290-9c6e-742e-a47d2cdb20e3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

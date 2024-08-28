@@ -43,6 +43,10 @@
   <ItemGroup>
     <Analyzer Include="D:\UNITYEDITOR\2022.3.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="D:\UNITYEDITOR\2022.3.40f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
+    <Analyzer Include="D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll" />
+    <Analyzer Include="D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll" />
+    <Analyzer Include="D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll" />
+    <Analyzer Include="D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\GameObject\Reference.cs" />
@@ -542,13 +546,13 @@
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DemiLib\Core\Editor\DemiEditor.dll</HintPath>
     </Reference>
     <Reference Include="wx-runtime-editor">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\XFDemo\ThirdPartyPackages\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting@1.9.4\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.FontABTool">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\XFDemo\ThirdPartyPackages\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.NET.StringTools">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\Microsoft.NET.StringTools.dll</HintPath>
@@ -557,7 +561,7 @@
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
     </Reference>
     <Reference Include="LitJson">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\XFDemo\ThirdPartyPackages\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Runtime\Plugins\LitJson.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Antlr3.Runtime">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.collab-proxy@2.4.3\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
@@ -584,7 +588,7 @@
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="dnlib">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.code-philosophy.hybridclr@95922aec1e\Plugins\dnlib.dll</HintPath>
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.code-philosophy.hybridclr@59bc259cc8\Plugins\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -596,7 +600,7 @@
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="LZ4">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.code-philosophy.hybridclr@95922aec1e\Plugins\LZ4.dll</HintPath>
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.code-philosophy.hybridclr@59bc259cc8\Plugins\LZ4.dll</HintPath>
     </Reference>
     <Reference Include="wx-editor">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\WX-WASM-SDK-V2\Editor\wx-editor.dll</HintPath>
@@ -1053,6 +1057,10 @@
     <ProjectReference Include="com.Tivadar.Best.SignalR.csproj">
       <Project>{f871d8f6-8cfe-6548-11cd-92f2cf120881}</Project>
       <Name>com.Tivadar.Best.SignalR</Name>
+    </ProjectReference>
+    <ProjectReference Include="Wx.csproj">
+      <Project>{20b419ee-4c1f-e793-f571-cc88ed1beb85}</Project>
+      <Name>Wx</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

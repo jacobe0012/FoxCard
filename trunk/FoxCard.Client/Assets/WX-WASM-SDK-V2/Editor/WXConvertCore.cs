@@ -1537,6 +1537,10 @@ namespace WeChatWASM
 #if PLATFORM_WEIXINMINIGAME
                 importer.SetCompatibleWithPlatform(BuildTarget.WeixinMiniGame, value);
 #else
+                if (importer ==null)
+                {
+                    Debug.LogError($"importer ==null");
+                }
                 importer.SetCompatibleWithPlatform(BuildTarget.WebGL, value);
 #endif
                 importer.SaveAndReimport();

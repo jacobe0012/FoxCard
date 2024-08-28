@@ -6,10 +6,10 @@
 
 using System;
 using System.IO;
-using System.Net;
 using Best.SignalR;
 using Best.SignalR.Encoders;
 using Best.SignalR.Messages;
+using Cysharp.Threading.Tasks;
 using Newtonsoft.Json;
 using UnityEngine;
 using XFramework;
@@ -70,17 +70,23 @@ namespace HotFix_UI
 
 
             debugColor = Color.cyan;
+            Log.Debug($"1111", debugColor);
+            // hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
+            //     new JsonProtocol(new LitJsonEncoder()));
 
-            hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
+            hub = new HubConnection(new Uri($"https://192.168.28.112:7176/LoginHub"),
                 new JsonProtocol(new LitJsonEncoder()));
+            Log.Debug($"2222", debugColor);
             hub.ReconnectPolicy = new DefaultRetryPolicy();
+            Log.Debug($"3333", debugColor);
             hub.OnConnected += OnConnected;
             hub.OnReconnected += OnReConnected;
             hub.OnError += OnError;
             hub.OnClosed += OnClosed;
             hub.OnMessage += OnMessage;
-
+            Log.Debug($"4444", debugColor);
             await hub.ConnectAsync();
+            Log.Debug($"5555", debugColor);
         }
 
         bool OnMessage(HubConnection hub, Message msg)
@@ -197,6 +203,7 @@ namespace HotFix_UI
         /// <typeparam name="T"></typeparam>
         public void SendMessage<T>(string serverFunc, T classobj) where T : IMessagePack, new()
         {
+            Log.Debug($"SendMessage: {serverFunc}", debugColor);
             hub.SendAsync(serverFunc, classobj);
         }
 

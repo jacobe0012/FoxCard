@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    projectName: 
-    Appid: 
-    CDN: 
+    projectName: FoxCard
+    Appid: wxf229c9b224cf0df0
+    CDN: https://gleen-test-0012.oss-cn-beijing.aliyuncs.com/FoxCard/WebGL
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: 
+    DST: D:/GitProjects/FoxCard/trunk/FoxCard.Client/Builds
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -29,7 +29,7 @@ MonoBehaviour:
     HideAfterCallMain: 1
     preloadFiles: 
     Orientation: 0
-    bgImageSrc: Assets/WX-WASM-SDK-V2/Runtime/wechat-default/images/background.jpg
+    bgImageSrc: Assets/FoxCard/Art_Resources/UI/Textures/bg.png
     dataFileSubPrefix: 
     maxStorage: 200
     defaultReleaseSize: 31457280
@@ -49,7 +49,7 @@ MonoBehaviour:
     DevelopBuild: 0
     AutoProfile: 0
     ScriptOnly: 0
-    Il2CppOptimizeSize: 1
+    Il2CppOptimizeSize: 0
     profilingFuncs: 1
     Webgl2: 0
     fbslim: 0

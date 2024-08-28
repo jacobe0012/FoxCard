@@ -25,6 +25,13 @@ public class PlayerData : IMessagePack
 
 
     [Key(3)] public LocationData LocationData { get; set; }
+
+    [Key(4)] public OtherData OtherData { get; set; }
+}
+
+public struct OtherData
+{
+    public string code;
 }
 
 //[MessagePackObject]

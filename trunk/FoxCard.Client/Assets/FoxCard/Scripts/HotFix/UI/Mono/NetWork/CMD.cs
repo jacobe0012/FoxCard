@@ -2,6 +2,8 @@
 {
     public static class CMD
     {
+        //public const string LOGIN = "Login";
+
         public const string LOGIN = "Login";
 
         //0,1   登录

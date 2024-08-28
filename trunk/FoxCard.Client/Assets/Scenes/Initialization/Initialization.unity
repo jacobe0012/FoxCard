@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a715c9beca88be4aaa75126b9e16577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayMode: 0
+  PlayMode: 2
   localTest: 0
 --- !u!114 &326146475186784922
 MonoBehaviour:
