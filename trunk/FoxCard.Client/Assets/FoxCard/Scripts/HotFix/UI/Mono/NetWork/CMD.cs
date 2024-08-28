@@ -2,8 +2,10 @@
 {
     public static class CMD
     {
+        public const string LOGIN = "Login";
+
         //0,1   登录
-        public const int LOGIN = (MainCmd.loginCmd << 16) + LoginCmd.loginVerify;
+        //public const int LOGIN = (MainCmd.loginCmd << 16) + LoginCmd.loginVerify;
 
         //0, 2 切换账号
         public const int SWITCHACCOUNT = (MainCmd.loginCmd << 16) + LoginCmd.switchAccount;

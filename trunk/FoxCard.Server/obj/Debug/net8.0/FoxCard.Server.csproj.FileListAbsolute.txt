@@ -39,3 +39,4 @@ D:\GitProjects\FoxCard\trunk\FoxCard.Server\obj\Debug\net8.0\refint\FoxCard.Serv
 D:\GitProjects\FoxCard\trunk\FoxCard.Server\obj\Debug\net8.0\FoxCard.Server.pdb
 D:\GitProjects\FoxCard\trunk\FoxCard.Server\obj\Debug\net8.0\FoxCard.Server.genruntimeconfig.cache
 D:\GitProjects\FoxCard\trunk\FoxCard.Server\obj\Debug\net8.0\ref\FoxCard.Server.dll
+D:\GitProjects\FoxCard\trunk\FoxCard.Server\bin\Debug\net8.0\Newtonsoft.Json.dll

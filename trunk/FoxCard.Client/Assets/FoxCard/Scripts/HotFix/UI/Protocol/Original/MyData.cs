@@ -1,8 +1,9 @@
+using HotFix_UI;
 using MessagePack;
 
 
 [MessagePackObject]
-public class MyData
+public class MyData : IMessagePack
 {
     [Key(0)] public int Age { get; set; }
 

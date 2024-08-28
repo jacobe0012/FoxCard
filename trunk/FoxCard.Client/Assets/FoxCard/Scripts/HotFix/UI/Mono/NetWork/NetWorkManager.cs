@@ -70,7 +70,6 @@ namespace HotFix_UI
 
 
             debugColor = Color.cyan;
-            Log.Error($"{DeviceTool.GetLocalIp()}");
 
             hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
                 new JsonProtocol(new LitJsonEncoder()));
@@ -88,29 +87,29 @@ namespace HotFix_UI
         {
             bool processed = false;
 
-            Debug.Log($"OnMessage! {msg.ToString()}");
+            Log.Debug($"OnMessage! {msg.target}", debugColor);
 
             return processed;
         }
 
         void OnClosed(HubConnection hub)
         {
-            Debug.Log("OnClosed!");
+            Log.Error("OnClosed!");
         }
 
         void OnError(HubConnection hub, string msg)
         {
-            Debug.Log("OnError!");
+            Log.Error($"OnError! msg:{msg}");
         }
 
         void OnConnected(HubConnection hub)
         {
-            Debug.Log("OnConnected!");
+            Log.Error("OnConnected!");
         }
 
         void OnReConnected(HubConnection hub)
         {
-            Debug.Log("OnReConnected!");
+            Log.Error("OnReConnected!");
         }
 
 
@@ -188,39 +187,6 @@ namespace HotFix_UI
         //     }
         // }
 
-        /// <summary>
-        /// </summary>
-        /// <param name="o"></param>
-        /// <param name="args"></param>
-        public void OnMessage(object o)
-        {
-            //将字节数组转换为
-            // IMessage message = new MyExternalMessage();
-            //
-            // var mySelf = (MyExternalMessage)message.Descriptor.Parser.ParseFrom(args.RawData);
-            // if (mySelf.ResponseStatus != 0)
-            // {
-            //     ErrorMsg.LogErrorMsg(mySelf.ResponseStatus);
-            // }
-
-            //Log.Debug($"ResponseStatus:{mySelf.ResponseStatus}", debugColor);
-
-            // byte[] byteArray = mySelf.DataContent.ToByteArray();
-            // string content = System.Text.Encoding.Default.GetString(byteArray);
-
-            //Log.Debug($"OnMessage:{content}", debugColor);
-
-
-            //WebMessageHandler.Instance.PackageHandler(mySelf.CmdMerge, mySelf.DataContent);
-            //UniTask.Delay(111);
-        }
-
-
-        public void OnError(object o, ErrorEventArgs args)
-        {
-            Log.Debug($"OnError: ", debugColor);
-        }
-
 
         /// <summary>
         /// 向服务器发送proto消息
@@ -229,18 +195,10 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        // public void SendMessage<T>(int cmd, int subCmd, T protoMessage) where T : IMessage<T>, IBufferMessage
-        // {
-        //     var myExternalMessage = new MyExternalMessage
-        //     {
-        //         CmdMerge = CmdHelper.GetMergeCmd(cmd, subCmd),
-        //         DataContent = protoMessage.ToByteString(),
-        //         ProtocolSwitch = 0,
-        //         CmdCode = 1
-        //     };
-        //
-        //     socket.SendAsync(myExternalMessage.ToByteArray());
-        // }
+        public void SendMessage<T>(string serverFunc, T classobj) where T : IMessagePack, new()
+        {
+            hub.SendAsync(serverFunc, classobj);
+        }
 
         /// <summary>
         /// 向服务器发送proto消息

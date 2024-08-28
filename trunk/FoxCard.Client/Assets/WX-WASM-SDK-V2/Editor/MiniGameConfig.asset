@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: MiniGameConfig
   m_EditorClassIdentifier: 
   ProjectConf:
-    projectName: FoxCard
-    Appid: wxf229c9b224cf0df0
-    CDN: https://gleen-test-0012.oss-cn-beijing.aliyuncs.com/FoxCard/WebGL
+    projectName: 
+    Appid: 
+    CDN: 
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: D:/FoxCard/trunk/Dev/Builds
+    DST: 
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -49,19 +49,21 @@ MonoBehaviour:
     DevelopBuild: 0
     AutoProfile: 0
     ScriptOnly: 0
-    Il2CppOptimizeSize: 0
+    Il2CppOptimizeSize: 1
     profilingFuncs: 1
     Webgl2: 0
-    fbslim: 1
+    fbslim: 0
     DeleteStreamingAssets: 1
     ProfilingMemory: 0
     CleanBuild: 0
     CustomNodePath: 
+    autoAdaptScreen: 1
     showMonitorSuggestModal: 1
     enableProfileStats: 0
     enableRenderAnalysis: 0
     iOSAutoGCInterval: 10000
     enableIOSPerformancePlus: 0
+    brotliMT: 1
   CompressTexture:
     halfSize: 0
     useDXT5: 0

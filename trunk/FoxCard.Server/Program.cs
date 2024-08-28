@@ -44,6 +44,10 @@ builder.Services.AddSignalR()
                 Console.WriteLine("Did not connect to Redis.");
             }
 
+            var db = connection.GetDatabase();
+            await Task.Delay(1000);
+            var playerdata = db.StringGet(2.ToString());
+            Console.WriteLine($"{playerdata}");
             return connection;
         };
     });

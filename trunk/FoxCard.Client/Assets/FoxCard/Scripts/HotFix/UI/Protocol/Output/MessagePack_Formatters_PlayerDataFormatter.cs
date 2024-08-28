@@ -28,10 +28,11 @@ namespace MessagePack.Formatters
             }
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(3);
+            writer.WriteArrayHeader(4);
             writer.Write(value.Id);
+            writer.Write(value.LoginType);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Serialize(ref writer, value.NickName, options);
-            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Serialize(ref writer, value.LastName, options);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::LocationData>(formatterResolver).Serialize(ref writer, value.LocationData, options);
         }
 
         public global::PlayerData Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -54,10 +55,13 @@ namespace MessagePack.Formatters
                         ____result.Id = reader.ReadInt64();
                         break;
                     case 1:
-                        ____result.NickName = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Deserialize(ref reader, options);
+                        ____result.LoginType = reader.ReadInt32();
                         break;
                     case 2:
-                        ____result.LastName = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Deserialize(ref reader, options);
+                        ____result.NickName = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Deserialize(ref reader, options);
+                        break;
+                    case 3:
+                        ____result.LocationData = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::LocationData>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();
