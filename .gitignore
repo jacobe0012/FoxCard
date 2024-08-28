@@ -1,9 +1,9 @@
 
-/trunk/Dev/HybridCLRData
-/trunk/Dev/Library
-/trunk/Dev/Temp
-/trunk/Dev/.vscode
-/trunk/Dev/Builds
-/trunk/Dev/Bundles
-/trunk/Dev/obj
-/trunk/Dev/Logs
+/trunk/FoxCard.Client/HybridCLRData
+/trunk/FoxCard.Client/Library
+/trunk/FoxCard.Client/Temp
+/trunk/FoxCard.Client/.vscode
+/trunk/FoxCard.Client/Builds
+/trunk/FoxCard.Client/Bundles
+/trunk/FoxCard.Client/obj
+/trunk/FoxCard.Client/Logs
