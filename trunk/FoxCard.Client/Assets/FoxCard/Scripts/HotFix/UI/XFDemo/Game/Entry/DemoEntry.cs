@@ -53,7 +53,8 @@ namespace XFramework
             PlayerSingleton.Instance.Init();
             NetWorkManager.Instance.Init();
 
-
+            await UniTask.Delay(3000);
+            
             NetWorkManager.Instance.SendMessage(CMD.LOGIN, new PlayerData
             {
                 Id = 2,

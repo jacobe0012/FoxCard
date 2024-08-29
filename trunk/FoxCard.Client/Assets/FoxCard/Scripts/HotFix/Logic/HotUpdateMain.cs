@@ -27,7 +27,12 @@ namespace HotFix_Logic
             "DOTween.dll",
             "Newtonsoft.Json.dll",
             "YooAsset.dll",
-            "Wx.dll"
+            "Wx.dll",
+            "com.Tivadar.Best.HTTP.dll",
+            "com.Tivadar.Best.SignalR.dll",
+            //"com.Tivadar.Best.TLSSecurity.dll",
+            "com.Tivadar.Best.WebSockets.dll",
+            "MessagePack.dll"
         };
 
         /// <summary>
@@ -46,8 +51,13 @@ namespace HotFix_Logic
                 AssetHandle handle =
                     package.LoadAssetAsync<TextAsset>($"Assets/{Application.productName}/HotFixDlls/" + aotDllName +
                                                       ".bytes");
-
                 await handle.ToUniTask();
+
+                if (!handle.IsValid)
+                {
+                    continue;
+                }
+
                 var textAsset = handle.AssetObject as TextAsset;
 
                 byte[] dllBytes = textAsset.bytes;

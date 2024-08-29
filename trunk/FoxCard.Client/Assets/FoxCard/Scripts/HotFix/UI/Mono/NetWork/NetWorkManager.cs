@@ -74,7 +74,7 @@ namespace HotFix_UI
             // hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
             //     new JsonProtocol(new LitJsonEncoder()));
 
-            hub = new HubConnection(new Uri($"http://192.168.2.112:5159/LoginHub"),
+            hub = new HubConnection(new Uri($"http://192.168.28.112:5159/LoginHub"),
                 new JsonProtocol(new LitJsonEncoder()));
             Log.Debug($"2222", debugColor);
             hub.ReconnectPolicy = new DefaultRetryPolicy();
@@ -85,7 +85,10 @@ namespace HotFix_UI
             hub.OnClosed += OnClosed;
             hub.OnMessage += OnMessage;
             Log.Debug($"4444", debugColor);
-            await hub.ConnectAsync();
+            hub.StartConnect();
+            //var s=await hub.ConnectAsync();
+
+
             Log.Debug($"5555", debugColor);
         }
 
@@ -145,11 +148,12 @@ namespace HotFix_UI
         public void Close()
         {
             //RemoveTimer();
-            // socket.OnOpen -= OnOpen;
-            // socket.OnClose -= OnClose;
-            // socket.OnMessage -= OnMessage;
-            // socket.OnError -= OnError;
-            // socket.CloseAsync();
+            hub.OnConnected -= OnConnected;
+            hub.OnReconnected -= OnReConnected;
+            hub.OnError -= OnError;
+            hub.OnClosed -= OnClosed;
+            hub.OnMessage -= OnMessage;
+            hub.StartClose();
         }
 
         // public void OnOpen(object o, OpenEventArgs args)
@@ -282,6 +286,7 @@ namespace HotFix_UI
         // }
         public void Dispose()
         {
+            Close();
             Instance = null;
         }
     }

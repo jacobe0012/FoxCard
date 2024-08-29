@@ -27,8 +27,9 @@ namespace Main
 
         //MyCDN
         //CDN地址
-
+        //https://cdn.jsdelivr.net/gh/jacobe0012/FoxCardCdn
         private string DefaultHostServer = "https://gleen-test-0012.oss-cn-beijing.aliyuncs.com";
+
         private string localDefaultHostServer = "http://192.168.31.12/Packages";
 
         //
@@ -125,6 +126,7 @@ namespace Main
             else
             {
                 DefaultHostServer = $"{DefaultHostServer}/{Application.productName}/WebGL/YooAsset";
+                //DefaultHostServer = $"https://cdn.jsdelivr.net/gh/jacobe0012/FoxCardCdn/WebGL/YooAsset";
                 //FallbackHostServer = "https://gleen-test-0012.oss-cn-beijing.aliyuncs.com/Dev/Android";
             }
 #elif UNITY_IOS

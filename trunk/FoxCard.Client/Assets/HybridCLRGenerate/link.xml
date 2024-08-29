@@ -13,7 +13,6 @@
     <type fullname="DG.Tweening.TweenSettingsExtensions" preserve="all" />
   </assembly>
   <assembly fullname="FoxCard.Main">
-    <type fullname="DeviceTool" preserve="all" />
     <type fullname="Main.UnityHelper" preserve="all" />
   </assembly>
   <assembly fullname="HybridCLR.Runtime">
@@ -238,10 +237,6 @@
     <type fullname="UnityEngine.Networking.UnityWebRequest/Result" preserve="all" />
     <type fullname="UnityEngine.Networking.UnityWebRequestAsyncOperation" preserve="all" />
   </assembly>
-  <assembly fullname="Wx">
-    <type fullname="WeChatWASM.WX" preserve="all" />
-    <type fullname="WeChatWASM.WXBase" preserve="all" />
-  </assembly>
   <assembly fullname="YooAsset">
     <type fullname="YooAsset.AssetHandle" preserve="all" />
     <type fullname="YooAsset.AsyncOperationBase" preserve="all" />
@@ -410,9 +405,5 @@
   </assembly>
   <assembly fullname="wx-runtime">
     <type fullname="PlayerPrefs" preserve="all" />
-    <type fullname="WeChatWASM.GeneralCallbackResult" preserve="all" />
-    <type fullname="WeChatWASM.LoginOption" preserve="all" />
-    <type fullname="WeChatWASM.LoginSuccessCallbackResult" preserve="all" />
-    <type fullname="WeChatWASM.RequestFailCallbackErr" preserve="all" />
   </assembly>
 </linker>
