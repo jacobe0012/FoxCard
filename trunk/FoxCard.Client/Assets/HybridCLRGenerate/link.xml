@@ -13,6 +13,7 @@
     <type fullname="DG.Tweening.TweenSettingsExtensions" preserve="all" />
   </assembly>
   <assembly fullname="FoxCard.Main">
+    <type fullname="DeviceTool" preserve="all" />
     <type fullname="Main.UnityHelper" preserve="all" />
   </assembly>
   <assembly fullname="HybridCLR.Runtime">
@@ -67,21 +68,10 @@
     <type fullname="System.Collections.Generic.SortedDictionary`2" preserve="all" />
     <type fullname="System.Collections.Generic.SortedDictionary`2/Enumerator" preserve="all" />
     <type fullname="System.Collections.Generic.Stack`1" preserve="all" />
-    <type fullname="System.ComponentModel.Component" preserve="all" />
     <type fullname="System.ComponentModel.EditorBrowsableAttribute" preserve="all" />
     <type fullname="System.ComponentModel.EditorBrowsableState" preserve="all" />
     <type fullname="System.ComponentModel.ISupportInitialize" preserve="all" />
     <type fullname="System.Diagnostics.Stopwatch" preserve="all" />
-    <type fullname="System.Net.IPAddress" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.IPAddressInformation" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.IPInterfaceProperties" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.NetworkInterface" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.OperationalStatus" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.PhysicalAddress" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.UnicastIPAddressInformation" preserve="all" />
-    <type fullname="System.Net.NetworkInformation.UnicastIPAddressInformationCollection" preserve="all" />
-    <type fullname="System.Net.Sockets.AddressFamily" preserve="all" />
-    <type fullname="System.Net.WebClient" preserve="all" />
     <type fullname="System.Text.RegularExpressions.Regex" preserve="all" />
     <type fullname="System.Uri" preserve="all" />
   </assembly>
@@ -309,7 +299,6 @@
     <type fullname="System.Collections.IEnumerable" preserve="all" />
     <type fullname="System.Collections.IEnumerator" preserve="all" />
     <type fullname="System.Comparison`1" preserve="all" />
-    <type fullname="System.Console" preserve="all" />
     <type fullname="System.Convert" preserve="all" />
     <type fullname="System.DateTime" preserve="all" />
     <type fullname="System.DateTimeKind" preserve="all" />

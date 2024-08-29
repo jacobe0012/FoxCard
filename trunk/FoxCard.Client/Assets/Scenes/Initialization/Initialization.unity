@@ -199,7 +199,7 @@ MonoBehaviour:
     reporterScrollerSkin: {fileID: 11400000, guid: 1cc68832d00d3284a9324a4dc05be753, type: 2}
   size: {x: 32, y: 32}
   maxSize: 20
-  numOfCircleToShow: 2
+  numOfCircleToShow: 1
   Initialized: 0
 --- !u!4 &624987404
 Transform:
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a715c9beca88be4aaa75126b9e16577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayMode: 2
+  PlayMode: 0
   localTest: 0
 --- !u!114 &326146475186784922
 MonoBehaviour:

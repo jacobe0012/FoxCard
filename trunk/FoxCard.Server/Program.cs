@@ -57,5 +57,5 @@ var app = builder.Build();
 
 // 配置中间件等
 app.MapHub<LoginHub>("/LoginHub");
-var url = $"https://{DeviceTool.GetLocalIp()}:7176";
+//var url = $"https://{DeviceTool.GetLocalIp()}:7176";
 app.Run();

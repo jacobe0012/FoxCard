@@ -52,54 +52,74 @@ namespace XFramework
             RedDotManager.Instance.Init();
             PlayerSingleton.Instance.Init();
             NetWorkManager.Instance.Init();
-            await UniTask.Delay(5000);
-            WXBase.InitSDK(async (a) =>
+
+
+            NetWorkManager.Instance.SendMessage(CMD.LOGIN, new PlayerData
             {
-                Log.Debug($"WXBase.InitSDK");
-                WX.Login(new LoginOption
+                Id = 2,
+                LoginType = 2,
+                NickName = "2",
+                LocationData = new LocationData
                 {
-                    complete = null,
-                    fail = (fail) => { Log.Debug($"LoginFail:{fail}"); },
-                    success = async (success) =>
-                    {
-                        Log.Debug($"1success.code:{success.code}");
-                        //var locationInfo = await GetLocationInfoNew();
-                        var locationInfo = new ResponseData
-                        {
-                            addr = "asf",
-                            country = "asf",
-                            province = "asf",
-                            city = "asf",
-                            isp = null,
-                            latitude = null,
-                            longitude = null
-                        };
-                        Log.Debug($"2success.code:{success.code}");
-                        NetWorkManager.Instance.SendMessage(CMD.LOGIN, new PlayerData
-                        {
-                            Id = 2,
-                            LoginType = 2,
-                            NickName = "2",
-                            LocationData = new LocationData
-                            {
-                                Addr = locationInfo.addr,
-                                Country = locationInfo.country,
-                                Province = locationInfo.province,
-                                City = locationInfo.city,
-                            },
-                            OtherData = new OtherData
-                            {
-                                code = success.code
-                            }
-                        });
-                        Log.Debug($"3success.code:{success.code}");
-                    },
-                    timeout = 10000
-                });
-                // var sceneController = Common.Instance.Get<SceneController>(); // 场景控制
-                // var sceneObj = sceneController.LoadSceneAsync<Login>(SceneName.Login);
-                // await SceneResManager.WaitForCompleted(sceneObj).ToCoroutine(); // 等待场景加载完毕 
+                    Addr = "locationInfo.addr",
+                    Country = "locationInfo.addr",
+                    Province = "locationInfo.addr",
+                    City = "locationInfo.addr",
+                },
+                OtherData = new OtherData
+                {
+                    code = "locationInfo.addr",
+                }
             });
+
+            // await UniTask.Delay(5000);
+            // WXBase.InitSDK(async (a) =>
+            // {
+            //     Log.Debug($"WXBase.InitSDK");
+            //     WX.Login(new LoginOption
+            //     {
+            //         complete = null,
+            //         fail = (fail) => { Log.Debug($"LoginFail:{fail}"); },
+            //         success = async (success) =>
+            //         {
+            //             Log.Debug($"1success.code:{success.code}");
+            //             //var locationInfo = await GetLocationInfoNew();
+            //             var locationInfo = new ResponseData
+            //             {
+            //                 addr = "asf",
+            //                 country = "asf",
+            //                 province = "asf",
+            //                 city = "asf",
+            //                 isp = null,
+            //                 latitude = null,
+            //                 longitude = null
+            //             };
+            //             Log.Debug($"2success.code:{success.code}");
+            //             NetWorkManager.Instance.SendMessage(CMD.LOGIN, new PlayerData
+            //             {
+            //                 Id = 2,
+            //                 LoginType = 2,
+            //                 NickName = "2",
+            //                 LocationData = new LocationData
+            //                 {
+            //                     Addr = locationInfo.addr,
+            //                     Country = locationInfo.country,
+            //                     Province = locationInfo.province,
+            //                     City = locationInfo.city,
+            //                 },
+            //                 OtherData = new OtherData
+            //                 {
+            //                     code = success.code
+            //                 }
+            //             });
+            //             Log.Debug($"3success.code:{success.code}");
+            //         },
+            //         timeout = 10000
+            //     });
+            //     // var sceneController = Common.Instance.Get<SceneController>(); // 场景控制
+            //     // var sceneObj = sceneController.LoadSceneAsync<Login>(SceneName.Login);
+            //     // await SceneResManager.WaitForCompleted(sceneObj).ToCoroutine(); // 等待场景加载完毕 
+            // });
 
 
             // WX.CheckSession(new CheckSessionOption
