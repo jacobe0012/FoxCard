@@ -74,10 +74,11 @@ namespace HotFix_UI
             // hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
             //     new JsonProtocol(new LitJsonEncoder()));
 
-            hub = new HubConnection(new Uri($"http://192.168.28.112:5159/LoginHub"),
+            hub = new HubConnection(new Uri($"https://192.168.28.112:7176/LoginHub"),
                 new JsonProtocol(new LitJsonEncoder()));
+            
             Log.Debug($"2222", debugColor);
-            hub.ReconnectPolicy = new DefaultRetryPolicy();
+            //hub.ReconnectPolicy = new DefaultRetryPolicy();
             Log.Debug($"3333", debugColor);
             hub.OnConnected += OnConnected;
             hub.OnReconnected += OnReConnected;

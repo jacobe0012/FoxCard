@@ -51,6 +51,7 @@
     <Compile Include="Assets\FoxCard\Scripts\Main\Mono\Initialization\LoadDllMono.cs" />
     <Compile Include="Assets\FoxCard\Scripts\Main\Mono\StreamingAssetsHelper\StreamingAssetsHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\Main\Mono\StreamingAssetsHelper\StreamingAssetsHelper2.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\Main\Mono\Initialization\Init.cs" />
     <Compile Include="Assets\FoxCard\Scripts\Main\Mono\StreamingAssetsHelper\BuildinFileManifest.cs" />
     <Compile Include="Assets\FoxCard\Scripts\Main\Mono\StreamingAssetsHelper\StreamingAssetsDefine.cs" />
     <Compile Include="Assets\FoxCard\Scripts\Main\Mono\Initialization\LogPrintMono.cs" />
@@ -800,6 +801,10 @@
     <ProjectReference Include="UniTask.TextMeshPro.csproj">
       <Project>{be517f48-6d14-a417-102e-819e799e872f}</Project>
       <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.Tivadar.Best.SignalR.csproj">
+      <Project>{f871d8f6-8cfe-6548-11cd-92f2cf120881}</Project>
+      <Name>com.Tivadar.Best.SignalR</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

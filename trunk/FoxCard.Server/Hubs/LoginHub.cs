@@ -62,4 +62,9 @@ public class LoginHub : Hub
         //
         // Console.WriteLine($"{name} is called Login");
     }
+
+    public void Test()
+    {
+        Console.WriteLine($"Test:1");
+    }
 }
