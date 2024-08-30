@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FoxCard.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd674cddae07cb223b7055ce1c371a97d0622c45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+310a0f727a238d0f5160a05678b17937af44e35d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FoxCard.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FoxCard.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -37,13 +37,17 @@ var Lib_BEST_HTTP_WebGL_HTTP_Bridge =
   			    console.log(`GetResponseHeaders(${request})`);
   
             var headers = '';
-            var cookies = document.cookie.split(';');
-            for(var i = 0; i < cookies.length; ++i) {
-                const cookie = cookies[i].trim();
+
+			if (document && document.cookie)
+			{
+				var cookies = document.cookie.split(';');
+				for(var i = 0; i < cookies.length; ++i) {
+					const cookie = cookies[i].trim();
   
-                if (cookie.length > 0)
-                    headers += "Set-Cookie:" + cookie + "\n";
-            }
+					if (cookie.length > 0)
+						headers += "Set-Cookie:" + cookie + "\n";
+				}
+			}
   
             const arr = _best_http_request_bridge_global.requestInstances[request].getAllResponseHeaders().trim().split(/[\r\n]+/);
 

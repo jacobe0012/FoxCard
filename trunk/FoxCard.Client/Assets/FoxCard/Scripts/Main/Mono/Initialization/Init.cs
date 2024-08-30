@@ -14,13 +14,16 @@ public class Init : MonoBehaviour
 
     void Start()
     {
-        hub = new HubConnection(new Uri($"https://192.168.28.112:7176/LoginHub"),
+        
+        //Best.HTTP.Shared.HTTPManager.Logger.Level = Best.HTTP.Shared.Logger.Loglevels.All;
+        
+        hub = new HubConnection(new Uri($"https://192.168.2.112:7176/LoginHub"),
             new JsonProtocol(new LitJsonEncoder()));
-
-        hub.AuthenticationProvider = new DefaultAccessTokenAuthenticator(hub);
+        //Best.HTTP.Shared.HTTPManager.UserAgent
+        //hub.AuthenticationProvider = new DefaultAccessTokenAuthenticator(hub);
 
         Debug.Log($"2222");
-        hub.ReconnectPolicy = new DefaultRetryPolicy();
+        //hub.ReconnectPolicy = new DefaultRetryPolicy();
         Debug.Log($"3333");
         hub.OnConnected += OnConnected;
         hub.OnReconnected += OnReConnected;

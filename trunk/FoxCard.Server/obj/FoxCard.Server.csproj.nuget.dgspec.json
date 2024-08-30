@@ -10,19 +10,16 @@
         "projectUniqueName": "D:\\GitProjects\\FoxCard\\trunk\\FoxCard.Server\\FoxCard.Server.csproj",
         "projectName": "FoxCard.Server",
         "projectPath": "D:\\GitProjects\\FoxCard\\trunk\\FoxCard.Server\\FoxCard.Server.csproj",
-        "packagesPath": "C:\\Users\\Jaco\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\MLoong\\.nuget\\packages\\",
         "outputPath": "D:\\GitProjects\\FoxCard\\trunk\\FoxCard.Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jaco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\MLoong\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
