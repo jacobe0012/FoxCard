@@ -1,10 +1,11 @@
 using System.Net;
-using FoxCard.Server.Hubs;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// 添加 Redis 配置
+builder.Services.AddControllers();
+
+//
 builder.Services.AddSingleton<HttpClient>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 {
@@ -25,37 +26,19 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
     return connection;
 });
 
-builder.Services.AddSignalR()
-    .AddMessagePackProtocol()
-    .AddStackExchangeRedis(o =>
-    {
-        o.ConnectionFactory = async writer =>
-        {
-            var config = new ConfigurationOptions
-            {
-                AbortOnConnectFail = false
-            };
-            config.EndPoints.Add(IPAddress.Loopback, 6379);
-            config.SetDefaultPorts();
-            var connection = await ConnectionMultiplexer.ConnectAsync(config, writer);
-            connection.ConnectionFailed += (_, e) => { Console.WriteLine("Connection to Redis failed."); };
-
-            if (!connection.IsConnected)
-            {
-                Console.WriteLine("Did not connect to Redis.");
-            }
-
-            var db = connection.GetDatabase();
-            await Task.Delay(1000);
-            var playerdata = db.StringGet(2.ToString());
-            Console.WriteLine($"{playerdata}");
-            return connection;
-        };
-    });
-
 var app = builder.Build();
+// <snippet_UseWebSockets>
+var webSocketOptions = new WebSocketOptions
+{
+    KeepAliveInterval = TimeSpan.FromMinutes(2)
+};
 
-// 配置中间件等
-app.MapHub<LoginHub>("/LoginHub");
-//var url = $"https://{DeviceTool.GetLocalIp()}:7176";
-app.Run();
+app.UseWebSockets(webSocketOptions);
+// </snippet_UseWebSockets>
+
+//app.UseDefaultFiles();
+//app.UseStaticFiles();
+
+app.MapControllers();
+
+app.Run("http://192.168.28.112:5159");

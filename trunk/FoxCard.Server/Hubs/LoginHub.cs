@@ -1,4 +1,7 @@
-﻿using FoxCard.Server.Datas;
+﻿
+using FoxCard.Server.Datas;
+using HotFix_UI;
+using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.SignalR;
 using Newtonsoft.Json;
 using StackExchange.Redis;
@@ -52,7 +55,7 @@ public class LoginHub : Hub
         Console.WriteLine($"userInfoJson:{userInfoJson}");
         //var userData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
         string jsonData = JsonConvert.SerializeObject(player);
-        await db.StringSetAsync(player.Id.ToString(), jsonData);
+        await db.StringSetAsync(player.ThirdId, jsonData);
 
         //Clients.Caller.SendAsync("", player);
         //Console.WriteLine(timestamp);
@@ -66,5 +69,17 @@ public class LoginHub : Hub
     public void Test()
     {
         Console.WriteLine($"Test:1");
+    }
+
+    public override async Task OnConnectedAsync()
+    {
+        var httpContext = Context.GetHttpContext();
+        var url = httpContext.Request.GetEncodedUrl();
+
+        // 你可以在这里记录URL或者执行其他操作
+        Console.WriteLine("Client connected with ConnectionId: " + Context.ConnectionId);
+        Console.WriteLine("Client connected with URL: " + url);
+
+        await base.OnConnectedAsync();
     }
 }

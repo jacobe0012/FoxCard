@@ -10,8 +10,12 @@
       <PackageReference Include="MessagePack.UnityShims" Version="2.5.140" />
       <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.MessagePack" Version="8.0.8" />
       <PackageReference Include="Microsoft.AspNetCore.SignalR.StackExchangeRedis" Version="8.0.8" />
-      <Compile Include="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Original\**\*.cs" LinkBase="Original" />
+      <Compile Include="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\**\*.cs" LinkBase="Protocol" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\Class\MyMessage.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\Class\MyMessage.cs</Link>
+      </Compile>
     </ItemGroup>
 
 </Project>

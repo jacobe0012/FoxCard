@@ -9,9 +9,13 @@ using System.IO;
 using Best.SignalR;
 using Best.SignalR.Encoders;
 using Best.SignalR.Messages;
+//using Best.WebSockets;
 using Cysharp.Threading.Tasks;
+using MessagePack;
 using Newtonsoft.Json;
 using UnityEngine;
+using UnityWebSocket;
+using WeChatWASM;
 using XFramework;
 
 
@@ -23,7 +27,7 @@ namespace HotFix_UI
         public static int wsUrl1 = 22;
         public static string emptyUrl = "ws://192.168.2.{0}:10100/websocket";
 
-        private Color debugColor;
+        private Color debugColor = Color.green;
 
 #if UNITY_EDITOR
         public static string savePath = "Assets/Resources/WsUrl.json";
@@ -44,6 +48,7 @@ namespace HotFix_UI
         }
 
         private HubConnection hub;
+        private WebSocket websocket;
 
         private void CreateSampleData()
         {
@@ -55,7 +60,7 @@ namespace HotFix_UI
         }
 
 
-        public async void Init()
+        public async UniTask Init()
         {
             // if (!File.Exists(savePath))
             // {
@@ -67,6 +72,13 @@ namespace HotFix_UI
             // string json = File.ReadAllText(savePath);
             // WebUrlData data = JsonConvert.DeserializeObject<WebUrlData>(json);
             // string url = data.webUrl;
+            websocket = new WebSocket("ws://192.168.28.112:5159/ws");
+
+            websocket.OnOpen += async (a, b) => { Log.Debug($"OnOpen", debugColor); };
+            websocket.ConnectAsync();
+
+
+            return;
 
 
             debugColor = Color.cyan;
@@ -76,9 +88,9 @@ namespace HotFix_UI
 
             hub = new HubConnection(new Uri($"https://192.168.28.112:7176/LoginHub"),
                 new JsonProtocol(new LitJsonEncoder()));
-            
+            hub.ReconnectPolicy = new DefaultRetryPolicy();
+
             Log.Debug($"2222", debugColor);
-            //hub.ReconnectPolicy = new DefaultRetryPolicy();
             Log.Debug($"3333", debugColor);
             hub.OnConnected += OnConnected;
             hub.OnReconnected += OnReConnected;
@@ -149,12 +161,12 @@ namespace HotFix_UI
         public void Close()
         {
             //RemoveTimer();
-            hub.OnConnected -= OnConnected;
-            hub.OnReconnected -= OnReConnected;
-            hub.OnError -= OnError;
-            hub.OnClosed -= OnClosed;
-            hub.OnMessage -= OnMessage;
-            hub.StartClose();
+            // hub.OnConnected -= OnConnected;
+            // hub.OnReconnected -= OnReConnected;
+            // hub.OnError -= OnError;
+            // hub.OnClosed -= OnClosed;
+            // hub.OnMessage -= OnMessage;
+            // hub.StartClose();
         }
 
         // public void OnOpen(object o, OpenEventArgs args)
@@ -206,12 +218,16 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        public void SendMessage<T>(string serverFunc, T classobj) where T : IMessagePack, new()
-        {
-            Log.Debug($"SendMessage: {serverFunc}", debugColor);
-            hub.SendAsync(serverFunc, classobj);
-        }
-
+        // public void SendMessage<T>(string serverFunc, T classobj) where T : IMessagePack, new()
+        // {
+        //     Log.Debug($"SendMessage: {serverFunc}", debugColor);
+        //     hub.SendAsync(serverFunc, classobj);
+        // }
+        // public void SendMessage<T>(string serverFunc, T classobj) where T : IMessagePack, new()
+        // {
+        //     Log.Debug($"SendMessage: {serverFunc}", debugColor);
+        //     hub.SendAsync(serverFunc, classobj);
+        // }
         /// <summary>
         /// 向服务器发送proto消息
         /// </summary>
@@ -239,18 +255,17 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        // public void SendMessage<T>(int mergeCmd, T protoMessage) where T : IMessage<T>, IBufferMessage
-        // {
-        //     var myExternalMessage = new MyExternalMessage
-        //     {
-        //         CmdMerge = mergeCmd,
-        //         DataContent = protoMessage.ToByteString(),
-        //         ProtocolSwitch = 0,
-        //         CmdCode = 1
-        //     };
-        //
-        //     socket.SendAsync(myExternalMessage.ToByteArray());
-        // }
+        public void SendMessage<T>(string serverMethodName, T protoMessage) where T : IMessagePack
+        {
+            var myExternalMessage = new MyMessage
+            {
+                MethodName = serverMethodName,
+                Content = MessagePackSerializer.Serialize(protoMessage),
+                ErrorCode = 0,
+            };
+
+            websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage));
+        }
 
         /// <summary>
         /// 向服务器发送路由消息
@@ -259,14 +274,14 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         // public void SendMessage(int cmd, int subCmd)
         // {
-        //     var myExternalMessage = new MyExternalMessage
+        //     var myExternalMessage = new MyMessage()
         //     {
         //         CmdMerge = CmdHelper.GetMergeCmd(cmd, subCmd),
         //         ProtocolSwitch = 0,
         //         CmdCode = 1
         //     };
         //
-        //     socket.SendAsync(myExternalMessage.ToByteArray());
+        //     websocket.SendAsync(myExternalMessage.ToByteArray());
         // }
 
         /// <summary>

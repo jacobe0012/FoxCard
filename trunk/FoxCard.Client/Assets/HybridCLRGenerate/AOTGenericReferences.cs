@@ -513,6 +513,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Comparison<int>
 	// System.Comparison<long>
 	// System.Comparison<object>
+	// System.EventHandler<object>
 	// System.Func<HotFix_UI.Card,HotFix_UI.Card>
 	// System.Func<HotFix_UI.Card,byte>
 	// System.Func<HotFix_UI.Card,float>
@@ -522,7 +523,6 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Func<int,byte>
 	// System.Func<int,object>
 	// System.Func<int>
-	// System.Func<object,Best.SignalR.Messages.Message,byte>
 	// System.Func<object,Cysharp.Threading.Tasks.UniTask<object>>
 	// System.Func<object,byte>
 	// System.Func<object,int,int,object>
@@ -812,7 +812,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter,XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d>(Cysharp.Threading.Tasks.UniTask.Awaiter&,XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter,XFramework.UIPanelInGame.<>c__DisplayClass24_1.<<PlayCardsAnimation>b__1>d>(Cysharp.Threading.Tasks.UniTask.Awaiter&,XFramework.UIPanelInGame.<>c__DisplayClass24_1.<<PlayCardsAnimation>b__1>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter<object>,XFramework.MenuScene.<OnCompleted>d__1>(Cysharp.Threading.Tasks.UniTask.Awaiter<object>&,XFramework.MenuScene.<OnCompleted>d__1&)
-		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<HotFix_UI.NetWorkManager.<Init>d__11>(HotFix_UI.NetWorkManager.<Init>d__11&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<HotFix_UI.NetWorkManager.<Init>d__12>(HotFix_UI.NetWorkManager.<Init>d__12&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.AudioManager.<Init>d__12>(XFramework.AudioManager.<Init>d__12&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.DemoEntry.<LoadAsync>d__2>(XFramework.DemoEntry.<LoadAsync>d__2&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d>(XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d&)

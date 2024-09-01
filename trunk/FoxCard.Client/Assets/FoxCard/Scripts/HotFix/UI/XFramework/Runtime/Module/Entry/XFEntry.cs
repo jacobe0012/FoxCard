@@ -19,7 +19,6 @@ namespace XFramework
             TimeInfo.Instance.Dispose();
             ResourcesManager.Instance.Dispose();
             SceneResManager.Instance.Dispose();
-           
         }
 
         public virtual void Update()
@@ -68,10 +67,6 @@ namespace XFramework
             ObjectFactory.Create<SceneController>(); // 场景控制
             ObjectFactory.Create<UserDataManager>(); // 本地存档管理
             //ObjectFactory.Create<RedDotManager>(); // 红点管理
-
-
-
         }
-        
     }
 }

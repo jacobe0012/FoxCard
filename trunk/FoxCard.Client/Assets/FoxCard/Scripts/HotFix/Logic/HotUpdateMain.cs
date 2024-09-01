@@ -32,7 +32,8 @@ namespace HotFix_Logic
             "com.Tivadar.Best.SignalR.dll",
             //"com.Tivadar.Best.TLSSecurity.dll",
             "com.Tivadar.Best.WebSockets.dll",
-            "MessagePack.dll"
+            "MessagePack.dll",
+            "UnityWebSocket.Runtime.dll"
         };
 
         /// <summary>
