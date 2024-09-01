@@ -20,6 +20,7 @@ public class Init : MonoBehaviour
 
     void Start()
     {
+<<<<<<< HEAD
         Best.HTTP.Shared.HTTPManager.Logger.Level = Best.HTTP.Shared.Logger.Loglevels.All;
 
         // var signalR = new SignalR();
@@ -50,6 +51,15 @@ public class Init : MonoBehaviour
         hub = new HubConnection(new Uri(url1),
             new JsonProtocol(new LitJsonEncoder()));
 
+=======
+        
+        //Best.HTTP.Shared.HTTPManager.Logger.Level = Best.HTTP.Shared.Logger.Loglevels.All;
+        
+        hub = new HubConnection(new Uri($"https://192.168.2.112:7176/LoginHub"),
+            new JsonProtocol(new LitJsonEncoder()));
+        //Best.HTTP.Shared.HTTPManager.UserAgent
+        //hub.AuthenticationProvider = new DefaultAccessTokenAuthenticator(hub);
+>>>>>>> a67e93493d212133b3bf46583e847bfe0848dd2d
 
         Debug.Log($"2222");
         //hub.ReconnectPolicy = new DefaultRetryPolicy();
