@@ -236,6 +236,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\Buff\IBuff.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\Dictionary\OrderMapSet.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Object\System\IDestroy.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\Class\MyUrl.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\MiniTween\Tween\Vector4Tween.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\ScrollRect\ScrollRectComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\card_group.cs" />

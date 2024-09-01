@@ -1,4 +1,5 @@
 using System.Net;
+using HotFix_UI;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -41,4 +42,4 @@ app.UseWebSockets(webSocketOptions);
 
 app.MapControllers();
 
-app.Run("http://192.168.28.112:5159");
+app.Run(MyUrl.urlipv4);

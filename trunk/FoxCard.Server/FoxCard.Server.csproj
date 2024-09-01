@@ -16,6 +16,9 @@
         <LinkBase>Protocol\</LinkBase>
         <Link>Protocol\Class\MyMessage.cs</Link>
       </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\Class\MyUrl.cs">
+        <Link>Protocol\Class\MyUrl.cs</Link>
+      </Compile>
     </ItemGroup>
 
 </Project>
