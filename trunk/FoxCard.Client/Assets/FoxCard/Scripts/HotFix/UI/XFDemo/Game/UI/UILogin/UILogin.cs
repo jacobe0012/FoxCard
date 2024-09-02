@@ -17,7 +17,7 @@ using Main;
 using TMPro;
 using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
-using WeChatWASM;
+
 
 namespace XFramework
 {

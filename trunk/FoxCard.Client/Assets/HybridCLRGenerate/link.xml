@@ -34,6 +34,7 @@
     <type fullname="MessagePack.Formatters.IMessagePackFormatter" preserve="all" />
     <type fullname="MessagePack.Formatters.IMessagePackFormatter`1" preserve="all" />
     <type fullname="MessagePack.IFormatterResolver" preserve="all" />
+    <type fullname="MessagePack.Internal.CodeGenHelpers" preserve="all" />
     <type fullname="MessagePack.MessagePackReader" preserve="all" />
     <type fullname="MessagePack.MessagePackSecurity" preserve="all" />
     <type fullname="MessagePack.MessagePackSerializer" preserve="all" />
@@ -240,6 +241,10 @@
     <type fullname="UnityWebSocket.OpenEventArgs" preserve="all" />
     <type fullname="UnityWebSocket.WebSocket" preserve="all" />
   </assembly>
+  <assembly fullname="Wx">
+    <type fullname="WeChatWASM.WX" preserve="all" />
+    <type fullname="WeChatWASM.WXBase" preserve="all" />
+  </assembly>
   <assembly fullname="YooAsset">
     <type fullname="YooAsset.AssetHandle" preserve="all" />
     <type fullname="YooAsset.AsyncOperationBase" preserve="all" />
@@ -268,6 +273,7 @@
     <type fullname="System.BitConverter" preserve="all" />
     <type fullname="System.Boolean" preserve="all" />
     <type fullname="System.Buffer" preserve="all" />
+    <type fullname="System.Buffers.ReadOnlySequence`1" preserve="all" />
     <type fullname="System.Byte" preserve="all" />
     <type fullname="System.Char" preserve="all" />
     <type fullname="System.Collections.Concurrent.ConcurrentQueue`1" preserve="all" />
@@ -402,5 +408,9 @@
   </assembly>
   <assembly fullname="wx-runtime">
     <type fullname="PlayerPrefs" preserve="all" />
+    <type fullname="WeChatWASM.GeneralCallbackResult" preserve="all" />
+    <type fullname="WeChatWASM.LoginOption" preserve="all" />
+    <type fullname="WeChatWASM.LoginSuccessCallbackResult" preserve="all" />
+    <type fullname="WeChatWASM.RequestFailCallbackErr" preserve="all" />
   </assembly>
 </linker>

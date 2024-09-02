@@ -693,6 +693,7 @@ PlayerSettings:
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
+    Android: 1
     WeixinMiniGame: 1
   il2cppCompilerConfiguration: {}
   il2cppCodeGeneration:

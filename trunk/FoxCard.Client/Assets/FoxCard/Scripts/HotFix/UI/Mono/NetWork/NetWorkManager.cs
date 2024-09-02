@@ -60,7 +60,7 @@ namespace HotFix_UI
         }
 
 
-        public async UniTask Init()
+        public void Init()
         {
             // if (!File.Exists(savePath))
             // {

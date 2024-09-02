@@ -2,11 +2,11 @@ using MessagePack;
 using MessagePack.Resolvers;
 using UnityEngine;
 
-public class Startup
+public static class Startup
 {
     static bool serializerRegistered = false;
 
-    //[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+    [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     public static void Initialize()
     {
         if (!serializerRegistered)

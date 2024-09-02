@@ -73,7 +73,7 @@ namespace XFramework
             //     }
             // });
 
-            await UniTask.Delay(2000);
+            await UniTask.Delay(5000);
             WXBase.InitSDK(async (a) =>
             {
                 Log.Debug($"WXBase.InitSDK");

@@ -229,8 +229,11 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// DG.Tweening.Core.DOSetter<UnityEngine.Vector2>
 	// DG.Tweening.Core.DOSetter<UnityEngine.Vector3>
 	// DG.Tweening.Core.DOSetter<float>
-	// MessagePack.Formatters.IMessagePackFormatter<LocationData>
+	// MessagePack.Formatters.IMessagePackFormatter<HotFix_UI.LocationData>
+	// MessagePack.Formatters.IMessagePackFormatter<HotFix_UI.OtherData>
 	// MessagePack.Formatters.IMessagePackFormatter<object>
+	// Nerdbank.Streams.Sequence.SequenceSegment<byte>
+	// Nerdbank.Streams.Sequence<byte>
 	// System.Action<HotFix_UI.Card>
 	// System.Action<System.Collections.Generic.KeyValuePair<object,object>>
 	// System.Action<System.ValueTuple<object,object>>
@@ -244,6 +247,28 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Action<long>
 	// System.Action<object,object>
 	// System.Action<object>
+	// System.ArraySegment.Enumerator<byte>
+	// System.ArraySegment.Enumerator<ushort>
+	// System.ArraySegment<byte>
+	// System.ArraySegment<ushort>
+	// System.Buffers.ArrayMemoryPool.ArrayMemoryPoolBuffer<byte>
+	// System.Buffers.ArrayMemoryPool<byte>
+	// System.Buffers.ArrayPool<byte>
+	// System.Buffers.ConfigurableArrayPool.Bucket<byte>
+	// System.Buffers.ConfigurableArrayPool<byte>
+	// System.Buffers.IMemoryOwner<byte>
+	// System.Buffers.MemoryManager<byte>
+	// System.Buffers.MemoryPool<byte>
+	// System.Buffers.ReadOnlySequence.<>c<byte>
+	// System.Buffers.ReadOnlySequence.Enumerator<byte>
+	// System.Buffers.ReadOnlySequence<byte>
+	// System.Buffers.ReadOnlySequenceSegment<byte>
+	// System.Buffers.SpanAction<ushort,System.Buffers.ReadOnlySequence<ushort>>
+	// System.Buffers.TlsOverPerCoreLockedStacksArrayPool.LockedStack<byte>
+	// System.Buffers.TlsOverPerCoreLockedStacksArrayPool.PerCoreLockedStacks<byte>
+	// System.Buffers.TlsOverPerCoreLockedStacksArrayPool<byte>
+	// System.ByReference<byte>
+	// System.ByReference<ushort>
 	// System.Collections.Concurrent.ConcurrentQueue.<Enumerate>d__28<object>
 	// System.Collections.Concurrent.ConcurrentQueue.Segment<object>
 	// System.Collections.Concurrent.ConcurrentQueue<object>
@@ -361,6 +386,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Collections.Generic.IDictionary<object,long>
 	// System.Collections.Generic.IDictionary<object,object>
 	// System.Collections.Generic.IEnumerable<HotFix_UI.Card>
+	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.UIntPtr,object>>
 	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<int,HotFix_UI.CardGroup>>
 	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<int,object>>
 	// System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<long,object>>
@@ -374,6 +400,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Collections.Generic.IEnumerable<long>
 	// System.Collections.Generic.IEnumerable<object>
 	// System.Collections.Generic.IEnumerator<HotFix_UI.Card>
+	// System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.UIntPtr,object>>
 	// System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<int,HotFix_UI.CardGroup>>
 	// System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<int,object>>
 	// System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<long,object>>
@@ -398,6 +425,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Collections.Generic.IList<int>
 	// System.Collections.Generic.IList<long>
 	// System.Collections.Generic.IList<object>
+	// System.Collections.Generic.KeyValuePair<System.UIntPtr,object>
 	// System.Collections.Generic.KeyValuePair<int,HotFix_UI.CardGroup>
 	// System.Collections.Generic.KeyValuePair<int,object>
 	// System.Collections.Generic.KeyValuePair<long,object>
@@ -574,6 +602,7 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Linq.OrderedEnumerable<object,int>
 	// System.Linq.OrderedEnumerable<object>
 	// System.Linq.Set<HotFix_UI.Card>
+	// System.Memory<byte>
 	// System.Nullable<byte>
 	// System.Nullable<double>
 	// System.Nullable<float>
@@ -588,9 +617,14 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 	// System.Predicate<int>
 	// System.Predicate<long>
 	// System.Predicate<object>
+	// System.ReadOnlyMemory<byte>
+	// System.ReadOnlySpan<byte>
+	// System.ReadOnlySpan<ushort>
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable.ConfiguredTaskAwaiter<object>
 	// System.Runtime.CompilerServices.ConfiguredTaskAwaitable<object>
 	// System.Runtime.CompilerServices.TaskAwaiter<object>
+	// System.Span<byte>
+	// System.Span<ushort>
 	// System.Threading.Tasks.ContinuationTaskFromResultTask<object>
 	// System.Threading.Tasks.Task<object>
 	// System.Threading.Tasks.TaskFactory.<>c__DisplayClass35_0<object>
@@ -771,10 +805,14 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// System.Void Cysharp.Threading.Tasks.UniTaskExtensions.Forget<object>(Cysharp.Threading.Tasks.UniTask<object>)
 		// object DG.Tweening.TweenSettingsExtensions.OnComplete<object>(object,DG.Tweening.TweenCallback)
 		// object DG.Tweening.TweenSettingsExtensions.SetEase<object>(object,DG.Tweening.Ease)
-		// MessagePack.Formatters.IMessagePackFormatter<LocationData> MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<LocationData>(MessagePack.IFormatterResolver)
+		// MessagePack.Formatters.IMessagePackFormatter<HotFix_UI.LocationData> MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<HotFix_UI.LocationData>(MessagePack.IFormatterResolver)
+		// MessagePack.Formatters.IMessagePackFormatter<HotFix_UI.OtherData> MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<HotFix_UI.OtherData>(MessagePack.IFormatterResolver)
 		// MessagePack.Formatters.IMessagePackFormatter<object> MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<object>(MessagePack.IFormatterResolver)
-		// MessagePack.Formatters.IMessagePackFormatter<LocationData> MessagePack.IFormatterResolver.GetFormatter<LocationData>()
+		// MessagePack.Formatters.IMessagePackFormatter<HotFix_UI.LocationData> MessagePack.IFormatterResolver.GetFormatter<HotFix_UI.LocationData>()
+		// MessagePack.Formatters.IMessagePackFormatter<HotFix_UI.OtherData> MessagePack.IFormatterResolver.GetFormatter<HotFix_UI.OtherData>()
 		// MessagePack.Formatters.IMessagePackFormatter<object> MessagePack.IFormatterResolver.GetFormatter<object>()
+		// System.Void MessagePack.MessagePackSerializer.Serialize<object>(MessagePack.MessagePackWriter&,object,MessagePack.MessagePackSerializerOptions)
+		// byte[] MessagePack.MessagePackSerializer.Serialize<object>(object,MessagePack.MessagePackSerializerOptions,System.Threading.CancellationToken)
 		// object Newtonsoft.Json.JsonConvert.DeserializeObject<object>(string)
 		// object Newtonsoft.Json.JsonConvert.DeserializeObject<object>(string,Newtonsoft.Json.JsonSerializerSettings)
 		// object System.Activator.CreateInstance<object>()
@@ -811,9 +849,12 @@ public class AOTGenericReferences : UnityEngine.MonoBehaviour
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter,XFramework.DemoEntry.<LoadAsync>d__2>(Cysharp.Threading.Tasks.UniTask.Awaiter&,XFramework.DemoEntry.<LoadAsync>d__2&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter,XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d>(Cysharp.Threading.Tasks.UniTask.Awaiter&,XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter,XFramework.UIPanelInGame.<>c__DisplayClass24_1.<<PlayCardsAnimation>b__1>d>(Cysharp.Threading.Tasks.UniTask.Awaiter&,XFramework.UIPanelInGame.<>c__DisplayClass24_1.<<PlayCardsAnimation>b__1>d&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter<object>,XFramework.DemoEntry.<<LoadAsync>b__2_2>d>(Cysharp.Threading.Tasks.UniTask.Awaiter<object>&,XFramework.DemoEntry.<<LoadAsync>b__2_2>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.AwaitUnsafeOnCompleted<Cysharp.Threading.Tasks.UniTask.Awaiter<object>,XFramework.MenuScene.<OnCompleted>d__1>(Cysharp.Threading.Tasks.UniTask.Awaiter<object>&,XFramework.MenuScene.<OnCompleted>d__1&)
-		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<HotFix_UI.NetWorkManager.<Init>d__12>(HotFix_UI.NetWorkManager.<Init>d__12&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<HotFix_UI.NetWorkManager.<<Init>b__12_0>d>(HotFix_UI.NetWorkManager.<<Init>b__12_0>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.AudioManager.<Init>d__12>(XFramework.AudioManager.<Init>d__12&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.DemoEntry.<<LoadAsync>b__2_0>d>(XFramework.DemoEntry.<<LoadAsync>b__2_0>d&)
+		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.DemoEntry.<<LoadAsync>b__2_2>d>(XFramework.DemoEntry.<<LoadAsync>b__2_2>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.DemoEntry.<LoadAsync>d__2>(XFramework.DemoEntry.<LoadAsync>d__2&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d>(XFramework.DoTweenEffect.<>c__DisplayClass6_0.<<DoScaleTweenOnClickAndLongPress>b__0>d&)
 		// System.Void System.Runtime.CompilerServices.AsyncVoidMethodBuilder.Start<XFramework.MenuScene.<OnCompleted>d__1>(XFramework.MenuScene.<OnCompleted>d__1&)

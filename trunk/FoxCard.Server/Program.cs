@@ -41,5 +41,5 @@ app.UseWebSockets(webSocketOptions);
 //app.UseStaticFiles();
 
 app.MapControllers();
-
-app.Run(MyUrl.urlipv4);
+var url = $"http://{MyUrl.urlipv4}";
+app.Run(url);
