@@ -1,5 +1,4 @@
-﻿
-using FoxCard.Server.Datas;
+﻿using FoxCard.Server.Datas;
 using HotFix_UI;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.SignalR;
@@ -51,7 +50,7 @@ public class LoginHub : Hub
 
         //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         //var playerdata = await db.StringGetAsync(player.Id.ToString());
-        var userInfoJson = await GetSessionJson(player.OtherData.code);
+        var userInfoJson = await GetSessionJson(player.OtherData.Code);
         Console.WriteLine($"userInfoJson:{userInfoJson}");
         //var userData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
         string jsonData = JsonConvert.SerializeObject(player);

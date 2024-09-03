@@ -73,16 +73,19 @@ namespace HotFix_UI
             // WebUrlData data = JsonConvert.DeserializeObject<WebUrlData>(json);
             // string url = data.webUrl;
             websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
-            
-            websocket.OnOpen += async (a, b) =>
+
+            websocket.OnOpen += async (a, b) => { Log.Debug($"OnOpen", debugColor); };
+            websocket.OnMessage += (a, b) =>
             {
-                Log.Debug($"OnOpen", debugColor);
+                var message = MessagePackSerializer.Deserialize<MyMessage>(b.RawData);
+                var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
+
+                Log.Debug($"OnMessage {JsonConvert.SerializeObject(playerData)}", debugColor);
             };
             websocket.ConnectAsync();
-            
-            
-            return;
 
+
+            return;
 
 
             debugColor = Color.cyan;
@@ -94,7 +97,7 @@ namespace HotFix_UI
                 new JsonProtocol(new LitJsonEncoder()));
             hub.ReconnectPolicy = new DefaultRetryPolicy();
 
-            
+
             hub.OnConnected += OnConnected;
             hub.OnReconnected += OnReConnected;
             hub.OnError += OnError;

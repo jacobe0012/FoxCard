@@ -85,11 +85,15 @@ public class WebSocketController : ControllerBase
             Console.WriteLine($"PlayerData:{JsonConvert.SerializeObject(playerData)}");
             //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
             //var playerdata = await db.StringGetAsync(player.Id.ToString());
-            var wxCode2Session = await GetSessionJson(playerData.OtherData.code);
+            var wxCode2Session = await GetSessionJson(playerData.OtherData.Code);
             //playerData.Id = userInfoJson.openid;
             Console.WriteLine($"wxCode2Session.openid:{wxCode2Session.openid}");
             //var userData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
             playerData.ThirdId = wxCode2Session.openid;
+            var temp = playerData.OtherData;
+            temp.SpecialId = wxCode2Session.unionid;
+            playerData.OtherData = temp;
+
             string jsonData = JsonConvert.SerializeObject(playerData);
             await db.StringSetAsync(playerData.ThirdId, jsonData);
 
