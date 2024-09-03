@@ -26,7 +26,10 @@ builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 
     return connection;
 });
-
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+});
 var app = builder.Build();
 // <snippet_UseWebSockets>
 var webSocketOptions = new WebSocketOptions

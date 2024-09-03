@@ -72,16 +72,16 @@ namespace HotFix_UI
             // string json = File.ReadAllText(savePath);
             // WebUrlData data = JsonConvert.DeserializeObject<WebUrlData>(json);
             // string url = data.webUrl;
-            websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
-
-            websocket.OnOpen += async (a, b) =>
-            {
-                Log.Debug($"OnOpen", debugColor);
-            };
-            websocket.ConnectAsync();
-
-
-            return;
+            // websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
+            //
+            // websocket.OnOpen += async (a, b) =>
+            // {
+            //     Log.Debug($"OnOpen", debugColor);
+            // };
+            // websocket.ConnectAsync();
+            //
+            //
+            // return;
 
 
             debugColor = Color.cyan;
@@ -89,23 +89,22 @@ namespace HotFix_UI
             // hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
             //     new JsonProtocol(new LitJsonEncoder()));
 
-            hub = new HubConnection(new Uri($"https://192.168.2.112:7176/LoginHub"),
+            hub = new HubConnection(new Uri($"http://{MyUrl.urlipv4}/LoginHub/"),
                 new JsonProtocol(new LitJsonEncoder()));
             hub.ReconnectPolicy = new DefaultRetryPolicy();
 
-            Log.Debug($"2222", debugColor);
-            Log.Debug($"3333", debugColor);
+            
             hub.OnConnected += OnConnected;
             hub.OnReconnected += OnReConnected;
             hub.OnError += OnError;
             hub.OnClosed += OnClosed;
             hub.OnMessage += OnMessage;
-            Log.Debug($"4444", debugColor);
+            //Log.Debug($"4444", debugColor);
             hub.StartConnect();
             //var s=await hub.ConnectAsync();
 
 
-            Log.Debug($"5555", debugColor);
+            //Log.Debug($"5555", debugColor);
         }
 
         bool OnMessage(HubConnection hub, Message msg)
