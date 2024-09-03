@@ -116,9 +116,9 @@ namespace Best.SignalR.Transports
 
             queryBuilder.Append(baseUri.Query);
             if (!string.IsNullOrEmpty(this.connection.NegotiationResult.ConnectionToken))
-                queryBuilder.Append("&id=").Append(this.connection.NegotiationResult.ConnectionToken);
+                queryBuilder.Append("id=").Append(this.connection.NegotiationResult.ConnectionToken);
             else if (!string.IsNullOrEmpty(this.connection.NegotiationResult.ConnectionId))
-                queryBuilder.Append("&id=").Append(this.connection.NegotiationResult.ConnectionId);
+                queryBuilder.Append("id=").Append(this.connection.NegotiationResult.ConnectionId);
 
             builder.Query = StringBuilderPool.ReleaseAndGrab(queryBuilder);
 

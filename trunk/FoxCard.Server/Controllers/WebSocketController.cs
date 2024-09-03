@@ -1,5 +1,6 @@
 using System.Net.WebSockets;
 using FoxCard.Server.Datas;
+using FoxCard.Server.Services;
 using HotFix_UI;
 using MessagePack;
 using Microsoft.AspNetCore.Mvc;
@@ -12,11 +13,14 @@ public class WebSocketController : ControllerBase
 {
     private readonly IConnectionMultiplexer _redis;
     private readonly HttpClient _httpClient;
+    private readonly IRedisCacheService _redisCache;
 
-    public WebSocketController(IConnectionMultiplexer redis, HttpClient httpClient)
+    public WebSocketController(IConnectionMultiplexer redis, HttpClient httpClient,
+        IRedisCacheService redisCache)
     {
         _redis = redis;
         _httpClient = httpClient;
+        _redisCache = redisCache;
     }
 
     [Route("/ws")]
@@ -71,6 +75,8 @@ public class WebSocketController : ControllerBase
     private async Task<MyMessage> ProcessMessage(MyMessage message)
     {
         Console.WriteLine($"MyMessage:{JsonConvert.SerializeObject(message)}");
+
+
         if (message.MethodName == "Login")
         {
             var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
@@ -84,15 +90,15 @@ public class WebSocketController : ControllerBase
             Console.WriteLine($"wxCode2Session.openid:{wxCode2Session.openid}");
             //var userData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
             playerData.ThirdId = wxCode2Session.openid;
-
             string jsonData = JsonConvert.SerializeObject(playerData);
             await db.StringSetAsync(playerData.ThirdId, jsonData);
 
+            message.Content = MessagePackSerializer.Serialize<PlayerData>(playerData);
             Console.WriteLine($"db:{db.StringGet(playerData.ThirdId)}");
         }
 
 
-        return default;
+        return message;
     }
 
     public async Task<WXCode2Session>? GetSessionJson(string jsCode)

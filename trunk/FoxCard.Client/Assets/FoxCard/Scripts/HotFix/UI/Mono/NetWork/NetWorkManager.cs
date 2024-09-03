@@ -72,16 +72,17 @@ namespace HotFix_UI
             // string json = File.ReadAllText(savePath);
             // WebUrlData data = JsonConvert.DeserializeObject<WebUrlData>(json);
             // string url = data.webUrl;
-            // websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
-            //
-            // websocket.OnOpen += async (a, b) =>
-            // {
-            //     Log.Debug($"OnOpen", debugColor);
-            // };
-            // websocket.ConnectAsync();
-            //
-            //
-            // return;
+            websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
+            
+            websocket.OnOpen += async (a, b) =>
+            {
+                Log.Debug($"OnOpen", debugColor);
+            };
+            websocket.ConnectAsync();
+            
+            
+            return;
+
 
 
             debugColor = Color.cyan;

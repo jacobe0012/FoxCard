@@ -1,5 +1,6 @@
 // using System.Net;
 // using FoxCard.Server.Hubs;
+// using HotFix_UI;
 // using StackExchange.Redis;
 //
 // var builder = WebApplication.CreateBuilder(args);
@@ -56,5 +57,5 @@
 //
 // // 配置中间件等
 // app.MapHub<LoginHub>("/LoginHub");
-// //var url = $"https://{DeviceTool.GetLocalIp()}:7176";
-// app.Run();
+// var url = $"http://{MyUrl.urlipv4}";
+// app.Run(url);
