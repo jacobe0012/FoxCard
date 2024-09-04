@@ -79,9 +79,16 @@ public class WebSocketController : ControllerBase
 
         if (message.MethodName == "Login")
         {
-            var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
-
             var db = _redis.GetDatabase();
+            var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
+            var cacheData = _redisCache.GetData<PlayerData>(playerData.ThirdId);
+            if (cacheData is null)
+            {
+                _redisCache.SetData(playerData.ThirdId, playerData);
+                //var =db.StringGet(playerData.ThirdId);
+            }
+            
+
             Console.WriteLine($"PlayerData:{JsonConvert.SerializeObject(playerData)}");
             //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
             //var playerdata = await db.StringGetAsync(player.Id.ToString());

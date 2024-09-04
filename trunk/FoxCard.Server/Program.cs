@@ -32,6 +32,7 @@ builder.Services.AddStackExchangeRedisCache(options =>
     options.Configuration = builder.Configuration.GetConnectionString("Redis");
 });
 builder.Services.AddScoped<IRedisCacheService, RedisCacheService>();
+
 var app = builder.Build();
 // <snippet_UseWebSockets>
 var webSocketOptions = new WebSocketOptions

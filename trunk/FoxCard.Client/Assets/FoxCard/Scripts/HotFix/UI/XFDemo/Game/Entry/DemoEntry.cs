@@ -72,7 +72,7 @@ namespace XFramework
             //         code = "locationInfo.addr",
             //     }
             // });
-
+            return;
             await UniTask.Delay(5000);
             WXBase.InitSDK(async (a) =>
             {

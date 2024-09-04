@@ -74,12 +74,27 @@ namespace HotFix_UI
             // string url = data.webUrl;
             websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
 
-            websocket.OnOpen += async (a, b) => { Log.Debug($"OnOpen", debugColor); };
+            websocket.OnOpen += async (a, b) =>
+            {
+                Log.Debug($"OnOpen", debugColor);
+                
+                SendMessage(CMD.LOGIN,new PlayerData
+                {
+                    ThirdId = "sfsa",
+                    LoginType = 0,
+                    NickName = null,
+                    LocationData = default,
+                    OtherData = default
+                });
+                
+            };
             websocket.OnMessage += (a, b) =>
             {
                 var message = MessagePackSerializer.Deserialize<MyMessage>(b.RawData);
+                
+                
                 var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
-
+                
                 Log.Debug($"OnMessage {JsonConvert.SerializeObject(playerData)}", debugColor);
             };
             websocket.ConnectAsync();
