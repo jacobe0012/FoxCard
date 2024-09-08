@@ -1,6 +1,9 @@
 using System.Net;
+using FoxCard.Server.Datas.Config.Scripts;
 using FoxCard.Server.Services;
 using HotFix_UI;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using StackExchange.Redis;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +12,8 @@ builder.Services.AddControllers();
 
 //
 builder.Services.AddSingleton<HttpClient>();
+
+builder.Services.AddSingleton<MyConfig>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp =>
 {
     var config = new ConfigurationOptions
@@ -43,6 +48,9 @@ var webSocketOptions = new WebSocketOptions
 app.UseWebSockets(webSocketOptions);
 // </snippet_UseWebSockets>
 
+MyConfig.InitConfig();
+
+Console.WriteLine($"{MyConfig.Tables.Tbitem.Get(10000).id}");
 //app.UseDefaultFiles();
 //app.UseStaticFiles();
 

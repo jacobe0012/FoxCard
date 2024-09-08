@@ -1,6 +1,6 @@
 from openpyxl import Workbook, load_workbook
 from openpyxl.utils import get_column_letter
-import exceltool
+import exceltoolclient
 import os
 script_path = os.path.abspath(__file__)
 dir_path = os.path.dirname(script_path)
@@ -25,7 +25,7 @@ def get_excel_files(folder_path):
 # /// <summary>
 # /// 在这里加入需要转换未处理的excel文件，包含文件后缀
 # /// </summary>
-my_excel.append(r"D:\FoxCard\config\language.xlsx")
+#my_excel.append(r"D:\FoxCard\config\language.xlsx")
 
 #my_excel.append(r"D:\FoxCard\config\foxconfig\card_group.xlsx")
 #my_excel.append(r"D:\JiYu\config\battle\area.xlsx")
@@ -36,13 +36,13 @@ my_excel.append(r"D:\FoxCard\config\language.xlsx")
 # /// <summary>
 # /// 在这里加入需要转换未处理的excel整个文件夹，不包含文件后缀
 # /// </summary>
-folder_paths.append(r"D:\FoxCard\config\foxconfig")
+#folder_paths.append(r"D:\FoxCard\config\foxconfig")
 #folder_paths.append(r"D:\JiYu\config\battle")
 #folder_paths.append(r"D:\JiYu\config\common")
 #folder_paths.append(r"D:\JiYu\config\item")
 #folder_paths.append(r"D:\JiYu\config\task")
-#configDir =parent_dir + r"\config"
-#folder_paths.append(configDir)
+configDir =parent_dir + r"\config"
+folder_paths.append(configDir)
 
 
 
@@ -63,7 +63,7 @@ workbook.save(tablespath)
 workbook.close()
 #print('begin')
 for index, value in enumerate(my_excel):
-    exceltool.genfixedexcel(index, value,lubanOutputPath)
+    exceltoolclient.genfixedexcel(index, value,lubanOutputPath)
     print(f"已转换第 {index+1} 个表格, 路径为: {value}")
 
 

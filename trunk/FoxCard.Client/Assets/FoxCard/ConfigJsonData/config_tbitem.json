@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "buy_value": 10,
+    "sell_value": 5,
+    "quality": 0,
+    "pile_yn": 1,
+    "name": "",
+    "desc": "",
+    "desc_value": [],
+    "icon": "",
+    "img_border": "",
+    "sort": 0,
+    "version": [],
+    "type": 0
+  }
+]

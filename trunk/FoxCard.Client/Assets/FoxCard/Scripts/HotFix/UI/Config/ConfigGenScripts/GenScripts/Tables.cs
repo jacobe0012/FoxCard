@@ -17,6 +17,7 @@ public sealed partial class Tables
 {
     public config.Tblanguage Tblanguage {get; private set; }
     public config.Tbcard_group Tbcard_group {get; private set; }
+    public config.Tbitem Tbitem {get; private set; }
 
     public Tables() { }
     public Tables(System.Func<string, JSONNode> loader)
@@ -26,10 +27,13 @@ public sealed partial class Tables
         tables.Add("config.Tblanguage", Tblanguage);
         Tbcard_group = new config.Tbcard_group(loader("config_tbcard_group")); 
         tables.Add("config.Tbcard_group", Tbcard_group);
+        Tbitem = new config.Tbitem(loader("config_tbitem")); 
+        tables.Add("config.Tbitem", Tbitem);
         PostInit();
 
         Tblanguage.Resolve(tables); 
         Tbcard_group.Resolve(tables); 
+        Tbitem.Resolve(tables); 
         PostResolve();
     }
 
@@ -40,10 +44,13 @@ public sealed partial class Tables
         tables.Add("config.Tblanguage", Tblanguage);
         Tbcard_group = new config.Tbcard_group(await loader("config_tbcard_group")); 
         tables.Add("config.Tbcard_group", Tbcard_group);
+        Tbitem = new config.Tbitem(await loader("config_tbitem")); 
+        tables.Add("config.Tbitem", Tbitem);
         PostInit();
 
         Tblanguage.Resolve(tables); 
         Tbcard_group.Resolve(tables); 
+        Tbitem.Resolve(tables); 
         PostResolve();
     }
 
@@ -51,6 +58,7 @@ public sealed partial class Tables
     {
         Tblanguage.TranslateText(translator); 
         Tbcard_group.TranslateText(translator); 
+        Tbitem.TranslateText(translator); 
     }
     
     partial void PostInit();

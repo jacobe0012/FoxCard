@@ -26,7 +26,9 @@ set CONF_ROOT=%WORKSPACE%\Luban
 %GEN_CLIENT% -j cfg --^
  -d %CONF_ROOT%\ConfigRoot\Defines\__root__.xml ^
  --input_data_dir %CONF_ROOT%\ConfigRoot\Datas ^
- --output_data_dir %WORKSPACE%\server_json ^
- --gen_types data_json ^
+ --output_code_dir %PARENT_WORKSPACE%\trunk\FoxCard.Server\Datas\Config\Scripts\GenScripts ^
+ --output_data_dir %PARENT_WORKSPACE%\trunk\FoxCard.Server\Datas\Config\Json ^
+ --naming_convention:bean_member camelCase ^
+ --gen_types code_cs_dotnet_json,data_json ^
 
  -s server

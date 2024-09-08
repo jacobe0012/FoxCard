@@ -1,5 +1,6 @@
 using System.Net.WebSockets;
 using FoxCard.Server.Datas;
+using FoxCard.Server.Datas.Config.Scripts;
 using FoxCard.Server.Services;
 using HotFix_UI;
 using MessagePack;
@@ -14,6 +15,7 @@ public class WebSocketController : ControllerBase
     private readonly IConnectionMultiplexer _redis;
     private readonly HttpClient _httpClient;
     private readonly IRedisCacheService _redisCache;
+    //private readonly MyConfig _myConfig;
 
     public WebSocketController(IConnectionMultiplexer redis, HttpClient httpClient,
         IRedisCacheService redisCache)
@@ -29,6 +31,8 @@ public class WebSocketController : ControllerBase
         if (HttpContext.WebSockets.IsWebSocketRequest)
         {
             using var webSocket = await HttpContext.WebSockets.AcceptWebSocketAsync();
+            Console.WriteLine(
+                $"ConnectionId:{HttpContext.Connection.Id} Ip:{HttpContext.Connection.RemoteIpAddress}");
             await Echo(webSocket);
         }
         else
@@ -76,9 +80,10 @@ public class WebSocketController : ControllerBase
     {
         Console.WriteLine($"MyMessage:{JsonConvert.SerializeObject(message)}");
 
-
         if (message.MethodName == "Login")
         {
+            //MyConfig.InitConfig();
+            Console.WriteLine($"{MyConfig.Tables?.Tbitem.Get(10000).id}");
             var db = _redis.GetDatabase();
             var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
             var cacheData = _redisCache.GetData<PlayerData>(playerData.ThirdId);
@@ -87,8 +92,8 @@ public class WebSocketController : ControllerBase
                 _redisCache.SetData(playerData.ThirdId, playerData);
                 //var =db.StringGet(playerData.ThirdId);
             }
-            
 
+            //Console.WriteLine($"PlayerData1111:{JsonConvert.SerializeObject(playerData)}");
             Console.WriteLine($"PlayerData:{JsonConvert.SerializeObject(playerData)}");
             //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
             //var playerdata = await db.StringGetAsync(player.Id.ToString());
@@ -100,12 +105,13 @@ public class WebSocketController : ControllerBase
             var temp = playerData.OtherData;
             temp.SpecialId = wxCode2Session.unionid;
             playerData.OtherData = temp;
+            playerData.LoginType = 11;
 
             string jsonData = JsonConvert.SerializeObject(playerData);
             await db.StringSetAsync(playerData.ThirdId, jsonData);
 
             message.Content = MessagePackSerializer.Serialize<PlayerData>(playerData);
-            Console.WriteLine($"db:{db.StringGet(playerData.ThirdId)}");
+            //Console.WriteLine($"db:{db.StringGet(playerData.ThirdId)}");
         }
 
 
@@ -127,6 +133,14 @@ public class WebSocketController : ControllerBase
         {
             // 读取响应内容
             responseBody = await response.Content.ReadAsStringAsync();
+            responseBody = JsonConvert.SerializeObject(new WXCode2Session
+            {
+                session_key = "safasfs234",
+                unionid = "safasfs11",
+                errmsg = null,
+                openid = "safasfs",
+                errcode = 0
+            });
             Console.WriteLine($"responseBody:{responseBody}");
         }
         else

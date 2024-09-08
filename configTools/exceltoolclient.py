@@ -62,6 +62,18 @@ def genfixedexcel(index,excel_path,output_path):
    
     #sheet_name = wb.sheetnames[0]
     ws =wb[matching_sheets[0]] 
+    found_server = False
+    rowserver = ws[3]
+    # 检查单元格中是否有包含字符 "server"
+    for cell in rowserver:
+        if cell.value and ("client" or "all") in str(cell.value):
+            found_server = True
+            break  # 一旦找到了，退出循环
+    if not found_server:
+        print(excel_path+"：找不到client")
+        wb.close()
+        return None
+
     # 删除除目标表之外的其他表
     for sheet_name in sheet_names:
         if sheet_name != matching_sheets[0]:

@@ -52,9 +52,21 @@ public sealed partial class card_group :  Bright.Config.BeanBase
     public int id { get; private set; }
     public string langId { get; private set; }
     public int isDisable { get; private set; }
+    /// <summary>
+    /// 初始筹码
+    /// </summary>
     public int initAdd { get; private set; }
+    /// <summary>
+    /// 初始倍率
+    /// </summary>
     public int initMul { get; private set; }
+    /// <summary>
+    /// 每级加成筹码
+    /// </summary>
     public int scoreAdd { get; private set; }
+    /// <summary>
+    /// 每级加成倍率
+    /// </summary>
     public int scoreMul { get; private set; }
     public const int __ID__ = -2106808644;
     public override int GetTypeId() => __ID__;

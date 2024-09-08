@@ -84,7 +84,11 @@ namespace HotFix_UI
                     LoginType = 0,
                     NickName = null,
                     LocationData = default,
-                    OtherData = default
+                    OtherData = new OtherData
+                    {
+                        Code = "safsafas",
+                        SpecialId = null
+                    }
                 });
                 
             };

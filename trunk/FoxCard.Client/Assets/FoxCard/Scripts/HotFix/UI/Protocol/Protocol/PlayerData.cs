@@ -28,6 +28,7 @@ namespace HotFix_UI
         [Key(3)] public LocationData LocationData { get; set; }
 
         [Key(4)] public OtherData OtherData { get; set; }
+     
     }
 
     [MessagePackObject]
