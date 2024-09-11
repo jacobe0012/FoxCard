@@ -83,7 +83,7 @@ public class WebSocketController : ControllerBase
         if (message.MethodName == "Login")
         {
             //MyConfig.InitConfig();
-            Console.WriteLine($"{MyConfig.Tables?.Tbitem.Get(10000).id}");
+            //Console.WriteLine($"{MyConfig.Tables?.Tbitem.Get(10000).id}");
             var db = _redis.GetDatabase();
             var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
             var cacheData = _redisCache.GetData<PlayerData>(playerData.ThirdId);
@@ -101,9 +101,10 @@ public class WebSocketController : ControllerBase
             //playerData.Id = userInfoJson.openid;
             Console.WriteLine($"wxCode2Session.openid:{wxCode2Session.openid}");
             //var userData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
-            playerData.ThirdId = wxCode2Session.openid;
+
+            playerData.ThirdId = MyEncryptor.Decrypt(wxCode2Session.openid);
             var temp = playerData.OtherData;
-            temp.SpecialId = wxCode2Session.unionid;
+            temp.UnionidId = wxCode2Session.unionid;
             playerData.OtherData = temp;
             playerData.LoginType = 11;
 

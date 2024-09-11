@@ -35,7 +35,8 @@ namespace HotFix_UI
     public struct OtherData
     {
         [Key(0)] public string Code { get; set; }
-        [Key(1)] public string SpecialId { get; set; }
+        
+        [Key(1)] public string UnionidId { get; set; }
     }
 
     [MessagePackObject]

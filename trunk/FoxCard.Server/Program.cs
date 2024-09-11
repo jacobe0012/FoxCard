@@ -50,7 +50,7 @@ app.UseWebSockets(webSocketOptions);
 
 MyConfig.InitConfig();
 
-Console.WriteLine($"{MyConfig.Tables.Tbitem.Get(10000).id}");
+Console.WriteLine($"test config:{MyConfig.Tables.Tbitem.Get(1001).id}");
 //app.UseDefaultFiles();
 //app.UseStaticFiles();
 

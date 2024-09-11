@@ -1,8 +1,14 @@
 [
   {
-    "id": 1,
-    "buy_value": 10,
-    "sell_value": 5,
-    "quality": 0
+    "id": 1001,
+    "init_enable": 1
+  },
+  {
+    "id": 1002,
+    "init_enable": 1
+  },
+  {
+    "id": 1003,
+    "init_enable": 1
   }
 ]

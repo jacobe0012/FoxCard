@@ -87,7 +87,7 @@ namespace HotFix_UI
                     OtherData = new OtherData
                     {
                         Code = "safsafas",
-                        SpecialId = null
+                        UnionidId = null
                     }
                 });
                 

@@ -1,17 +1,47 @@
 [
   {
-    "id": 1,
-    "buy_value": 10,
-    "sell_value": 5,
+    "id": 1001,
+    "type": 1,
+    "buy_value": 5,
+    "sell_value": 2,
     "quality": 0,
-    "pile_yn": 1,
+    "pile_yn": 0,
     "name": "",
     "desc": "",
     "desc_value": [],
     "icon": "",
     "img_border": "",
     "sort": 0,
-    "version": [],
-    "type": 0
+    "version": []
+  },
+  {
+    "id": 1002,
+    "type": 1,
+    "buy_value": 8,
+    "sell_value": 5,
+    "quality": 0,
+    "pile_yn": 0,
+    "name": "",
+    "desc": "",
+    "desc_value": [],
+    "icon": "",
+    "img_border": "",
+    "sort": 0,
+    "version": []
+  },
+  {
+    "id": 1003,
+    "type": 1,
+    "buy_value": 3,
+    "sell_value": 1,
+    "quality": 0,
+    "pile_yn": 0,
+    "name": "",
+    "desc": "",
+    "desc_value": [],
+    "icon": "",
+    "img_border": "",
+    "sort": 0,
+    "version": []
   }
 ]

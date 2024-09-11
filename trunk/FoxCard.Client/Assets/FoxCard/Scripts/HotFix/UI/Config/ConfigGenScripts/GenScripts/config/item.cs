@@ -19,6 +19,7 @@ public sealed partial class item :  Bright.Config.BeanBase
     public item(JSONNode _json) 
     {
         { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
+        { if(!_json["type"].IsNumber) { throw new SerializationException(); }  type = _json["type"]; }
         { if(!_json["buy_value"].IsNumber) { throw new SerializationException(); }  buyValue = _json["buy_value"]; }
         { if(!_json["sell_value"].IsNumber) { throw new SerializationException(); }  sellValue = _json["sell_value"]; }
         { if(!_json["quality"].IsNumber) { throw new SerializationException(); }  quality = _json["quality"]; }
@@ -30,13 +31,13 @@ public sealed partial class item :  Bright.Config.BeanBase
         { if(!_json["img_border"].IsString) { throw new SerializationException(); }  imgBorder = _json["img_border"]; }
         { if(!_json["sort"].IsNumber) { throw new SerializationException(); }  sort = _json["sort"]; }
         { var __json0 = _json["version"]; if(!__json0.IsArray) { throw new SerializationException(); } version = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  version.Add(__v0); }   }
-        { if(!_json["type"].IsNumber) { throw new SerializationException(); }  type = _json["type"]; }
         PostInit();
     }
 
-    public item(int id, int buy_value, int sell_value, int quality, int pile_yn, string name, string desc, System.Collections.Generic.List<int> desc_value, string icon, string img_border, int sort, System.Collections.Generic.List<int> version, int type ) 
+    public item(int id, int type, int buy_value, int sell_value, int quality, int pile_yn, string name, string desc, System.Collections.Generic.List<int> desc_value, string icon, string img_border, int sort, System.Collections.Generic.List<int> version ) 
     {
         this.id = id;
+        this.type = type;
         this.buyValue = buy_value;
         this.sellValue = sell_value;
         this.quality = quality;
@@ -48,7 +49,6 @@ public sealed partial class item :  Bright.Config.BeanBase
         this.imgBorder = img_border;
         this.sort = sort;
         this.version = version;
-        this.type = type;
         
         PostInit();
     }
@@ -62,6 +62,10 @@ public sealed partial class item :  Bright.Config.BeanBase
     /// ID
     /// </summary>
     public int id { get; private set; }
+    /// <summary>
+    /// 类型
+    /// </summary>
+    public int type { get; private set; }
     /// <summary>
     /// 购买价值
     /// </summary>
@@ -106,10 +110,6 @@ public sealed partial class item :  Bright.Config.BeanBase
     /// 版本
     /// </summary>
     public System.Collections.Generic.List<int> version { get; private set; }
-    /// <summary>
-    /// 类型
-    /// </summary>
-    public int type { get; private set; }
     public const int __ID__ = -28054977;
     public override int GetTypeId() => __ID__;
 
@@ -126,6 +126,7 @@ public sealed partial class item :  Bright.Config.BeanBase
     {
         return "{ "
         + "id:" + id + ","
+        + "type:" + type + ","
         + "buyValue:" + buyValue + ","
         + "sellValue:" + sellValue + ","
         + "quality:" + quality + ","
@@ -137,7 +138,6 @@ public sealed partial class item :  Bright.Config.BeanBase
         + "imgBorder:" + imgBorder + ","
         + "sort:" + sort + ","
         + "version:" + Bright.Common.StringUtil.CollectionToString(version) + ","
-        + "type:" + type + ","
         + "}";
     }
     

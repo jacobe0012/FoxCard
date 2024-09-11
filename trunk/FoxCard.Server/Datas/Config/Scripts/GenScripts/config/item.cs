@@ -19,18 +19,14 @@ public sealed partial class item :  Bright.Config.BeanBase
     public item(JsonElement _json) 
     {
         id = _json.GetProperty("id").GetInt32();
-        buyValue = _json.GetProperty("buy_value").GetInt32();
-        sellValue = _json.GetProperty("sell_value").GetInt32();
-        quality = _json.GetProperty("quality").GetInt32();
+        initEnable = _json.GetProperty("init_enable").GetInt32();
         PostInit();
     }
 
-    public item(int id, int buy_value, int sell_value, int quality ) 
+    public item(int id, int init_enable ) 
     {
         this.id = id;
-        this.buyValue = buy_value;
-        this.sellValue = sell_value;
-        this.quality = quality;
+        this.initEnable = init_enable;
         PostInit();
     }
 
@@ -44,17 +40,9 @@ public sealed partial class item :  Bright.Config.BeanBase
     /// </summary>
     public int id { get; private set; }
     /// <summary>
-    /// 购买价值
+    /// 初始号是否携带
     /// </summary>
-    public int buyValue { get; private set; }
-    /// <summary>
-    /// 出售价值
-    /// </summary>
-    public int sellValue { get; private set; }
-    /// <summary>
-    /// 道具品质
-    /// </summary>
-    public int quality { get; private set; }
+    public int initEnable { get; private set; }
 
     public const int __ID__ = -28054977;
     public override int GetTypeId() => __ID__;
@@ -72,9 +60,7 @@ public sealed partial class item :  Bright.Config.BeanBase
     {
         return "{ "
         + "id:" + id + ","
-        + "buyValue:" + buyValue + ","
-        + "sellValue:" + sellValue + ","
-        + "quality:" + quality + ","
+        + "initEnable:" + initEnable + ","
         + "}";
     }
 
