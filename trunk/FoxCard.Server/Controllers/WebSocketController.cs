@@ -37,26 +37,38 @@ public class WebSocketController : ControllerBase
         }
         else
         {
+           
+
             HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
         }
     }
 
 
     private async Task Echo(WebSocket webSocket)
-    {
-        var buffer = new byte[1024 * 4];
-        var receiveResult = await webSocket.ReceiveAsync(
-            new ArraySegment<byte>(buffer), CancellationToken.None);
+{
+    var buffer = new byte[1024 * 4];
+    WebSocketReceiveResult receiveResult;
+    var timeoutCancellationTokenSource = new CancellationTokenSource(TimeSpan.FromMinutes(5)); // 超时设置为5分钟
 
-        while (!receiveResult.CloseStatus.HasValue)
+    try
+    {
+        while (!timeoutCancellationTokenSource.Token.IsCancellationRequested)
         {
+            receiveResult = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), timeoutCancellationTokenSource.Token);
+
+            if (receiveResult.MessageType == WebSocketMessageType.Close)
+            {
+                // 正常关闭
+                await webSocket.CloseAsync(receiveResult.CloseStatus.Value, receiveResult.CloseStatusDescription, CancellationToken.None);
+                return;
+            }
+
             var receivedMessage = MessagePackSerializer.Deserialize<MyMessage>(buffer);
 
-
-            //处理消息并生成回复
+            // 处理消息并生成回复
             var responseMessage = await ProcessMessage(receivedMessage);
 
-            //使用 MessagePack 序列化回复消息
+            // 使用 MessagePack 序列化回复消息
             var responseBuffer = MessagePackSerializer.Serialize(responseMessage);
 
             // 将回复发送回客户端
@@ -65,16 +77,40 @@ public class WebSocketController : ControllerBase
                 receiveResult.MessageType,
                 receiveResult.EndOfMessage,
                 CancellationToken.None);
-
-            receiveResult = await webSocket.ReceiveAsync(
-                new ArraySegment<byte>(buffer), CancellationToken.None);
         }
-
-        await webSocket.CloseAsync(
-            receiveResult.CloseStatus.Value,
-            receiveResult.CloseStatusDescription,
-            CancellationToken.None);
     }
+    catch (OperationCanceledException)
+    {
+        // 超时
+        Console.WriteLine($"ConnectionId:{HttpContext.Connection.Id} Connection timed out");
+        try
+        {
+            await webSocket.CloseAsync(WebSocketCloseStatus.PolicyViolation, "Connection timed out", CancellationToken.None);
+        }
+        catch
+        {
+            // Ignore exceptions during close
+        }
+    }
+    catch (Exception ex)
+    {
+        // 处理其他异常
+        Console.WriteLine($"ConnectionId:{HttpContext.Connection.Id} Error: {ex.Message}");
+        try
+        {
+            await webSocket.CloseAsync(WebSocketCloseStatus.InternalServerError, "Error occurred", CancellationToken.None);
+        }
+        catch
+        {
+            // Ignore exceptions during close
+        }
+    }
+    finally
+    {
+        timeoutCancellationTokenSource.Dispose();
+    }
+}
+
 
     private async Task<MyMessage> ProcessMessage(MyMessage message)
     {
