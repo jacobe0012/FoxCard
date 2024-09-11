@@ -49,6 +49,7 @@
     <None Include="Packages\Unity-Logs-Viewer\package.json" />
     <None Include="Assets\HybridCLRGenerate\link.xml" />
     <None Include="Assets\WX-WASM-SDK-V2\package.json" />
+    <None Include="Assets\FoxCard\ConfigJsonData\config_tbitem.json" />
     <None Include="Assets\Resources\WsUrl.json" />
     <None Include="Assets\FoxCard\ConfigJsonData\config_tblanguage.json" />
     <None Include="Assets\FoxCard\Link\link.xml" />

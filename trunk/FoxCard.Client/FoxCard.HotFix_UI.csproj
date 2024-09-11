@@ -123,6 +123,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Helper\PlayerPrefs\PlayerPrefsHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\MyData.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\UILayer.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\item.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\Buff\Buff_100.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Object\LifeCycle\Awake\IAwake.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\ResourcesManager.cs" />
@@ -203,6 +204,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\AAResourcesLoader.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\ETTask\XFTaskHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\XDropdown.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbitem.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\InputField\TMP_InputFieldComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\Types\UIPathSet.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\GameObject\UnityEventExtensions.cs" />

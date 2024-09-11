@@ -52,6 +52,7 @@
     <Compile Include="Assets\Editor\Jenkins\JenkinsBuildTools.cs" />
     <Compile Include="Assets\Editor\HybridCLR\BuildPlayerCommand.cs" />
     <Compile Include="Assets\Editor\UI\UI\XButtonEditor.cs" />
+    <Compile Include="Assets\Editor\UI\TexturePacker.cs" />
     <Compile Include="Assets\Editor\HybridCLR\BuildAssetsCommand.cs" />
     <Compile Include="Assets\Editor\UI\UI\CreateSpriteAtlas.cs" />
     <Compile Include="Assets\Editor\UI\Reference\UIReferenceEditor.cs" />
