@@ -77,10 +77,10 @@ namespace HotFix_UI
             websocket.OnOpen += async (a, b) =>
             {
                 Log.Debug($"OnOpen", debugColor);
-                
-                SendMessage(CMD.LOGIN,new PlayerData
+
+                SendMessage(CMD.LOGIN, new PlayerData
                 {
-                    ThirdId = "sfsa",
+                    ThirdId = null,
                     LoginType = 0,
                     NickName = null,
                     LocationData = default,
@@ -90,16 +90,23 @@ namespace HotFix_UI
                         UnionidId = null
                     }
                 });
-                
             };
             websocket.OnMessage += (a, b) =>
             {
+                if (b.RawData == null)
+                {
+                    Log.Debug($"empty message", debugColor);
+                    return;
+                }
+
                 var message = MessagePackSerializer.Deserialize<MyMessage>(b.RawData);
-                
-                
-                var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
-                
-                Log.Debug($"OnMessage {JsonConvert.SerializeObject(playerData)}", debugColor);
+                if (message.ErrorCode != 0)
+                {
+                    Log.Debug($"ErrorCode{message.ErrorCode}", debugColor);
+                }
+                //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
+
+                Log.Debug($"Onmsg MethodName {message.MethodName}", debugColor);
             };
             websocket.ConnectAsync();
 
