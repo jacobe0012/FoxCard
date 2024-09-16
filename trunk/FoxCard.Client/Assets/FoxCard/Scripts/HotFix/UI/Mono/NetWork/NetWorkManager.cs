@@ -11,6 +11,7 @@ using Best.SignalR.Encoders;
 using Best.SignalR.Messages;
 //using Best.WebSockets;
 using Cysharp.Threading.Tasks;
+using JetBrains.Annotations;
 using MessagePack;
 using Newtonsoft.Json;
 using UnityEngine;
@@ -86,7 +87,7 @@ namespace HotFix_UI
                     LocationData = default,
                     OtherData = new OtherData
                     {
-                        Code = "safsafas",
+                        Code = "aa1",
                         UnionidId = null
                     }
                 });
@@ -104,9 +105,15 @@ namespace HotFix_UI
                 {
                     Log.Debug($"ErrorCode{message.ErrorCode}", debugColor);
                 }
+
                 //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
 
-                Log.Debug($"Onmsg MethodName {message.MethodName}", debugColor);
+                if (message.MethodName == CMD.LOGIN)
+                {
+                    SendMessage(CMD.QUERYRESOURCE);
+                }
+
+                Log.Debug($"Onmsg methodName:{message.MethodName} content:{message.Content}", debugColor);
             };
             websocket.ConnectAsync();
 
@@ -279,6 +286,24 @@ namespace HotFix_UI
         //
         //     socket.SendAsync(myExternalMessage.ToByteArray());
         // }
+
+        /// <summary>
+        /// 向服务器发送proto消息
+        /// </summary>
+        /// <param name="cmd">业务主路由</param>
+        /// <param name="subCmd">业务子路由</param>
+        /// <param name="protoMessage">发送的proto消息类</param>
+        /// <typeparam name="T"></typeparam>
+        public void SendMessage(string serverMethodName)
+        {
+            var myExternalMessage = new MyMessage
+            {
+                MethodName = serverMethodName,
+                ErrorCode = 0,
+            };
+
+            websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage));
+        }
 
         /// <summary>
         /// 向服务器发送proto消息

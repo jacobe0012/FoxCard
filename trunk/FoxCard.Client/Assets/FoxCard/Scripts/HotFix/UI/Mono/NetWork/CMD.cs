@@ -2,10 +2,9 @@
 {
     public static class CMD
     {
-        //public const string LOGIN = "Login";
-
         public const string LOGIN = "Login";
 
+        public const string QUERYRESOURCE = "QueryResource";
         //0,1   登录
         //public const int LOGIN = (MainCmd.loginCmd << 16) + LoginCmd.loginVerify;
 

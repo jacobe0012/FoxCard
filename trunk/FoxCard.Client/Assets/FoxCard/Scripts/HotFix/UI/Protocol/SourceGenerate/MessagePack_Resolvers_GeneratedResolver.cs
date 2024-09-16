@@ -47,13 +47,16 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(5)
+            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(8)
             {
-                { typeof(global::HotFix_UI.LocationData), 0 },
-                { typeof(global::HotFix_UI.MyData), 1 },
-                { typeof(global::HotFix_UI.MyMessage), 2 },
-                { typeof(global::HotFix_UI.OtherData), 3 },
-                { typeof(global::HotFix_UI.PlayerData), 4 },
+                { typeof(global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>), 0 },
+                { typeof(global::HotFix_UI.ItemInfo), 1 },
+                { typeof(global::HotFix_UI.LocationData), 2 },
+                { typeof(global::HotFix_UI.MyData), 3 },
+                { typeof(global::HotFix_UI.MyMessage), 4 },
+                { typeof(global::HotFix_UI.OtherData), 5 },
+                { typeof(global::HotFix_UI.PlayerData), 6 },
+                { typeof(global::HotFix_UI.PlayerResource), 7 },
             };
         }
 
@@ -67,11 +70,14 @@ namespace MessagePack.Resolvers
 
             switch (key)
             {
-                case 0: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
-                case 1: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
-                case 2: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
-                case 3: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
-                case 4: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
+                case 0: return new global::MessagePack.Formatters.ListFormatter<global::HotFix_UI.ItemInfo>();
+                case 1: return new MessagePack.Formatters.HotFix_UI.ItemInfoFormatter();
+                case 2: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
+                case 3: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
+                case 4: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
+                case 5: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
+                case 6: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
+                case 7: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
                 default: return null;
             }
         }

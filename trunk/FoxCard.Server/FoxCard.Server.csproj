@@ -23,6 +23,10 @@
         <Link>Protocol\Class\MyUrl.cs</Link>
       </Compile>
       <PackageReference Include="StackExchange.Redis" Version="2.8.0" />
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\PlayerResource.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\PlayerResource.cs</Link>
+      </Compile>
     </ItemGroup>
 
 </Project>

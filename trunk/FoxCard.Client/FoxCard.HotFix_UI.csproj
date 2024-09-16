@@ -129,6 +129,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\ResourcesManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\AutoSize\AutoSizeScrollViewContent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\Class\MyMessage.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_PlayerResourceFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Json\JsonManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\MiniTween\MiniTweenManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\System\InitPlayerSystem.cs" />
@@ -168,6 +169,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_LocationDataFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\ETTask\XFTaskCompleted.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\InputField\InputFieldComponent.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\PlayerResource.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\RedDot\NodeNames.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\UILoading\UILoading.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Utility\DoTweenEffect.cs" />
@@ -196,6 +198,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Object\LifeCycle\Update\ILateUpdate.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\Pool\XQueue.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\GameObject\GameObjectExtensions.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_ItemInfoFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\UIChild.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\NetWork\CmdHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\XButton.cs" />

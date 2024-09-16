@@ -99,21 +99,21 @@ public class WebSocketController : ControllerBase
                 // Ignore exceptions during close
             }
         }
-        catch (Exception ex)
-        {
-            // 处理其他异常
-            Console.WriteLine($"ConnectionId:{HttpContext.Connection.Id} Error: {ex.Message}");
-            try
-            {
-                _connections.TryRemove(webSocket, out _);
-                await webSocket.CloseAsync(WebSocketCloseStatus.InternalServerError, "Error occurred",
-                    CancellationToken.None);
-            }
-            catch
-            {
-                // Ignore exceptions during close
-            }
-        }
+        // catch (Exception ex)
+        // {
+        //     // 处理其他异常
+        //     Console.WriteLine($"ConnectionId:{HttpContext.Connection.Id} Error: {ex.Message}");
+        //     try
+        //     {
+        //         _connections.TryRemove(webSocket, out _);
+        //         await webSocket.CloseAsync(WebSocketCloseStatus.InternalServerError, "Error occurred",
+        //             CancellationToken.None);
+        //     }
+        //     catch
+        //     {
+        //         // Ignore exceptions during close
+        //     }
+        // }
         finally
         {
             timeoutCancellationTokenSource.Dispose();
@@ -132,7 +132,6 @@ public class WebSocketController : ControllerBase
             var db = _redis.GetDatabase();
             var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
 
-
             //Console.WriteLine($"PlayerData1111:{JsonConvert.SerializeObject(playerData)}");
             Console.WriteLine($"PlayerData:{JsonConvert.SerializeObject(playerData)}");
             //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
@@ -146,42 +145,61 @@ public class WebSocketController : ControllerBase
             if (player.IsNullOrEmpty)
             {
                 await db.StringSetAsync(openId, JsonConvert.SerializeObject(playerData));
+                await InitPlayerResource(db, openId);
             }
 
-            //var myPlayerData = JsonConvert.DeserializeObject<PlayerData>(player);
+            playerData.ThirdId = MyEncryptor.Decrypt(openId);
+            var temp = playerData.OtherData;
+            temp.UnionidId = wxCode2Session.unionid;
+            playerData.OtherData = temp;
 
-            // var cacheData = _redisCache.GetData<PlayerData>(openId);
-            // if (cacheData is null)
-            // {
-            //     _redisCache.SetData(playerData.ThirdId, playerData);
-            //     //var =db.StringGet(playerData.ThirdId);
-            // }
-
-
-            //playerData.Id = userInfoJson.openid;
-            // Console.WriteLine($"wxCode2Session.openid:{wxCode2Session.openid}");
-            // //var userData = JsonConvert.DeserializeObject<PlayerData>(jsonData);
-            //
-            // playerData.ThirdId = MyEncryptor.Decrypt(wxCode2Session.openid);
-            // var temp = playerData.OtherData;
-            // temp.UnionidId = wxCode2Session.unionid;
-            // playerData.OtherData = temp;
-            // playerData.LoginType = 11;
-
-            //string jsonData = JsonConvert.SerializeObject(playerData);
-            //await db.StringSetAsync(playerData.ThirdId, jsonData);
-
-            //message.Content = MessagePackSerializer.Serialize<PlayerData>(playerData);
-            //Console.WriteLine($"db:{db.StringGet(playerData.ThirdId)}");
-            message.Content = null;
+            message.Content = MessagePackSerializer.Serialize(playerData);
         }
         else if (message.MethodName == "QueryResource")
         {
-            _connections.TryGetValue(webSocket, out var openId);
+            if (!_connections.TryGetValue(webSocket, out var openId))
+            {
+                //Console.WriteLine($"webSocket:{webSocket.} not found");
+                //用户未登记
+                message.ErrorCode = 1001;
+            }
+
+            var db = _redis.GetDatabase();
+            var playerRes = await db.StringGetAsync(GetRedisDBStr(1, openId));
+
+            message.Content = MessagePackSerializer.Serialize(JsonConvert.DeserializeObject<PlayerResource>(playerRes));
         }
 
-
+        //Console.WriteLine($"Over MyMessage:{JsonConvert.SerializeObject(message)}");
         return message;
+    }
+
+    string GetRedisDBStr(int type, string openId)
+    {
+        string redisStr = openId;
+        switch (type)
+        {
+            case 1:
+                redisStr += "_PlayerResource";
+                break;
+        }
+
+        return redisStr;
+    }
+
+    async Task InitPlayerResource(IDatabase db, string openId)
+    {
+        var itemInfos = MyConfig.Tables.Tbitem.DataList.Where(a => a.initEnable == 1).Select(item => new ItemInfo
+        {
+            ItemId = item.id,
+            Count = 1
+        }).ToList();
+
+        var playerRes = new PlayerResource
+        {
+            ItemList = itemInfos
+        };
+        await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
     }
 
     public async Task<WXCode2Session>? GetSessionJson(string jsCode)
@@ -202,9 +220,9 @@ public class WebSocketController : ControllerBase
             responseBody = JsonConvert.SerializeObject(new WXCode2Session
             {
                 session_key = "safasfs234",
-                unionid = "safasfs11",
+                unionid = "sfs1",
                 errmsg = null,
-                openid = "asg111",
+                openid = jsCode,
                 errcode = 0
             });
             Console.WriteLine($"responseBody:{responseBody}");
