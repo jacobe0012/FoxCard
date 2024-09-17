@@ -51,6 +51,9 @@ namespace HotFix_UI
         private HubConnection hub;
         private WebSocket websocket;
 
+        private static readonly MessagePackSerializerOptions options =
+            MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
+
         private void CreateSampleData()
         {
             // 存储数据
@@ -92,29 +95,7 @@ namespace HotFix_UI
                     }
                 });
             };
-            websocket.OnMessage += (a, b) =>
-            {
-                if (b.RawData == null)
-                {
-                    Log.Debug($"empty message", debugColor);
-                    return;
-                }
-
-                var message = MessagePackSerializer.Deserialize<MyMessage>(b.RawData);
-                if (message.ErrorCode != 0)
-                {
-                    Log.Debug($"ErrorCode{message.ErrorCode}", debugColor);
-                }
-
-                //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
-
-                if (message.MethodName == CMD.LOGIN)
-                {
-                    SendMessage(CMD.QUERYRESOURCE);
-                }
-
-                Log.Debug($"Onmsg methodName:{message.MethodName} content:{message.Content}", debugColor);
-            };
+            websocket.OnMessage += OnMessage;
             websocket.ConnectAsync();
 
 
@@ -143,6 +124,31 @@ namespace HotFix_UI
 
             //Log.Debug($"5555", debugColor);
         }
+
+        void OnMessage(object a, MessageEventArgs b)
+        {
+            if (b.RawData == null)
+            {
+                Log.Debug($"empty message", debugColor);
+                return;
+            }
+
+            var message = MessagePackSerializer.Deserialize<MyMessage>(b.RawData, options);
+            if (message.ErrorCode != 0)
+            {
+                Log.Debug($"ErrorCode{message.ErrorCode}", debugColor);
+            }
+
+            //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
+
+            if (message.MethodName == CMD.LOGIN)
+            {
+                SendMessage(CMD.QUERYRESOURCE);
+            }
+
+            Log.Debug($"Onmsg methodName:{message.MethodName} content:{message.Content}", debugColor);
+        }
+
 
         bool OnMessage(HubConnection hub, Message msg)
         {
@@ -302,7 +308,7 @@ namespace HotFix_UI
                 ErrorCode = 0,
             };
 
-            websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage));
+            websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage, options));
         }
 
         /// <summary>
@@ -317,11 +323,11 @@ namespace HotFix_UI
             var myExternalMessage = new MyMessage
             {
                 MethodName = serverMethodName,
-                Content = MessagePackSerializer.Serialize(protoMessage),
+                Content = MessagePackSerializer.Serialize(protoMessage, options),
                 ErrorCode = 0,
             };
 
-            websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage));
+            websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage, options));
         }
 
         /// <summary>

@@ -8,6 +8,8 @@ using MessagePack;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StackExchange.Redis;
+using System.Diagnostics;
+using FoxCard.Server.Log;
 
 namespace FoxCard.Server.Controllers;
 
@@ -16,6 +18,9 @@ public class WebSocketController : ControllerBase
     private readonly IConnectionMultiplexer _redis;
     private readonly HttpClient _httpClient;
     private readonly IRedisCacheService _redisCache;
+
+    private static readonly MessagePackSerializerOptions options =
+        MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
     //private readonly MyConfig _myConfig;
 
     public WebSocketController(IConnectionMultiplexer redis, HttpClient httpClient,
@@ -68,13 +73,13 @@ public class WebSocketController : ControllerBase
                 }
 
                 //webSocket.
-                var receivedMessage = MessagePackSerializer.Deserialize<MyMessage>(buffer);
+                var receivedMessage = MessagePackSerializer.Deserialize<MyMessage>(buffer, options);
 
                 // 处理消息并生成回复
                 var responseMessage = await ProcessMessage(receivedMessage, webSocket);
 
                 // 使用 MessagePack 序列化回复消息
-                var responseBuffer = MessagePackSerializer.Serialize(responseMessage);
+                var responseBuffer = MessagePackSerializer.Serialize(responseMessage, options);
 
                 // 将回复发送回客户端
                 await webSocket.SendAsync(
@@ -99,21 +104,21 @@ public class WebSocketController : ControllerBase
                 // Ignore exceptions during close
             }
         }
-        // catch (Exception ex)
-        // {
-        //     // 处理其他异常
-        //     Console.WriteLine($"ConnectionId:{HttpContext.Connection.Id} Error: {ex.Message}");
-        //     try
-        //     {
-        //         _connections.TryRemove(webSocket, out _);
-        //         await webSocket.CloseAsync(WebSocketCloseStatus.InternalServerError, "Error occurred",
-        //             CancellationToken.None);
-        //     }
-        //     catch
-        //     {
-        //         // Ignore exceptions during close
-        //     }
-        // }
+        catch (Exception ex)
+        {
+            // 处理其他异常
+            Console.WriteLine($"ConnectionId:{HttpContext.Connection.Id} Error: {ex.Message}");
+            try
+            {
+                _connections.TryRemove(webSocket, out _);
+                await webSocket.CloseAsync(WebSocketCloseStatus.InternalServerError, "Error occurred",
+                    CancellationToken.None);
+            }
+            catch
+            {
+                // Ignore exceptions during close
+            }
+        }
         finally
         {
             timeoutCancellationTokenSource.Dispose();
@@ -123,15 +128,17 @@ public class WebSocketController : ControllerBase
 
     private async Task<MyMessage> ProcessMessage(MyMessage message, WebSocket webSocket)
     {
-        Console.WriteLine($"MyMessage:{JsonConvert.SerializeObject(message)}");
-
+        var stopwatch = new Stopwatch();
+        stopwatch.Start();
+        string inputContentStr = default;
+        string outputContentStr = default;
         if (message.MethodName == "Login")
         {
             //MyConfig.InitConfig();
             //Console.WriteLine($"{MyConfig.Tables?.Tbitem.Get(10000).id}");
             var db = _redis.GetDatabase();
-            var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
-
+            var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content, options);
+            inputContentStr = JsonConvert.SerializeObject(playerData);
             //Console.WriteLine($"PlayerData1111:{JsonConvert.SerializeObject(playerData)}");
             Console.WriteLine($"PlayerData:{JsonConvert.SerializeObject(playerData)}");
             //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
@@ -153,7 +160,8 @@ public class WebSocketController : ControllerBase
             temp.UnionidId = wxCode2Session.unionid;
             playerData.OtherData = temp;
 
-            message.Content = MessagePackSerializer.Serialize(playerData);
+            message.Content = MessagePackSerializer.Serialize(playerData, options);
+            outputContentStr = JsonConvert.SerializeObject(playerData);
         }
         else if (message.MethodName == "QueryResource")
         {
@@ -167,10 +175,16 @@ public class WebSocketController : ControllerBase
             var db = _redis.GetDatabase();
             var playerRes = await db.StringGetAsync(GetRedisDBStr(1, openId));
 
-            message.Content = MessagePackSerializer.Serialize(JsonConvert.DeserializeObject<PlayerResource>(playerRes));
+            message.Content =
+                MessagePackSerializer.Serialize(JsonConvert.DeserializeObject<PlayerResource>(playerRes), options);
+            outputContentStr = playerRes.ToString();
         }
 
-        //Console.WriteLine($"Over MyMessage:{JsonConvert.SerializeObject(message)}");
+        stopwatch.Stop();
+        string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
+
+        MyLogger.Log(_connections[webSocket], inputContentStr, $"{errorStr}{message.MethodName}:{outputContentStr}",
+            stopwatch);
         return message;
     }
 
