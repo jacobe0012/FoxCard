@@ -52,6 +52,9 @@ namespace XFramework
             RedDotManager.Instance.Init();
             PlayerSingleton.Instance.Init();
             NetWorkManager.Instance.Init();
+            var sceneController = Common.Instance.Get<SceneController>(); // 场景控制
+            var sceneObj = sceneController.LoadSceneAsync<Login>(SceneName.Login);
+            await SceneResManager.WaitForCompleted(sceneObj).ToCoroutine(); // 等待场景加载完毕 
 
             //await UniTask.Delay(3000);
 
