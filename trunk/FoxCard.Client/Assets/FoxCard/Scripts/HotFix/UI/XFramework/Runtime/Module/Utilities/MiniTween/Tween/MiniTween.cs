@@ -1,4 +1,5 @@
 using System;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace XFramework
@@ -40,7 +41,8 @@ namespace XFramework
         /// </summary>
         public bool IsCancel { get; protected set; }
 
-        public XFTask<bool> Task { get; protected set; }
+        public UniTask<bool> Task { get; protected set; }
+        public UniTaskCompletionSource<bool> tcs { get; protected set; }
 
         public bool Pause { get; set; }
 
@@ -178,9 +180,9 @@ namespace XFramework
 
             this.IsCancel = true;
 
-            var tcs = this.Task;
-            this.Task = null;
-            tcs.SetResult(completed);
+            //var tcs = this.Task;
+            tcs.TrySetResult(completed);
+            tcs = null;
         }
 
         /// <summary>
@@ -556,7 +558,10 @@ namespace XFramework
 
         private void SetTask()
         {
-            base.Task = XFTask<bool>.Create();
+            tcs = new UniTaskCompletionSource<bool>();
+
+
+            base.Task = tcs.Task;
         }
     }
 }
