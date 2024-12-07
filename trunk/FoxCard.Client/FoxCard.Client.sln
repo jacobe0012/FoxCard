@@ -45,13 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTweenPro.EditorScripts", "DOTweenPro.EditorScripts.csproj", "{c2d3a9fb-38cd-901a-f7f2-dc13d8c49eed}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wx", "Wx.csproj", "{20b419ee-4c1f-e793-f571-cc88ed1beb85}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoopScrollRect.Editor", "LoopScrollRect.Editor.csproj", "{eeaf9e83-3c4c-f1e6-52fa-a6b89149a7b8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DOTweenPro.Scripts", "DOTweenPro.Scripts.csproj", "{b9fd14ca-c648-deee-711b-46a5fb469bbd}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WxEditor", "WxEditor.csproj", "{79df3cd1-bc09-4c54-69d9-62e4d33f26fe}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Editor", "UniTask.Editor.csproj", "{4a2a7edd-f0a5-b6a1-0f46-0a87eda6b873}"
 EndProject
@@ -118,14 +114,10 @@ Global
 		{54f991d9-f9ed-12e0-227b-de1beaedcf1b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c2d3a9fb-38cd-901a-f7f2-dc13d8c49eed}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{c2d3a9fb-38cd-901a-f7f2-dc13d8c49eed}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{20b419ee-4c1f-e793-f571-cc88ed1beb85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{20b419ee-4c1f-e793-f571-cc88ed1beb85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{eeaf9e83-3c4c-f1e6-52fa-a6b89149a7b8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{eeaf9e83-3c4c-f1e6-52fa-a6b89149a7b8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b9fd14ca-c648-deee-711b-46a5fb469bbd}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b9fd14ca-c648-deee-711b-46a5fb469bbd}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79df3cd1-bc09-4c54-69d9-62e4d33f26fe}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79df3cd1-bc09-4c54-69d9-62e4d33f26fe}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4a2a7edd-f0a5-b6a1-0f46-0a87eda6b873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4a2a7edd-f0a5-b6a1-0f46-0a87eda6b873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{d4b64a7e-0b73-20f9-839d-e5dd223369e6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

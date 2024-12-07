@@ -4,7 +4,7 @@ namespace XFramework
     {
         #region 自动生成区
 
-        public const string UILoading = nameof(XFramework.UILoading);
+		public const string UILoading = nameof(XFramework.UILoading);
         public const string UILogin = nameof(XFramework.UILogin);
 
         public const string UICard = nameof(XFramework.UICard);

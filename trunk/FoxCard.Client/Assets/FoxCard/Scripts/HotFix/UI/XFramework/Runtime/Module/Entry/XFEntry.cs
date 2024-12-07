@@ -65,7 +65,7 @@ namespace XFramework
             ObjectFactory.Create<UIEventManager>(); // UIEvent集合
             ObjectFactory.Create<UIManager>(); // UI管理
             ObjectFactory.Create<SceneController>(); // 场景控制
-            ObjectFactory.Create<UserDataManager>(); // 本地存档管理
+            //ObjectFactory.Create<UserDataManager>(); // 本地存档管理
             //ObjectFactory.Create<RedDotManager>(); // 红点管理
         }
     }

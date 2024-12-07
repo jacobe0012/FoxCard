@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 namespace XFramework
@@ -21,36 +22,36 @@ namespace XFramework
     }
 
     public partial class UILoading : UI, IAwake<ILoading>, IWaitObject
-	{
+    {
         private ILoading m_loading;
 
         /// <summary>
-        /// ³¡¾°¼ÓÔØµÄ×î´ó½ø¶È
+        /// åœºæ™¯åŠ è½½çš„æœ€å¤§è¿›åº¦
         /// </summary>
         private const int SceneMaxProgress = 10;
 
         /// <summary>
-        /// ³¡¾°¼ÓÔØµ±Ç°½ø¶È
+        /// åœºæ™¯åŠ è½½å½“å‰è¿›åº¦
         /// </summary>
         private float sceneProgress;
 
         /// <summary>
-        /// µ±Ç°¼ÓÔØµÄ×ÊÔ´Êı
+        /// å½“å‰åŠ è½½çš„èµ„æºæ•°
         /// </summary>
         private int curCount;
 
         /// <summary>
-        /// µ±Ç°¼ÓÔØµÄ×Ü¸öÊı
+        /// å½“å‰åŠ è½½çš„æ€»ä¸ªæ•°
         /// </summary>
         private int totalCount;
 
         /// <summary>
-        /// ÉÏÒ»´Î¸üĞÂµÄ½ø¶È
+        /// ä¸Šä¸€æ¬¡æ›´æ–°çš„è¿›åº¦
         /// </summary>
         private float beforeProgress;
 
         /// <summary>
-        /// ÒªÊµÀı»¯µÄÔ¤ÖÆµÄkey
+        /// è¦å®ä¾‹åŒ–çš„é¢„åˆ¶çš„key
         /// </summary>
         private List<string> objKeys = new List<string>();
 
@@ -61,27 +62,31 @@ namespace XFramework
         Dictionary<System.Type, object> IWaitObject.WaitDict { get; set; }
 
         public void Initialize(ILoading loadArg)
-		{
+        {
+            var KText_Progress = GetFromReference(UILoading.KText_Progress);
+            var KImg_Filled = GetFromReference(UILoading.KImg_Filled);
+            var KText_FilledRatios = GetFromReference(UILoading.KText_FilledRatios);
+
             this.m_loading = loadArg;
             loadArg.GetObjects(objKeys);
             this.totalCount = objKeys.Count + SceneMaxProgress;
 
-            this.GetImage(KFill).SetFillAmount(0);
-            this.GetText(KProgress).SetText(string.Empty);
-
-            //¿ªÆôÒ»¸öÃ¿Ö¡Ö´ĞĞµÄÈÎÎñ£¬Ïàµ±ÓÚUpdate
+            KImg_Filled.GetImage().SetFillAmount(0);
+            KText_FilledRatios.GetTextMeshPro().SetTMPText(string.Empty);
+            KText_Progress.GetTextMeshPro().SetTMPText("æ­£åœ¨è½½å…¥åœºæ™¯...");
+            //å¼€å¯ä¸€ä¸ªæ¯å¸§æ‰§è¡Œçš„ä»»åŠ¡ï¼Œç›¸å½“äºUpdate
             var timerMgr = TimerManager.Instance;
             timerId = timerMgr.RepeatedFrameTimer(this.Update);
 
-            //¿ªÊ¼¼ÓÔØ×ÊÔ´
-            this.LoadAssets().Coroutine();
-		} 
-        
+            //å¼€å§‹åŠ è½½èµ„æº
+            this.LoadAssets().ToCoroutine();
+        }
+
         private void Update()
         {
             float progress = this.m_loading.SceneProgress();
             this.sceneProgress = progress * SceneMaxProgress;
-            this.DoFillAmount().Coroutine();
+            this.DoFillAmount().ToCoroutine();
 
             if (this.sceneProgress >= SceneMaxProgress)
             {
@@ -90,12 +95,13 @@ namespace XFramework
         }
 
         /// <summary>
-        /// ¼ÓÔØËùÓĞ×ÊÔ´
+        /// åŠ è½½æ‰€æœ‰èµ„æº
         /// </summary>
         /// <returns></returns>
-        private async XFTask LoadAssets()
+        private async UniTask LoadAssets()
         {
-            using var tasks = XList<XFTask>.Create();
+            //Log.Debug($"LoadAssets111");
+            using var tasks = XList<UniTask>.Create();
             var timerMgr = TimerManager.Instance;
             var tagId = this.TagId;
 
@@ -105,15 +111,16 @@ namespace XFramework
                 tasks.Add(this.LoadObjectAsync(key, parent));
             }
 
-            //µÈ´ıËùÓĞ×ÊÔ´¼ÓÔØÍê³É
-            await XFTaskHelper.WaitAll(tasks);
-            //ÒòÎªÊÇÒì²½²Ù×÷£¬¿ÉÄÜÔÚÒì²½Ê±Õâ¸öÀà±»ÊÍ·ÅÁË£¬ËùÒÔÒªÓÃtagIdÅĞ¶ÏÒ»ÏÂ
-            //Èç¹ûÕâ¸öÀàÀ´×Ô¶ÔÏó³Ø£¬ÄÇÃ´tagIdÃ¿´ÎÈ¡³öÀ´¶¼»á±ä»¯
-            //ËùÒÔÓÃtagIdÅĞ¶ÏÕâ¸öÀàÊÇ·ñÓĞĞ§ÊÇÎÈÍ×µÄ·½Ê½
-            if (tagId != this.TagId)    
+            //ç­‰å¾…æ‰€æœ‰èµ„æºåŠ è½½å®Œæˆ
+
+            await UniTask.WhenAll(tasks);
+            //å› ä¸ºæ˜¯å¼‚æ­¥æ“ä½œï¼Œå¯èƒ½åœ¨å¼‚æ­¥æ—¶è¿™ä¸ªç±»è¢«é‡Šæ”¾äº†ï¼Œæ‰€ä»¥è¦ç”¨tagIdåˆ¤æ–­ä¸€ä¸‹
+            //å¦‚æœè¿™ä¸ªç±»æ¥è‡ªå¯¹è±¡æ± ï¼Œé‚£ä¹ˆtagIdæ¯æ¬¡å–å‡ºæ¥éƒ½ä¼šå˜åŒ–
+            //æ‰€ä»¥ç”¨tagIdåˆ¤æ–­è¿™ä¸ªç±»æ˜¯å¦æœ‰æ•ˆæ˜¯ç¨³å¦¥çš„æ–¹å¼
+            if (tagId != this.TagId)
                 return;
 
-            //µÈ´ı³¡¾°µÄ½ø¶ÈÂú
+            //ç­‰å¾…åœºæ™¯çš„è¿›åº¦æ»¡
             while (this.sceneProgress < SceneMaxProgress)
             {
                 await timerMgr.WaitFrameAsync();
@@ -123,7 +130,7 @@ namespace XFramework
 
             if (this.tween != null)
             {
-                //µÈ´ı½ø¶ÈÌõ¶¯»­Íê³É
+                //ç­‰å¾…è¿›åº¦æ¡åŠ¨ç”»å®Œæˆ
                 if (!this.tween.IsCompelted)
                 {
                     await this.tween.Task;
@@ -132,23 +139,24 @@ namespace XFramework
                 }
             }
 
-            //ÑÓ³Ù50ºÁÃë
+            //å»¶è¿Ÿ50æ¯«ç§’
             await timerMgr.WaitAsync(50);
             if (tagId != this.TagId)
                 return;
 
-            //×ÊÔ´¼ÓÔØÍê±Ï£¬¹Ø±ÕLoading
+            //èµ„æºåŠ è½½å®Œæ¯•ï¼Œå…³é—­Loading
             this.Close();
         }
 
         /// <summary>
-        /// ÊµÀı»¯GameObject
+        /// å®ä¾‹åŒ–GameObject
         /// </summary>
         /// <param name="key"></param>
         /// <param name="parent"></param>
         /// <returns></returns>
-        private async XFTask LoadObjectAsync(string key, Transform parent)
+        private async UniTask LoadObjectAsync(string key, Transform parent)
         {
+            //Log.Debug($"LoadAssets222 {key}");
             var tagId = this.TagId;
             GameObject obj = await ResourcesManager.InstantiateAsync(this, key, parent, true);
             ResourcesManager.ReleaseInstance(obj);
@@ -156,38 +164,43 @@ namespace XFramework
                 return;
 
             ++curCount;
-            this.DoFillAmount().Coroutine();
+            this.DoFillAmount().ToCoroutine();
         }
 
         /// <summary>
-        /// Ë¿»¬±ä»¯½ø¶ÈÌõ
+        /// ä¸æ»‘å˜åŒ–è¿›åº¦æ¡
         /// </summary>
         /// <returns></returns>
-        private async XFTask DoFillAmount()
+        private async UniTask DoFillAmount()
         {
+            var KText_Progress = GetFromReference(UILoading.KText_Progress);
+            var KImg_Filled = GetFromReference(UILoading.KImg_Filled);
+            var KText_FilledRatios = GetFromReference(UILoading.KText_FilledRatios);
+
+
             float count = this.curCount + this.sceneProgress;
             if (count == this.beforeProgress)
                 return;
-
             this.beforeProgress = count;
-            float t = this.beforeProgress / this.totalCount;
 
+            float t = this.beforeProgress / this.totalCount;
             this.tween?.Cancel(this);
-            var fill = this.GetImage(KFill);
-            var txt = this.GetText(KProgress);
+            var image = KImg_Filled.GetImage();
+            var txt = KText_FilledRatios.GetTextMeshPro();
             var tweenMgr = Common.Instance.Get<MiniTweenManager>();
-            var miniTween = tweenMgr.To(this, fill.GetFillAmount(), t, 10f, MiniTweenMode.Speed);
+            var miniTween = tweenMgr.To(this, image.GetFillAmount(), t, 10f, MiniTweenMode.Speed);
             miniTween.AddListener(v =>
             {
-                fill.SetFillAmount(v);
+                image.SetFillAmount(v);
                 txt.SetTextWithKey("{0:F0}%", v * 100);
             });
+
             this.tween = miniTween;
             await this.tween.Task;
         }
 
         /// <summary>
-        /// ÒÆ³ı¶¨Ê±Æ÷
+        /// ç§»é™¤å®šæ—¶å™¨
         /// </summary>
         private void RemoveTimer()
         {
@@ -195,9 +208,9 @@ namespace XFramework
             timerMgr?.RemoveTimerId(ref this.timerId);
             this.timerId = 0;
         }
-		
-		protected override void OnClose()
-		{
+
+        protected override void OnClose()
+        {
             this.m_loading = null;
             this.RemoveTimer();
             this.curCount = 0;

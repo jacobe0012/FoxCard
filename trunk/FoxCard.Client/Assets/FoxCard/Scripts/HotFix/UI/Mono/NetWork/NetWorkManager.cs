@@ -6,7 +6,7 @@
 
 using System;
 using System.IO;
-using Best.SignalR;
+//using Best.SignalR;
 using Best.SignalR.Encoders;
 using Best.SignalR.Messages;
 //using Best.WebSockets;
@@ -18,6 +18,7 @@ using UnityEngine;
 using UnityWebSocket;
 using WeChatWASM;
 using XFramework;
+using ErrorEventArgs = UnityWebSocket.ErrorEventArgs;
 
 
 namespace HotFix_UI
@@ -48,7 +49,7 @@ namespace HotFix_UI
             [JsonProperty("webUrl")] public string webUrl;
         }
 
-        private HubConnection hub;
+        //private HubConnection hub;
         private WebSocket websocket;
 
         private static readonly MessagePackSerializerOptions options =
@@ -62,6 +63,14 @@ namespace HotFix_UI
             string json = JsonConvert.SerializeObject(data);
             File.WriteAllText(savePath, json);
         }
+
+// 断线重连间隔（单位：秒）
+        private const float reconnectInterval = 2f;
+
+        // 最大重连次数
+        private const int maxReconnectAttempts = 8;
+
+        private int curReconnectAttempts = 0;
 
 
         public void Init()
@@ -78,51 +87,62 @@ namespace HotFix_UI
             // string url = data.webUrl;
             websocket = new WebSocket($"ws://{MyUrl.urlipv4}/ws");
 
-            websocket.OnOpen += async (a, b) =>
-            {
-                Log.Debug($"OnOpen", debugColor);
-
-                SendMessage(CMD.LOGIN, new PlayerData
-                {
-                    ThirdId = null,
-                    LoginType = 0,
-                    NickName = null,
-                    LocationData = default,
-                    OtherData = new OtherData
-                    {
-                        Code = "aa1",
-                        UnionidId = null
-                    }
-                });
-            };
+            websocket.OnOpen += OnOpen;
+            websocket.OnClose += OnClose;
+            websocket.OnError += OnError;
             websocket.OnMessage += OnMessage;
             websocket.ConnectAsync();
 
 
-            return;
-
-
-            debugColor = Color.cyan;
-            Log.Debug($"1111", debugColor);
-            // hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
+            // debugColor = Color.cyan;
+            // Log.Debug($"1111", debugColor);
+            // // hub = new HubConnection(new Uri($"https://{DeviceTool.GetLocalIp()}:7176/LoginHub"),
+            // //     new JsonProtocol(new LitJsonEncoder()));
+            //
+            // hub = new HubConnection(new Uri($"http://{MyUrl.urlipv4}/LoginHub/"),
             //     new JsonProtocol(new LitJsonEncoder()));
-
-            hub = new HubConnection(new Uri($"http://{MyUrl.urlipv4}/LoginHub/"),
-                new JsonProtocol(new LitJsonEncoder()));
-            hub.ReconnectPolicy = new DefaultRetryPolicy();
-
-
-            hub.OnConnected += OnConnected;
-            hub.OnReconnected += OnReConnected;
-            hub.OnError += OnError;
-            hub.OnClosed += OnClosed;
-            hub.OnMessage += OnMessage;
-            //Log.Debug($"4444", debugColor);
-            hub.StartConnect();
+            // hub.ReconnectPolicy = new DefaultRetryPolicy();
+            //
+            //
+            // hub.OnConnected += OnConnected;
+            // hub.OnReconnected += OnReConnected;
+            // hub.OnError += OnError;
+            // hub.OnClosed += OnClosed;
+            // hub.OnMessage += OnMessage;
+            // //Log.Debug($"4444", debugColor);
+            // hub.StartConnect();
             //var s=await hub.ConnectAsync();
 
 
             //Log.Debug($"5555", debugColor);
+        }
+
+        private void OnError(object sender, ErrorEventArgs e)
+        {
+            Log.Error($"OnError");
+        }
+
+        private void OnClose(object sender, CloseEventArgs e)
+        {
+            AttemptReconnect().Forget();
+            Log.Debug($"OnClose", debugColor);
+        }
+
+        private void OnOpen(object sender, OpenEventArgs e)
+        {
+            Log.Debug($"OnOpen", debugColor);
+            SendMessage(CMD.LOGIN, new PlayerData
+            {
+                ThirdId = null,
+                LoginType = 0,
+                NickName = null,
+                LocationData = default,
+                OtherData = new OtherData
+                {
+                    Code = "aa1",
+                    UnionidId = null
+                }
+            });
         }
 
         void OnMessage(object a, MessageEventArgs b)
@@ -149,37 +169,52 @@ namespace HotFix_UI
             Log.Debug($"Onmsg methodName:{message.MethodName} content:{message.Content}", debugColor);
         }
 
-
-        bool OnMessage(HubConnection hub, Message msg)
+        // 尝试重连
+        async UniTaskVoid AttemptReconnect(bool isNew = false)
         {
-            bool processed = false;
+            if (curReconnectAttempts < maxReconnectAttempts)
+            {
+                Debug.Log($"Reconnecting... Attempt {curReconnectAttempts}");
+                await UniTask.Delay((int)(curReconnectAttempts * reconnectInterval * 1000f));
+                curReconnectAttempts++;
+                if (isNew)
+                {
+                    Close();
+                    Init();
+                }
+                else
+                {
+                    websocket.ConnectAsync();
+                }
+            }
+            else
+            {
+                curReconnectAttempts = 0;
+                Debug.LogError("断线重连超过最大次数");
+#if UNITY_EDITOR
+                Application.Quit();
+#endif
 
-            Log.Debug($"OnMessage! {msg.target}", debugColor);
+                //TODO:断线重连超过最大次数
+            }
 
-            return processed;
+            // Debug.Log($"{socket.ReadyState}");
+            // if (socket.ReadyState != WebSocketState.Open)
+            // {
+            //     if (curReconnectAttempts < maxReconnectAttempts)
+            //     {
+            //         Debug.Log($"Reconnecting... Attempt {curReconnectAttempts}");
+            //         await UniTask.Delay((int)((curReconnectAttempts + 1) * reconnectInterval * 1000f));
+            //         curReconnectAttempts++;
+            //     }
+            //     else
+            //     {
+            //         curReconnectAttempts = 0;
+            //         Debug.LogError("Max reconnect attempts reached.");
+            //         //TODO:断线重连超过最大次数
+            //     }
+            // }
         }
-
-        void OnClosed(HubConnection hub)
-        {
-            Log.Error("OnClosed!");
-        }
-
-        void OnError(HubConnection hub, string msg)
-        {
-            Log.Error($"OnError! msg:{msg}");
-        }
-
-        void OnConnected(HubConnection hub)
-        {
-            Log.Error("OnConnected!");
-        }
-
-        void OnReConnected(HubConnection hub)
-        {
-            Log.Error("OnReConnected!");
-        }
-
-
         /// <summary>
         /// 开启定时器
         /// </summary>
@@ -205,6 +240,11 @@ namespace HotFix_UI
         /// </summary>
         public void Close()
         {
+            websocket.OnOpen -= OnOpen;
+            websocket.OnClose -= OnClose;
+            websocket.OnMessage -= OnMessage;
+            websocket.OnError -= OnError;
+            websocket.CloseAsync();
             //RemoveTimer();
             // hub.OnConnected -= OnConnected;
             // hub.OnReconnected -= OnReConnected;
@@ -213,6 +253,7 @@ namespace HotFix_UI
             // hub.OnMessage -= OnMessage;
             // hub.StartClose();
         }
+
 
         // public void OnOpen(object o, OpenEventArgs args)
         // {
@@ -362,6 +403,38 @@ namespace HotFix_UI
         //     };
         //     //myExternalMessage.
         //     socket.SendAsync(myExternalMessage.ToByteArray());
+        // }
+        // private void OnConnected(HubConnection obj)
+        // {
+        //   
+        // }
+        // bool OnMessage(HubConnection hub, Message msg)
+        // {
+        //     bool processed = false;
+        //
+        //     Log.Debug($"OnMessage! {msg.target}", debugColor);
+        //
+        //     return processed;
+        // }
+        //
+        // void OnClosed(HubConnection hub)
+        // {
+        //     Log.Error("OnClosed!");
+        // }
+        //
+        // void OnError(HubConnection hub, string msg)
+        // {
+        //     Log.Error($"OnError! msg:{msg}");
+        // }
+        //
+        // void OnConnected(HubConnection hub)
+        // {
+        //     Log.Error("OnConnected!");
+        // }
+        //
+        // void OnReConnected(HubConnection hub)
+        // {
+        //     Log.Error("OnReConnected!");
         // }
         public void Dispose()
         {

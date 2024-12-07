@@ -19,7 +19,7 @@ MonoBehaviour:
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: D:/GitProjects/FoxCard/trunk/FoxCard.Client/Builds
+    DST: D:\GitProjects\FoxCard\trunk\FoxCard.Client\
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -29,7 +29,7 @@ MonoBehaviour:
     HideAfterCallMain: 1
     preloadFiles: 
     Orientation: 0
-    bgImageSrc: Assets/FoxCard/Art_Resources/UI/Textures/bg.png
+    bgImageSrc: Assets/FoxCard/Art_Resources/UI/Textures/bg_fox.png
     dataFileSubPrefix: 
     maxStorage: 200
     defaultReleaseSize: 31457280
@@ -49,7 +49,7 @@ MonoBehaviour:
     DevelopBuild: 0
     AutoProfile: 0
     ScriptOnly: 0
-    Il2CppOptimizeSize: 0
+    Il2CppOptimizeSize: 1
     profilingFuncs: 1
     Webgl2: 0
     fbslim: 0
@@ -61,6 +61,7 @@ MonoBehaviour:
     showMonitorSuggestModal: 1
     enableProfileStats: 0
     enableRenderAnalysis: 0
+    enablePerfAnalysis: 0
     iOSAutoGCInterval: 10000
     enableIOSPerformancePlus: 0
     brotliMT: 1

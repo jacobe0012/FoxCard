@@ -1,8 +1,14 @@
+//---------------------------------------------------------------------
+// Author: xxx
+// Time: #CreateTime#
+//---------------------------------------------------------------------
+
 namespace XFramework
 {
     public partial class UILoading
 	{	
-		public const string KFill = "Fill";
-		public const string KProgress = "Progress";
+		public const string KText_Progress = "Text_Progress";
+		public const string KImg_Filled = "Img_Filled";
+		public const string KText_FilledRatios = "Text_FilledRatios";
 	}
 }

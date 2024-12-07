@@ -10,7 +10,7 @@ namespace XFramework
     {
         #region 自动生成区
 
-        public const string UILoading = "Loading";
+		public const string UILoading = "Loading";
 
 		public const string UILogin = "LoginPanel";
 
