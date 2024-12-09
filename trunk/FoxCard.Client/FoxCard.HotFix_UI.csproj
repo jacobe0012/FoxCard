@@ -59,6 +59,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\LubanLib\SimpleJSON\SimpleJSONUnity.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Timer\TimerManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\Interface\IMultilingual.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbsign_daily.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Singleton\Singleton.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Timer\TimeNow\ITimeNow.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Base\UIComponent.cs" />
@@ -117,6 +118,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Init.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\Dictionary\UnOrderMap.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\Scene\Loading\ILoading.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\task_score.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\UIEventManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\BuiltinResourcesManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\LubanLib\ByteBuf.cs" />
@@ -128,6 +130,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_ItemInfoFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\XButton.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Utility\CardUtility.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\MyGridLayout\FlexibleGridLayout.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Base\UIExtensions.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\AAResourcesLoader.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbitem.cs" />
@@ -185,10 +188,12 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\Scene\SceneResManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\MiniTween\Attribute\MiniTweenTypeAttribute.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\Pool\XDictionary.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\sign_daily.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\ResourcesRefDetection.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\ETTask\StateMachineWrap.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Config\ConfigManager.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\UICard\Keys\UICardKeys.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbtask_type.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Interface\IUID.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_MyDataFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Resources\ResourcesSingleton.cs" />
@@ -200,7 +205,9 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Scene\Scene.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\NetWork\WebMessageHandler.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Log\ILog.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbtask_score.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\Scene\Loading\LoadingScene.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbtask_group.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\MiniTween\Tween\Vector2Tween.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\UIPanelInGame\Keys\UIPanelInGameKeys.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\MyData.cs" />
@@ -216,6 +223,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Camera\CameraUpdateMono.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\Singleton\MonoSingleton.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Json\PlayerSaveData.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\task.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Slider\SliderComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Button\ButtonComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Data\HashSetUserDataJsonConverter.cs" />
@@ -250,12 +258,14 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\ETTask\XFTaskHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\XDropdown.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\Types\UIPathSet.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\task_type.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\Buff\Buff.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\AUIEvent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\Interface\IUIGrayed.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Graphic\GraphicComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Data\UserDataHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Language\LanguageManager.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbtask.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Config\AAConfigLoader.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\Scene\SceneName.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Entry\IEntry.cs" />
@@ -273,6 +283,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\ScrollRect\ScrollRectComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\ETTask\AsyncETVoidMethodBuilder.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Scene\SceneController.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\task_group.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Language\LanguageHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Resource\Scene\BuiltinSceneLoader.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\CardGroup.cs" />

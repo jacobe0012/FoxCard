@@ -54,7 +54,7 @@ public class WebSocketController : ControllerBase
     {
         var buffer = new byte[1024 * 4];
         WebSocketReceiveResult receiveResult;
-        var timeoutCancellationTokenSource = new CancellationTokenSource(TimeSpan.FromMinutes(5)); // 超时设置为5分钟
+        var timeoutCancellationTokenSource = new CancellationTokenSource(TimeSpan.FromMinutes(3)); // 超时设置为5分钟
 
         try
         {

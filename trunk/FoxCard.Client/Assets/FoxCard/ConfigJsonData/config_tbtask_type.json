@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1011,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1011_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1012,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1012_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1021,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1021_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1022,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1022_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1031,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1031_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1041,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1041_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1042,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1042_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1043,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1043_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1051,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1051_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1061,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1061_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1062,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1062_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 1063,
+    "icon": "icon_task_type_1",
+    "desc": [
+      "task_1063_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2011,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2011_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2012,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2012_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2013,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2013_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2014,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2014_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2015,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2015_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2021,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2021_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2022,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2022_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2023,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2023_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2024,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2024_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2025,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2025_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2031,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2031_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2032,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2032_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2033,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2033_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 2041,
+    "icon": "icon_task_type_2",
+    "desc": [
+      "task_2041_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3011,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3011_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3012,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3012_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3021,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3021_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3022,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3022_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3031,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3031_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3032,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3032_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3041,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3041_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3042,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3042_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3043,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3043_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3044,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3044_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3045,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3045_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3046,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3046_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3051,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3051_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3052,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3052_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3053,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3053_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3061,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3061_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3062,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3062_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3063,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3063_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3071,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3071_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3072,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3072_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3073,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3073_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3074,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3074_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3081,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3081_desc"
+    ],
+    "goto_0": ""
+  },
+  {
+    "id": 3082,
+    "icon": "icon_task_type_3",
+    "desc": [
+      "task_3082_desc"
+    ],
+    "goto_0": ""
+  }
+]

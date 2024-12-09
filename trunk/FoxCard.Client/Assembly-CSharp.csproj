@@ -51,13 +51,20 @@
     <None Include="Assets\HybridCLRGenerate\link.xml" />
     <None Include="Assets\FoxCard\ConfigJsonData\config_tbitem.json" />
     <None Include="Assets\Resources\WsUrl.json" />
+    <None Include="Assets\FoxCard\ConfigJsonData\config_tbtask_group.json" />
     <None Include="Assets\FoxCard\ConfigJsonData\config_tblanguage.json" />
+    <None Include="Assets\FoxCard\Art_Resources\UI\Fonts\7000 Chinese characters symbols English character set.txt" />
     <None Include="Assets\WX-WASM-SDK-V2\Runtime\Plugins\link.xml" />
+    <None Include="Assets\FoxCard\ConfigJsonData\config_tbtask_score.json" />
     <None Include="Assets\FoxCard\Link\link.xml" />
     <None Include="Assets\Settings\YooAsset\AssetBundleCollectorConfig.xml" />
     <None Include="Packages\com.gwiazdorrr.betterstreamingassets\package.json" />
+    <None Include="Assets\FoxCard\ConfigJsonData\config_tbsign_daily.json" />
     <None Include="Assets\FoxCard\ConfigJsonData\config_tbcard_group.json" />
+    <None Include="Assets\FoxCard\Art_Resources\UI\Fonts\README.txt" />
+    <None Include="Assets\FoxCard\ConfigJsonData\config_tbtask.json" />
     <None Include="Assets\Resources\Local\111.json" />
+    <None Include="Assets\FoxCard\ConfigJsonData\config_tbtask_type.json" />
     <None Include="Assets\Resources\BillingMode.json" />
     <Reference Include="UnityEngine">
       <HintPath>D:\UNITYEDITOR\6000.0.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>

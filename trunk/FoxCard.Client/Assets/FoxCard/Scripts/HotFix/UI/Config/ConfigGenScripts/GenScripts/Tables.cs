@@ -18,6 +18,11 @@ public sealed partial class Tables
     public config.Tblanguage Tblanguage {get; private set; }
     public config.Tbcard_group Tbcard_group {get; private set; }
     public config.Tbitem Tbitem {get; private set; }
+    public config.Tbsign_daily Tbsign_daily {get; private set; }
+    public config.Tbtask Tbtask {get; private set; }
+    public config.Tbtask_type Tbtask_type {get; private set; }
+    public config.Tbtask_group Tbtask_group {get; private set; }
+    public config.Tbtask_score Tbtask_score {get; private set; }
 
     public Tables() { }
     public Tables(System.Func<string, JSONNode> loader)
@@ -29,11 +34,26 @@ public sealed partial class Tables
         tables.Add("config.Tbcard_group", Tbcard_group);
         Tbitem = new config.Tbitem(loader("config_tbitem")); 
         tables.Add("config.Tbitem", Tbitem);
+        Tbsign_daily = new config.Tbsign_daily(loader("config_tbsign_daily")); 
+        tables.Add("config.Tbsign_daily", Tbsign_daily);
+        Tbtask = new config.Tbtask(loader("config_tbtask")); 
+        tables.Add("config.Tbtask", Tbtask);
+        Tbtask_type = new config.Tbtask_type(loader("config_tbtask_type")); 
+        tables.Add("config.Tbtask_type", Tbtask_type);
+        Tbtask_group = new config.Tbtask_group(loader("config_tbtask_group")); 
+        tables.Add("config.Tbtask_group", Tbtask_group);
+        Tbtask_score = new config.Tbtask_score(loader("config_tbtask_score")); 
+        tables.Add("config.Tbtask_score", Tbtask_score);
         PostInit();
 
         Tblanguage.Resolve(tables); 
         Tbcard_group.Resolve(tables); 
         Tbitem.Resolve(tables); 
+        Tbsign_daily.Resolve(tables); 
+        Tbtask.Resolve(tables); 
+        Tbtask_type.Resolve(tables); 
+        Tbtask_group.Resolve(tables); 
+        Tbtask_score.Resolve(tables); 
         PostResolve();
     }
 
@@ -46,11 +66,26 @@ public sealed partial class Tables
         tables.Add("config.Tbcard_group", Tbcard_group);
         Tbitem = new config.Tbitem(await loader("config_tbitem")); 
         tables.Add("config.Tbitem", Tbitem);
+        Tbsign_daily = new config.Tbsign_daily(await loader("config_tbsign_daily")); 
+        tables.Add("config.Tbsign_daily", Tbsign_daily);
+        Tbtask = new config.Tbtask(await loader("config_tbtask")); 
+        tables.Add("config.Tbtask", Tbtask);
+        Tbtask_type = new config.Tbtask_type(await loader("config_tbtask_type")); 
+        tables.Add("config.Tbtask_type", Tbtask_type);
+        Tbtask_group = new config.Tbtask_group(await loader("config_tbtask_group")); 
+        tables.Add("config.Tbtask_group", Tbtask_group);
+        Tbtask_score = new config.Tbtask_score(await loader("config_tbtask_score")); 
+        tables.Add("config.Tbtask_score", Tbtask_score);
         PostInit();
 
         Tblanguage.Resolve(tables); 
         Tbcard_group.Resolve(tables); 
         Tbitem.Resolve(tables); 
+        Tbsign_daily.Resolve(tables); 
+        Tbtask.Resolve(tables); 
+        Tbtask_type.Resolve(tables); 
+        Tbtask_group.Resolve(tables); 
+        Tbtask_score.Resolve(tables); 
         PostResolve();
     }
 
@@ -59,6 +94,11 @@ public sealed partial class Tables
         Tblanguage.TranslateText(translator); 
         Tbcard_group.TranslateText(translator); 
         Tbitem.TranslateText(translator); 
+        Tbsign_daily.TranslateText(translator); 
+        Tbtask.TranslateText(translator); 
+        Tbtask_type.TranslateText(translator); 
+        Tbtask_group.TranslateText(translator); 
+        Tbtask_score.TranslateText(translator); 
     }
     
     partial void PostInit();
