@@ -27,11 +27,11 @@ namespace MessagePack.Formatters.HotFix_UI
                 return;
             }
 
-            global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(3);
-            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Serialize(ref writer, value.MethodName, options);
+            writer.WriteArrayHeader(4);
+            writer.Write(value.Cmd);
             writer.Write(value.Content);
             writer.Write(value.ErrorCode);
+            writer.Write(value.Args);
         }
 
         public global::HotFix_UI.MyMessage Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -42,7 +42,6 @@ namespace MessagePack.Formatters.HotFix_UI
             }
 
             options.Security.DepthStep(ref reader);
-            global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadArrayHeader();
             var ____result = new global::HotFix_UI.MyMessage();
 
@@ -51,13 +50,16 @@ namespace MessagePack.Formatters.HotFix_UI
                 switch (i)
                 {
                     case 0:
-                        ____result.MethodName = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<string>(formatterResolver).Deserialize(ref reader, options);
+                        ____result.Cmd = reader.ReadInt32();
                         break;
                     case 1:
                         ____result.Content = global::MessagePack.Internal.CodeGenHelpers.GetArrayFromNullableSequence(reader.ReadBytes());
                         break;
                     case 2:
                         ____result.ErrorCode = reader.ReadInt32();
+                        break;
+                    case 3:
+                        ____result.Args = reader.ReadInt32();
                         break;
                     default:
                         reader.Skip();

@@ -33250,17 +33250,6 @@
             </summary>
             <remarks>Out-of-the-box included authenticators are <see cref="T:Best.HTTP.Request.Authenticators.CredentialAuthenticator"/> and <see cref="T:Best.HTTP.Request.Authenticators.BearerTokenAuthenticator"/>.</remarks>
         </member>
-        <member name="P:Best.HTTP.HTTPRequest.WithCredentials">
-            <summary>
-            Its value will be set to the XmlHTTPRequest's withCredentials field, required to send 3rd party cookies with the request.
-            </summary>
-            <remarks>
-            More details can be found here:
-            <list type="bullet">
-                <item><description><see href="https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials">Mozilla Developer Networks - XMLHttpRequest.withCredentials</see></description></item>
-            </list>
-            </remarks>
-        </member>
         <member name="P:Best.HTTP.HTTPRequest.Context">
             <summary>
             Logging context of the request.

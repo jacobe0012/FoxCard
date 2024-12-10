@@ -132,7 +132,7 @@ public class WebSocketController : ControllerBase
         stopwatch.Start();
         string inputContentStr = default;
         string outputContentStr = default;
-        if (message.MethodName == "Login")
+        if (message.Cmd == CMD.LOGIN)
         {
             //MyConfig.InitConfig();
             //Console.WriteLine($"{MyConfig.Tables?.Tbitem.Get(10000).id}");
@@ -163,7 +163,7 @@ public class WebSocketController : ControllerBase
             message.Content = MessagePackSerializer.Serialize(playerData, options);
             outputContentStr = JsonConvert.SerializeObject(playerData);
         }
-        else if (message.MethodName == "QueryResource")
+        else if (message.Cmd == CMD.QUERYRESOURCE)
         {
             if (!_connections.TryGetValue(webSocket, out var openId))
             {
@@ -179,11 +179,15 @@ public class WebSocketController : ControllerBase
                 MessagePackSerializer.Serialize(JsonConvert.DeserializeObject<PlayerResource>(playerRes), options);
             outputContentStr = playerRes.ToString();
         }
+        else if (message.Cmd == CMD.DAILYSIGN)
+        {
+        }
 
         stopwatch.Stop();
         string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
 
-        MyLogger.Log(_connections[webSocket], inputContentStr, $"{errorStr}{message.MethodName}:{outputContentStr}",
+        MyLogger.Log(_connections[webSocket], inputContentStr,
+            $"CMD:{message.Cmd},ErrorCode:{errorStr},{outputContentStr}",
             stopwatch);
         return message;
     }

@@ -159,14 +159,15 @@ namespace HotFix_UI
                 Log.Debug($"ErrorCode{message.ErrorCode}", debugColor);
             }
 
+            WebMessageHandler.Instance.PackageHandler(message.Cmd, message.Content);
             //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
+            SendMessage(CMD.DAILYSIGN);
+            // if (message.Cmd == CMD.LOGIN)
+            // {
+            //     SendMessage(CMD.QUERYRESOURCE);
+            // }
 
-            if (message.MethodName == CMD.LOGIN)
-            {
-                SendMessage(CMD.QUERYRESOURCE);
-            }
-
-            Log.Debug($"Onmsg methodName:{message.MethodName} content:{message.Content}", debugColor);
+            Log.Debug($"Onmsg methodName:{message.Cmd} content:{message.Content}", debugColor);
         }
 
         // 尝试重连
@@ -341,14 +342,13 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        public void SendMessage(string serverMethodName)
+        public void SendMessage(int cmd, int args = 0)
         {
             var myExternalMessage = new MyMessage
             {
-                MethodName = serverMethodName,
-                ErrorCode = 0,
+                Cmd = cmd,
+                Args = args
             };
-
             websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage, options));
         }
 
@@ -359,13 +359,15 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        public void SendMessage<T>(string serverMethodName, T protoMessage) where T : IMessagePack
+        public void SendMessage<T>(int Cmd, T protoMessage, int args = 0) where T : IMessagePack
         {
             var myExternalMessage = new MyMessage
             {
-                MethodName = serverMethodName,
-                Content = MessagePackSerializer.Serialize(protoMessage, options),
+                Cmd = Cmd,
+                Content = MessagePackSerializer.Serialize(protoMessage,
+                    options),
                 ErrorCode = 0,
+                Args = args,
             };
 
             websocket.SendAsync(MessagePackSerializer.Serialize(myExternalMessage, options));
