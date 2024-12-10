@@ -1,12 +1,12 @@
 ﻿D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/__beans__.xlsx,67156956C1F1B9E6AD799897A398A5D,9365,1724849536007
 D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/__enums__.xlsx,712861302F1D70D7BE242DC23374149,9309,1724849536008
-D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/__tables__.xlsx,75D7519B12D3A0AE64DEAF36B4B0D7,6919,1733764619256
+D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/__tables__.xlsx,D59B32DFA8698A3962D83AE4C1543BC1,6918,1733854319050
 D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/card_group_Fixed.xlsx,8F6E916CC74885ECCB2A35AAF6635E30,6290,1733762335981
 D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/item_Fixed.xlsx,E48260F15711F69C32451B4F36F8EA4,7895,1733762336019
-D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/item.xlsx,9D3BB96F4358B432F114828B439A739,7887,1733764618942
+D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/item.xlsx,E4A3B3787E85292D4736B8C1A249932D,7884,1733854318748
 D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/language_Fixed.xlsx,43F7D3618B293AE8010AF959569714,31355,1733762335944
-D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/sign.xlsx,CD68D0AAAF582B245B69A4D76BFC55E9,7452,1733764618983
-D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/task.xlsx,55347173DEC1D9DE1777625387AC3EA,49470,1733764619244
+D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/sign.xlsx,B6F8253E2CBC122A467097FBFA1D4A57,7510,1733854318787
+D:/GitProjects/FoxCard/configTools/Luban/ConfigRoot/Datas/task.xlsx,47CAA0C584FF99024221ECE4519B81,49469,1733854319041
 D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets/FoxCard/ConfigJsonData/config_tbcard_group.json,D6E73624E3207B85BE20A7D8F8371B,2224,1733763009437
 D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets/FoxCard/ConfigJsonData/config_tbitem.json,D95B997ADE463BEF59964A6646945D2C,774,1733763009438
 D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets/FoxCard/ConfigJsonData/config_tblanguage.json,AEDAA1918960D7B88D84AC9CB88C87A8,2532,1733763009437
@@ -33,7 +33,7 @@ D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets/FoxCard/Scripts/HotFix/UI/Con
 D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets/FoxCard/Scripts/HotFix/UI/Config/ConfigGenScripts/GenScripts/config/Tbtask.cs,146DEF9A5D6237CFFDF1B089B0CB36E7,1754,1733762845187
 D:/GitProjects/FoxCard/trunk/FoxCard.Client/Assets/FoxCard/Scripts/HotFix/UI/Config/ConfigGenScripts/GenScripts/Tables.cs,257BC6697F83B68157B533E538F96CC,4649,1733763063048
 D:/GitProjects/FoxCard/trunk/FoxCard.Server/Datas/Config/Json/config_tbitem.json,8BBDEACF3267A8A629A75333EAE7EAFD,153,1726083390292
-D:/GitProjects/FoxCard/trunk/FoxCard.Server/Datas/Config/Json/config_tbsign_daily.json,75469EFB30473B8F7C66886965B22AD6,3615,1733763087326
+D:/GitProjects/FoxCard/trunk/FoxCard.Server/Datas/Config/Json/config_tbsign_daily.json,76235C5DB937CE96647F1316D8148EE3,3736,1733854319937
 D:/GitProjects/FoxCard/trunk/FoxCard.Server/Datas/Config/Json/config_tbtask_group.json,F75D8C4D3A9355BA4DA6DB6B7247F56,3190,1733763087331
 D:/GitProjects/FoxCard/trunk/FoxCard.Server/Datas/Config/Json/config_tbtask_score.json,5E67FD7BD2C4CAF1617E3F5457B6E5,3798,1733763087332
 D:/GitProjects/FoxCard/trunk/FoxCard.Server/Datas/Config/Json/config_tbtask_type.json,F486A2E1CB226311ABF7ADB47EC155,2303,1733763087332

@@ -16,10 +16,10 @@
 
 namespace MessagePack.Formatters.HotFix_UI
 {
-    public sealed class PlayerResourceFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::HotFix_UI.PlayerResource>
+    public sealed class RewardsFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::HotFix_UI.Rewards>
     {
 
-        public void Serialize(ref global::MessagePack.MessagePackWriter writer, global::HotFix_UI.PlayerResource value, global::MessagePack.MessagePackSerializerOptions options)
+        public void Serialize(ref global::MessagePack.MessagePackWriter writer, global::HotFix_UI.Rewards value, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (value == null)
             {
@@ -28,12 +28,11 @@ namespace MessagePack.Formatters.HotFix_UI
             }
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(2);
-            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
-            writer.Write(value.SignTimeSpan);
+            writer.WriteArrayHeader(1);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::System.Numerics.Vector3>>(formatterResolver).Serialize(ref writer, value.rewards, options);
         }
 
-        public global::HotFix_UI.PlayerResource Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        public global::HotFix_UI.Rewards Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (reader.TryReadNil())
             {
@@ -43,17 +42,14 @@ namespace MessagePack.Formatters.HotFix_UI
             options.Security.DepthStep(ref reader);
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
             var length = reader.ReadArrayHeader();
-            var ____result = new global::HotFix_UI.PlayerResource();
+            var ____result = new global::HotFix_UI.Rewards();
 
             for (int i = 0; i < length; i++)
             {
                 switch (i)
                 {
                     case 0:
-                        ____result.ItemList = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Deserialize(ref reader, options);
-                        break;
-                    case 1:
-                        ____result.SignTimeSpan = reader.ReadInt64();
+                        ____result.rewards = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::System.Numerics.Vector3>>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();

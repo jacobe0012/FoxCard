@@ -5,6 +5,7 @@
 //---------------------------------------------------------------------
 
 using System;
+using System.Collections.Generic;
 using System.IO;
 //using Best.SignalR;
 using Best.SignalR.Encoders;
@@ -161,13 +162,20 @@ namespace HotFix_UI
 
             WebMessageHandler.Instance.PackageHandler(message.Cmd, message.Content);
             //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
-            SendMessage(CMD.DAILYSIGN);
-            // if (message.Cmd == CMD.LOGIN)
-            // {
-            //     SendMessage(CMD.QUERYRESOURCE);
-            // }
 
-            Log.Debug($"Onmsg methodName:{message.Cmd} content:{message.Content}", debugColor);
+            if (message.Cmd == CMD.LOGIN)
+            {
+                SendMessage(CMD.DAILYSIGN, 4);
+                SendMessage(CMD.QUERYRESOURCE);
+            }
+
+            if (message.Cmd == CMD.DAILYSIGN)
+            {
+                var playerData = MessagePackSerializer.Deserialize<Rewards>(message.Content, options);
+                Log.Debug($"playerData[0]:{playerData.rewards[0]}", debugColor);
+            }
+
+            Log.Debug($"Onmsg methodCmd:{message.Cmd} methodArgs:{message.Args} content:{message.Content}", debugColor);
         }
 
         // 尝试重连

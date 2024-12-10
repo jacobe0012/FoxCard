@@ -12,6 +12,12 @@ namespace HotFix_UI
         /// </summary>
         [Key(0)]
         public List<ItemInfo> ItemList { get; set; }
+
+        /// <summary>
+        /// 签到时间戳 ms
+        /// </summary>
+        [Key(1)]
+        public long SignTimeSpan { get; set; }
     }
 
     [MessagePackObject]

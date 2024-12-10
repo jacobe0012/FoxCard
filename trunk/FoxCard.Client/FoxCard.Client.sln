@@ -29,11 +29,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePack.Annotations", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.Tivadar.Best.WebSockets", "com.Tivadar.Best.WebSockets.csproj", "{18cda8cb-b3ae-70dc-2617-af08862b3ebf}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.logviewer.runtime", "com.logviewer.runtime.csproj", "{4af8a1b1-5e57-8bf3-3764-a1bce45eb5f4}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.Tivadar.Best.SignalR", "com.Tivadar.Best.SignalR.csproj", "{f871d8f6-8cfe-6548-11cd-92f2cf120881}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.TextMeshPro", "UniTask.TextMeshPro.csproj", "{be517f48-6d14-a417-102e-819e799e872f}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterStreamingAssets", "BetterStreamingAssets.csproj", "{92be5c30-19ae-c29f-9b37-a36bee7d6146}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.Tivadar.Best.HTTP.Profiler.Editor", "com.Tivadar.Best.HTTP.Profiler.Editor.csproj", "{37c3f953-d6ad-6d4f-78c1-dfae8754a8b8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.logviewer.editor", "com.logviewer.editor.csproj", "{58e313a5-d80f-79dc-ff04-96b8f2574ede}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{54f991d9-f9ed-12e0-227b-de1beaedcf1b}"
 EndProject
@@ -92,12 +98,18 @@ Global
 		{585442b1-7290-9c6e-742e-a47d2cdb20e3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{18cda8cb-b3ae-70dc-2617-af08862b3ebf}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{18cda8cb-b3ae-70dc-2617-af08862b3ebf}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4af8a1b1-5e57-8bf3-3764-a1bce45eb5f4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4af8a1b1-5e57-8bf3-3764-a1bce45eb5f4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{f871d8f6-8cfe-6548-11cd-92f2cf120881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{f871d8f6-8cfe-6548-11cd-92f2cf120881}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{be517f48-6d14-a417-102e-819e799e872f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{be517f48-6d14-a417-102e-819e799e872f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92be5c30-19ae-c29f-9b37-a36bee7d6146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92be5c30-19ae-c29f-9b37-a36bee7d6146}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37c3f953-d6ad-6d4f-78c1-dfae8754a8b8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37c3f953-d6ad-6d4f-78c1-dfae8754a8b8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58e313a5-d80f-79dc-ff04-96b8f2574ede}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58e313a5-d80f-79dc-ff04-96b8f2574ede}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54f991d9-f9ed-12e0-227b-de1beaedcf1b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{54f991d9-f9ed-12e0-227b-de1beaedcf1b}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{c2d3a9fb-38cd-901a-f7f2-dc13d8c49eed}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 using System.Diagnostics;
+using System.Numerics;
 using FoxCard.Server.Log;
 
 namespace FoxCard.Server.Controllers;
@@ -177,10 +178,54 @@ public class WebSocketController : ControllerBase
 
             message.Content =
                 MessagePackSerializer.Serialize(JsonConvert.DeserializeObject<PlayerResource>(playerRes), options);
+
             outputContentStr = playerRes.ToString();
         }
         else if (message.Cmd == CMD.DAILYSIGN)
         {
+            var rewards = new Rewards { };
+            //List<Vector3> rewards = null;
+
+            Console.WriteLine($"DateTime.Now.Day{DateTime.Now.Day}");
+            if (!_connections.TryGetValue(webSocket, out var openId))
+            {
+                //Console.WriteLine($"webSocket:{webSocket.} not found");
+                //用户未登记
+                message.ErrorCode = 1001;
+            }
+
+            var redisKey = GetRedisDBStr(1, openId);
+            var db = _redis.GetDatabase();
+            var rv = await db.StringGetAsync(redisKey);
+            var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
+
+            //
+            // 将 Unix 时间戳转换为 DateTime
+            DateTime timestamp = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.SignTimeSpan).DateTime;
+            // 获取今天凌晨6点和明天凌晨6点的时间
+            //DateTime.UtcNow.
+            DateTime today6am = DateTime.Today.AddHours(6);
+            DateTime tomorrow6am = today6am.AddDays(1);
+
+            // 检查时间戳是否在这个范围内
+            if (timestamp >= today6am && timestamp < tomorrow6am)
+            {
+                Console.WriteLine("时间戳在今天凌晨6点到明天凌晨6点之间");
+            }
+            else
+            {
+                long millisecondsSinceEpoch = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
+                playerRes.SignTimeSpan = millisecondsSinceEpoch;
+                await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
+                Console.WriteLine("时间戳不在今天凌晨6点到明天凌晨6点之间");
+
+                var tbsignDaily = MyConfig.Tables.Tbsign_daily;
+                rewards.rewards = tbsignDaily.Get(DateTime.Now.Day).reward;
+            }
+
+
+            message.Content =
+                MessagePackSerializer.Serialize(rewards, options);
         }
 
         stopwatch.Stop();
@@ -205,6 +250,11 @@ public class WebSocketController : ControllerBase
         return redisStr;
     }
 
+    /// <summary>
+    /// 初始化玩家数据
+    /// </summary>
+    /// <param name="db"></param>
+    /// <param name="openId"></param>
     async Task InitPlayerResource(IDatabase db, string openId)
     {
         var itemInfos = MyConfig.Tables.Tbitem.DataList.Where(a => a.initEnable == 1).Select(item => new ItemInfo
@@ -215,7 +265,8 @@ public class WebSocketController : ControllerBase
 
         var playerRes = new PlayerResource
         {
-            ItemList = itemInfos
+            ItemList = itemInfos,
+            SignTimeSpan = 0
         };
         await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
     }

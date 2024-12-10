@@ -27,6 +27,10 @@
         <LinkBase>Protocol\</LinkBase>
         <Link>Protocol\PlayerResource.cs</Link>
       </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\Rewards.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\Rewards.cs</Link>
+      </Compile>
     </ItemGroup>
 
 </Project>

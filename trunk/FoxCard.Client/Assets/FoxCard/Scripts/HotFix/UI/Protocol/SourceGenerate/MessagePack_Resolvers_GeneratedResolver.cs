@@ -47,16 +47,18 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(8)
+            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(10)
             {
                 { typeof(global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>), 0 },
-                { typeof(global::HotFix_UI.ItemInfo), 1 },
-                { typeof(global::HotFix_UI.LocationData), 2 },
-                { typeof(global::HotFix_UI.MyData), 3 },
-                { typeof(global::HotFix_UI.MyMessage), 4 },
-                { typeof(global::HotFix_UI.OtherData), 5 },
-                { typeof(global::HotFix_UI.PlayerData), 6 },
-                { typeof(global::HotFix_UI.PlayerResource), 7 },
+                { typeof(global::System.Collections.Generic.List<global::System.Numerics.Vector3>), 1 },
+                { typeof(global::HotFix_UI.ItemInfo), 2 },
+                { typeof(global::HotFix_UI.LocationData), 3 },
+                { typeof(global::HotFix_UI.MyData), 4 },
+                { typeof(global::HotFix_UI.MyMessage), 5 },
+                { typeof(global::HotFix_UI.OtherData), 6 },
+                { typeof(global::HotFix_UI.PlayerData), 7 },
+                { typeof(global::HotFix_UI.PlayerResource), 8 },
+                { typeof(global::HotFix_UI.Rewards), 9 },
             };
         }
 
@@ -71,13 +73,15 @@ namespace MessagePack.Resolvers
             switch (key)
             {
                 case 0: return new global::MessagePack.Formatters.ListFormatter<global::HotFix_UI.ItemInfo>();
-                case 1: return new MessagePack.Formatters.HotFix_UI.ItemInfoFormatter();
-                case 2: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
-                case 3: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
-                case 4: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
-                case 5: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
-                case 6: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
-                case 7: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
+                case 1: return new global::MessagePack.Formatters.ListFormatter<global::System.Numerics.Vector3>();
+                case 2: return new MessagePack.Formatters.HotFix_UI.ItemInfoFormatter();
+                case 3: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
+                case 4: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
+                case 5: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
+                case 6: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
+                case 7: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
+                case 8: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
+                case 9: return new MessagePack.Formatters.HotFix_UI.RewardsFormatter();
                 default: return null;
             }
         }
