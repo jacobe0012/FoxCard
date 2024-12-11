@@ -33,4 +33,8 @@
       </Compile>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Datas\ServerData\" />
+    </ItemGroup>
+
 </Project>

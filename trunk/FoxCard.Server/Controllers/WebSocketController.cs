@@ -126,7 +126,6 @@ public class WebSocketController : ControllerBase
         }
     }
 
-
     private async Task<MyMessage> ProcessMessage(MyMessage message, WebSocket webSocket)
     {
         var stopwatch = new Stopwatch();
@@ -166,6 +165,7 @@ public class WebSocketController : ControllerBase
         }
         else if (message.Cmd == CMD.QUERYRESOURCE)
         {
+            var playerRes = new PlayerResource();
             if (!_connections.TryGetValue(webSocket, out var openId))
             {
                 //Console.WriteLine($"webSocket:{webSocket.} not found");
@@ -174,12 +174,12 @@ public class WebSocketController : ControllerBase
             }
 
             var db = _redis.GetDatabase();
-            var playerRes = await db.StringGetAsync(GetRedisDBStr(1, openId));
-
+            var rv = await db.StringGetAsync(GetRedisDBStr(1, openId));
+            playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
             message.Content =
-                MessagePackSerializer.Serialize(JsonConvert.DeserializeObject<PlayerResource>(playerRes), options);
+                MessagePackSerializer.Serialize(playerRes, options);
 
-            outputContentStr = playerRes.ToString();
+            outputContentStr = rv.ToString();
         }
         else if (message.Cmd == CMD.DAILYSIGN)
         {
@@ -202,14 +202,14 @@ public class WebSocketController : ControllerBase
             // 将 Unix 时间戳转换为 DateTime
             DateTime lastSignTime = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastSignTime).DateTime;
 
-            DateTime currentTime = DateTime.UtcNow;
-
+            var utcNow = DateTimeOffset.UtcNow;
+            DateTime currentTime = utcNow.DateTime;
             DateTime today6 =
                 new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 6, 0, 0, DateTimeKind.Utc);
 
             if (lastSignTime < today6)
             {
-                playerRes.LastSignTime = currentTime.Millisecond;
+                playerRes.LastSignTime = utcNow.ToUnixTimeMilliseconds();
                 await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
                 Console.WriteLine($"签到时间:{currentTime.ToShortDateString()}");
                 var tbsignDaily = MyConfig.Tables.Tbsign_daily;
@@ -224,11 +224,12 @@ public class WebSocketController : ControllerBase
                 MessagePackSerializer.Serialize(rewards, options);
         }
 
+
         stopwatch.Stop();
         string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
 
         MyLogger.Log(_connections[webSocket], inputContentStr,
-            $"CMD:{message.Cmd},ErrorCode:{errorStr},{outputContentStr}",
+            $"CMD:{message.Cmd},ErrorCode:{errorStr},Content:{outputContentStr}",
             stopwatch);
         return message;
     }

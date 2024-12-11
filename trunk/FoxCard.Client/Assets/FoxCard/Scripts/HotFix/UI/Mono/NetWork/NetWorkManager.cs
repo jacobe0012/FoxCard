@@ -172,7 +172,7 @@ namespace HotFix_UI
             if (message.Cmd == CMD.DAILYSIGN)
             {
                 var playerData = MessagePackSerializer.Deserialize<Rewards>(message.Content, options);
-                Log.Debug($"playerData[0]:{playerData.rewards[0]}", debugColor);
+                Log.Debug($"playerData[0]:{playerData.rewards.Count}", debugColor);
             }
 
             Log.Debug($"Onmsg methodCmd:{message.Cmd} methodArgs:{message.Args} content:{message.Content}", debugColor);

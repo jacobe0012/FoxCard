@@ -18,6 +18,12 @@ namespace HotFix_UI
         /// </summary>
         [Key(1)]
         public long LastSignTime { get; set; }
+
+        /// <summary>
+        /// 签到总次数
+        /// </summary>
+        [Key(2)]
+        public int SignCount { get; set; }
     }
 
     [MessagePackObject]
