@@ -7,25 +7,24 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
-
+{ 
 
 public sealed partial class Tbsign_daily
 {
     private readonly Dictionary<int, config.sign_daily> _dataMap;
     private readonly List<config.sign_daily> _dataList;
     
-    public Tbsign_daily(JsonElement _json)
+    public Tbsign_daily(JSONNode _json)
     {
         _dataMap = new Dictionary<int, config.sign_daily>();
         _dataList = new List<config.sign_daily>();
         
-        foreach(JsonElement _row in _json.EnumerateArray())
+        foreach(JSONNode _row in _json.Children)
         {
             var _v = config.sign_daily.Deserializesign_daily(_row);
             _dataList.Add(_v);
@@ -58,7 +57,7 @@ public sealed partial class Tbsign_daily
         }
     }
     
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

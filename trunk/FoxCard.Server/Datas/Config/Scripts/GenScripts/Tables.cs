@@ -6,11 +6,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 using Bright.Serialization;
-using System.Text.Json;
+using SimpleJSON;
+
 
 namespace cfg
 { 
-
    
 public sealed partial class Tables
 {
@@ -21,7 +21,7 @@ public sealed partial class Tables
     public config.Tbtask_group Tbtask_group {get; }
     public config.Tbtask_score Tbtask_score {get; }
 
-    public Tables(System.Func<string, JsonElement> loader)
+    public Tables(System.Func<string, JSONNode> loader)
     {
         var tables = new System.Collections.Generic.Dictionary<string, object>();
         Tbitem = new config.Tbitem(loader("config_tbitem")); 

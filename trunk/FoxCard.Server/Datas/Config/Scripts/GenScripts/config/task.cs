@@ -7,28 +7,28 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
+{ 
 
 public sealed partial class task :  Bright.Config.BeanBase 
 {
-    public task(JsonElement _json) 
+    public task(JSONNode _json) 
     {
-        id = _json.GetProperty("id").GetInt32();
-        group = _json.GetProperty("group").GetInt32();
-        { var __json0 = _json.GetProperty("condition"); condition = new System.Collections.Generic.List<System.Numerics.Vector3>(__json0.GetArrayLength()); foreach(JsonElement __e0 in __json0.EnumerateArray()) { System.Numerics.Vector3 __v0;  { var _json0 = __e0; float __x; __x = _json0.GetProperty("x").GetSingle(); float __y; __y = _json0.GetProperty("y").GetSingle(); float __z; __z = _json0.GetProperty("z").GetSingle();  __v0 = new System.Numerics.Vector3(__x, __y,__z); }  condition.Add(__v0); }   }
-        { var __json0 = _json.GetProperty("reward"); reward = new System.Collections.Generic.List<System.Numerics.Vector3>(__json0.GetArrayLength()); foreach(JsonElement __e0 in __json0.EnumerateArray()) { System.Numerics.Vector3 __v0;  { var _json0 = __e0; float __x; __x = _json0.GetProperty("x").GetSingle(); float __y; __y = _json0.GetProperty("y").GetSingle(); float __z; __z = _json0.GetProperty("z").GetSingle();  __v0 = new System.Numerics.Vector3(__x, __y,__z); }  reward.Add(__v0); }   }
-        type = _json.GetProperty("type").GetInt32();
-        { var __json0 = _json.GetProperty("para"); para = new System.Collections.Generic.List<int>(__json0.GetArrayLength()); foreach(JsonElement __e0 in __json0.EnumerateArray()) { int __v0;  __v0 = __e0.GetInt32();  para.Add(__v0); }   }
-        score = _json.GetProperty("score").GetInt32();
+        { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
+        { if(!_json["group"].IsNumber) { throw new SerializationException(); }  group = _json["group"]; }
+        { var __json0 = _json["condition"]; if(!__json0.IsArray) { throw new SerializationException(); } condition = new System.Collections.Generic.List<UnityEngine.Vector3>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { UnityEngine.Vector3 __v0;  { var _json2 = __e0; if(!_json2.IsObject) { throw new SerializationException(); } float __x; { if(!_json2["x"].IsNumber) { throw new SerializationException(); }  __x = _json2["x"]; } float __y; { if(!_json2["y"].IsNumber) { throw new SerializationException(); }  __y = _json2["y"]; } float __z; { if(!_json2["z"].IsNumber) { throw new SerializationException(); }  __z = _json2["z"]; }  __v0 = new UnityEngine.Vector3(__x, __y,__z); }  condition.Add(__v0); }   }
+        { var __json0 = _json["reward"]; if(!__json0.IsArray) { throw new SerializationException(); } reward = new System.Collections.Generic.List<UnityEngine.Vector3>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { UnityEngine.Vector3 __v0;  { var _json2 = __e0; if(!_json2.IsObject) { throw new SerializationException(); } float __x; { if(!_json2["x"].IsNumber) { throw new SerializationException(); }  __x = _json2["x"]; } float __y; { if(!_json2["y"].IsNumber) { throw new SerializationException(); }  __y = _json2["y"]; } float __z; { if(!_json2["z"].IsNumber) { throw new SerializationException(); }  __z = _json2["z"]; }  __v0 = new UnityEngine.Vector3(__x, __y,__z); }  reward.Add(__v0); }   }
+        { if(!_json["type"].IsNumber) { throw new SerializationException(); }  type = _json["type"]; }
+        { var __json0 = _json["para"]; if(!__json0.IsArray) { throw new SerializationException(); } para = new System.Collections.Generic.List<int>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { int __v0;  { if(!__e0.IsNumber) { throw new SerializationException(); }  __v0 = __e0; }  para.Add(__v0); }   }
+        { if(!_json["score"].IsNumber) { throw new SerializationException(); }  score = _json["score"]; }
         PostInit();
     }
 
-    public task(int id, int group, System.Collections.Generic.List<System.Numerics.Vector3> condition, System.Collections.Generic.List<System.Numerics.Vector3> reward, int type, System.Collections.Generic.List<int> para, int score ) 
+    public task(int id, int group, System.Collections.Generic.List<UnityEngine.Vector3> condition, System.Collections.Generic.List<UnityEngine.Vector3> reward, int type, System.Collections.Generic.List<int> para, int score ) 
     {
         this.id = id;
         this.group = group;
@@ -40,7 +40,7 @@ public sealed partial class task :  Bright.Config.BeanBase
         PostInit();
     }
 
-    public static task Deserializetask(JsonElement _json)
+    public static task Deserializetask(JSONNode _json)
     {
         return new config.task(_json);
     }
@@ -56,11 +56,11 @@ public sealed partial class task :  Bright.Config.BeanBase
     /// <summary>
     /// 任务接取条件
     /// </summary>
-    public System.Collections.Generic.List<System.Numerics.Vector3> condition { get; private set; }
+    public System.Collections.Generic.List<UnityEngine.Vector3> condition { get; private set; }
     /// <summary>
     /// 任务奖励
     /// </summary>
-    public System.Collections.Generic.List<System.Numerics.Vector3> reward { get; private set; }
+    public System.Collections.Generic.List<UnityEngine.Vector3> reward { get; private set; }
     /// <summary>
     /// 任务类型
     /// </summary>
@@ -98,7 +98,7 @@ public sealed partial class task :  Bright.Config.BeanBase
         + "score:" + score + ","
         + "}";
     }
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

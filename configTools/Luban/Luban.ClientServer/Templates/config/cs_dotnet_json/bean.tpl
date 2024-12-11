@@ -8,6 +8,8 @@ using System.Text.Json;
     parent = x.parent
     export_fields = x.export_fields
     hierarchy_export_fields = x.hierarchy_export_fields
+
+
 }}
 
 {{cs_start_name_space_grace x.namespace_with_top_module}}
@@ -19,13 +21,22 @@ using System.Text.Json;
 {{~end~}}
 public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {{parent}} {{else}} Bright.Config.BeanBase {{end}}
 {
+
     public {{name}}(JsonElement _json) {{if parent_def_type}} : base(_json) {{end}}
     {
         {{~ for field in export_fields ~}}
-        {{cs_json_deserialize '_json' field.convention_name field.name field.ctype}}
+        {{~if field.ctype.element_type == 'Luban.Job.Common.Types.TVector3'~}}
+        {{cs_json_deserialize '_json' field.convention_name field.name 'Vector3'}}
         {{~if field.index_field~}}
         foreach(var _v in {{field.convention_name}}) { {{field.convention_name}}_Index.Add(_v.{{field.index_field.convention_name}}, _v); }
         {{~end~}}
+        {{~else~}}
+        {{cs_json_deserialize '_json' field.convention_name field.name 'Vector3'}}
+        {{~if field.index_field~}}
+        foreach(var _v in {{field.convention_name}}) { {{field.convention_name}}_Index.Add(_v.{{field.index_field.convention_name}}, _v); }
+        {{~end~}}
+        {{~end~}}
+
         {{~end~}}
         PostInit();
     }
@@ -62,7 +73,11 @@ public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {
     /// {{field.escape_comment}}
     /// </summary>
 {{~end~}}
+    {{~if field.ctype.element_type == 'Luban.Job.Common.Types.TVector3'~}}
+    public System.Collections.Generic.List<UnityEngine.Vector3> {{field.convention_name}} { get; private set; }       
+    {{~else~}}
     public {{cs_define_type field.ctype}} {{field.convention_name}} { get; private set; }
+    {{~end~}}
     {{~if field.index_field~}} 
     public readonly Dictionary<{{cs_define_type field.index_field.ctype}}, {{cs_define_type field.ctype.element_type}}> {{field.convention_name}}_Index = new Dictionary<{{cs_define_type field.index_field.ctype}}, {{cs_define_type field.ctype.element_type}}>();
     {{~end~}}

@@ -17,7 +17,7 @@ namespace HotFix_UI
         /// 签到时间戳 ms
         /// </summary>
         [Key(1)]
-        public long SignTimeSpan { get; set; }
+        public long LastSignTime { get; set; }
     }
 
     [MessagePackObject]

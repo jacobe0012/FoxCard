@@ -29,6 +29,6 @@ set CONF_ROOT=%WORKSPACE%\Luban
  --output_code_dir %PARENT_WORKSPACE%\trunk\FoxCard.Server\Datas\Config\Scripts\GenScripts ^
  --output_data_dir %PARENT_WORKSPACE%\trunk\FoxCard.Server\Datas\Config\Json ^
  --naming_convention:bean_member camelCase ^
- --gen_types code_cs_dotnet_json,data_json ^
+ --gen_types code_cs_unity_json,data_json ^
 
  -s server

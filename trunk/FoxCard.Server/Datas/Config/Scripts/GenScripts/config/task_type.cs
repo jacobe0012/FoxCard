@@ -7,19 +7,19 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
+{ 
 
 public sealed partial class task_type :  Bright.Config.BeanBase 
 {
-    public task_type(JsonElement _json) 
+    public task_type(JSONNode _json) 
     {
-        id = _json.GetProperty("id").GetInt32();
-        onceYn = _json.GetProperty("once_yn").GetInt32();
+        { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
+        { if(!_json["once_yn"].IsNumber) { throw new SerializationException(); }  onceYn = _json["once_yn"]; }
         PostInit();
     }
 
@@ -30,7 +30,7 @@ public sealed partial class task_type :  Bright.Config.BeanBase
         PostInit();
     }
 
-    public static task_type Deserializetask_type(JsonElement _json)
+    public static task_type Deserializetask_type(JSONNode _json)
     {
         return new config.task_type(_json);
     }
@@ -63,7 +63,7 @@ public sealed partial class task_type :  Bright.Config.BeanBase
         + "onceYn:" + onceYn + ","
         + "}";
     }
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

@@ -9,8 +9,8 @@ using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 using System.Diagnostics;
-using System.Numerics;
 using FoxCard.Server.Log;
+
 
 namespace FoxCard.Server.Controllers;
 
@@ -199,30 +199,26 @@ public class WebSocketController : ControllerBase
             var rv = await db.StringGetAsync(redisKey);
             var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
 
-            //
             // 将 Unix 时间戳转换为 DateTime
-            DateTime timestamp = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.SignTimeSpan).DateTime;
-            // 获取今天凌晨6点和明天凌晨6点的时间
-            //DateTime.UtcNow.
-            DateTime today6am = DateTime.Today.AddHours(6);
-            DateTime tomorrow6am = today6am.AddDays(1);
+            DateTime lastSignTime = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastSignTime).DateTime;
 
-            // 检查时间戳是否在这个范围内
-            if (timestamp >= today6am && timestamp < tomorrow6am)
+            DateTime currentTime = DateTime.UtcNow;
+
+            DateTime today6 =
+                new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 6, 0, 0, DateTimeKind.Utc);
+
+            if (lastSignTime < today6)
             {
-                Console.WriteLine("时间戳在今天凌晨6点到明天凌晨6点之间");
+                playerRes.LastSignTime = currentTime.Millisecond;
+                await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
+                Console.WriteLine($"签到时间:{currentTime.ToShortDateString()}");
+                var tbsignDaily = MyConfig.Tables.Tbsign_daily;
+                rewards.rewards = tbsignDaily.Get(currentTime.Day).reward;
             }
             else
             {
-                long millisecondsSinceEpoch = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
-                playerRes.SignTimeSpan = millisecondsSinceEpoch;
-                await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
-                Console.WriteLine("时间戳不在今天凌晨6点到明天凌晨6点之间");
-
-                var tbsignDaily = MyConfig.Tables.Tbsign_daily;
-                rewards.rewards = tbsignDaily.Get(DateTime.Now.Day).reward;
+                Console.WriteLine($"不可签 上次签到时间:{lastSignTime.ToShortDateString()}");
             }
-
 
             message.Content =
                 MessagePackSerializer.Serialize(rewards, options);
@@ -236,6 +232,7 @@ public class WebSocketController : ControllerBase
             stopwatch);
         return message;
     }
+
 
     string GetRedisDBStr(int type, string openId)
     {
@@ -266,7 +263,7 @@ public class WebSocketController : ControllerBase
         var playerRes = new PlayerResource
         {
             ItemList = itemInfos,
-            SignTimeSpan = 0
+            LastSignTime = 0
         };
         await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
     }

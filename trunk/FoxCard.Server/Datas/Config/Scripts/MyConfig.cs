@@ -1,5 +1,7 @@
-﻿using System.Text.Json;
+﻿using System.Net.Mime;
+using System.Text.Json;
 using cfg;
+using SimpleJSON;
 
 
 namespace FoxCard.Server.Datas.Config.Scripts;
@@ -10,13 +12,18 @@ public class MyConfig : IDisposable
 
     public static void InitConfig()
     {
+    
         Tables = new cfg.Tables(LoadJson);
     }
 
-    private static JsonElement LoadJson(string file)
+    // private static JsonElement LoadJson(string file)
+    // {
+    //     return JsonDocument.Parse(System.IO.File.ReadAllBytes("Datas/Config/Json/" + file + ".json"))
+    //         .RootElement;
+    // }
+    private static JSONNode LoadJson(string file)
     {
-        return JsonDocument.Parse(System.IO.File.ReadAllBytes("Datas/Config/Json/" + file + ".json"))
-            .RootElement;
+        return JSON.Parse(File.ReadAllText("Datas/Config/Json/" + file + ".json", System.Text.Encoding.UTF8));
     }
 
 

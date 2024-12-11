@@ -7,30 +7,30 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
+{ 
 
 public sealed partial class sign_daily :  Bright.Config.BeanBase 
 {
-    public sign_daily(JsonElement _json) 
+    public sign_daily(JSONNode _json) 
     {
-        id = _json.GetProperty("id").GetInt32();
-        { var __json0 = _json.GetProperty("reward"); reward = new System.Collections.Generic.List<System.Numerics.Vector3>(__json0.GetArrayLength()); foreach(JsonElement __e0 in __json0.EnumerateArray()) { System.Numerics.Vector3 __v0;  { var _json0 = __e0; float __x; __x = _json0.GetProperty("x").GetSingle(); float __y; __y = _json0.GetProperty("y").GetSingle(); float __z; __z = _json0.GetProperty("z").GetSingle();  __v0 = new System.Numerics.Vector3(__x, __y,__z); }  reward.Add(__v0); }   }
+        { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
+        { var __json0 = _json["reward"]; if(!__json0.IsArray) { throw new SerializationException(); } reward = new System.Collections.Generic.List<UnityEngine.Vector3>(__json0.Count); foreach(JSONNode __e0 in __json0.Children) { UnityEngine.Vector3 __v0;  { var _json2 = __e0; if(!_json2.IsObject) { throw new SerializationException(); } float __x; { if(!_json2["x"].IsNumber) { throw new SerializationException(); }  __x = _json2["x"]; } float __y; { if(!_json2["y"].IsNumber) { throw new SerializationException(); }  __y = _json2["y"]; } float __z; { if(!_json2["z"].IsNumber) { throw new SerializationException(); }  __z = _json2["z"]; }  __v0 = new UnityEngine.Vector3(__x, __y,__z); }  reward.Add(__v0); }   }
         PostInit();
     }
 
-    public sign_daily(int id, System.Collections.Generic.List<System.Numerics.Vector3> reward ) 
+    public sign_daily(int id, System.Collections.Generic.List<UnityEngine.Vector3> reward ) 
     {
         this.id = id;
         this.reward = reward;
         PostInit();
     }
 
-    public static sign_daily Deserializesign_daily(JsonElement _json)
+    public static sign_daily Deserializesign_daily(JSONNode _json)
     {
         return new config.sign_daily(_json);
     }
@@ -42,7 +42,7 @@ public sealed partial class sign_daily :  Bright.Config.BeanBase
     /// <summary>
     /// 奖励
     /// </summary>
-    public System.Collections.Generic.List<System.Numerics.Vector3> reward { get; private set; }
+    public System.Collections.Generic.List<UnityEngine.Vector3> reward { get; private set; }
 
     public const int __ID__ = 54950723;
     public override int GetTypeId() => __ID__;
@@ -63,7 +63,7 @@ public sealed partial class sign_daily :  Bright.Config.BeanBase
         + "reward:" + Bright.Common.StringUtil.CollectionToString(reward) + ","
         + "}";
     }
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

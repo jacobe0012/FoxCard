@@ -7,25 +7,24 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
-
+{ 
 
 public sealed partial class Tbtask_score
 {
     private readonly Dictionary<int, config.task_score> _dataMap;
     private readonly List<config.task_score> _dataList;
     
-    public Tbtask_score(JsonElement _json)
+    public Tbtask_score(JSONNode _json)
     {
         _dataMap = new Dictionary<int, config.task_score>();
         _dataList = new List<config.task_score>();
         
-        foreach(JsonElement _row in _json.EnumerateArray())
+        foreach(JSONNode _row in _json.Children)
         {
             var _v = config.task_score.Deserializetask_score(_row);
             _dataList.Add(_v);
@@ -58,7 +57,7 @@ public sealed partial class Tbtask_score
         }
     }
     
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

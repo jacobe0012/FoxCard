@@ -1,13 +1,10 @@
-using System.Collections.Generic;
-using System.Numerics;
-using HotFix_UI;
 using MessagePack;
-
+using System.Collections.Generic;
 namespace HotFix_UI
 {
     [MessagePackObject]
     public class Rewards : IMessagePack
     {
-        [Key(0)] public List<Vector3> rewards { get; set; }
+        [Key(0)] public List<UnityEngine.Vector3> rewards { get; set; }
     }
 }

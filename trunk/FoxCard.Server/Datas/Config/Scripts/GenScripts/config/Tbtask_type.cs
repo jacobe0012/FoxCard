@@ -7,25 +7,24 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
-
+{ 
 
 public sealed partial class Tbtask_type
 {
     private readonly Dictionary<int, config.task_type> _dataMap;
     private readonly List<config.task_type> _dataList;
     
-    public Tbtask_type(JsonElement _json)
+    public Tbtask_type(JSONNode _json)
     {
         _dataMap = new Dictionary<int, config.task_type>();
         _dataList = new List<config.task_type>();
         
-        foreach(JsonElement _row in _json.EnumerateArray())
+        foreach(JSONNode _row in _json.Children)
         {
             var _v = config.task_type.Deserializetask_type(_row);
             _dataList.Add(_v);
@@ -58,7 +57,7 @@ public sealed partial class Tbtask_type
         }
     }
     
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

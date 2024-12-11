@@ -30,7 +30,7 @@ namespace MessagePack.Formatters.HotFix_UI
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
             writer.WriteArrayHeader(2);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
-            writer.Write(value.SignTimeSpan);
+            writer.Write(value.LastSignTime);
         }
 
         public global::HotFix_UI.PlayerResource Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -53,7 +53,7 @@ namespace MessagePack.Formatters.HotFix_UI
                         ____result.ItemList = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     case 1:
-                        ____result.SignTimeSpan = reader.ReadInt64();
+                        ____result.LastSignTime = reader.ReadInt64();
                         break;
                     default:
                         reader.Skip();

@@ -17,131 +17,6 @@ using SimpleJSON;
 /// {{x.escape_comment}}
 /// </summary>
 {{~end~}}
-{{~if name == 'Tblanguage' ~}}
-public sealed partial class Tblanguage
-{
-    private readonly Dictionary<string, config.language> _dataMap;
-    private readonly List<config.language> _dataList;
-    
-    public Tblanguage(JSONNode _json)
-    {
-        _dataMap = new Dictionary<string, config.language>();
-        _dataList = new List<config.language>();
-        
-        foreach(JSONNode _row in _json.Children)
-        {
-            var _v = config.language.Deserializelanguage(_row);
-            _dataList.Add(_v);
-            _dataMap.Add(_v.langId, _v);
-        }
-        PostInit();
-    }
-
-    public Dictionary<string, config.language> DataMap => _dataMap;
-    public List<config.language> DataList => _dataList;
-
-    public config.language GetOrDefault(string key) => _dataMap.TryGetValue(key, out var v) ? v : null;
-    public config.language Get(string key) {if(_dataMap.TryGetValue(key,out var v)){return v;}else{UnityEngine.Debug.LogError($"当前key值不存在,请确认多语言表配置!key:{key}");var newlang = new config.language(key,key,key,key,key,key,key,key);return newlang;}}
-    public config.language this[string key] => _dataMap[key];
-
-    public void Resolve(Dictionary<string, object> _tables)
-    {
-        foreach(var v in _dataList)
-        {
-            v.Resolve(_tables);
-        }
-        PostResolve();
-    }
-
-    public void TranslateText(System.Func<string, string, string> translator)
-    {
-        foreach(var v in _dataList)
-        {
-            v.TranslateText(translator);
-        }
-    }
-    
-    
-    partial void PostInit();
-    partial void PostResolve();
-    
-    public void SwitchL10N(L10N l10N)
-    {
-        foreach(var v in _dataList)
-        {
-            switch (l10N)
-            {
-                case L10N.zh_cn:
-                    v.current=IsEmptyStr(v.zhCn, v.langId);
-                    break;
-                case L10N.en:
-                    v.current=IsEmptyStr(v.en, v.langId);
-                    break;
-                case L10N.de:
-                    v.current=IsEmptyStr(v.de, v.langId);
-                    break;
-                case L10N.fr:
-                    v.current=IsEmptyStr(v.fr, v.langId);
-                    break;
-                case L10N.es:
-                    v.current=IsEmptyStr(v.es, v.langId);
-                    break;
-                case L10N.jp:
-                    v.current=IsEmptyStr(v.jp, v.langId);
-                    break;
-            }
-        }
-
-        foreach (var v in _dataMap)
-        {
-            switch (l10N)
-            {
-                case L10N.zh_cn:
-                    v.Value.current=IsEmptyStr(v.Value.zhCn, v.Value.langId);
-                    break;
-                case L10N.en:
-                    v.Value.current=IsEmptyStr(v.Value.en, v.Value.langId);
-                    break;
-                case L10N.de:
-                    v.Value.current=IsEmptyStr(v.Value.de, v.Value.langId);
-                    break;
-                case L10N.fr:
-                    v.Value.current=IsEmptyStr(v.Value.fr, v.Value.langId);
-                    break;
-                case L10N.es:
-                    v.Value.current=IsEmptyStr(v.Value.es, v.Value.langId);
-                    break;
-                case L10N.jp:
-                    v.Value.current=IsEmptyStr(v.Value.jp, v.Value.langId);
-                    break;
-            }
-        }
-    }
-    private string IsEmptyStr(string targetStr, string langid)
-    {
-        string current;
-        if (targetStr == "")
-        {
-            return current = langid;
-        }
-
-        return current = targetStr;
-    }
-    public enum L10N
-    {
-        en=1,
-        zh_cn=2,
-        zh_HK=3,
-        kr=4,
-        jp=5,
-        fr=6,
-        de=7,
-        ru=8,
-        th=9,
-        es=10,
-    }
-}
-{{~else~}}
 public sealed partial class {{name}}
 {
     {{~if x.is_map_table ~}}
@@ -231,7 +106,6 @@ public sealed partial class {{name}}
     }
 
     public List<{{cs_define_type value_type}}> DataList => _dataList;
-   
 
     {{~if x.is_union_index~}}
     public {{cs_define_type value_type}} Get({{cs_table_get_param_def_list x}}) => _dataMapUnion.TryGetValue(({{cs_table_get_param_name_list x}}), out {{cs_define_type value_type}} __v) ? __v : null;
@@ -240,7 +114,6 @@ public sealed partial class {{name}}
     public {{cs_define_type value_type}} GetBy{{idx.index_field.convention_name}}({{cs_define_type idx.type}} key) => _dataMap_{{idx.index_field.name}}.TryGetValue(key, out {{cs_define_type value_type}} __v) ? __v : null;
         {{~end~}}
     {{~end~}}
-
 
     public void Resolve(Dictionary<string, object> _tables)
     {
@@ -275,7 +148,6 @@ public sealed partial class {{name}}
     }
 
     {{~ for field in value_type.bean.hierarchy_export_fields ~}}
-
 {{~if field.comment != '' ~}}
     /// <summary>
     /// {{field.escape_comment}}
@@ -283,8 +155,6 @@ public sealed partial class {{name}}
 {{~end~}}
      public {{cs_define_type field.ctype}} {{field.convention_name}} => _data.{{field.convention_name}};
     {{~end~}}
-
-
 
     public void Resolve(Dictionary<string, object> _tables)
     {
@@ -301,71 +171,6 @@ public sealed partial class {{name}}
     
     partial void PostInit();
     partial void PostResolve();
-    
-    {{~if name == 'Tblanguage' ~}}
-    public void SwitchL10N(L10N l10N)
-    {
-        foreach(var v in _dataList)
-        {
-            switch (l10N)
-            {
-                case L10N.zh_cn:
-                    v.current = v.zhCn;
-                    break;
-                case L10N.en:
-                    v.current = v.en;
-                    break;
-                case L10N.de:
-                    v.current = v.de;
-                    break;
-                case L10N.fr:
-                    v.current = v.fr;
-                    break;
-                case L10N.es:
-                    v.current = v.es;
-                    break;
-                case L10N.jp:
-                    v.current = v.jp;
-                    break;
-            }
-        }
-
-        foreach (var v in _dataMap)
-        {
-            switch (l10N)
-            {
-                case L10N.zh_cn:
-                    v.Value.current = v.Value.zhCn;
-                    break;
-                case L10N.en:
-                    v.Value.current = v.Value.en;
-                    break;
-                case L10N.de:
-                    v.Value.current = v.Value.de;
-                    break;
-                case L10N.fr:
-                    v.Value.current = v.Value.fr;
-                    break;
-                case L10N.es:
-                    v.Value.current = v.Value.es;
-                    break;
-                case L10N.jp:
-                    v.Value.current = v.Value.jp;
-                    break;
-            }
-        }
-    }
-   
-    public enum L10N
-    {
-        zh_cn,
-        en,
-        de,
-        fr,
-        es,
-        jp
-    }
-    {{~end~}}
 }
-{{~end~}}
+
 {{cs_end_name_space_grace x.namespace_with_top_module}}

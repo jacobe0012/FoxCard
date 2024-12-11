@@ -50,7 +50,7 @@ namespace MessagePack.Resolvers
             lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(10)
             {
                 { typeof(global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>), 0 },
-                { typeof(global::System.Collections.Generic.List<global::System.Numerics.Vector3>), 1 },
+                { typeof(global::System.Collections.Generic.List<UnityEngine.Vector3>), 1 },
                 { typeof(global::HotFix_UI.ItemInfo), 2 },
                 { typeof(global::HotFix_UI.LocationData), 3 },
                 { typeof(global::HotFix_UI.MyData), 4 },
@@ -73,7 +73,7 @@ namespace MessagePack.Resolvers
             switch (key)
             {
                 case 0: return new global::MessagePack.Formatters.ListFormatter<global::HotFix_UI.ItemInfo>();
-                case 1: return new global::MessagePack.Formatters.ListFormatter<global::System.Numerics.Vector3>();
+                case 1: return new global::MessagePack.Formatters.ListFormatter<UnityEngine.Vector3>();
                 case 2: return new MessagePack.Formatters.HotFix_UI.ItemInfoFormatter();
                 case 3: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
                 case 4: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();

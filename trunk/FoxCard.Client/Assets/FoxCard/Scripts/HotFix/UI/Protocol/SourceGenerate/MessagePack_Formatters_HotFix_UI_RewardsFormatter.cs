@@ -29,7 +29,7 @@ namespace MessagePack.Formatters.HotFix_UI
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
             writer.WriteArrayHeader(1);
-            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::System.Numerics.Vector3>>(formatterResolver).Serialize(ref writer, value.rewards, options);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<UnityEngine.Vector3>>(formatterResolver).Serialize(ref writer, value.rewards, options);
         }
 
         public global::HotFix_UI.Rewards Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -49,7 +49,7 @@ namespace MessagePack.Formatters.HotFix_UI
                 switch (i)
                 {
                     case 0:
-                        ____result.rewards = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::System.Numerics.Vector3>>(formatterResolver).Deserialize(ref reader, options);
+                        ____result.rewards = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<UnityEngine.Vector3>>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();

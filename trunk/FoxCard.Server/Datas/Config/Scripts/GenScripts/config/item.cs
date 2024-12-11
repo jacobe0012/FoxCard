@@ -7,19 +7,19 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
+{ 
 
 public sealed partial class item :  Bright.Config.BeanBase 
 {
-    public item(JsonElement _json) 
+    public item(JSONNode _json) 
     {
-        id = _json.GetProperty("id").GetInt32();
-        initEnable = _json.GetProperty("init_enable").GetInt32();
+        { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
+        { if(!_json["init_enable"].IsNumber) { throw new SerializationException(); }  initEnable = _json["init_enable"]; }
         PostInit();
     }
 
@@ -30,7 +30,7 @@ public sealed partial class item :  Bright.Config.BeanBase
         PostInit();
     }
 
-    public static item Deserializeitem(JsonElement _json)
+    public static item Deserializeitem(JSONNode _json)
     {
         return new config.item(_json);
     }
@@ -63,7 +63,7 @@ public sealed partial class item :  Bright.Config.BeanBase
         + "initEnable:" + initEnable + ","
         + "}";
     }
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

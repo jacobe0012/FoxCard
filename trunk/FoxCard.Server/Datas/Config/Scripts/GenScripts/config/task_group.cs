@@ -7,20 +7,20 @@
 //------------------------------------------------------------------------------
 using Bright.Serialization;
 using System.Collections.Generic;
-using System.Text.Json;
+using SimpleJSON;
 
 
 
 namespace cfg.config
-{
+{ 
 
 public sealed partial class task_group :  Bright.Config.BeanBase 
 {
-    public task_group(JsonElement _json) 
+    public task_group(JSONNode _json) 
     {
-        id = _json.GetProperty("id").GetInt32();
-        tagFunc = _json.GetProperty("tag_func").GetInt32();
-        day = _json.GetProperty("day").GetInt32();
+        { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
+        { if(!_json["tag_func"].IsNumber) { throw new SerializationException(); }  tagFunc = _json["tag_func"]; }
+        { if(!_json["day"].IsNumber) { throw new SerializationException(); }  day = _json["day"]; }
         PostInit();
     }
 
@@ -32,7 +32,7 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         PostInit();
     }
 
-    public static task_group Deserializetask_group(JsonElement _json)
+    public static task_group Deserializetask_group(JSONNode _json)
     {
         return new config.task_group(_json);
     }
@@ -70,7 +70,7 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         + "day:" + day + ","
         + "}";
     }
-
+    
     partial void PostInit();
     partial void PostResolve();
 }

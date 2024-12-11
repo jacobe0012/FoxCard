@@ -27,26 +27,10 @@ public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {
         foreach(var _v in {{field.convention_name}}) { {{field.convention_name}}_Index.Add(_v.{{field.index_field.convention_name}}, _v); }
         {{~end~}}
         {{~end~}}
-        {{~if name=="skill_effect" ~}}
-        {
-            var __json0 = _json["skill_effect_buff_new"];
-            skillEffectBuffNew = new List<Unity.Mathematics.int3x4>(__json0.Count);
-            foreach (var e0 in __json0.Children)
-            {
-                var  _json2=e0;
-                var intitem = new Unity.Mathematics.int3x4();
-                intitem.c0 = new Unity.Mathematics.int3(_json2[0]["x"], _json2[0]["y"], _json2[0]["z"]);
-                intitem.c1 = new Unity.Mathematics.int3(_json2[1]["x"], _json2[1]["y"], _json2[1]["z"]);
-                intitem.c2 = new Unity.Mathematics.int3(_json2[2]["x"], _json2[2]["y"], _json2[2]["z"]);
-                intitem.c3 = new Unity.Mathematics.int3(_json2[3]["x"], _json2[3]["y"], _json2[3]["z"]);
-                skillEffectBuffNew.Add(intitem);
-            }
-        }
-        {{~end~}}
         PostInit();
     }
 
-    public {{name}}({{~if name=="skill_effect" ~}}System.Collections.Generic.List<Unity.Mathematics.int3x4> skillEffectBuffNew,{{~end~}}{{~for field in hierarchy_export_fields }}{{cs_define_type field.ctype}} {{field.name}}{{if !for.last}},{{end}} {{end}}) {{if parent_def_type}} : base({{- for field in parent_def_type.hierarchy_export_fields }}{{field.name}}{{if !for.last}},{{end}}{{end}}) {{end}}
+    public {{name}}({{~for field in hierarchy_export_fields }}{{cs_define_type field.ctype}} {{field.name}}{{if !for.last}},{{end}} {{end}}) {{if parent_def_type}} : base({{- for field in parent_def_type.hierarchy_export_fields }}{{field.name}}{{if !for.last}},{{end}}{{end}}) {{end}}
     {
         {{~ for field in export_fields ~}}
         this.{{field.convention_name}} = {{field.name}};
@@ -54,10 +38,6 @@ public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {
         foreach(var _v in {{field.convention_name}}) { {{field.convention_name}}_Index.Add(_v.{{field.index_field.convention_name}}, _v); }
         {{~end~}}
         {{~end~}}
-        {{~if name=="skill_effect" ~}}
-        this.skillEffectBuffNew= skillEffectBuffNew;
-        {{~end~}}
-        
         PostInit();
     }
 
@@ -82,12 +62,8 @@ public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {
     /// <summary>
     /// {{field.escape_comment}}
     /// </summary>
-{{~end~}}         
-    {{~if field.convention_name=="current" || field.convention_name=="monsterId" ~}} 
-    public {{cs_define_type field.ctype}} {{field.convention_name}} { get; set; }
-    {{~else~}}
+{{~end~}}
     public {{cs_define_type field.ctype}} {{field.convention_name}} { get; private set; }
-    {{~end~}}
     {{~if field.index_field~}} 
     public readonly Dictionary<{{cs_define_type field.index_field.ctype}}, {{cs_define_type field.ctype.element_type}}> {{field.convention_name}}_Index = new Dictionary<{{cs_define_type field.index_field.ctype}}, {{cs_define_type field.ctype.element_type}}>();
     {{~end~}}
@@ -101,9 +77,7 @@ public {{x.cs_class_modifier}} partial class {{name}} : {{if parent_def_type}} {
     public {{cs_define_text_key_field field}} { get; }
     {{~end~}}
     {{~end~}}
-    {{~if name=="skill_effect" ~}}
-    public System.Collections.Generic.List<Unity.Mathematics.int3x4> skillEffectBuffNew{ get; private set; }  
-    {{~end~}} 
+
 {{~if !x.is_abstract_type~}}
     public const int __ID__ = {{x.id}};
     public override int GetTypeId() => __ID__;

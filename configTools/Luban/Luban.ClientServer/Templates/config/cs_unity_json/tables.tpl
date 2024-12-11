@@ -1,5 +1,4 @@
 using Bright.Serialization;
-using Cysharp.Threading.Tasks;
 using SimpleJSON;
 {{
     name = x.name
@@ -17,30 +16,14 @@ public sealed partial class {{name}}
     /// {{table.escape_comment}}
     /// </summary>
 {{~end~}}
-    public {{table.full_name}} {{table.name}} {get; private set; }
+    public {{table.full_name}} {{table.name}} {get; }
     {{~end~}}
 
-    public {{name}}() { }
     public {{name}}(System.Func<string, JSONNode> loader)
     {
         var tables = new System.Collections.Generic.Dictionary<string, object>();
         {{~for table in tables ~}}
         {{table.name}} = new {{table.full_name}}(loader("{{table.output_data_file}}")); 
-        tables.Add("{{table.full_name}}", {{table.name}});
-        {{~end~}}
-        PostInit();
-
-        {{~for table in tables ~}}
-        {{table.name}}.Resolve(tables); 
-        {{~end~}}
-        PostResolve();
-    }
-
-    public async UniTask LoadAsync(System.Func<string, UniTask<JSONNode>> loader)
-    {
-        var tables = new System.Collections.Generic.Dictionary<string, object>();
-        {{~for table in tables ~}}
-        {{table.name}} = new {{table.full_name}}(await loader("{{table.output_data_file}}")); 
         tables.Add("{{table.full_name}}", {{table.name}});
         {{~end~}}
         PostInit();
@@ -60,8 +43,6 @@ public sealed partial class {{name}}
     
     partial void PostInit();
     partial void PostResolve();
-
-    
 }
 
 {{cs_end_name_space_grace x.namespace}}
