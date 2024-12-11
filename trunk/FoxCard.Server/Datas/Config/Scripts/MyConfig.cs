@@ -1,6 +1,4 @@
-﻿using System.Net.Mime;
-using System.Text.Json;
-using cfg;
+﻿using cfg;
 using SimpleJSON;
 
 
@@ -12,7 +10,6 @@ public class MyConfig : IDisposable
 
     public static void InitConfig()
     {
-    
         Tables = new cfg.Tables(LoadJson);
     }
 
