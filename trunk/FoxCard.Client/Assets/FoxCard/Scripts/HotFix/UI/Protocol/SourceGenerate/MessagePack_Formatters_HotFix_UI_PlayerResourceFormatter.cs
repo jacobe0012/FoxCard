@@ -28,9 +28,13 @@ namespace MessagePack.Formatters.HotFix_UI
             }
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(2);
+            writer.WriteArrayHeader(6);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
             writer.Write(value.LastSignTime);
+            writer.Write(value.SignCount);
+            writer.Write(value.LastLoginTime);
+            writer.Write(value.LoginCount);
+            writer.Write(value.ContinuousLoginCount);
         }
 
         public global::HotFix_UI.PlayerResource Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -54,6 +58,18 @@ namespace MessagePack.Formatters.HotFix_UI
                         break;
                     case 1:
                         ____result.LastSignTime = reader.ReadInt64();
+                        break;
+                    case 2:
+                        ____result.SignCount = reader.ReadInt32();
+                        break;
+                    case 3:
+                        ____result.LastLoginTime = reader.ReadInt64();
+                        break;
+                    case 4:
+                        ____result.LoginCount = reader.ReadInt32();
+                        break;
+                    case 5:
+                        ____result.ContinuousLoginCount = reader.ReadInt32();
                         break;
                     default:
                         reader.Skip();

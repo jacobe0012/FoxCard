@@ -28,15 +28,18 @@ namespace HotFix_UI
         [Key(3)] public LocationData LocationData { get; set; }
 
         [Key(4)] public OtherData OtherData { get; set; }
-     
     }
 
     [MessagePackObject]
     public struct OtherData
     {
         [Key(0)] public string Code { get; set; }
-        
-        [Key(1)] public string UnionidId { get; set; }
+
+        /// <summary>
+        /// 开发者账号id
+        /// </summary>
+        [Key(1)]
+        public string UnionidId { get; set; }
     }
 
     [MessagePackObject]

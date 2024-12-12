@@ -24,6 +24,24 @@ namespace HotFix_UI
         /// </summary>
         [Key(2)]
         public int SignCount { get; set; }
+
+        /// <summary>
+        /// 上次登录时间戳 ms
+        /// </summary>
+        [Key(3)]
+        public long LastLoginTime { get; set; }
+
+        /// <summary>
+        /// 累计登录总次数
+        /// </summary>
+        [Key(4)]
+        public int LoginCount { get; set; }
+
+        /// <summary>
+        /// 连续登录次数
+        /// </summary>
+        [Key(5)]
+        public int ContinuousLoginCount { get; set; }
     }
 
     [MessagePackObject]

@@ -149,12 +149,35 @@ public class WebSocketController : ControllerBase
 
 
             var player = await db.StringGetAsync(openId);
+            PlayerResource playerRes;
             if (player.IsNullOrEmpty)
             {
                 await db.StringSetAsync(openId, JsonConvert.SerializeObject(playerData));
-                await InitPlayerResource(db, openId);
+                playerRes = InitPlayerResource();
+            }
+            else
+            {
+                var rvRes = await db.StringGetAsync(GetRedisDBStr(1, openId));
+                playerRes = JsonConvert.DeserializeObject<PlayerResource>(rvRes);
             }
 
+            if (CanSignToday(playerRes.LastLoginTime, out var date, out var utclong))
+            {
+                var lastDate = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastLoginTime).DateTime;
+                playerRes.LastLoginTime = utclong;
+                playerRes.LoginCount++;
+                var timeSpan = date - lastDate;
+                playerRes.ContinuousLoginCount = timeSpan.TotalHours < 48 ? playerRes.ContinuousLoginCount + 1 : 0;
+                if (player.IsNullOrEmpty)
+                {
+                    playerRes.ContinuousLoginCount = 1;
+                }
+            }
+
+            await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
+            // LastLoginTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(),
+            // LoginCount = 1,
+            // ContinuousLoginCount = 1
             playerData.ThirdId = MyEncryptor.Decrypt(openId);
             var temp = playerData.OtherData;
             temp.UnionidId = wxCode2Session.unionid;
@@ -199,25 +222,18 @@ public class WebSocketController : ControllerBase
             var rv = await db.StringGetAsync(redisKey);
             var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
 
-            // 将 Unix 时间戳转换为 DateTime
-            DateTime lastSignTime = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastSignTime).DateTime;
-
-            var utcNow = DateTimeOffset.UtcNow;
-            DateTime currentTime = utcNow.DateTime;
-            DateTime today6 =
-                new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, 6, 0, 0, DateTimeKind.Utc);
-
-            if (lastSignTime < today6)
+            if (CanSignToday(playerRes.LastSignTime, out var date, out var utclong))
             {
-                playerRes.LastSignTime = utcNow.ToUnixTimeMilliseconds();
+                playerRes.LastSignTime = utclong;
+                playerRes.SignCount++;
                 await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
-                Console.WriteLine($"签到时间:{currentTime.ToShortDateString()}");
+                Console.WriteLine($"签到时间:{date.ToShortDateString()}");
                 var tbsignDaily = MyConfig.Tables.Tbsign_daily;
-                rewards.rewards = tbsignDaily.Get(currentTime.Day).reward;
+                rewards.rewards = tbsignDaily.Get(date.Day).reward;
             }
             else
             {
-                Console.WriteLine($"不可签 上次签到时间:{lastSignTime.ToShortDateString()}");
+                Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTime}");
             }
 
             message.Content =
@@ -234,6 +250,25 @@ public class WebSocketController : ControllerBase
         return message;
     }
 
+    /// <summary>
+    /// 判断是否今天可以签到
+    /// </summary>
+    /// <param name="lastSignedTime">上次签到时间戳 /ms</param>
+    /// <returns>bool</returns>
+    bool CanSignToday(long lastSignedTime, out DateTime utcNowDate, out long utclong)
+    {
+        const int Hour = 6;
+        // 将 Unix 时间戳转换为 DateTime
+        DateTime lastSignTime = DateTimeOffset.FromUnixTimeMilliseconds(lastSignedTime).DateTime;
+        var utcNow = DateTimeOffset.UtcNow;
+        DateTime currentTime = utcNow.DateTime;
+        DateTime today6 =
+            new DateTime(currentTime.Year, currentTime.Month, currentTime.Day, Hour, 0, 0, DateTimeKind.Utc);
+
+        utcNowDate = currentTime;
+        utclong = utcNow.ToUnixTimeMilliseconds();
+        return lastSignTime < today6;
+    }
 
     string GetRedisDBStr(int type, string openId)
     {
@@ -253,7 +288,7 @@ public class WebSocketController : ControllerBase
     /// </summary>
     /// <param name="db"></param>
     /// <param name="openId"></param>
-    async Task InitPlayerResource(IDatabase db, string openId)
+    private PlayerResource InitPlayerResource()
     {
         var itemInfos = MyConfig.Tables.Tbitem.DataList.Where(a => a.initEnable == 1).Select(item => new ItemInfo
         {
@@ -264,9 +299,10 @@ public class WebSocketController : ControllerBase
         var playerRes = new PlayerResource
         {
             ItemList = itemInfos,
-            LastSignTime = 0
+            LastSignTime = 0,
+            SignCount = 0,
         };
-        await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
+        return playerRes;
     }
 
     public async Task<WXCode2Session>? GetSessionJson(string jsCode)
