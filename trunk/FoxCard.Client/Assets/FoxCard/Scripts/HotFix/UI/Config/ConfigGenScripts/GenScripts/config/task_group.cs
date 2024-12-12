@@ -25,10 +25,11 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         { if(!_json["icon"].IsString) { throw new SerializationException(); }  icon = _json["icon"]; }
         { if(!_json["sort"].IsNumber) { throw new SerializationException(); }  sort = _json["sort"]; }
         { if(!_json["day"].IsNumber) { throw new SerializationException(); }  day = _json["day"]; }
+        { if(!_json["type"].IsNumber) { throw new SerializationException(); }  type = _json["type"]; }
         PostInit();
     }
 
-    public task_group(int id, int tag_func, string name, string desc, string icon, int sort, int day ) 
+    public task_group(int id, int tag_func, string name, string desc, string icon, int sort, int day, int type ) 
     {
         this.id = id;
         this.tagFunc = tag_func;
@@ -37,6 +38,7 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         this.icon = icon;
         this.sort = sort;
         this.day = day;
+        this.type = type;
         
         PostInit();
     }
@@ -74,6 +76,10 @@ public sealed partial class task_group :  Bright.Config.BeanBase
     /// 天数
     /// </summary>
     public int day { get; private set; }
+    /// <summary>
+    /// 任务类型
+    /// </summary>
+    public int type { get; private set; }
     public const int __ID__ = -1787169423;
     public override int GetTypeId() => __ID__;
 
@@ -96,6 +102,7 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         + "icon:" + icon + ","
         + "sort:" + sort + ","
         + "day:" + day + ","
+        + "type:" + type + ","
         + "}";
     }
     

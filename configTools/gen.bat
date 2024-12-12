@@ -19,12 +19,10 @@ set WORKSPACE=%parent_dir%
 set PARENT_WORKSPACE=%parent_dir2%
 
 py -3 %WORKSPACE%\gen.py
-
-
 py -3 %WORKSPACE%\template.py
-
-
 call %WORKSPACE%\Luban\gen_code_json.bat
 
-
+py -3 %WORKSPACE%\genserver.py
+py -3 %WORKSPACE%\template1.py
+call %WORKSPACE%\Luban\gen_code_json_server.bat
 pause

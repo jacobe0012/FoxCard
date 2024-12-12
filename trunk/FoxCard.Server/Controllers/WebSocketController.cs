@@ -231,12 +231,7 @@ public class WebSocketController : ControllerBase
             }
             else
             {
-                await NotifyUserAsync(openId, new MyMessage
-                {
-                    Cmd = 99,
-                    ErrorCode = 0,
-                    Args = 5
-                });
+             
                 Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTime}");
             }
 

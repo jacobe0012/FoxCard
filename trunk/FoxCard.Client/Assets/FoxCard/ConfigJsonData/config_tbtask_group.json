@@ -1,30 +1,13 @@
 [
   {
-    "id": 100,
-    "tag_func": 3602,
-    "name": "task_group_100_name",
-    "desc": "task_group_100_desc",
-    "icon": "icon_task_group_100",
-    "sort": 1,
-    "day": 0
-  },
-  {
-    "id": 200,
-    "tag_func": 3603,
-    "name": "task_group_200_name",
-    "desc": "task_group_200_desc",
-    "icon": "icon_task_group_200",
-    "sort": 1,
-    "day": 0
-  },
-  {
     "id": 301,
     "tag_func": 3604,
     "name": "task_group_301_name",
     "desc": "task_group_301_desc",
     "icon": "icon_task_group_301",
     "sort": 1,
-    "day": 0
+    "day": 0,
+    "type": 2023
   },
   {
     "id": 302,
@@ -33,7 +16,8 @@
     "desc": "task_group_302_desc",
     "icon": "icon_task_group_302",
     "sort": 2,
-    "day": 0
+    "day": 0,
+    "type": 1062
   },
   {
     "id": 303,
@@ -42,7 +26,8 @@
     "desc": "task_group_303_desc",
     "icon": "icon_task_group_303",
     "sort": 3,
-    "day": 0
+    "day": 0,
+    "type": 3041
   },
   {
     "id": 304,
@@ -51,7 +36,8 @@
     "desc": "task_group_304_desc",
     "icon": "icon_task_group_304",
     "sort": 4,
-    "day": 0
+    "day": 0,
+    "type": 1063
   },
   {
     "id": 305,
@@ -60,7 +46,8 @@
     "desc": "task_group_305_desc",
     "icon": "icon_task_group_305",
     "sort": 5,
-    "day": 0
+    "day": 0,
+    "type": 1041
   },
   {
     "id": 306,
@@ -69,7 +56,8 @@
     "desc": "task_group_306_desc",
     "icon": "icon_task_group_306",
     "sort": 6,
-    "day": 0
+    "day": 0,
+    "type": 1043
   },
   {
     "id": 311,
@@ -78,7 +66,8 @@
     "desc": "task_group_311_desc",
     "icon": "icon_task_group_311",
     "sort": 7,
-    "day": 0
+    "day": 0,
+    "type": 1051
   },
   {
     "id": 312,
@@ -87,7 +76,8 @@
     "desc": "task_group_312_desc",
     "icon": "icon_task_group_312",
     "sort": 8,
-    "day": 0
+    "day": 0,
+    "type": 1061
   },
   {
     "id": 321,
@@ -96,7 +86,8 @@
     "desc": "task_group_321_desc",
     "icon": "icon_task_group_321",
     "sort": 9,
-    "day": 0
+    "day": 0,
+    "type": 2024
   },
   {
     "id": 322,
@@ -105,7 +96,8 @@
     "desc": "task_group_322_desc",
     "icon": "icon_task_group_322",
     "sort": 10,
-    "day": 0
+    "day": 0,
+    "type": 3042
   },
   {
     "id": 331,
@@ -114,7 +106,8 @@
     "desc": "task_group_331_desc",
     "icon": "icon_task_group_331",
     "sort": 11,
-    "day": 0
+    "day": 0,
+    "type": 2031
   },
   {
     "id": 341,
@@ -123,7 +116,8 @@
     "desc": "task_group_341_desc",
     "icon": "icon_task_group_341",
     "sort": 12,
-    "day": 0
+    "day": 0,
+    "type": 2033
   },
   {
     "id": 351,
@@ -132,7 +126,8 @@
     "desc": "task_group_351_desc",
     "icon": "icon_task_group_351",
     "sort": 13,
-    "day": 0
+    "day": 0,
+    "type": 1062
   },
   {
     "id": 352,
@@ -141,7 +136,8 @@
     "desc": "task_group_352_desc",
     "icon": "icon_task_group_352",
     "sort": 14,
-    "day": 0
+    "day": 0,
+    "type": 2012
   },
   {
     "id": 353,
@@ -150,7 +146,8 @@
     "desc": "task_group_353_desc",
     "icon": "icon_task_group_353",
     "sort": 15,
-    "day": 0
+    "day": 0,
+    "type": 1063
   },
   {
     "id": 361,
@@ -159,7 +156,8 @@
     "desc": "task_group_361_desc",
     "icon": "icon_task_group_361",
     "sort": 16,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 362,
@@ -168,7 +166,8 @@
     "desc": "task_group_362_desc",
     "icon": "icon_task_group_362",
     "sort": 17,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 363,
@@ -177,7 +176,8 @@
     "desc": "task_group_363_desc",
     "icon": "icon_task_group_363",
     "sort": 18,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 364,
@@ -186,7 +186,8 @@
     "desc": "task_group_364_desc",
     "icon": "icon_task_group_364",
     "sort": 19,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 371,
@@ -195,7 +196,8 @@
     "desc": "task_group_371_desc",
     "icon": "icon_task_group_371",
     "sort": 20,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 372,
@@ -204,7 +206,8 @@
     "desc": "task_group_372_desc",
     "icon": "icon_task_group_372",
     "sort": 21,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 381,
@@ -213,7 +216,8 @@
     "desc": "task_group_381_desc",
     "icon": "icon_task_group_381",
     "sort": 22,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 382,
@@ -222,7 +226,8 @@
     "desc": "task_group_382_desc",
     "icon": "icon_task_group_382",
     "sort": 23,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 383,
@@ -231,7 +236,8 @@
     "desc": "task_group_383_desc",
     "icon": "icon_task_group_383",
     "sort": 24,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 391,
@@ -240,7 +246,8 @@
     "desc": "task_group_391_desc",
     "icon": "icon_task_group_391",
     "sort": 25,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 392,
@@ -249,7 +256,8 @@
     "desc": "task_group_392_desc",
     "icon": "icon_task_group_392",
     "sort": 26,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 393,
@@ -258,7 +266,8 @@
     "desc": "task_group_393_desc",
     "icon": "icon_task_group_393",
     "sort": 27,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 394,
@@ -267,7 +276,8 @@
     "desc": "task_group_394_desc",
     "icon": "icon_task_group_394",
     "sort": 28,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 395,
@@ -276,7 +286,8 @@
     "desc": "task_group_395_desc",
     "icon": "icon_task_group_395",
     "sort": 29,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 396,
@@ -285,7 +296,8 @@
     "desc": "task_group_396_desc",
     "icon": "icon_task_group_396",
     "sort": 30,
-    "day": 0
+    "day": 0,
+    "type": 1012
   },
   {
     "id": 433011,
@@ -294,7 +306,8 @@
     "desc": "task_group_433011_desc",
     "icon": "icon_task_group_433011",
     "sort": 1,
-    "day": 1
+    "day": 1,
+    "type": 1012
   },
   {
     "id": 433012,
@@ -303,7 +316,8 @@
     "desc": "task_group_433012_desc",
     "icon": "icon_task_group_433012",
     "sort": 2,
-    "day": 2
+    "day": 2,
+    "type": 1012
   },
   {
     "id": 433013,
@@ -312,7 +326,8 @@
     "desc": "task_group_433013_desc",
     "icon": "icon_task_group_433013",
     "sort": 3,
-    "day": 3
+    "day": 3,
+    "type": 1012
   },
   {
     "id": 433014,
@@ -321,7 +336,8 @@
     "desc": "task_group_433014_desc",
     "icon": "icon_task_group_433014",
     "sort": 4,
-    "day": 4
+    "day": 4,
+    "type": 1012
   },
   {
     "id": 433015,
@@ -330,7 +346,8 @@
     "desc": "task_group_433015_desc",
     "icon": "icon_task_group_433015",
     "sort": 5,
-    "day": 5
+    "day": 5,
+    "type": 1012
   },
   {
     "id": 433016,
@@ -339,7 +356,8 @@
     "desc": "task_group_433016_desc",
     "icon": "icon_task_group_433016",
     "sort": 6,
-    "day": 6
+    "day": 6,
+    "type": 1012
   },
   {
     "id": 433017,
@@ -348,7 +366,8 @@
     "desc": "task_group_433017_desc",
     "icon": "icon_task_group_433017",
     "sort": 7,
-    "day": 7
+    "day": 7,
+    "type": 1012
   },
   {
     "id": 433021,
@@ -357,7 +376,8 @@
     "desc": "task_group_433021_desc",
     "icon": "icon_task_group_433021",
     "sort": 1,
-    "day": 1
+    "day": 1,
+    "type": 1012
   },
   {
     "id": 433022,
@@ -366,7 +386,8 @@
     "desc": "task_group_433022_desc",
     "icon": "icon_task_group_433022",
     "sort": 1,
-    "day": 2
+    "day": 2,
+    "type": 1031
   },
   {
     "id": 433023,
@@ -375,7 +396,8 @@
     "desc": "task_group_433023_desc",
     "icon": "icon_task_group_433023",
     "sort": 1,
-    "day": 3
+    "day": 3,
+    "type": 1031
   },
   {
     "id": 433024,
@@ -384,7 +406,8 @@
     "desc": "task_group_433024_desc",
     "icon": "icon_task_group_433024",
     "sort": 1,
-    "day": 4
+    "day": 4,
+    "type": 1031
   },
   {
     "id": 433025,
@@ -393,7 +416,8 @@
     "desc": "task_group_433025_desc",
     "icon": "icon_task_group_433025",
     "sort": 1,
-    "day": 5
+    "day": 5,
+    "type": 1031
   },
   {
     "id": 433026,
@@ -402,7 +426,8 @@
     "desc": "task_group_433026_desc",
     "icon": "icon_task_group_433026",
     "sort": 1,
-    "day": 6
+    "day": 6,
+    "type": 1031
   },
   {
     "id": 433027,
@@ -411,7 +436,8 @@
     "desc": "task_group_433027_desc",
     "icon": "icon_task_group_433027",
     "sort": 1,
-    "day": 7
+    "day": 7,
+    "type": 1031
   },
   {
     "id": 433031,
@@ -420,7 +446,8 @@
     "desc": "task_group_433031_desc",
     "icon": "icon_task_group_433031",
     "sort": 1,
-    "day": 0
+    "day": 0,
+    "type": 1031
   },
   {
     "id": 433041,
@@ -429,7 +456,8 @@
     "desc": "task_group_433041_desc",
     "icon": "icon_task_group_433041",
     "sort": 1,
-    "day": 0
+    "day": 0,
+    "type": 1031
   },
   {
     "id": 433051,
@@ -438,6 +466,7 @@
     "desc": "task_group_433051_desc",
     "icon": "icon_task_group_433051",
     "sort": 1,
-    "day": 0
+    "day": 0,
+    "type": 1031
   }
 ]

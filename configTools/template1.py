@@ -22,7 +22,7 @@ parent_dir = os.path.dirname(dir_path)
 
 # 指定文件夹路径
 folder_path =dir_path + r"\Luban\Luban.ClientServer\Templates\config\cs_unity_json"
-source_folder =dir_path + r"\CustomTem\struct"
+source_folder =dir_path + r"\CustomTem\server"
 destination_folder =dir_path + r"\Luban\Luban.ClientServer\Templates\config\cs_unity_json"
 
 # 删除文件夹下的所有文件

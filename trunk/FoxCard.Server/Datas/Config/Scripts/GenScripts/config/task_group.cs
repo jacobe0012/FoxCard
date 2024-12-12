@@ -21,14 +21,16 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         { if(!_json["id"].IsNumber) { throw new SerializationException(); }  id = _json["id"]; }
         { if(!_json["tag_func"].IsNumber) { throw new SerializationException(); }  tagFunc = _json["tag_func"]; }
         { if(!_json["day"].IsNumber) { throw new SerializationException(); }  day = _json["day"]; }
+        { if(!_json["type"].IsNumber) { throw new SerializationException(); }  type = _json["type"]; }
         PostInit();
     }
 
-    public task_group(int id, int tag_func, int day ) 
+    public task_group(int id, int tag_func, int day, int type ) 
     {
         this.id = id;
         this.tagFunc = tag_func;
         this.day = day;
+        this.type = type;
         PostInit();
     }
 
@@ -49,6 +51,10 @@ public sealed partial class task_group :  Bright.Config.BeanBase
     /// 天数
     /// </summary>
     public int day { get; private set; }
+    /// <summary>
+    /// 任务类型
+    /// </summary>
+    public int type { get; private set; }
 
     public const int __ID__ = -1787169423;
     public override int GetTypeId() => __ID__;
@@ -68,6 +74,7 @@ public sealed partial class task_group :  Bright.Config.BeanBase
         + "id:" + id + ","
         + "tagFunc:" + tagFunc + ","
         + "day:" + day + ","
+        + "type:" + type + ","
         + "}";
     }
     
