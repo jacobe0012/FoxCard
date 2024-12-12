@@ -136,7 +136,7 @@ namespace HotFix_UI
                         if (tagId == 2)
                         {
                             Log.Debug(
-                                $"收到上层数据 {CmdHelper.GetCmd(mergeCmd)},{CmdHelper.GetSubCmd(mergeCmd)}  {mergeCmd}",
+                                $"收到上层数据 CMD: {mergeCmd}",
                                 Color.green);
                         }
 
@@ -264,27 +264,26 @@ namespace HotFix_UI
         //消息分发
         public void PackageHandler(int mergeCmd, byte[] data, int args = 0)
         {
-            int cmd = CmdHelper.GetCmd(mergeCmd);
-            int subCmd = CmdHelper.GetSubCmd(mergeCmd);
+            // int cmd = CmdHelper.GetCmd(mergeCmd);
+            // int subCmd = CmdHelper.GetSubCmd(mergeCmd);
             if (!handlers.ContainsKey(mergeCmd))
             {
                 //TODO:
-                if (cmd != 0 && subCmd != 0)
+                if (mergeCmd != 0)
                 {
-                    Log.Debug($"cmd:{cmd},{subCmd} is not exists,please check out!", Color.red);
+                    Log.Debug($"cmd:{mergeCmd} is not exists,please check out!", Color.red);
                 }
                 else
                 {
                     Log.Debug($"ReceiveHeartbeat", Color.cyan);
                 }
 
-
                 return;
             }
 
             if (data.Length <= 0)
             {
-                Log.Debug($"cmd:{cmd},{subCmd} 接收到空消息", Color.red);
+                Log.Debug($"cmd:{mergeCmd} 接收到空消息", Color.red);
             }
 
             var handlerDic = handlers[mergeCmd];

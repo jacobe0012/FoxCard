@@ -175,9 +175,7 @@ public class WebSocketController : ControllerBase
             }
 
             await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
-            // LastLoginTime = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(),
-            // LoginCount = 1,
-            // ContinuousLoginCount = 1
+
             playerData.ThirdId = MyEncryptor.Decrypt(openId);
             var temp = playerData.OtherData;
             temp.UnionidId = wxCode2Session.unionid;
@@ -233,6 +231,12 @@ public class WebSocketController : ControllerBase
             }
             else
             {
+                await NotifyUserAsync(openId, new MyMessage
+                {
+                    Cmd = 99,
+                    ErrorCode = 0,
+                    Args = 5
+                });
                 Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTime}");
             }
 
@@ -341,4 +345,41 @@ public class WebSocketController : ControllerBase
         //Console.WriteLine($"responseBody:{wxCode2Session.ToString()}");
         return wxCode2Session;
     }
+
+    #region BoardCast
+
+    private async Task NotifyUserAsync(string openId, MyMessage message)
+    {
+        var ws = _connections.Where(a => a.Value == openId).FirstOrDefault();
+        if (ws.Key != null)
+        {
+            var stopwatch = new Stopwatch();
+            stopwatch.Start();
+
+            var webSocket = ws.Key;
+            // 使用 MessagePack 序列化消息
+            var responseBuffer = MessagePackSerializer.Serialize(message, options);
+
+            // 向客户端推送消息
+            await webSocket.SendAsync(
+                new ArraySegment<byte>(responseBuffer, 0, responseBuffer.Length),
+                WebSocketMessageType.Binary,
+                true, // 表示结束消息
+                CancellationToken.None);
+
+            stopwatch.Stop();
+            string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
+
+            MyLogger.Log(_connections[webSocket], $"ToUser:{openId}",
+                $"CMD:{message.Cmd},ErrorCode:{errorStr},Content:",
+                stopwatch);
+        }
+        else
+        {
+            // WebSocket 连接不可用或未找到该用户
+            Console.WriteLine($"User {openId} is not connected or WebSocket is not open.");
+        }
+    }
+
+    #endregion
 }

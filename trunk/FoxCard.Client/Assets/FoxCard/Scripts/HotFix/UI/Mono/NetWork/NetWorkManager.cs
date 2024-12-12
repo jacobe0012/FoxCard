@@ -140,7 +140,7 @@ namespace HotFix_UI
                 LocationData = default,
                 OtherData = new OtherData
                 {
-                    Code = "aa2",
+                    Code = "aa1",
                     UnionidId = null
                 }
             });
@@ -172,7 +172,7 @@ namespace HotFix_UI
             if (message.Cmd == CMD.DAILYSIGN)
             {
                 var playerData = MessagePackSerializer.Deserialize<Rewards>(message.Content, options);
-                Log.Debug($"playerData[0]:{playerData.rewards.Count}", debugColor);
+                Log.Debug($"playerData[0]:{playerData?.rewards?.Count}", debugColor);
             }
 
             Log.Debug($"Onmsg methodCmd:{message.Cmd} methodArgs:{message.Args} content:{message.Content}", debugColor);
