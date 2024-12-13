@@ -42,6 +42,12 @@ namespace HotFix_UI
         /// </summary>
         [Key(5)]
         public int ContinuousLoginCount { get; set; }
+
+        /// <summary>
+        /// 玩家成就信息
+        /// </summary>
+        [Key(6)]
+        public GameAchievement? GameAchieve { get; set; }
     }
 
     [MessagePackObject]

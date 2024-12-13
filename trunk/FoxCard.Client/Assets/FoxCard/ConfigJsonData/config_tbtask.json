@@ -2,9 +2,7 @@
   {
     "id": 301001,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -13,15 +11,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 3,
     "score": 10
   },
   {
     "id": 301002,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -30,15 +26,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 7,
     "score": 10
   },
   {
     "id": 301003,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -47,15 +41,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 15,
     "score": 10
   },
   {
     "id": 301004,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -64,15 +56,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 30,
     "score": 10
   },
   {
     "id": 301005,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -81,15 +71,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 60,
     "score": 20
   },
   {
     "id": 301006,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -98,15 +86,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 90,
     "score": 20
   },
   {
     "id": 301007,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -115,15 +101,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 120,
     "score": 20
   },
   {
     "id": 301008,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -132,15 +116,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 150,
     "score": 20
   },
   {
     "id": 301009,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -149,15 +131,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 180,
     "score": 20
   },
   {
     "id": 301010,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -166,15 +146,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 210,
     "score": 30
   },
   {
     "id": 301011,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 11,
     "reward": [
       {
         "x": 2,
@@ -183,15 +161,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 240,
     "score": 30
   },
   {
     "id": 301012,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 12,
     "reward": [
       {
         "x": 2,
@@ -200,15 +176,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 270,
     "score": 30
   },
   {
     "id": 301013,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 13,
     "reward": [
       {
         "x": 2,
@@ -217,15 +191,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 300,
     "score": 30
   },
   {
     "id": 301014,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 14,
     "reward": [
       {
         "x": 2,
@@ -234,15 +206,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 330,
     "score": 30
   },
   {
     "id": 301015,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 15,
     "reward": [
       {
         "x": 2,
@@ -251,15 +221,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 360,
     "score": 30
   },
   {
     "id": 301016,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 16,
     "reward": [
       {
         "x": 2,
@@ -268,15 +236,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 390,
     "score": 30
   },
   {
     "id": 301017,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 17,
     "reward": [
       {
         "x": 2,
@@ -285,15 +251,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 420,
     "score": 30
   },
   {
     "id": 301018,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 18,
     "reward": [
       {
         "x": 2,
@@ -302,15 +266,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 450,
     "score": 30
   },
   {
     "id": 301019,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 19,
     "reward": [
       {
         "x": 2,
@@ -319,15 +281,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 480,
     "score": 30
   },
   {
     "id": 301020,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 20,
     "reward": [
       {
         "x": 2,
@@ -336,15 +296,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 510,
     "score": 30
   },
   {
     "id": 301021,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 21,
     "reward": [
       {
         "x": 2,
@@ -353,15 +311,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 540,
     "score": 30
   },
   {
     "id": 301022,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 22,
     "reward": [
       {
         "x": 2,
@@ -370,15 +326,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 570,
     "score": 30
   },
   {
     "id": 301023,
     "group": 301,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 23,
     "reward": [
       {
         "x": 2,
@@ -387,15 +341,13 @@
       }
     ],
     "type": 1012,
-    "para": [],
+    "para": 600,
     "score": 50
   },
   {
     "id": 302001,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -404,15 +356,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 5,
     "score": 10
   },
   {
     "id": 302002,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -421,15 +371,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 302003,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -438,15 +386,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 15,
     "score": 10
   },
   {
     "id": 302004,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -455,15 +401,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 302005,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -472,15 +416,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 25,
     "score": 10
   },
   {
     "id": 302006,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -489,15 +431,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 30,
     "score": 10
   },
   {
     "id": 302007,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -506,15 +446,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 35,
     "score": 20
   },
   {
     "id": 302008,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -523,15 +461,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 40,
     "score": 20
   },
   {
     "id": 302009,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -540,15 +476,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 45,
     "score": 20
   },
   {
     "id": 302010,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -557,15 +491,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 302011,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 11,
     "reward": [
       {
         "x": 2,
@@ -574,15 +506,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 55,
     "score": 20
   },
   {
     "id": 302012,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 12,
     "reward": [
       {
         "x": 2,
@@ -591,15 +521,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 60,
     "score": 20
   },
   {
     "id": 302013,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 13,
     "reward": [
       {
         "x": 2,
@@ -608,15 +536,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 65,
     "score": 30
   },
   {
     "id": 302014,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 14,
     "reward": [
       {
         "x": 2,
@@ -625,15 +551,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 70,
     "score": 30
   },
   {
     "id": 302015,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 15,
     "reward": [
       {
         "x": 2,
@@ -642,15 +566,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 75,
     "score": 30
   },
   {
     "id": 302016,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 16,
     "reward": [
       {
         "x": 2,
@@ -659,15 +581,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 80,
     "score": 30
   },
   {
     "id": 302017,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 17,
     "reward": [
       {
         "x": 2,
@@ -676,15 +596,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 85,
     "score": 30
   },
   {
     "id": 302018,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 18,
     "reward": [
       {
         "x": 2,
@@ -693,15 +611,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 90,
     "score": 30
   },
   {
     "id": 302019,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 19,
     "reward": [
       {
         "x": 2,
@@ -710,15 +626,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 95,
     "score": 30
   },
   {
     "id": 302020,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 20,
     "reward": [
       {
         "x": 2,
@@ -727,15 +641,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 100,
     "score": 30
   },
   {
     "id": 302021,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 21,
     "reward": [
       {
         "x": 2,
@@ -744,15 +656,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 105,
     "score": 30
   },
   {
     "id": 302022,
     "group": 302,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 22,
     "reward": [
       {
         "x": 2,
@@ -761,15 +671,13 @@
       }
     ],
     "type": 1031,
-    "para": [],
+    "para": 110,
     "score": 30
   },
   {
     "id": 303001,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -778,15 +686,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 1,
     "score": 10
   },
   {
     "id": 303002,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -795,15 +701,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 2,
     "score": 10
   },
   {
     "id": 303003,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -812,15 +716,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 3,
     "score": 10
   },
   {
     "id": 303004,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -829,15 +731,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 4,
     "score": 10
   },
   {
     "id": 303005,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -846,15 +746,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 5,
     "score": 10
   },
   {
     "id": 303006,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -863,15 +761,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 6,
     "score": 10
   },
   {
     "id": 303007,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -880,15 +776,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 7,
     "score": 10
   },
   {
     "id": 303008,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -897,15 +791,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 8,
     "score": 10
   },
   {
     "id": 303009,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -914,15 +806,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 9,
     "score": 10
   },
   {
     "id": 303010,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -931,15 +821,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 303011,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 11,
     "reward": [
       {
         "x": 2,
@@ -948,15 +836,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 11,
     "score": 20
   },
   {
     "id": 303012,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 12,
     "reward": [
       {
         "x": 2,
@@ -965,15 +851,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 12,
     "score": 20
   },
   {
     "id": 303013,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 13,
     "reward": [
       {
         "x": 2,
@@ -982,15 +866,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 13,
     "score": 20
   },
   {
     "id": 303014,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 14,
     "reward": [
       {
         "x": 2,
@@ -999,15 +881,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 14,
     "score": 20
   },
   {
     "id": 303015,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 15,
     "reward": [
       {
         "x": 2,
@@ -1016,15 +896,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 15,
     "score": 20
   },
   {
     "id": 303016,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 16,
     "reward": [
       {
         "x": 2,
@@ -1033,15 +911,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 16,
     "score": 20
   },
   {
     "id": 303017,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 17,
     "reward": [
       {
         "x": 2,
@@ -1050,15 +926,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 17,
     "score": 20
   },
   {
     "id": 303018,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 18,
     "reward": [
       {
         "x": 2,
@@ -1067,15 +941,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 18,
     "score": 20
   },
   {
     "id": 303019,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 19,
     "reward": [
       {
         "x": 2,
@@ -1084,15 +956,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 19,
     "score": 20
   },
   {
     "id": 303020,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 20,
     "reward": [
       {
         "x": 2,
@@ -1101,15 +971,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 20,
     "score": 20
   },
   {
     "id": 303021,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 21,
     "reward": [
       {
         "x": 2,
@@ -1118,15 +986,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 21,
     "score": 20
   },
   {
     "id": 303022,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 22,
     "reward": [
       {
         "x": 2,
@@ -1135,15 +1001,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 22,
     "score": 20
   },
   {
     "id": 303023,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 23,
     "reward": [
       {
         "x": 2,
@@ -1152,15 +1016,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 23,
     "score": 20
   },
   {
     "id": 303024,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 24,
     "reward": [
       {
         "x": 2,
@@ -1169,15 +1031,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 24,
     "score": 20
   },
   {
     "id": 303025,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 25,
     "reward": [
       {
         "x": 2,
@@ -1186,15 +1046,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 25,
     "score": 20
   },
   {
     "id": 303026,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 26,
     "reward": [
       {
         "x": 2,
@@ -1203,15 +1061,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 26,
     "score": 20
   },
   {
     "id": 303027,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 27,
     "reward": [
       {
         "x": 2,
@@ -1220,15 +1076,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 27,
     "score": 20
   },
   {
     "id": 303028,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 28,
     "reward": [
       {
         "x": 2,
@@ -1237,15 +1091,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 28,
     "score": 20
   },
   {
     "id": 303029,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 29,
     "reward": [
       {
         "x": 2,
@@ -1254,15 +1106,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 29,
     "score": 20
   },
   {
     "id": 303030,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 30,
     "reward": [
       {
         "x": 2,
@@ -1271,15 +1121,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 30,
     "score": 20
   },
   {
     "id": 303031,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 31,
     "reward": [
       {
         "x": 2,
@@ -1288,15 +1136,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 31,
     "score": 20
   },
   {
     "id": 303032,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 32,
     "reward": [
       {
         "x": 2,
@@ -1305,15 +1151,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 32,
     "score": 20
   },
   {
     "id": 303033,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 33,
     "reward": [
       {
         "x": 2,
@@ -1322,15 +1166,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 33,
     "score": 20
   },
   {
     "id": 303034,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 34,
     "reward": [
       {
         "x": 2,
@@ -1339,15 +1181,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 34,
     "score": 20
   },
   {
     "id": 303035,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 35,
     "reward": [
       {
         "x": 2,
@@ -1356,15 +1196,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 35,
     "score": 20
   },
   {
     "id": 303036,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 36,
     "reward": [
       {
         "x": 2,
@@ -1373,15 +1211,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 36,
     "score": 20
   },
   {
     "id": 303037,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 37,
     "reward": [
       {
         "x": 2,
@@ -1390,15 +1226,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 37,
     "score": 20
   },
   {
     "id": 303038,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 38,
     "reward": [
       {
         "x": 2,
@@ -1407,15 +1241,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 38,
     "score": 20
   },
   {
     "id": 303039,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 39,
     "reward": [
       {
         "x": 2,
@@ -1424,15 +1256,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 39,
     "score": 20
   },
   {
     "id": 303040,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 40,
     "reward": [
       {
         "x": 2,
@@ -1441,15 +1271,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 40,
     "score": 20
   },
   {
     "id": 303041,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 41,
     "reward": [
       {
         "x": 2,
@@ -1458,15 +1286,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 41,
     "score": 20
   },
   {
     "id": 303042,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 42,
     "reward": [
       {
         "x": 2,
@@ -1475,15 +1301,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 42,
     "score": 20
   },
   {
     "id": 303043,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 43,
     "reward": [
       {
         "x": 2,
@@ -1492,15 +1316,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 43,
     "score": 20
   },
   {
     "id": 303044,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 44,
     "reward": [
       {
         "x": 2,
@@ -1509,15 +1331,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 44,
     "score": 20
   },
   {
     "id": 303045,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 45,
     "reward": [
       {
         "x": 2,
@@ -1526,15 +1346,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 45,
     "score": 20
   },
   {
     "id": 303046,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 46,
     "reward": [
       {
         "x": 2,
@@ -1543,15 +1361,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 46,
     "score": 20
   },
   {
     "id": 303047,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 47,
     "reward": [
       {
         "x": 2,
@@ -1560,15 +1376,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 47,
     "score": 20
   },
   {
     "id": 303048,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 48,
     "reward": [
       {
         "x": 2,
@@ -1577,15 +1391,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 48,
     "score": 20
   },
   {
     "id": 303049,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 49,
     "reward": [
       {
         "x": 2,
@@ -1594,15 +1406,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 49,
     "score": 20
   },
   {
     "id": 303050,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 50,
     "reward": [
       {
         "x": 2,
@@ -1611,15 +1421,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 303051,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 51,
     "reward": [
       {
         "x": 2,
@@ -1628,15 +1436,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 51,
     "score": 20
   },
   {
     "id": 303052,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 52,
     "reward": [
       {
         "x": 2,
@@ -1645,15 +1451,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 52,
     "score": 20
   },
   {
     "id": 303053,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 53,
     "reward": [
       {
         "x": 2,
@@ -1662,15 +1466,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 53,
     "score": 20
   },
   {
     "id": 303054,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 54,
     "reward": [
       {
         "x": 2,
@@ -1679,15 +1481,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 54,
     "score": 20
   },
   {
     "id": 303055,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 55,
     "reward": [
       {
         "x": 2,
@@ -1696,15 +1496,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 55,
     "score": 20
   },
   {
     "id": 303056,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 56,
     "reward": [
       {
         "x": 2,
@@ -1713,15 +1511,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 56,
     "score": 20
   },
   {
     "id": 303057,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 57,
     "reward": [
       {
         "x": 2,
@@ -1730,15 +1526,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 57,
     "score": 20
   },
   {
     "id": 303058,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 58,
     "reward": [
       {
         "x": 2,
@@ -1747,15 +1541,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 58,
     "score": 20
   },
   {
     "id": 303059,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 59,
     "reward": [
       {
         "x": 2,
@@ -1764,15 +1556,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 59,
     "score": 20
   },
   {
     "id": 303060,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 60,
     "reward": [
       {
         "x": 2,
@@ -1781,15 +1571,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 60,
     "score": 20
   },
   {
     "id": 303061,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 61,
     "reward": [
       {
         "x": 2,
@@ -1798,15 +1586,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 61,
     "score": 30
   },
   {
     "id": 303062,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 62,
     "reward": [
       {
         "x": 2,
@@ -1815,15 +1601,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 62,
     "score": 30
   },
   {
     "id": 303063,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 63,
     "reward": [
       {
         "x": 2,
@@ -1832,15 +1616,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 63,
     "score": 30
   },
   {
     "id": 303064,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 64,
     "reward": [
       {
         "x": 2,
@@ -1849,15 +1631,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 64,
     "score": 30
   },
   {
     "id": 303065,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 65,
     "reward": [
       {
         "x": 2,
@@ -1866,15 +1646,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 65,
     "score": 30
   },
   {
     "id": 303066,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 66,
     "reward": [
       {
         "x": 2,
@@ -1883,15 +1661,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 66,
     "score": 30
   },
   {
     "id": 303067,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 67,
     "reward": [
       {
         "x": 2,
@@ -1900,15 +1676,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 67,
     "score": 30
   },
   {
     "id": 303068,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 68,
     "reward": [
       {
         "x": 2,
@@ -1917,15 +1691,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 68,
     "score": 30
   },
   {
     "id": 303069,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 69,
     "reward": [
       {
         "x": 2,
@@ -1934,15 +1706,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 69,
     "score": 30
   },
   {
     "id": 303070,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 70,
     "reward": [
       {
         "x": 2,
@@ -1951,15 +1721,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 70,
     "score": 30
   },
   {
     "id": 303071,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 71,
     "reward": [
       {
         "x": 2,
@@ -1968,15 +1736,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 71,
     "score": 30
   },
   {
     "id": 303072,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 72,
     "reward": [
       {
         "x": 2,
@@ -1985,15 +1751,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 72,
     "score": 30
   },
   {
     "id": 303073,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 73,
     "reward": [
       {
         "x": 2,
@@ -2002,15 +1766,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 73,
     "score": 30
   },
   {
     "id": 303074,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 74,
     "reward": [
       {
         "x": 2,
@@ -2019,15 +1781,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 74,
     "score": 30
   },
   {
     "id": 303075,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 75,
     "reward": [
       {
         "x": 2,
@@ -2036,15 +1796,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 75,
     "score": 30
   },
   {
     "id": 303076,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 76,
     "reward": [
       {
         "x": 2,
@@ -2053,15 +1811,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 76,
     "score": 30
   },
   {
     "id": 303077,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 77,
     "reward": [
       {
         "x": 2,
@@ -2070,15 +1826,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 77,
     "score": 30
   },
   {
     "id": 303078,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 78,
     "reward": [
       {
         "x": 2,
@@ -2087,15 +1841,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 78,
     "score": 30
   },
   {
     "id": 303079,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 79,
     "reward": [
       {
         "x": 2,
@@ -2104,15 +1856,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 79,
     "score": 30
   },
   {
     "id": 303080,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 80,
     "reward": [
       {
         "x": 2,
@@ -2121,15 +1871,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 80,
     "score": 30
   },
   {
     "id": 303081,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 81,
     "reward": [
       {
         "x": 2,
@@ -2138,15 +1886,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 81,
     "score": 30
   },
   {
     "id": 303082,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 82,
     "reward": [
       {
         "x": 2,
@@ -2155,15 +1901,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 82,
     "score": 30
   },
   {
     "id": 303083,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 83,
     "reward": [
       {
         "x": 2,
@@ -2172,15 +1916,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 83,
     "score": 30
   },
   {
     "id": 303084,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 84,
     "reward": [
       {
         "x": 2,
@@ -2189,15 +1931,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 84,
     "score": 30
   },
   {
     "id": 303085,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 85,
     "reward": [
       {
         "x": 2,
@@ -2206,15 +1946,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 85,
     "score": 30
   },
   {
     "id": 303086,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 86,
     "reward": [
       {
         "x": 2,
@@ -2223,15 +1961,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 86,
     "score": 30
   },
   {
     "id": 303087,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 87,
     "reward": [
       {
         "x": 2,
@@ -2240,15 +1976,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 87,
     "score": 30
   },
   {
     "id": 303088,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 88,
     "reward": [
       {
         "x": 2,
@@ -2257,15 +1991,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 88,
     "score": 30
   },
   {
     "id": 303089,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 89,
     "reward": [
       {
         "x": 2,
@@ -2274,15 +2006,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 89,
     "score": 30
   },
   {
     "id": 303090,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 90,
     "reward": [
       {
         "x": 2,
@@ -2291,15 +2021,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 90,
     "score": 30
   },
   {
     "id": 303091,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 91,
     "reward": [
       {
         "x": 2,
@@ -2308,15 +2036,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 91,
     "score": 30
   },
   {
     "id": 303092,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 92,
     "reward": [
       {
         "x": 2,
@@ -2325,15 +2051,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 92,
     "score": 30
   },
   {
     "id": 303093,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 93,
     "reward": [
       {
         "x": 2,
@@ -2342,15 +2066,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 93,
     "score": 30
   },
   {
     "id": 303094,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 94,
     "reward": [
       {
         "x": 2,
@@ -2359,15 +2081,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 94,
     "score": 30
   },
   {
     "id": 303095,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 95,
     "reward": [
       {
         "x": 2,
@@ -2376,15 +2096,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 95,
     "score": 30
   },
   {
     "id": 303096,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 96,
     "reward": [
       {
         "x": 2,
@@ -2393,15 +2111,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 96,
     "score": 30
   },
   {
     "id": 303097,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 97,
     "reward": [
       {
         "x": 2,
@@ -2410,15 +2126,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 97,
     "score": 30
   },
   {
     "id": 303098,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 98,
     "reward": [
       {
         "x": 2,
@@ -2427,15 +2141,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 98,
     "score": 30
   },
   {
     "id": 303099,
     "group": 303,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 99,
     "reward": [
       {
         "x": 2,
@@ -2444,15 +2156,13 @@
       }
     ],
     "type": 2011,
-    "para": [],
+    "para": 99,
     "score": 30
   },
   {
     "id": 304001,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -2461,15 +2171,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 304002,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -2478,15 +2186,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 40,
     "score": 10
   },
   {
     "id": 304003,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -2495,15 +2201,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 60,
     "score": 10
   },
   {
     "id": 304004,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -2512,15 +2216,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 80,
     "score": 10
   },
   {
     "id": 304005,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -2529,15 +2231,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 304006,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -2546,15 +2246,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 120,
     "score": 20
   },
   {
     "id": 304007,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -2563,15 +2261,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 140,
     "score": 20
   },
   {
     "id": 304008,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -2580,15 +2276,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 160,
     "score": 20
   },
   {
     "id": 304009,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -2597,15 +2291,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 180,
     "score": 20
   },
   {
     "id": 304010,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -2614,15 +2306,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 304011,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 11,
     "reward": [
       {
         "x": 2,
@@ -2631,15 +2321,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 220,
     "score": 20
   },
   {
     "id": 304012,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 12,
     "reward": [
       {
         "x": 2,
@@ -2648,15 +2336,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 240,
     "score": 20
   },
   {
     "id": 304013,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 13,
     "reward": [
       {
         "x": 2,
@@ -2665,15 +2351,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 260,
     "score": 20
   },
   {
     "id": 304014,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 14,
     "reward": [
       {
         "x": 2,
@@ -2682,15 +2366,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 280,
     "score": 20
   },
   {
     "id": 304015,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 15,
     "reward": [
       {
         "x": 2,
@@ -2699,15 +2381,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 300,
     "score": 30
   },
   {
     "id": 304016,
     "group": 304,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 16,
     "reward": [
       {
         "x": 2,
@@ -2716,15 +2396,13 @@
       }
     ],
     "type": 1021,
-    "para": [],
+    "para": 320,
     "score": 30
   },
   {
     "id": 305001,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -2733,15 +2411,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 50000,
     "score": 10
   },
   {
     "id": 305002,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -2750,15 +2426,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 100000,
     "score": 10
   },
   {
     "id": 305003,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -2767,15 +2441,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 200000,
     "score": 10
   },
   {
     "id": 305004,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -2784,15 +2456,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 500000,
     "score": 10
   },
   {
     "id": 305005,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -2801,15 +2471,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 1000000,
     "score": 20
   },
   {
     "id": 305006,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -2818,15 +2486,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 2000000,
     "score": 20
   },
   {
     "id": 305007,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -2835,15 +2501,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 5000000,
     "score": 20
   },
   {
     "id": 305008,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -2852,15 +2516,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 10000000,
     "score": 20
   },
   {
     "id": 305009,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -2869,15 +2531,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 20000000,
     "score": 20
   },
   {
     "id": 305010,
     "group": 305,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -2886,15 +2546,13 @@
       }
     ],
     "type": 1042,
-    "para": [],
+    "para": 50000000,
     "score": 20
   },
   {
     "id": 306001,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -2903,15 +2561,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 1000,
     "score": 10
   },
   {
     "id": 306002,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -2920,15 +2576,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 2000,
     "score": 20
   },
   {
     "id": 306003,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -2937,15 +2591,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 5000,
     "score": 50
   },
   {
     "id": 306004,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -2954,15 +2606,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 10000,
     "score": 100
   },
   {
     "id": 306005,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -2971,15 +2621,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 20000,
     "score": 200
   },
   {
     "id": 306006,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -2988,15 +2636,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 50000,
     "score": 200
   },
   {
     "id": 306007,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -3005,15 +2651,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 100000,
     "score": 200
   },
   {
     "id": 306008,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -3022,15 +2666,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 200000,
     "score": 200
   },
   {
     "id": 306009,
     "group": 306,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -3039,15 +2681,13 @@
       }
     ],
     "type": 3021,
-    "para": [],
+    "para": 500000,
     "score": 200
   },
   {
     "id": 311001,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -3056,15 +2696,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 100000,
     "score": 10
   },
   {
     "id": 311002,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -3073,15 +2711,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 200000,
     "score": 10
   },
   {
     "id": 311003,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -3090,15 +2726,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 500000,
     "score": 10
   },
   {
     "id": 311004,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -3107,15 +2741,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 1000000,
     "score": 20
   },
   {
     "id": 311005,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -3124,15 +2756,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 2000000,
     "score": 20
   },
   {
     "id": 311006,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -3141,15 +2771,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 5000000,
     "score": 20
   },
   {
     "id": 311007,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -3158,15 +2786,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 10000000,
     "score": 30
   },
   {
     "id": 311008,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -3175,15 +2801,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 20000000,
     "score": 30
   },
   {
     "id": 311009,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -3192,15 +2816,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 50000000,
     "score": 30
   },
   {
     "id": 311010,
     "group": 311,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -3209,15 +2831,13 @@
       }
     ],
     "type": 2031,
-    "para": [],
+    "para": 100000000,
     "score": 50
   },
   {
     "id": 312001,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -3226,15 +2846,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 312002,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -3243,15 +2861,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 312003,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -3260,15 +2876,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 50,
     "score": 10
   },
   {
     "id": 312004,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -3277,15 +2891,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 312005,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -3294,15 +2906,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 312006,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -3311,15 +2921,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 500,
     "score": 20
   },
   {
     "id": 312007,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -3328,15 +2936,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 312008,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -3345,15 +2951,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 312009,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -3362,15 +2966,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 5000,
     "score": 30
   },
   {
     "id": 312010,
     "group": 312,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -3379,15 +2981,13 @@
       }
     ],
     "type": 2033,
-    "para": [],
+    "para": 10000,
     "score": 50
   },
   {
     "id": 321001,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -3396,15 +2996,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 321002,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -3413,15 +3011,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 321003,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -3430,15 +3026,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 30,
     "score": 10
   },
   {
     "id": 321004,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -3447,15 +3041,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 40,
     "score": 10
   },
   {
     "id": 321005,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -3464,15 +3056,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 321006,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -3481,15 +3071,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 60,
     "score": 20
   },
   {
     "id": 321007,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -3498,15 +3086,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 70,
     "score": 20
   },
   {
     "id": 321008,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -3515,15 +3101,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 80,
     "score": 20
   },
   {
     "id": 321009,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -3532,15 +3116,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 90,
     "score": 20
   },
   {
     "id": 321010,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -3549,15 +3131,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 321011,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 11,
     "reward": [
       {
         "x": 2,
@@ -3566,15 +3146,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 110,
     "score": 20
   },
   {
     "id": 321012,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 12,
     "reward": [
       {
         "x": 2,
@@ -3583,15 +3161,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 120,
     "score": 20
   },
   {
     "id": 321013,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 13,
     "reward": [
       {
         "x": 2,
@@ -3600,15 +3176,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 130,
     "score": 30
   },
   {
     "id": 321014,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 14,
     "reward": [
       {
         "x": 2,
@@ -3617,15 +3191,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 140,
     "score": 30
   },
   {
     "id": 321015,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 15,
     "reward": [
       {
         "x": 2,
@@ -3634,15 +3206,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 150,
     "score": 30
   },
   {
     "id": 321016,
     "group": 321,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 16,
     "reward": [
       {
         "x": 2,
@@ -3651,15 +3221,13 @@
       }
     ],
     "type": 3043,
-    "para": [],
+    "para": 160,
     "score": 30
   },
   {
     "id": 322001,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -3668,15 +3236,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 322002,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -3685,15 +3251,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 322003,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -3702,15 +3266,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 30,
     "score": 10
   },
   {
     "id": 322004,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -3719,15 +3281,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 40,
     "score": 10
   },
   {
     "id": 322005,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -3736,15 +3296,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 322006,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -3753,15 +3311,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 60,
     "score": 20
   },
   {
     "id": 322007,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -3770,15 +3326,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 70,
     "score": 20
   },
   {
     "id": 322008,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -3787,15 +3341,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 80,
     "score": 20
   },
   {
     "id": 322009,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -3804,15 +3356,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 90,
     "score": 20
   },
   {
     "id": 322010,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -3821,15 +3371,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 322011,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 11,
     "reward": [
       {
         "x": 2,
@@ -3838,15 +3386,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 110,
     "score": 20
   },
   {
     "id": 322012,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 12,
     "reward": [
       {
         "x": 2,
@@ -3855,15 +3401,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 120,
     "score": 20
   },
   {
     "id": 322013,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 13,
     "reward": [
       {
         "x": 2,
@@ -3872,15 +3416,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 130,
     "score": 30
   },
   {
     "id": 322014,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 14,
     "reward": [
       {
         "x": 2,
@@ -3889,15 +3431,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 140,
     "score": 30
   },
   {
     "id": 322015,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 15,
     "reward": [
       {
         "x": 2,
@@ -3906,15 +3446,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 150,
     "score": 30
   },
   {
     "id": 322016,
     "group": 322,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 16,
     "reward": [
       {
         "x": 2,
@@ -3923,15 +3461,13 @@
       }
     ],
     "type": 3045,
-    "para": [],
+    "para": 160,
     "score": 30
   },
   {
     "id": 331001,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -3940,15 +3476,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 331002,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -3957,15 +3491,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 331003,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -3974,15 +3506,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 50,
     "score": 10
   },
   {
     "id": 331004,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -3991,15 +3521,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 331005,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4008,15 +3536,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 331006,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4025,15 +3551,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 500,
     "score": 20
   },
   {
     "id": 331007,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -4042,15 +3566,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 331008,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -4059,15 +3581,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 331009,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -4076,15 +3596,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 5000,
     "score": 30
   },
   {
     "id": 331010,
     "group": 331,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -4093,15 +3611,13 @@
       }
     ],
     "type": 3042,
-    "para": [],
+    "para": 10000,
     "score": 50
   },
   {
     "id": 341001,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -4110,18 +3626,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      10,
-      4
-    ],
+    "para": 10,
     "score": 10
   },
   {
     "id": 341002,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -4130,18 +3641,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      20,
-      4
-    ],
+    "para": 20,
     "score": 10
   },
   {
     "id": 341003,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -4150,18 +3656,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      50,
-      4
-    ],
+    "para": 50,
     "score": 10
   },
   {
     "id": 341004,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -4170,18 +3671,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      100,
-      4
-    ],
+    "para": 100,
     "score": 20
   },
   {
     "id": 341005,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4190,18 +3686,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      200,
-      4
-    ],
+    "para": 200,
     "score": 20
   },
   {
     "id": 341006,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4210,18 +3701,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      500,
-      4
-    ],
+    "para": 500,
     "score": 20
   },
   {
     "id": 341007,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -4230,18 +3716,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      1000,
-      4
-    ],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 341008,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -4250,18 +3731,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      2000,
-      4
-    ],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 341009,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -4270,18 +3746,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      5000,
-      4
-    ],
+    "para": 5000,
     "score": 30
   },
   {
     "id": 341010,
     "group": 341,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -4290,18 +3761,13 @@
       }
     ],
     "type": 3051,
-    "para": [
-      10000,
-      4
-    ],
+    "para": 10000,
     "score": 50
   },
   {
     "id": 351001,
     "group": 351,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -4310,18 +3776,13 @@
       }
     ],
     "type": 3061,
-    "para": [
-      1,
-      1
-    ],
+    "para": 1,
     "score": 10
   },
   {
     "id": 351002,
     "group": 351,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -4330,18 +3791,13 @@
       }
     ],
     "type": 3061,
-    "para": [
-      1,
-      2
-    ],
+    "para": 2,
     "score": 10
   },
   {
     "id": 351003,
     "group": 351,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -4350,18 +3806,13 @@
       }
     ],
     "type": 3061,
-    "para": [
-      1,
-      3
-    ],
+    "para": 3,
     "score": 20
   },
   {
     "id": 351004,
     "group": 351,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -4370,18 +3821,13 @@
       }
     ],
     "type": 3061,
-    "para": [
-      1,
-      4
-    ],
+    "para": 4,
     "score": 50
   },
   {
     "id": 351005,
     "group": 351,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4390,18 +3836,13 @@
       }
     ],
     "type": 3061,
-    "para": [
-      1,
-      7
-    ],
+    "para": 7,
     "score": 100
   },
   {
     "id": 351006,
     "group": 351,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4410,18 +3851,13 @@
       }
     ],
     "type": 3061,
-    "para": [
-      1,
-      11
-    ],
+    "para": 11,
     "score": 200
   },
   {
     "id": 352001,
     "group": 352,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -4430,18 +3866,13 @@
       }
     ],
     "type": 3062,
-    "para": [
-      1,
-      1
-    ],
+    "para": 1,
     "score": 10
   },
   {
     "id": 352002,
     "group": 352,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -4450,18 +3881,13 @@
       }
     ],
     "type": 3062,
-    "para": [
-      1,
-      2
-    ],
+    "para": 2,
     "score": 10
   },
   {
     "id": 352003,
     "group": 352,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -4470,18 +3896,13 @@
       }
     ],
     "type": 3062,
-    "para": [
-      1,
-      3
-    ],
+    "para": 3,
     "score": 20
   },
   {
     "id": 352004,
     "group": 352,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -4490,18 +3911,13 @@
       }
     ],
     "type": 3062,
-    "para": [
-      1,
-      4
-    ],
+    "para": 4,
     "score": 50
   },
   {
     "id": 352005,
     "group": 352,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4510,18 +3926,13 @@
       }
     ],
     "type": 3062,
-    "para": [
-      1,
-      7
-    ],
+    "para": 7,
     "score": 100
   },
   {
     "id": 352006,
     "group": 352,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4530,18 +3941,13 @@
       }
     ],
     "type": 3062,
-    "para": [
-      1,
-      11
-    ],
+    "para": 11,
     "score": 200
   },
   {
     "id": 353001,
     "group": 353,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -4550,18 +3956,13 @@
       }
     ],
     "type": 3063,
-    "para": [
-      1,
-      1
-    ],
+    "para": 1,
     "score": 10
   },
   {
     "id": 353002,
     "group": 353,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -4570,18 +3971,13 @@
       }
     ],
     "type": 3063,
-    "para": [
-      1,
-      2
-    ],
+    "para": 2,
     "score": 10
   },
   {
     "id": 353003,
     "group": 353,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -4590,18 +3986,13 @@
       }
     ],
     "type": 3063,
-    "para": [
-      1,
-      3
-    ],
+    "para": 3,
     "score": 20
   },
   {
     "id": 353004,
     "group": 353,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -4610,18 +4001,13 @@
       }
     ],
     "type": 3063,
-    "para": [
-      1,
-      4
-    ],
+    "para": 4,
     "score": 50
   },
   {
     "id": 353005,
     "group": 353,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4630,18 +4016,13 @@
       }
     ],
     "type": 3063,
-    "para": [
-      1,
-      7
-    ],
+    "para": 7,
     "score": 100
   },
   {
     "id": 353006,
     "group": 353,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4650,18 +4031,13 @@
       }
     ],
     "type": 3063,
-    "para": [
-      1,
-      11
-    ],
+    "para": 11,
     "score": 200
   },
   {
     "id": 361001,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -4670,15 +4046,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 361002,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -4687,15 +4061,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 361003,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -4704,15 +4076,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 50,
     "score": 10
   },
   {
     "id": 361004,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -4721,15 +4091,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 361005,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4738,15 +4106,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 361006,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4755,15 +4121,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 500,
     "score": 20
   },
   {
     "id": 361007,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -4772,15 +4136,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 361008,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -4789,15 +4151,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 361009,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -4806,15 +4166,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 5000,
     "score": 30
   },
   {
     "id": 361010,
     "group": 361,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -4823,15 +4181,13 @@
       }
     ],
     "type": 3071,
-    "para": [],
+    "para": 10000,
     "score": 50
   },
   {
     "id": 362001,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -4840,15 +4196,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 362002,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -4857,15 +4211,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 362003,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -4874,15 +4226,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 50,
     "score": 10
   },
   {
     "id": 362004,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -4891,15 +4241,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 362005,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -4908,15 +4256,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 362006,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -4925,15 +4271,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 500,
     "score": 20
   },
   {
     "id": 362007,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -4942,15 +4286,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 362008,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -4959,15 +4301,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 362009,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -4976,15 +4316,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 5000,
     "score": 30
   },
   {
     "id": 362010,
     "group": 362,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -4993,15 +4331,13 @@
       }
     ],
     "type": 3072,
-    "para": [],
+    "para": 10000,
     "score": 50
   },
   {
     "id": 363001,
     "group": 363,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5010,15 +4346,13 @@
       }
     ],
     "type": 3073,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 363002,
     "group": 363,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5027,15 +4361,13 @@
       }
     ],
     "type": 3073,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 363003,
     "group": 363,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5044,15 +4376,13 @@
       }
     ],
     "type": 3073,
-    "para": [],
+    "para": 30,
     "score": 20
   },
   {
     "id": 363004,
     "group": 363,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5061,15 +4391,13 @@
       }
     ],
     "type": 3073,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 363005,
     "group": 363,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -5078,15 +4406,13 @@
       }
     ],
     "type": 3073,
-    "para": [],
+    "para": 100,
     "score": 30
   },
   {
     "id": 364001,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5095,15 +4421,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 1,
     "score": 10
   },
   {
     "id": 364002,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5112,15 +4436,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 2,
     "score": 10
   },
   {
     "id": 364003,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5129,15 +4451,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 3,
     "score": 10
   },
   {
     "id": 364004,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5146,15 +4466,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 4,
     "score": 20
   },
   {
     "id": 364005,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -5163,15 +4481,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 5,
     "score": 20
   },
   {
     "id": 364006,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -5180,15 +4496,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 6,
     "score": 20
   },
   {
     "id": 364007,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -5197,15 +4511,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 7,
     "score": 20
   },
   {
     "id": 364008,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -5214,15 +4526,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 8,
     "score": 20
   },
   {
     "id": 364009,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -5231,15 +4541,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 9,
     "score": 20
   },
   {
     "id": 364010,
     "group": 364,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -5248,15 +4556,13 @@
       }
     ],
     "type": 3074,
-    "para": [],
+    "para": 10,
     "score": 50
   },
   {
     "id": 371001,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5265,15 +4571,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 371002,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5282,15 +4586,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 371003,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5299,15 +4601,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 50,
     "score": 10
   },
   {
     "id": 371004,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5316,15 +4616,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 371005,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -5333,15 +4631,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 371006,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -5350,15 +4646,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 500,
     "score": 20
   },
   {
     "id": 371007,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -5367,15 +4661,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 371008,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -5384,15 +4676,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 371009,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -5401,15 +4691,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 5000,
     "score": 30
   },
   {
     "id": 371010,
     "group": 371,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -5418,15 +4706,13 @@
       }
     ],
     "type": 2012,
-    "para": [],
+    "para": 10000,
     "score": 50
   },
   {
     "id": 372001,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5435,15 +4721,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 5,
     "score": 10
   },
   {
     "id": 372002,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5452,15 +4736,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 372003,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5469,15 +4751,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 372004,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5486,15 +4766,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 372005,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -5503,15 +4781,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 372006,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -5520,15 +4796,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 372007,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -5537,15 +4811,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 500,
     "score": 30
   },
   {
     "id": 372008,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -5554,15 +4826,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 372009,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -5571,15 +4841,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 372010,
     "group": 372,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -5588,15 +4856,13 @@
       }
     ],
     "type": 2024,
-    "para": [],
+    "para": 5000,
     "score": 50
   },
   {
     "id": 381001,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5605,15 +4871,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 5,
     "score": 10
   },
   {
     "id": 381002,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5622,15 +4886,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 381003,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5639,15 +4901,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 381004,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5656,15 +4916,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 381005,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -5673,15 +4931,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 381006,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -5690,15 +4946,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 381007,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -5707,15 +4961,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 500,
     "score": 30
   },
   {
     "id": 381008,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -5724,15 +4976,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 381009,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -5741,15 +4991,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 381010,
     "group": 381,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -5758,15 +5006,13 @@
       }
     ],
     "type": 1051,
-    "para": [],
+    "para": 5000,
     "score": 50
   },
   {
     "id": 382001,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5775,15 +5021,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 5,
     "score": 10
   },
   {
     "id": 382002,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5792,15 +5036,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 10,
     "score": 10
   },
   {
     "id": 382003,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5809,15 +5051,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 20,
     "score": 10
   },
   {
     "id": 382004,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5826,15 +5066,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 50,
     "score": 20
   },
   {
     "id": 382005,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -5843,15 +5081,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 100,
     "score": 20
   },
   {
     "id": 382006,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -5860,15 +5096,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 200,
     "score": 20
   },
   {
     "id": 382007,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 7,
     "reward": [
       {
         "x": 2,
@@ -5877,15 +5111,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 500,
     "score": 30
   },
   {
     "id": 382008,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 8,
     "reward": [
       {
         "x": 2,
@@ -5894,15 +5126,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 1000,
     "score": 30
   },
   {
     "id": 382009,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 9,
     "reward": [
       {
         "x": 2,
@@ -5911,15 +5141,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 2000,
     "score": 30
   },
   {
     "id": 382010,
     "group": 382,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 10,
     "reward": [
       {
         "x": 2,
@@ -5928,15 +5156,13 @@
       }
     ],
     "type": 1063,
-    "para": [],
+    "para": 5000,
     "score": 50
   },
   {
     "id": 383001,
     "group": 383,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 1,
     "reward": [
       {
         "x": 2,
@@ -5945,15 +5171,13 @@
       }
     ],
     "type": 1061,
-    "para": [],
+    "para": 1,
     "score": 10
   },
   {
     "id": 383002,
     "group": 383,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 2,
     "reward": [
       {
         "x": 2,
@@ -5962,15 +5186,13 @@
       }
     ],
     "type": 1061,
-    "para": [],
+    "para": 5,
     "score": 10
   },
   {
     "id": 383003,
     "group": 383,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 3,
     "reward": [
       {
         "x": 2,
@@ -5979,15 +5201,13 @@
       }
     ],
     "type": 1061,
-    "para": [],
+    "para": 10,
     "score": 20
   },
   {
     "id": 383004,
     "group": 383,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 4,
     "reward": [
       {
         "x": 2,
@@ -5996,15 +5216,13 @@
       }
     ],
     "type": 1061,
-    "para": [],
+    "para": 20,
     "score": 20
   },
   {
     "id": 383005,
     "group": 383,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 5,
     "reward": [
       {
         "x": 2,
@@ -6013,15 +5231,13 @@
       }
     ],
     "type": 1061,
-    "para": [],
+    "para": 50,
     "score": 100
   },
   {
     "id": 383006,
     "group": 383,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
+    "sort": 6,
     "reward": [
       {
         "x": 2,
@@ -6030,626 +5246,7 @@
       }
     ],
     "type": 1061,
-    "para": [],
+    "para": 100,
     "score": 200
-  },
-  {
-    "id": 391001,
-    "group": 391,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 10
-      }
-    ],
-    "type": 2041,
-    "para": [
-      3,
-      1
-    ],
-    "score": 10
-  },
-  {
-    "id": 391002,
-    "group": 391,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 20
-      }
-    ],
-    "type": 2041,
-    "para": [
-      6,
-      1
-    ],
-    "score": 20
-  },
-  {
-    "id": 391003,
-    "group": 391,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 30
-      }
-    ],
-    "type": 2041,
-    "para": [
-      9,
-      1
-    ],
-    "score": 30
-  },
-  {
-    "id": 391004,
-    "group": 391,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 40
-      }
-    ],
-    "type": 2041,
-    "para": [
-      12,
-      1
-    ],
-    "score": 40
-  },
-  {
-    "id": 391005,
-    "group": 391,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 50
-      }
-    ],
-    "type": 2041,
-    "para": [
-      15,
-      1
-    ],
-    "score": 50
-  },
-  {
-    "id": 391006,
-    "group": 391,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 60
-      }
-    ],
-    "type": 2041,
-    "para": [
-      18,
-      1
-    ],
-    "score": 60
-  },
-  {
-    "id": 392001,
-    "group": 392,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 10
-      }
-    ],
-    "type": 2041,
-    "para": [
-      3,
-      2
-    ],
-    "score": 10
-  },
-  {
-    "id": 392002,
-    "group": 392,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 20
-      }
-    ],
-    "type": 2041,
-    "para": [
-      6,
-      2
-    ],
-    "score": 20
-  },
-  {
-    "id": 392003,
-    "group": 392,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 30
-      }
-    ],
-    "type": 2041,
-    "para": [
-      9,
-      2
-    ],
-    "score": 30
-  },
-  {
-    "id": 392004,
-    "group": 392,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 40
-      }
-    ],
-    "type": 2041,
-    "para": [
-      12,
-      2
-    ],
-    "score": 40
-  },
-  {
-    "id": 392005,
-    "group": 392,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 50
-      }
-    ],
-    "type": 2041,
-    "para": [
-      15,
-      2
-    ],
-    "score": 50
-  },
-  {
-    "id": 392006,
-    "group": 392,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 60
-      }
-    ],
-    "type": 2041,
-    "para": [
-      18,
-      2
-    ],
-    "score": 60
-  },
-  {
-    "id": 393001,
-    "group": 393,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 10
-      }
-    ],
-    "type": 2041,
-    "para": [
-      3,
-      3
-    ],
-    "score": 10
-  },
-  {
-    "id": 393002,
-    "group": 393,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 20
-      }
-    ],
-    "type": 2041,
-    "para": [
-      6,
-      3
-    ],
-    "score": 20
-  },
-  {
-    "id": 393003,
-    "group": 393,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 30
-      }
-    ],
-    "type": 2041,
-    "para": [
-      9,
-      3
-    ],
-    "score": 30
-  },
-  {
-    "id": 393004,
-    "group": 393,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 40
-      }
-    ],
-    "type": 2041,
-    "para": [
-      12,
-      3
-    ],
-    "score": 40
-  },
-  {
-    "id": 393005,
-    "group": 393,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 50
-      }
-    ],
-    "type": 2041,
-    "para": [
-      15,
-      3
-    ],
-    "score": 50
-  },
-  {
-    "id": 393006,
-    "group": 393,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 60
-      }
-    ],
-    "type": 2041,
-    "para": [
-      18,
-      3
-    ],
-    "score": 60
-  },
-  {
-    "id": 394001,
-    "group": 394,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 10
-      }
-    ],
-    "type": 2041,
-    "para": [
-      3,
-      4
-    ],
-    "score": 10
-  },
-  {
-    "id": 394002,
-    "group": 394,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 20
-      }
-    ],
-    "type": 2041,
-    "para": [
-      6,
-      4
-    ],
-    "score": 20
-  },
-  {
-    "id": 394003,
-    "group": 394,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 30
-      }
-    ],
-    "type": 2041,
-    "para": [
-      9,
-      4
-    ],
-    "score": 30
-  },
-  {
-    "id": 394004,
-    "group": 394,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 40
-      }
-    ],
-    "type": 2041,
-    "para": [
-      12,
-      4
-    ],
-    "score": 40
-  },
-  {
-    "id": 394005,
-    "group": 394,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 50
-      }
-    ],
-    "type": 2041,
-    "para": [
-      15,
-      4
-    ],
-    "score": 50
-  },
-  {
-    "id": 394006,
-    "group": 394,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 60
-      }
-    ],
-    "type": 2041,
-    "para": [
-      18,
-      4
-    ],
-    "score": 60
-  },
-  {
-    "id": 395001,
-    "group": 395,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 10
-      }
-    ],
-    "type": 2041,
-    "para": [
-      3,
-      5
-    ],
-    "score": 10
-  },
-  {
-    "id": 395002,
-    "group": 395,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 20
-      }
-    ],
-    "type": 2041,
-    "para": [
-      6,
-      5
-    ],
-    "score": 20
-  },
-  {
-    "id": 395003,
-    "group": 395,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 30
-      }
-    ],
-    "type": 2041,
-    "para": [
-      9,
-      5
-    ],
-    "score": 30
-  },
-  {
-    "id": 395004,
-    "group": 395,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 40
-      }
-    ],
-    "type": 2041,
-    "para": [
-      12,
-      5
-    ],
-    "score": 40
-  },
-  {
-    "id": 395005,
-    "group": 395,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 50
-      }
-    ],
-    "type": 2041,
-    "para": [
-      15,
-      5
-    ],
-    "score": 50
-  },
-  {
-    "id": 395006,
-    "group": 395,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 60
-      }
-    ],
-    "type": 2041,
-    "para": [
-      18,
-      5
-    ],
-    "score": 60
-  },
-  {
-    "id": 396001,
-    "group": 396,
-    "sort": 0,
-    "condition": [],
-    "pre": 0,
-    "reward": [
-      {
-        "x": 2,
-        "y": 0,
-        "z": 60
-      }
-    ],
-    "type": 3046,
-    "para": [
-      7
-    ],
-    "score": 60
   }
 ]

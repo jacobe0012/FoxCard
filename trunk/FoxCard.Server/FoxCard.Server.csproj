@@ -31,6 +31,9 @@
         <LinkBase>Protocol\</LinkBase>
         <Link>Protocol\Rewards.cs</Link>
       </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\GameAchievement.cs">
+        <Link>Protocol\GameAchievement.cs</Link>
+      </Compile>
     </ItemGroup>
 
     <ItemGroup>

@@ -28,13 +28,14 @@ namespace MessagePack.Formatters.HotFix_UI
             }
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(6);
+            writer.WriteArrayHeader(7);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
             writer.Write(value.LastSignTime);
             writer.Write(value.SignCount);
             writer.Write(value.LastLoginTime);
             writer.Write(value.LoginCount);
             writer.Write(value.ContinuousLoginCount);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameAchievement>(formatterResolver).Serialize(ref writer, value.GameAchieve, options);
         }
 
         public global::HotFix_UI.PlayerResource Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -70,6 +71,9 @@ namespace MessagePack.Formatters.HotFix_UI
                         break;
                     case 5:
                         ____result.ContinuousLoginCount = reader.ReadInt32();
+                        break;
+                    case 6:
+                        ____result.GameAchieve = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameAchievement>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();

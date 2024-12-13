@@ -161,7 +161,7 @@ public class WebSocketController : ControllerBase
                 playerRes = JsonConvert.DeserializeObject<PlayerResource>(rvRes);
             }
 
-            if (CanSignToday(playerRes.LastLoginTime, out var date, out var utclong))
+            if (CanSignOrLoginToday(playerRes.LastLoginTime, out var date, out var utclong))
             {
                 var lastDate = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastLoginTime).DateTime;
                 playerRes.LastLoginTime = utclong;
@@ -172,6 +172,8 @@ public class WebSocketController : ControllerBase
                 {
                     playerRes.ContinuousLoginCount = 1;
                 }
+
+                playerRes.GameAchieve?.SetAchievePara(1012);
             }
 
             await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
@@ -220,7 +222,7 @@ public class WebSocketController : ControllerBase
             var rv = await db.StringGetAsync(redisKey);
             var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
 
-            if (CanSignToday(playerRes.LastSignTime, out var date, out var utclong))
+            if (CanSignOrLoginToday(playerRes.LastSignTime, out var date, out var utclong))
             {
                 playerRes.LastSignTime = utclong;
                 playerRes.SignCount++;
@@ -231,7 +233,6 @@ public class WebSocketController : ControllerBase
             }
             else
             {
-             
                 Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTime}");
             }
 
@@ -254,7 +255,7 @@ public class WebSocketController : ControllerBase
     /// </summary>
     /// <param name="lastSignedTime">上次签到时间戳 /ms</param>
     /// <returns>bool</returns>
-    bool CanSignToday(long lastSignedTime, out DateTime utcNowDate, out long utclong)
+    bool CanSignOrLoginToday(long lastSignedTime, out DateTime utcNowDate, out long utclong)
     {
         const int Hour = 6;
         // 将 Unix 时间戳转换为 DateTime
@@ -294,12 +295,31 @@ public class WebSocketController : ControllerBase
             ItemId = item.id,
             Count = 1
         }).ToList();
+        var initAchieveItemList = MyConfig.Tables.Tbtask.DataList
+            .GroupBy(item => item.group) // 根据 group 分组
+            .Select(group => new AchieveItem // 直接创建 AchieveItem 对象
+            {
+                GroupId = group.Key, // 使用分组键作为 GroupId
+                CurPara = 0,
+                Type = group.First().type // 从组中获取第一个 item's type
+            })
+            .ToList(); // 转换为 List
+
 
         var playerRes = new PlayerResource
         {
             ItemList = itemInfos,
             LastSignTime = 0,
             SignCount = 0,
+            LastLoginTime = 0,
+            LoginCount = 0,
+            ContinuousLoginCount = 0,
+            GameAchieve = new GameAchievement
+            {
+                AchieveItemList = initAchieveItemList,
+                Score = 0,
+                AchieveRewardBoxList = new List<int>()
+            }
         };
         return playerRes;
     }
@@ -313,14 +333,20 @@ public class WebSocketController : ControllerBase
             $"https://api.weixin.qq.com/sns/jscode2session?appid={appId}&secret={appSecret}&js_code={jsCode}&grant_type=authorization_code";
         string responseBody = default;
         // 发起GET请求
-        HttpResponseMessage response = await _httpClient.GetAsync(url);
+        //HttpResponseMessage response = await _httpClient.GetAsync(url);
 
-        if (response.IsSuccessStatusCode)
+        //if (response.IsSuccessStatusCode)
+        if (false)
         {
             //TODO: 读取响应内容
 
-            responseBody = await response.Content.ReadAsStringAsync();
+            //responseBody = await response.Content.ReadAsStringAsync();
             //TODO:删
+
+            Console.WriteLine($"responseBody:{responseBody}");
+        }
+        else
+        {
             responseBody = JsonConvert.SerializeObject(new WXCode2Session
             {
                 session_key = "safasfs234",
@@ -329,11 +355,7 @@ public class WebSocketController : ControllerBase
                 openid = jsCode,
                 errcode = 0
             });
-            Console.WriteLine($"responseBody:{responseBody}");
-        }
-        else
-        {
-            Console.WriteLine($"response from server: {response.ReasonPhrase}");
+            //Console.WriteLine($"response from server: {response.ReasonPhrase}");
         }
 
         var wxCode2Session = JsonConvert.DeserializeObject<WXCode2Session>(responseBody);
