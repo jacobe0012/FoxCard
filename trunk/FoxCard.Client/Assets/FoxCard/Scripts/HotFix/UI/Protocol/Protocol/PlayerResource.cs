@@ -18,7 +18,7 @@ namespace HotFix_UI
         /// 签到时间戳 ms
         /// </summary>
         [Key(1)]
-        public long LastSignTime { get; set; }
+        public long LastSignTimeStamp { get; set; }
 
         /// <summary>
         /// 签到总次数
@@ -30,7 +30,7 @@ namespace HotFix_UI
         /// 上次登录时间戳 ms
         /// </summary>
         [Key(3)]
-        public long LastLoginTime { get; set; }
+        public long LastLoginTimeStamp { get; set; }
 
         /// <summary>
         /// 累计登录总次数
@@ -49,6 +49,12 @@ namespace HotFix_UI
         /// </summary>
         [Key(6)]
         public GameAchievement? GameAchieve { get; set; }
+
+        /// <summary>
+        /// 玩家邮件信息
+        /// </summary>
+        [Key(7)]
+        public GameMail? GameMail { get; set; }
 
         public override string ToString()
         {

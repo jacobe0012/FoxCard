@@ -176,10 +176,10 @@ public class WebSocketController : ControllerBase
                 playerRes = JsonConvert.DeserializeObject<PlayerResource>(rvRes);
             }
 
-            if (CanSignOrLoginToday(playerRes.LastLoginTime, out var date, out var utclong))
+            if (CanSignOrLoginToday(playerRes.LastLoginTimeStamp, out var date, out var utclong))
             {
-                var lastDate = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastLoginTime).DateTime;
-                playerRes.LastLoginTime = utclong;
+                var lastDate = DateTimeOffset.FromUnixTimeMilliseconds(playerRes.LastLoginTimeStamp).DateTime;
+                playerRes.LastLoginTimeStamp = utclong;
                 playerRes.LoginCount++;
                 var timeSpan = date - lastDate;
                 playerRes.ContinuousLoginCount = timeSpan.TotalHours < 48 ? playerRes.ContinuousLoginCount + 1 : 0;
@@ -234,9 +234,9 @@ public class WebSocketController : ControllerBase
             var rv = await db.StringGetAsync(redisKey);
             var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
 
-            if (CanSignOrLoginToday(playerRes.LastSignTime, out var date, out var utclong))
+            if (CanSignOrLoginToday(playerRes.LastSignTimeStamp, out var date, out var utclong))
             {
-                playerRes.LastSignTime = utclong;
+                playerRes.LastSignTimeStamp = utclong;
                 playerRes.SignCount++;
                 await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
                 Console.WriteLine($"签到时间:{date.ToShortDateString()}");
@@ -248,7 +248,7 @@ public class WebSocketController : ControllerBase
             }
             else
             {
-                Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTime}");
+                Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTimeStamp}");
             }
 
             message.Content =
@@ -366,9 +366,9 @@ public class WebSocketController : ControllerBase
         var playerRes = new PlayerResource
         {
             ItemList = itemInfos,
-            LastSignTime = 0,
+            LastSignTimeStamp = 0,
             SignCount = 0,
-            LastLoginTime = 0,
+            LastLoginTimeStamp = 0,
             LoginCount = 0,
             ContinuousLoginCount = 0,
             GameAchieve = new GameAchievement

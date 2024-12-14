@@ -28,14 +28,15 @@ namespace MessagePack.Formatters.HotFix_UI
             }
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(7);
+            writer.WriteArrayHeader(8);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
-            writer.Write(value.LastSignTime);
+            writer.Write(value.LastSignTimeStamp);
             writer.Write(value.SignCount);
-            writer.Write(value.LastLoginTime);
+            writer.Write(value.LastLoginTimeStamp);
             writer.Write(value.LoginCount);
             writer.Write(value.ContinuousLoginCount);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameAchievement>(formatterResolver).Serialize(ref writer, value.GameAchieve, options);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameMail>(formatterResolver).Serialize(ref writer, value.GameMail, options);
         }
 
         public global::HotFix_UI.PlayerResource Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -58,13 +59,13 @@ namespace MessagePack.Formatters.HotFix_UI
                         ____result.ItemList = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     case 1:
-                        ____result.LastSignTime = reader.ReadInt64();
+                        ____result.LastSignTimeStamp = reader.ReadInt64();
                         break;
                     case 2:
                         ____result.SignCount = reader.ReadInt32();
                         break;
                     case 3:
-                        ____result.LastLoginTime = reader.ReadInt64();
+                        ____result.LastLoginTimeStamp = reader.ReadInt64();
                         break;
                     case 4:
                         ____result.LoginCount = reader.ReadInt32();
@@ -74,6 +75,9 @@ namespace MessagePack.Formatters.HotFix_UI
                         break;
                     case 6:
                         ____result.GameAchieve = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameAchievement>(formatterResolver).Deserialize(ref reader, options);
+                        break;
+                    case 7:
+                        ____result.GameMail = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameMail>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     default:
                         reader.Skip();

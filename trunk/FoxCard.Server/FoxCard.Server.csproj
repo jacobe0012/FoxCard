@@ -34,6 +34,10 @@
       <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\GameAchievement.cs">
         <Link>Protocol\GameAchievement.cs</Link>
       </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\GameMail.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\GameMail.cs</Link>
+      </Compile>
     </ItemGroup>
 
     <ItemGroup>

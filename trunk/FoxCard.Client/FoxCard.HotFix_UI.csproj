@@ -229,6 +229,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Json\PlayerSaveData.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\task.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Slider\SliderComponent.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_GameMailFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Button\ButtonComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Data\HashSetUserDataJsonConverter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\TypesManager.cs" />
@@ -249,6 +250,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\ScrollRect\XScrollRectComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\XToggle.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\Data\UserDataManager.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\GameMail.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Utility\JiYuUIHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\Helper\ObjectHelper.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Utilities\ETTask\IAwaiter.cs" />
@@ -302,6 +304,7 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Object\CommonObject.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\LoopScrollRect\LoopScrollRectMultiComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\Card.cs" />
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\SourceGenerate\MessagePack_Formatters_HotFix_UI_MailItemFormatter.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\XInputField.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Core\String\StringExtensions.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\LubanLib\StringUtil.cs" />
