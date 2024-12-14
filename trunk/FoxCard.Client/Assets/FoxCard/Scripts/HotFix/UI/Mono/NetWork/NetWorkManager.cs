@@ -7,10 +7,6 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-//using Best.SignalR;
-using Best.SignalR.Encoders;
-using Best.SignalR.Messages;
-//using Best.WebSockets;
 using Cysharp.Threading.Tasks;
 using JetBrains.Annotations;
 using MessagePack;
@@ -167,6 +163,7 @@ namespace HotFix_UI
             {
                 SendMessage(CMD.DAILYSIGN, 4);
                 SendMessage(CMD.QUERYRESOURCE);
+                SendMessage(CMD.RECEIVEACHIEVEITEM, 301001, 1);
             }
 
             if (message.Cmd == CMD.DAILYSIGN)
@@ -367,7 +364,7 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        public void SendMessage<T>(int Cmd, T protoMessage, int args = 0) where T : IMessagePack
+        public void SendMessage<T>(int Cmd, T protoMessage, int args = 0)
         {
             var myExternalMessage = new MyMessage
             {

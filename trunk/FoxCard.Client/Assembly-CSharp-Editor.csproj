@@ -436,35 +436,20 @@
     <Reference Include="wx-runtime-editor">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Runtime\Plugins\wx-runtime-editor.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.SignalR.Client">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.SignalR.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Diagnostics.DiagnosticSource">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\System.Diagnostics.DiagnosticSource.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
     <Reference Include="wx-perf">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Runtime\Plugins\wx-perf.dll</HintPath>
     </Reference>
-    <Reference Include="System.Threading.Channels">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\System.Threading.Channels.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.ext.nunit\net40\unity-custom\nunit.framework.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Logging">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Unity.FontABTool">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.NET.StringTools">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\Microsoft.NET.StringTools.dll</HintPath>
@@ -481,20 +466,8 @@
     <Reference Include="DemiLib">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DemiLib\Core\DemiLib.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.Http.Connections.Client">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.Http.Connections.Client.dll</HintPath>
-    </Reference>
-    <Reference Include="System.IO.Pipelines">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\System.IO.Pipelines.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNetCore.SignalR.Common">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.SignalR.Common.dll</HintPath>
-    </Reference>
     <Reference Include="DOTweenEditor">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Json">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\System.Text.Json.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.collab-proxy\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
@@ -511,29 +484,17 @@
     <Reference Include="DOTween">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Extensions.Primitives">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.Primitives.dll</HintPath>
-    </Reference>
     <Reference Include="dnlib">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.code-philosophy.hybridclr\Plugins\dnlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.AspNetCore.SignalR.Client.Core">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.SignalR.Client.Core.dll</HintPath>
-    </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
     </Reference>
     <Reference Include="LZ4">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.code-philosophy.hybridclr\Plugins\LZ4.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Options">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.Options.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNetCore.Connections.Abstractions">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.Connections.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="wx-editor">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Editor\wx-editor.dll</HintPath>
@@ -543,30 +504,6 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Text.Encodings.Web">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\System.Text.Encodings.Web.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNetCore.Http.Connections.Common">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.Http.Connections.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bcl.TimeProvider">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Bcl.TimeProvider.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.AspNetCore.SignalR.Protocols.Json">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.AspNetCore.SignalR.Protocols.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.DependencyInjection">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.DependencyInjection.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.Extensions.Features">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\SignalR\lib\dll\Microsoft.Extensions.Features.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Android.Types">
       <HintPath>D:\UNITYEDITOR\6000.0.29f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -1046,10 +983,6 @@
       <Project>{eeaf9e83-3c4c-f1e6-52fa-a6b89149a7b8}</Project>
       <Name>LoopScrollRect.Editor</Name>
     </ProjectReference>
-    <ProjectReference Include="com.Tivadar.Best.HTTP.csproj">
-      <Project>{24b44097-3b9b-9c02-744c-68fb42833e17}</Project>
-      <Name>com.Tivadar.Best.HTTP</Name>
-    </ProjectReference>
     <ProjectReference Include="FoxCard.Main.csproj">
       <Project>{5c866790-bdda-8548-d4ba-83b9c5780e38}</Project>
       <Name>FoxCard.Main</Name>
@@ -1057,10 +990,6 @@
     <ProjectReference Include="UniTask.Addressables.csproj">
       <Project>{e2b615df-a75e-7524-aee7-dc5fb506face}</Project>
       <Name>UniTask.Addressables</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.Tivadar.Best.WebSockets.csproj">
-      <Project>{18cda8cb-b3ae-70dc-2617-af08862b3ebf}</Project>
-      <Name>com.Tivadar.Best.WebSockets</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}</Project>
@@ -1098,10 +1027,6 @@
       <Project>{38dca6b3-42d7-d344-4fce-04103276717d}</Project>
       <Name>DOTween.Modules</Name>
     </ProjectReference>
-    <ProjectReference Include="SignalR.csproj">
-      <Project>{85a51f34-5381-a5ab-f250-1bbb5ddee0de}</Project>
-      <Name>SignalR</Name>
-    </ProjectReference>
     <ProjectReference Include="com.logviewer.runtime.csproj">
       <Project>{4af8a1b1-5e57-8bf3-3764-a1bce45eb5f4}</Project>
       <Name>com.logviewer.runtime</Name>
@@ -1121,10 +1046,6 @@
     <ProjectReference Include="UnityWebSocket.Runtime.csproj">
       <Project>{edf6272e-557b-5be1-113f-3ba94106c41d}</Project>
       <Name>UnityWebSocket.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.Tivadar.Best.SignalR.csproj">
-      <Project>{f871d8f6-8cfe-6548-11cd-92f2cf120881}</Project>
-      <Name>com.Tivadar.Best.SignalR</Name>
     </ProjectReference>
     <ProjectReference Include="MessagePack.csproj">
       <Project>{edc6916c-ec95-092f-8fa1-69ecaa444f8d}</Project>

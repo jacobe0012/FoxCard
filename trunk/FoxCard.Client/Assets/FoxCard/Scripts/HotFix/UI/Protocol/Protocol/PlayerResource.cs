@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using HotFix_UI;
 using MessagePack;
+using Newtonsoft.Json;
 
 namespace HotFix_UI
 {
@@ -48,6 +49,12 @@ namespace HotFix_UI
         /// </summary>
         [Key(6)]
         public GameAchievement? GameAchieve { get; set; }
+
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this);
+            //return base.ToString();
+        }
     }
 
     [MessagePackObject]

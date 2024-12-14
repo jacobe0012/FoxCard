@@ -126,6 +126,21 @@ public class WebSocketController : ControllerBase
         }
     }
 
+    private async Task<PlayerResource?> TryGetPlayerResourceAsync(WebSocket webSocket)
+    {
+        if (!_connections.TryGetValue(webSocket, out var openId))
+        {
+            //Console.WriteLine($"webSocket:{webSocket.} not found");
+            //用户未登记
+            //message.ErrorCode = 1001;
+        }
+
+        var db = _redis.GetDatabase();
+        var redisKey = GetRedisDBStr(1, openId);
+        var rv = await db.StringGetAsync(redisKey);
+        return JsonConvert.DeserializeObject<PlayerResource>(rv);
+    }
+
     private async Task<MyMessage> ProcessMessage(MyMessage message, WebSocket webSocket)
     {
         var stopwatch = new Stopwatch();
@@ -207,9 +222,6 @@ public class WebSocketController : ControllerBase
         else if (message.Cmd == CMD.DAILYSIGN)
         {
             var rewards = new Rewards { };
-            //List<Vector3> rewards = null;
-
-            Console.WriteLine($"DateTime.Now.Day{DateTime.Now.Day}");
             if (!_connections.TryGetValue(webSocket, out var openId))
             {
                 //Console.WriteLine($"webSocket:{webSocket.} not found");
@@ -217,8 +229,8 @@ public class WebSocketController : ControllerBase
                 message.ErrorCode = 1001;
             }
 
-            var redisKey = GetRedisDBStr(1, openId);
             var db = _redis.GetDatabase();
+            var redisKey = GetRedisDBStr(1, openId);
             var rv = await db.StringGetAsync(redisKey);
             var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
 
@@ -228,8 +240,11 @@ public class WebSocketController : ControllerBase
                 playerRes.SignCount++;
                 await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
                 Console.WriteLine($"签到时间:{date.ToShortDateString()}");
-                var tbsignDaily = MyConfig.Tables.Tbsign_daily;
-                rewards.rewards = tbsignDaily.Get(date.Day).reward;
+                var tbsignDaily = MyConfig.Tables?.Tbsign_daily.Get(date.Day);
+                if (tbsignDaily != null)
+                {
+                    rewards.rewards = tbsignDaily.reward;
+                }
             }
             else
             {
@@ -239,7 +254,49 @@ public class WebSocketController : ControllerBase
             message.Content =
                 MessagePackSerializer.Serialize(rewards, options);
         }
+        else if (message.Cmd == CMD.RECEIVEACHIEVEITEM)
+        {
+            var rewards = new Rewards { };
+            if (!_connections.TryGetValue(webSocket, out var openId))
+            {
+                //Console.WriteLine($"webSocket:{webSocket.} not found");
+                //用户未登记
+                message.ErrorCode = 1001;
+            }
 
+            var db = _redis.GetDatabase();
+
+            var redisKey = GetRedisDBStr(1, openId);
+            var rv = await db.StringGetAsync(redisKey);
+            var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
+
+
+            var achieveId = MessagePackSerializer.Deserialize<int>(message.Content, options);
+            var tbtask = MyConfig.Tables?.Tbtask.GetOrDefault(achieveId);
+
+            if (tbtask != null && playerRes != null)
+            {
+                foreach (var achieveItem in playerRes.GameAchieve.AchieveItemList)
+                {
+                    if (achieveItem.GroupId == tbtask.group)
+                    {
+                        if (achieveItem.ReceivedAchieveId < achieveId && achieveItem.CurPara >= tbtask.para)
+                        {
+                            achieveItem.ReceivedAchieveId = achieveId;
+                            playerRes.GameAchieve.Score += tbtask.score;
+                            rewards.rewards = tbtask.reward;
+                        }
+
+                        break;
+                    }
+                }
+            }
+
+            message.Content =
+                MessagePackSerializer.Serialize(rewards, options);
+
+            outputContentStr = JsonConvert.SerializeObject(achieveId);
+        }
 
         stopwatch.Stop();
         string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
@@ -290,12 +347,12 @@ public class WebSocketController : ControllerBase
     /// <param name="openId"></param>
     private PlayerResource InitPlayerResource()
     {
-        var itemInfos = MyConfig.Tables.Tbitem.DataList.Where(a => a.initEnable == 1).Select(item => new ItemInfo
+        var itemInfos = MyConfig.Tables?.Tbitem.DataList.Where(a => a.initEnable == 1).Select(item => new ItemInfo
         {
             ItemId = item.id,
             Count = 1
         }).ToList();
-        var initAchieveItemList = MyConfig.Tables.Tbtask.DataList
+        var initAchieveItemList = MyConfig.Tables?.Tbtask.DataList
             .GroupBy(item => item.group) // 根据 group 分组
             .Select(group => new AchieveItem // 直接创建 AchieveItem 对象
             {

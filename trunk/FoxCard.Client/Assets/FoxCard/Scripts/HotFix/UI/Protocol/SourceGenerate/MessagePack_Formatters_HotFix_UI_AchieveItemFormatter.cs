@@ -27,10 +27,11 @@ namespace MessagePack.Formatters.HotFix_UI
                 return;
             }
 
-            writer.WriteArrayHeader(3);
+            writer.WriteArrayHeader(4);
             writer.Write(value.GroupId);
             writer.Write(value.CurPara);
             writer.Write(value.Type);
+            writer.Write(value.ReceivedAchieveId);
         }
 
         public global::HotFix_UI.AchieveItem Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
@@ -56,6 +57,9 @@ namespace MessagePack.Formatters.HotFix_UI
                         break;
                     case 2:
                         ____result.Type = reader.ReadInt32();
+                        break;
+                    case 3:
+                        ____result.ReceivedAchieveId = reader.ReadInt32();
                         break;
                     default:
                         reader.Skip();

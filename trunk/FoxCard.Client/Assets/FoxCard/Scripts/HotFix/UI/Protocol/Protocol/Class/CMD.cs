@@ -7,6 +7,10 @@
         public const int QUERYRESOURCE = 20;
 
         public const int DAILYSIGN = 30;
+
+        public const int RECEIVEACHIEVEITEM = 40;
+
+        public const int RECEIVEACHIEVEBOX = 41;
         // //0,1   登录
         // //public const int LOGIN = (MainCmd.loginCmd << 16) + LoginCmd.loginVerify;
         //

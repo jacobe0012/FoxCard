@@ -61,5 +61,11 @@ namespace HotFix_UI
         /// </summary>
         [Key(2)]
         public int Type { get; set; }
+        
+        /// <summary>
+        /// 已领取成就Id
+        /// </summary>
+        [Key(3)]
+        public int ReceivedAchieveId { get; set; }
     }
 }
