@@ -23,7 +23,6 @@ public class WebSocketController : ControllerBase
 
     private static readonly MessagePackSerializerOptions options =
         MessagePackSerializerOptions.Standard.WithCompression(MessagePackCompression.Lz4Block);
-    //private readonly MyConfig _myConfig;
 
     public WebSocketController(IConnectionMultiplexer redis, HttpClient httpClient,
         IRedisCacheService redisCache)
