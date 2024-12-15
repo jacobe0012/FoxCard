@@ -24,9 +24,9 @@ namespace HotFix_UI
         public class Execute : EventArgs
         {
             public byte[] data;
-            public int args;
+            public string args;
 
-            internal Execute(byte[] data, int args)
+            internal Execute(byte[] data, string args)
             {
                 this.data = data;
                 this.args = args;
@@ -235,7 +235,7 @@ namespace HotFix_UI
         /// <param name="cmd"></param>
         /// <param name="subCmd"></param>
         /// <param name="data"></param>
-        public void PackageHandler(int cmd, int subCmd, byte[] data, int args = 0)
+        public void PackageHandler(int cmd, int subCmd, byte[] data, string args = "")
         {
             var mergeCmd = CmdHelper.GetMergeCmd(cmd, subCmd);
             if (!handlers.ContainsKey(mergeCmd))
@@ -262,7 +262,7 @@ namespace HotFix_UI
         }
 
         //消息分发
-        public void PackageHandler(int mergeCmd, byte[] data, int args = 0)
+        public void PackageHandler(int mergeCmd, byte[] data, string args = "")
         {
             // int cmd = CmdHelper.GetCmd(mergeCmd);
             // int subCmd = CmdHelper.GetSubCmd(mergeCmd);

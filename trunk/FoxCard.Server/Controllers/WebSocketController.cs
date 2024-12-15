@@ -10,6 +10,7 @@ using Newtonsoft.Json;
 using StackExchange.Redis;
 using System.Diagnostics;
 using FoxCard.Server.Log;
+using UnityEngine;
 
 
 namespace FoxCard.Server.Controllers;
@@ -191,7 +192,7 @@ public class WebSocketController : ControllerBase
                 playerRes.GameAchieve?.SetAchievePara(1012);
             }
 
-            await db.StringSetAsync(GetRedisDBStr(1, openId), JsonConvert.SerializeObject(playerRes));
+            await SetPlayerResDB(openId, playerRes);
 
             playerData.ThirdId = MyEncryptor.Decrypt(openId);
             var temp = playerData.OtherData;
@@ -238,13 +239,14 @@ public class WebSocketController : ControllerBase
             {
                 playerRes.LastSignTimeStamp = utclong;
                 playerRes.SignCount++;
-                await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
                 Console.WriteLine($"签到时间:{date.ToShortDateString()}");
                 var tbsignDaily = MyConfig.Tables?.Tbsign_daily.Get(date.Day);
                 if (tbsignDaily != null)
                 {
                     rewards.rewards = tbsignDaily.reward;
                 }
+
+                await SetPlayerResDB(openId, playerRes);
             }
             else
             {
@@ -285,6 +287,7 @@ public class WebSocketController : ControllerBase
                             achieveItem.ReceivedAchieveId = achieveId;
                             playerRes.GameAchieve.Score += tbtask.score;
                             rewards.rewards = tbtask.reward;
+                            await SetPlayerResDB(openId, playerRes);
                         }
 
                         break;
@@ -297,14 +300,106 @@ public class WebSocketController : ControllerBase
 
             outputContentStr = JsonConvert.SerializeObject(achieveId);
         }
+        else if (message.Cmd == CMD.RECEIVEACHIEVEBOX)
+        {
+            var rewards = new Rewards { };
+            if (!_connections.TryGetValue(webSocket, out var openId))
+            {
+                //Console.WriteLine($"webSocket:{webSocket.} not found");
+                //用户未登记
+                message.ErrorCode = 1001;
+            }
+
+            var db = _redis.GetDatabase();
+
+            var redisKey = GetRedisDBStr(1, openId);
+            var rv = await db.StringGetAsync(redisKey);
+            var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
+
+
+            var achieveBoxId = MessagePackSerializer.Deserialize<int>(message.Content, options);
+            var tbtask_score = MyConfig.Tables?.Tbtask_score.GetOrDefault(achieveBoxId);
+
+            if (tbtask_score != null && playerRes != null)
+            {
+                switch (tbtask_score.tagFunc)
+                {
+                    case 3604:
+                        if (playerRes.GameAchieve.Score >= tbtask_score.score &&
+                            !playerRes.GameAchieve.AchieveRewardBoxList.Contains(achieveBoxId))
+                        {
+                            rewards.rewards = tbtask_score.reward;
+                            await SetPlayerResDB(openId, playerRes);
+                        }
+
+                        break;
+                }
+            }
+
+            message.Content =
+                MessagePackSerializer.Serialize(rewards, options);
+
+            outputContentStr = JsonConvert.SerializeObject(achieveBoxId);
+        }
+        else if (message.Cmd == CMD.RECEIVEMAILITEM)
+        {
+            var rewards = new Rewards { };
+            if (!_connections.TryGetValue(webSocket, out var openId))
+            {
+                //Console.WriteLine($"webSocket:{webSocket.} not found");
+                //用户未登记
+                message.ErrorCode = 1001;
+            }
+
+            var db = _redis.GetDatabase();
+
+            var redisKey = GetRedisDBStr(1, openId);
+            var rv = await db.StringGetAsync(redisKey);
+            var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
+
+
+            var mailId = MessagePackSerializer.Deserialize<int>(message.Content, options);
+            foreach (var item in playerRes.GameMail.MailItems)
+            {
+                if (item.Id == mailId && item.State == 0)
+                {
+                    var tbmail = MyConfig.Tables?.Tbmail.GetOrDefault(item.TemplateId);
+                    if (tbmail != null)
+                    {
+                        rewards.rewards = tbmail.reward;
+                    }
+
+                    item.State = 1;
+                    await SetPlayerResDB(openId, playerRes);
+                    break;
+                }
+            }
+
+            message.Content =
+                MessagePackSerializer.Serialize(rewards, options);
+
+            outputContentStr = JsonConvert.SerializeObject(mailId);
+        }
 
         stopwatch.Stop();
         string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
 
-        MyLogger.Log(_connections[webSocket], inputContentStr,
-            $"CMD:{message.Cmd},ErrorCode:{errorStr},Content:{outputContentStr}",
+        MyLogger.Log(message.Cmd.ToString(), _connections[webSocket], inputContentStr,
+            $"ErrorCode:{errorStr},Content:{outputContentStr}",
             stopwatch);
         return message;
+    }
+
+    private async Task SetPlayerResDB(string openId, PlayerResource playerRes)
+    {
+        var db = _redis.GetDatabase();
+        var redisKey = GetRedisDBStr(1, openId);
+        await db.StringSetAsync(redisKey, JsonConvert.SerializeObject(playerRes));
+    }
+
+    private long GetCurrentUtcLong()
+    {
+        return DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
     }
 
     /// <summary>
@@ -347,11 +442,9 @@ public class WebSocketController : ControllerBase
     /// <param name="openId"></param>
     private PlayerResource InitPlayerResource()
     {
-        var itemInfos = MyConfig.Tables?.Tbitem.DataList.Where(a => a.initEnable == 1).Select(item => new ItemInfo
-        {
-            ItemId = item.id,
-            Count = 1
-        }).ToList();
+        var itemInfos = MyConfig.Tables?.Tbitem.DataList.Where(a => a.initEnable == 1)
+            .Select(item => new Vector3(item.id, 1, 0)).ToList();
+
         var initAchieveItemList = MyConfig.Tables?.Tbtask.DataList
             .GroupBy(item => item.group) // 根据 group 分组
             .Select(group => new AchieveItem // 直接创建 AchieveItem 对象
@@ -362,7 +455,14 @@ public class WebSocketController : ControllerBase
             })
             .ToList(); // 转换为 List
 
-
+        List<MailItem> mailItems = new List<MailItem>();
+        mailItems.Add(new MailItem
+        {
+            Id = 1001,
+            TemplateId = 10001,
+            State = 0,
+            SendTimeStamp = GetCurrentUtcLong()
+        });
         var playerRes = new PlayerResource
         {
             ItemList = itemInfos,
@@ -376,6 +476,10 @@ public class WebSocketController : ControllerBase
                 AchieveItemList = initAchieveItemList,
                 Score = 0,
                 AchieveRewardBoxList = new List<int>()
+            },
+            GameMail = new GameMail
+            {
+                MailItems = mailItems
             }
         };
         return playerRes;
@@ -444,8 +548,8 @@ public class WebSocketController : ControllerBase
             stopwatch.Stop();
             string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
 
-            MyLogger.Log(_connections[webSocket], $"ToUser:{openId}",
-                $"CMD:{message.Cmd},ErrorCode:{errorStr},Content:",
+            MyLogger.Log(message.Cmd.ToString(), _connections[webSocket], $"ToUser:{openId}",
+                $"ErrorCode:{errorStr},Content:",
                 stopwatch);
         }
         else

@@ -160,10 +160,10 @@ namespace Main
                 YooAssets.Initialize();
             }
 
-#if UNITY_WEBGL
-            YooAssets.SetCacheSystemDisableCacheOnWebGL();
-            Debug.Log($"UNITY_WEBGL_YooAssets");
-#endif
+// #if UNITY_WEBGL
+//             YooAssets.SetCacheSystemDisableCacheOnWebGL();
+//             Debug.Log($"UNITY_WEBGL_YooAssets");
+// #endif
 
             ResourcePackage package = YooAssets.TryGetPackage("DefaultPackage");
             if (!YooAssets.ContainsPackage("DefaultPackage"))
@@ -179,28 +179,44 @@ namespace Main
                 if (PlayMode == EPlayMode.EditorSimulateMode)
                 {
                     //编辑器模拟模式
+                    var buildPipeline = EDefaultBuildPipeline.BuiltinBuildPipeline;
+                    var simulateBuildResult = EditorSimulateModeHelper.SimulateBuild(buildPipeline, "DefaultPackage");
+                    var editorFileSystem =
+                        FileSystemParameters.CreateDefaultEditorFileSystemParameters(simulateBuildResult);
                     var initParameters = new EditorSimulateModeParameters();
-                    initParameters.SimulateManifestFilePath =
-                        EditorSimulateModeHelper.SimulateBuild("BuiltinBuildPipeline",
-                            "DefaultPackage");
+                    initParameters.EditorFileSystemParameters = editorFileSystem;
+
+                    // var initParameters = new EditorSimulateModeParameters();
+                    // initParameters.EditorFileSystemParameters =
+                    //     EditorSimulateModeHelper.SimulateBuild("BuiltinBuildPipeline",
+                    //         "DefaultPackage");
                     //package.InitializeStatus == EOperationStatus.Succeed
                     await package.InitializeAsync(initParameters).ToUniTask();
                 }
                 else if (PlayMode == EPlayMode.HostPlayMode)
                 {
 #if UNITY_WEBGL
+#if WEIXINMINIGAME
+                    IRemoteServices remoteServices = new RemoteServices(DefaultHostServer, FallbackHostServer);
+                    var webFileSystem = WechatFileSystemCreater.CreateWechatFileSystemParameters(remoteServices);
                     var initParameters = new WebPlayModeParameters();
-                    initParameters.BuildinQueryServices =
-                        new GameQueryServices();
-                    initParameters.RemoteServices = new RemoteServices(DefaultHostServer, FallbackHostServer);
+                    initParameters.WebFileSystemParameters = webFileSystem;
+
 
 #else
+                    var webFileSystem = FileSystemParameters.CreateDefaultWebFileSystemParameters();
+                    var initParameters = new WebPlayModeParameters();
+                    initParameters.WebFileSystemParameters = webFileSystem;
+#endif
+
+
+#else
+                    IRemoteServices remoteServices = new RemoteServices(DefaultHostServer, FallbackHostServer);
+                    var cacheFileSystem = FileSystemParameters.CreateDefaultCacheFileSystemParameters(remoteServices);
+                    var buildinFileSystem = FileSystemParameters.CreateDefaultBuildinFileSystemParameters();   
                     var initParameters = new HostPlayModeParameters();
-                    initParameters.BuildinQueryServices =
-                        new GameQueryServices(); //太空战机DEMO的脚本类，详细见StreamingAssetsHelper
-                    // initParameters.DeliveryQueryServices = new DeliveryQueryServices();
-                    //initParameters.DecryptionServices = new GameDecryptionServices();
-                    initParameters.RemoteServices = new RemoteServices(DefaultHostServer, FallbackHostServer);
+                    initParameters.BuildinFileSystemParameters = buildinFileSystem; 
+                    initParameters.CacheFileSystemParameters = cacheFileSystem;
 #endif
 
 
@@ -214,7 +230,9 @@ namespace Main
                 else if (PlayMode == EPlayMode.OfflinePlayMode)
                 {
                     //单机模式
+                    var buildinFileSystem = FileSystemParameters.CreateDefaultBuildinFileSystemParameters();
                     var initParameters = new OfflinePlayModeParameters();
+                    initParameters.BuildinFileSystemParameters = buildinFileSystem;
 
 
                     await package.InitializeAsync(initParameters).ToUniTask();
@@ -222,7 +240,7 @@ namespace Main
             }
 
             //2.获取资源版本
-            var operation = package.UpdatePackageVersionAsync();
+            var operation = package.RequestPackageVersionAsync();
             await operation.ToUniTask();
             if (operation.Status != EOperationStatus.Succeed)
             {

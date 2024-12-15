@@ -265,7 +265,7 @@ namespace XFramework
         {
             Log.Debug("UnloadUnusedAssets");
             var package = YooAssets.GetPackage("DefaultPackage");
-            package.UnloadUnusedAssets();
+            package.UnloadUnusedAssetsAsync();
         }
 
         /// <summary>

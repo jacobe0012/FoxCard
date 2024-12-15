@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "tag_1_name",
+    "icon": "icon_tag_1",
+    "sort": 1,
+    "init": 0,
+    "goto_yn": 1
+  },
+  {
+    "id": 2,
+    "name": "tag_2_name",
+    "icon": "icon_tag_2",
+    "sort": 2,
+    "init": 0,
+    "goto_yn": 1
+  },
+  {
+    "id": 3,
+    "name": "tag_3_name",
+    "icon": "icon_tag_3",
+    "sort": 3,
+    "init": 1,
+    "goto_yn": 0
+  },
+  {
+    "id": 4,
+    "name": "tag_4_name",
+    "icon": "icon_tag_4",
+    "sort": 4,
+    "init": 0,
+    "goto_yn": 1
+  },
+  {
+    "id": 5,
+    "name": "tag_5_name",
+    "icon": "icon_tag_5",
+    "sort": 5,
+    "init": 0,
+    "goto_yn": 0
+  }
+]

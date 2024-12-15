@@ -5,7 +5,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "59bc259cc88898425620535d282192503ba99399"
+      "hash": "4d0fef095b5af314b06e204ea0f6c17681f3ec3c"
     },
     "com.gwiazdorrr.betterstreamingassets": {
       "version": "file:com.gwiazdorrr.betterstreamingassets",
@@ -27,7 +27,7 @@
       "dependencies": {}
     },
     "com.tuyoogame.yooasset": {
-      "version": "2.1.2",
+      "version": "2.2.4-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {

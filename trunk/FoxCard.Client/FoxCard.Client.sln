@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask", "UniTask.csproj",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniTask.Linq", "UniTask.Linq.csproj", "{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YooAsset.RuntimeExtension", "YooAsset.RuntimeExtension.csproj", "{1c235d5a-37c8-2352-aaeb-cda804249445}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagePack", "MessagePack.csproj", "{edc6916c-ec95-092f-8fa1-69ecaa444f8d}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityWebSocket.Runtime", "UnityWebSocket.Runtime.csproj", "{edf6272e-557b-5be1-113f-3ba94106c41d}"
@@ -68,6 +70,8 @@ Global
 		{9b23b381-f432-078e-1664-9d2364225294}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1c235d5a-37c8-2352-aaeb-cda804249445}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1c235d5a-37c8-2352-aaeb-cda804249445}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{edc6916c-ec95-092f-8fa1-69ecaa444f8d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{edc6916c-ec95-092f-8fa1-69ecaa444f8d}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{edf6272e-557b-5be1-113f-3ba94106c41d}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

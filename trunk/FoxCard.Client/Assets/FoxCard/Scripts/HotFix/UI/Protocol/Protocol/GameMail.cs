@@ -26,7 +26,7 @@ namespace HotFix_UI
         public int TemplateId { get; set; }
 
         /// <summary>
-        /// 邮件状态
+        /// 邮件状态  0未读/未领 1已读/已领
         /// </summary>
         [Key(2)]
         public int State { get; set; }

@@ -33,8 +33,10 @@
     <type fullname="MessagePack.FormatterResolverExtensions" preserve="all" />
     <type fullname="MessagePack.Formatters.IMessagePackFormatter" preserve="all" />
     <type fullname="MessagePack.Formatters.IMessagePackFormatter`1" preserve="all" />
+    <type fullname="MessagePack.Formatters.ListFormatter`1" preserve="all" />
     <type fullname="MessagePack.IFormatterResolver" preserve="all" />
     <type fullname="MessagePack.Internal.CodeGenHelpers" preserve="all" />
+    <type fullname="MessagePack.MessagePackCompression" preserve="all" />
     <type fullname="MessagePack.MessagePackReader" preserve="all" />
     <type fullname="MessagePack.MessagePackSecurity" preserve="all" />
     <type fullname="MessagePack.MessagePackSerializer" preserve="all" />
@@ -93,9 +95,11 @@
     <type fullname="Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskMethodBuilder`1" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.CompilerServices.AsyncUniTaskVoidMethodBuilder" preserve="all" />
+    <type fullname="Cysharp.Threading.Tasks.EnumeratorAsyncExtensions" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.PlayerLoopTiming" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask/Awaiter" preserve="all" />
+    <type fullname="Cysharp.Threading.Tasks.UniTaskCompletionSource`1" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTaskExtensions" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTaskVoid" preserve="all" />
     <type fullname="Cysharp.Threading.Tasks.UniTask`1" preserve="all" />
@@ -136,7 +140,6 @@
     <type fullname="UnityEngine.Color32" preserve="all" />
     <type fullname="UnityEngine.ColorUtility" preserve="all" />
     <type fullname="UnityEngine.Component" preserve="all" />
-    <type fullname="UnityEngine.Debug" preserve="all" />
     <type fullname="UnityEngine.DefaultExecutionOrder" preserve="all" />
     <type fullname="UnityEngine.DisallowMultipleComponent" preserve="all" />
     <type fullname="UnityEngine.Events.UnityAction" preserve="all" />
@@ -145,6 +148,7 @@
     <type fullname="UnityEngine.Events.UnityEventBase" preserve="all" />
     <type fullname="UnityEngine.Events.UnityEvent`1" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.HeaderAttribute" preserve="all" />
     <type fullname="UnityEngine.HideInInspector" preserve="all" />
     <type fullname="UnityEngine.ISerializationCallbackReceiver" preserve="all" />
     <type fullname="UnityEngine.LayerMask" preserve="all" />
@@ -163,6 +167,7 @@
     <type fullname="UnityEngine.RuntimeInitializeLoadType" preserve="all" />
     <type fullname="UnityEngine.RuntimeInitializeOnLoadMethodAttribute" preserve="all" />
     <type fullname="UnityEngine.SceneManagement.LoadSceneMode" preserve="all" />
+    <type fullname="UnityEngine.SceneManagement.LocalPhysicsMode" preserve="all" />
     <type fullname="UnityEngine.Screen" preserve="all" />
     <type fullname="UnityEngine.Serialization.FormerlySerializedAsAttribute" preserve="all" />
     <type fullname="UnityEngine.SerializeField" preserve="all" />
@@ -238,6 +243,9 @@
     <type fullname="UnityEngine.Networking.UnityWebRequestAsyncOperation" preserve="all" />
   </assembly>
   <assembly fullname="UnityWebSocket.Runtime">
+    <type fullname="UnityWebSocket.CloseEventArgs" preserve="all" />
+    <type fullname="UnityWebSocket.ErrorEventArgs" preserve="all" />
+    <type fullname="UnityWebSocket.MessageEventArgs" preserve="all" />
     <type fullname="UnityWebSocket.OpenEventArgs" preserve="all" />
     <type fullname="UnityWebSocket.WebSocket" preserve="all" />
   </assembly>
@@ -254,11 +262,8 @@
     <type fullname="YooAsset.ResourcePackage" preserve="all" />
     <type fullname="YooAsset.SceneHandle" preserve="all" />
     <type fullname="YooAsset.UnloadSceneOperation" preserve="all" />
+    <type fullname="YooAsset.UnloadUnusedAssetsOperation" preserve="all" />
     <type fullname="YooAsset.YooAssets" preserve="all" />
-  </assembly>
-  <assembly fullname="com.Tivadar.Best.SignalR">
-    <type fullname="Best.SignalR.HubConnection" preserve="all" />
-    <type fullname="Best.SignalR.Messages.Message" preserve="all" />
   </assembly>
   <assembly fullname="mscorlib">
     <type fullname="System.Action" preserve="all" />
@@ -309,6 +314,8 @@
     <type fullname="System.Double" preserve="all" />
     <type fullname="System.Enum" preserve="all" />
     <type fullname="System.Environment" preserve="all" />
+    <type fullname="System.EventArgs" preserve="all" />
+    <type fullname="System.EventHandler" preserve="all" />
     <type fullname="System.EventHandler`1" preserve="all" />
     <type fullname="System.Exception" preserve="all" />
     <type fullname="System.Func`1" preserve="all" />
@@ -351,11 +358,13 @@
     <type fullname="System.OperationCanceledException" preserve="all" />
     <type fullname="System.ParamArrayAttribute" preserve="all" />
     <type fullname="System.Random" preserve="all" />
+    <type fullname="System.ReadOnlyMemory`1" preserve="all" />
     <type fullname="System.Reflection.Assembly" preserve="all" />
     <type fullname="System.Reflection.AssemblyName" preserve="all" />
     <type fullname="System.Reflection.DefaultMemberAttribute" preserve="all" />
     <type fullname="System.Reflection.FieldInfo" preserve="all" />
     <type fullname="System.Reflection.MemberInfo" preserve="all" />
+    <type fullname="System.Reflection.MethodInfo" preserve="all" />
     <type fullname="System.Reflection.PropertyInfo" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.AsyncMethodBuilderAttribute" preserve="all" />
     <type fullname="System.Runtime.CompilerServices.AsyncStateMachineAttribute" preserve="all" />

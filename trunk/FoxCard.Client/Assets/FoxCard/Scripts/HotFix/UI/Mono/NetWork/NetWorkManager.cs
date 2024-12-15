@@ -61,7 +61,7 @@ namespace HotFix_UI
             File.WriteAllText(savePath, json);
         }
 
-// 断线重连间隔（单位：秒）
+        // 断线重连间隔（单位：秒）
         private const float reconnectInterval = 2f;
 
         // 最大重连次数
@@ -136,7 +136,7 @@ namespace HotFix_UI
                 LocationData = default,
                 OtherData = new OtherData
                 {
-                    Code = "aa8",
+                    Code = "aa9",
                     UnionidId = null
                 }
             });
@@ -161,9 +161,11 @@ namespace HotFix_UI
 
             if (message.Cmd == CMD.LOGIN)
             {
-                SendMessage(CMD.DAILYSIGN, 4);
+                SendMessage(CMD.DAILYSIGN);
                 SendMessage(CMD.QUERYRESOURCE);
-                SendMessage(CMD.RECEIVEACHIEVEITEM, 301001, 1);
+                SendMessage(CMD.RECEIVEACHIEVEITEM, 301001);
+                SendMessage(CMD.RECEIVEACHIEVEBOX, 101);
+                SendMessage(CMD.RECEIVEMAILITEM, 1001);
             }
 
             if (message.Cmd == CMD.DAILYSIGN)
@@ -347,7 +349,7 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        public void SendMessage(int cmd, int args = 0)
+        public void SendMessage(int cmd, string args = "")
         {
             var myExternalMessage = new MyMessage
             {
@@ -364,7 +366,7 @@ namespace HotFix_UI
         /// <param name="subCmd">业务子路由</param>
         /// <param name="protoMessage">发送的proto消息类</param>
         /// <typeparam name="T"></typeparam>
-        public void SendMessage<T>(int Cmd, T protoMessage, int args = 0)
+        public void SendMessage<T>(int Cmd, T protoMessage, string args = "")
         {
             var myExternalMessage = new MyMessage
             {

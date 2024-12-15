@@ -23,6 +23,13 @@
         /// 领取成就宝箱
         /// </summary>
         public const int RECEIVEACHIEVEBOX = 41;
+        
+        /// <summary>
+        /// 领取邮件
+        /// </summary>
+        public const int RECEIVEMAILITEM = 50;
+        
+        
         // //0,1   登录
         // //public const int LOGIN = (MainCmd.loginCmd << 16) + LoginCmd.loginVerify;
         //

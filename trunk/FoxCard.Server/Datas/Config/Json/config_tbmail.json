@@ -1,0 +1,227 @@
+[
+  {
+    "telempate_id": 10001,
+    "type": 1,
+    "title_gm": "测试-文本类",
+    "content_gm": "Test",
+    "para": [],
+    "valid": 1,
+    "reward": []
+  },
+  {
+    "telempate_id": 20001,
+    "type": 2,
+    "title_gm": "测试-附件类",
+    "content_gm": "Test-Reward",
+    "para": [],
+    "valid": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 10
+      }
+    ]
+  },
+  {
+    "telempate_id": 10002,
+    "type": 1,
+    "title_gm": "停机维护通知-文本类",
+    "content_gm": "Test-{0} min , {1} apple {2} banana {3} orange",
+    "para": [
+      "10",
+      "1",
+      "2",
+      "3"
+    ],
+    "valid": 3,
+    "reward": []
+  },
+  {
+    "telempate_id": 20002,
+    "type": 2,
+    "title_gm": "停机维护补偿-附件类",
+    "content_gm": "Test-{0} coin",
+    "para": [
+      "200"
+    ],
+    "valid": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 200
+      }
+    ]
+  },
+  {
+    "telempate_id": 20003,
+    "type": 2,
+    "title_gm": "Test补偿包",
+    "content_gm": "Test-Reward package",
+    "para": [],
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 9999
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 88888
+      }
+    ]
+  },
+  {
+    "telempate_id": 30001,
+    "type": 2,
+    "title_gm": "停机维护补偿-附件类",
+    "content_gm": "Test-Reward package",
+    "para": [
+      "30001"
+    ],
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 3333
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 3333
+      },
+      {
+        "x": 5,
+        "y": 1020005,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "telempate_id": 30002,
+    "type": 2,
+    "title_gm": "停机维护补偿-附件类",
+    "content_gm": "Test-Reward package",
+    "para": [
+      "30002"
+    ],
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 5555
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 5555
+      },
+      {
+        "x": 5,
+        "y": 1020006,
+        "z": 5
+      },
+      {
+        "x": 11,
+        "y": 600,
+        "z": 4
+      },
+      {
+        "x": 11,
+        "y": 651,
+        "z": 11
+      }
+    ]
+  },
+  {
+    "telempate_id": 30003,
+    "type": 2,
+    "title_gm": "停机维护补偿-附件类",
+    "content_gm": "Test-Reward package",
+    "para": [
+      "30003"
+    ],
+    "valid": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 1
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "telempate_id": 30004,
+    "type": 2,
+    "title_gm": "停机维护补偿-附件类",
+    "content_gm": "Test-Reward package",
+    "para": [
+      "30004"
+    ],
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 5
+      }
+    ]
+  },
+  {
+    "telempate_id": 20004,
+    "type": 2,
+    "title_gm": "累计签到奖励补发",
+    "content_gm": "这是您之前未领取的累计签到奖励。",
+    "para": [],
+    "valid": 14,
+    "reward": []
+  },
+  {
+    "telempate_id": 20005,
+    "type": 2,
+    "title_gm": "分享成功奖励",
+    "content_gm": "分享成功,奖励100比特币",
+    "para": [],
+    "valid": 14,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 100
+      }
+    ]
+  },
+  {
+    "telempate_id": 20006,
+    "type": 2,
+    "title_gm": "活动未领取奖励",
+    "content_gm": "这是您在活动中尚未领取的奖励",
+    "para": [],
+    "valid": 14,
+    "reward": []
+  },
+  {
+    "telempate_id": 20007,
+    "type": 2,
+    "title_gm": "活动剩余道具",
+    "content_gm": "您在活动中没有消耗完的道具已经自动转化为钞票",
+    "para": [],
+    "valid": 14,
+    "reward": []
+  }
+]

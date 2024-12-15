@@ -4,6 +4,7 @@
 // Time: 2023-07-18 16:15:10
 //---------------------------------------------------------------------
 
+using System;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using HybridCLR;
@@ -28,12 +29,13 @@ namespace HotFix_Logic
             "Newtonsoft.Json.dll",
             "YooAsset.dll",
             "Wx.dll",
-            "com.Tivadar.Best.HTTP.dll",
-            "com.Tivadar.Best.SignalR.dll",
-            //"com.Tivadar.Best.TLSSecurity.dll",
-            "com.Tivadar.Best.WebSockets.dll",
+            // "com.Tivadar.Best.HTTP.dll",
+            // "com.Tivadar.Best.SignalR.dll",
+            // //"com.Tivadar.Best.TLSSecurity.dll",
+            // "com.Tivadar.Best.WebSockets.dll",
             "MessagePack.dll",
-            "UnityWebSocket.Runtime.dll"
+            "UnityWebSocket.Runtime.dll",
+            //"YooAsset.RuntimeExtension.dll"
         };
 
         /// <summary>
@@ -52,9 +54,13 @@ namespace HotFix_Logic
                 AssetHandle handle =
                     package.LoadAssetAsync<TextAsset>($"Assets/{Application.productName}/HotFixDlls/" + aotDllName +
                                                       ".bytes");
-                await handle.ToUniTask();
+                if (handle == null)
+                {
+                    continue;
+                }
 
-                if (!handle.IsValid)
+                await handle.ToUniTask();
+                if (!handle.IsValid || handle.AssetObject == null)
                 {
                     continue;
                 }

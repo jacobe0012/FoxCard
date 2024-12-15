@@ -12,6 +12,6 @@ namespace HotFix_UI
 
         [Key(2)] public int ErrorCode { get; set; }
         
-        [Key(3)] public int Args { get; set; }
+        [Key(3)] public string Args { get; set; }
     }
 }

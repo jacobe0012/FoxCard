@@ -1,0 +1,240 @@
+[
+  {
+    "telempate_id": 10001,
+    "type": 1,
+    "title": "mail_10001_title",
+    "content": "mail_10001_content",
+    "para": [],
+    "from": "mail_from_sys_1",
+    "valid": 1,
+    "reward": []
+  },
+  {
+    "telempate_id": 20001,
+    "type": 2,
+    "title": "mail_20001_title",
+    "content": "mail_20001_content",
+    "para": [],
+    "from": "mail_from_sys_2",
+    "valid": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 10
+      }
+    ]
+  },
+  {
+    "telempate_id": 10002,
+    "type": 1,
+    "title": "mail_10002_title",
+    "content": "mail_10002_content",
+    "para": [
+      "10",
+      "1",
+      "2",
+      "3"
+    ],
+    "from": "mail_from_sys_3",
+    "valid": 3,
+    "reward": []
+  },
+  {
+    "telempate_id": 20002,
+    "type": 2,
+    "title": "mail_20002_title",
+    "content": "mail_20002_content",
+    "para": [
+      "200"
+    ],
+    "from": "mail_from_sys_4",
+    "valid": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 200
+      }
+    ]
+  },
+  {
+    "telempate_id": 20003,
+    "type": 2,
+    "title": "mail_20003_title",
+    "content": "mail_20003_content",
+    "para": [],
+    "from": "mail_from_sys_5",
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 9999
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 88888
+      }
+    ]
+  },
+  {
+    "telempate_id": 30001,
+    "type": 2,
+    "title": "mail_20002_title",
+    "content": "mail_20003_content",
+    "para": [
+      "30001"
+    ],
+    "from": "mail_from_sys_5",
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 3333
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 3333
+      },
+      {
+        "x": 5,
+        "y": 1020005,
+        "z": 2
+      }
+    ]
+  },
+  {
+    "telempate_id": 30002,
+    "type": 2,
+    "title": "mail_20002_title",
+    "content": "mail_20003_content",
+    "para": [
+      "30002"
+    ],
+    "from": "mail_from_sys_5",
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 5555
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 5555
+      },
+      {
+        "x": 5,
+        "y": 1020006,
+        "z": 5
+      },
+      {
+        "x": 11,
+        "y": 600,
+        "z": 4
+      },
+      {
+        "x": 11,
+        "y": 651,
+        "z": 11
+      }
+    ]
+  },
+  {
+    "telempate_id": 30003,
+    "type": 2,
+    "title": "mail_20002_title",
+    "content": "mail_20003_content",
+    "para": [
+      "30003"
+    ],
+    "from": "mail_from_sys_5",
+    "valid": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 1
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 1
+      }
+    ]
+  },
+  {
+    "telempate_id": 30004,
+    "type": 2,
+    "title": "mail_20002_title",
+    "content": "mail_20003_content",
+    "para": [
+      "30004"
+    ],
+    "from": "mail_from_sys_5",
+    "valid": 5,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 5
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "z": 5
+      }
+    ]
+  },
+  {
+    "telempate_id": 20004,
+    "type": 2,
+    "title": "mail_20004_title",
+    "content": "mail_20004_content",
+    "para": [],
+    "from": "mail_from_sys_1",
+    "valid": 14,
+    "reward": []
+  },
+  {
+    "telempate_id": 20005,
+    "type": 2,
+    "title": "mail_20005_title",
+    "content": "mail_20005_content",
+    "para": [],
+    "from": "mail_from_sys_1",
+    "valid": 14,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 100
+      }
+    ]
+  },
+  {
+    "telempate_id": 20006,
+    "type": 2,
+    "title": "mail_20006_title",
+    "content": "mail_20006_content",
+    "para": [],
+    "from": "mail_from_sys_1",
+    "valid": 14,
+    "reward": []
+  },
+  {
+    "telempate_id": 20007,
+    "type": 2,
+    "title": "mail_20007_title",
+    "content": "mail_20007_content",
+    "para": [],
+    "from": "mail_from_sys_1",
+    "valid": 14,
+    "reward": []
+  }
+]

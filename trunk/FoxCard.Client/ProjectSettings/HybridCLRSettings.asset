@@ -35,11 +35,9 @@ MonoBehaviour:
   - YooAsset
   - UnityEngine.CoreModule
   - Wx
-  - com.Tivadar.Best.HTTP
-  - com.Tivadar.Best.SignalR
-  - com.Tivadar.Best.WebSockets
   - MessagePack
   - UnityWebSocket.Runtime
+  - YooAsset.RuntimeExtension
   outputLinkFile: HybridCLRGenerate/link.xml
   outputAOTGenericReferenceFile: HybridCLRGenerate/AOTGenericReferences.cs
   maxGenericReferenceIteration: 10

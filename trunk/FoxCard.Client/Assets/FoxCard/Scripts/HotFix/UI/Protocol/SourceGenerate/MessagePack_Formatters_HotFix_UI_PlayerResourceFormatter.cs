@@ -29,7 +29,7 @@ namespace MessagePack.Formatters.HotFix_UI
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
             writer.WriteArrayHeader(8);
-            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<UnityEngine.Vector3>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
             writer.Write(value.LastSignTimeStamp);
             writer.Write(value.SignCount);
             writer.Write(value.LastLoginTimeStamp);
@@ -56,7 +56,7 @@ namespace MessagePack.Formatters.HotFix_UI
                 switch (i)
                 {
                     case 0:
-                        ____result.ItemList = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<global::HotFix_UI.ItemInfo>>(formatterResolver).Deserialize(ref reader, options);
+                        ____result.ItemList = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<UnityEngine.Vector3>>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     case 1:
                         ____result.LastSignTimeStamp = reader.ReadInt64();

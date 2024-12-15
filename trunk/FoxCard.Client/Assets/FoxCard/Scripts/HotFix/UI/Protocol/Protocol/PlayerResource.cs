@@ -12,7 +12,7 @@ namespace HotFix_UI
         /// 用户item资产
         /// </summary>
         [Key(0)]
-        public List<ItemInfo> ItemList { get; set; }
+        public List<UnityEngine.Vector3> ItemList { get; set; }
 
         /// <summary>
         /// 签到时间戳 ms
@@ -63,19 +63,19 @@ namespace HotFix_UI
         }
     }
 
-    [MessagePackObject]
-    public class ItemInfo : IMessagePack
-    {
-        /// <summary>
-        /// 用户itemId
-        /// </summary>
-        [Key(0)]
-        public int ItemId { get; set; }
-
-        /// <summary>
-        /// 用户item数量
-        /// </summary>
-        [Key(1)]
-        public int Count { get; set; }
-    }
+    // [MessagePackObject]
+    // public class ItemInfo : IMessagePack
+    // {
+    //     /// <summary>
+    //     /// 用户itemId
+    //     /// </summary>
+    //     [Key(0)]
+    //     public int ItemId { get; set; }
+    //
+    //     /// <summary>
+    //     /// 用户item数量
+    //     /// </summary>
+    //     [Key(1)]
+    //     public int Count { get; set; }
+    // }
 }
