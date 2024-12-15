@@ -48,17 +48,17 @@
   <ItemGroup>
     <Compile Include="Assets\Editor\UI\UI\XImageEditor.cs" />
     <Compile Include="Assets\Editor\UI\Load\UIOnLoadMethod.cs" />
+    <Compile Include="Assets\Editor\UI\Reference\UIReferenceSetting.cs" />
     <Compile Include="Assets\Editor\UI\UI\XTextEditor.cs" />
     <Compile Include="Assets\Editor\Jenkins\JenkinsBuildTools.cs" />
     <Compile Include="Assets\Editor\HybridCLR\BuildPlayerCommand.cs" />
+    <Compile Include="Assets\Editor\UI\UI\XButtonEditor.cs" />
     <Compile Include="Assets\Editor\HybridCLR\BuildAssetsCommand.cs" />
+    <Compile Include="Assets\Editor\UI\UI\CreateSpriteAtlas.cs" />
     <Compile Include="Assets\Editor\UI\Reference\UIReferenceEditor.cs" />
     <Compile Include="Assets\Editor\UI\Reference\ReferenceEditor.cs" />
     <Compile Include="Assets\Editor\UI\UI\XTextMeshProUGUIEditor.cs" />
     <Compile Include="Assets\Editor\UI\UI\XTextMeshProEditor.cs" />
-    <Compile Include="Assets\Editor\UI\Reference\UIReferenceSetting.cs" />
-    <Compile Include="Assets\Editor\UI\UI\XButtonEditor.cs" />
-    <Compile Include="Assets\Editor\UI\UI\CreateSpriteAtlas.cs" />
     <Compile Include="Assets\Editor\UI\UI\UIStructureEditor.cs" />
     <Compile Include="Assets\Editor\UI\Reference\UIReferenceConfig.cs" />
     <Reference Include="UnityEngine">
@@ -448,9 +448,6 @@
     <Reference Include="Unity.FontABTool">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.NET.StringTools">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\Microsoft.NET.StringTools.dll</HintPath>
     </Reference>
@@ -489,6 +486,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
@@ -991,6 +991,10 @@
       <Project>{e2b615df-a75e-7524-aee7-dc5fb506face}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
+    <ProjectReference Include="UnityWebSocket.Editor.csproj">
+      <Project>{0d35c1df-16bd-1cdd-0959-8f0cdabe03e0}</Project>
+      <Name>UnityWebSocket.Editor</Name>
+    </ProjectReference>
     <ProjectReference Include="UniTask.Linq.csproj">
       <Project>{fb2e41d0-959e-bac4-b4a4-c0866553c8e8}</Project>
       <Name>UniTask.Linq</Name>
@@ -998,10 +1002,6 @@
     <ProjectReference Include="UniTask.DOTween.csproj">
       <Project>{58a14799-8c75-e0ea-3383-3af01031f2f1}</Project>
       <Name>UniTask.DOTween</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityWebSocket.Editor.csproj">
-      <Project>{0d35c1df-16bd-1cdd-0959-8f0cdabe03e0}</Project>
-      <Name>UnityWebSocket.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="com.logviewer.editor.csproj">
       <Project>{58e313a5-d80f-79dc-ff04-96b8f2574ede}</Project>

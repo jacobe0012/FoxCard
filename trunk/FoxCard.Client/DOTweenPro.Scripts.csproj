@@ -46,12 +46,12 @@
     <Analyzer Include="D:\UNITYEDITOR\6000.0.29f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTextMeshPro.cs" />
     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenTk2d.cs" />
     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenAnimation.cs" />
     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeUnityExtended.cs" />
     <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenProShortcuts.cs" />
+    <Compile Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenDeAudio.cs" />
     <None Include="Assets\Plugins\Demigiant\DOTweenPro\readme.txt" />
     <None Include="Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.Scripts.asmdef" />
     <Reference Include="UnityEngine">
@@ -423,9 +423,6 @@
     <Reference Include="Unity.FontABTool">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.NET.StringTools">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\Microsoft.NET.StringTools.dll</HintPath>
     </Reference>
@@ -464,6 +461,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>

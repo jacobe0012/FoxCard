@@ -46,9 +46,9 @@
     <Analyzer Include="D:\UNITYEDITOR\6000.0.29f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\ThirdParty\LoopScrollRect\Editor\LoopScrollRectInspector.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\ThirdParty\LoopScrollRect\Editor\SGDefaultControls.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\ThirdParty\LoopScrollRect\Editor\SGMenuOptions.cs" />
-    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\ThirdParty\LoopScrollRect\Editor\LoopScrollRectInspector.cs" />
     <None Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\ThirdParty\LoopScrollRect\Editor\LoopScrollRect.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:\UNITYEDITOR\6000.0.29f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -437,9 +437,6 @@
     <Reference Include="Unity.FontABTool">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.qq.weixin.minigame\Runtime\Plugins\Unity.FontABTool.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.NET.StringTools">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\Microsoft.NET.StringTools.dll</HintPath>
     </Reference>
@@ -478,6 +475,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Library\PackageCache\com.unity.visualscripting\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\MessagePack\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
     <Reference Include="DOTweenPro">
       <HintPath>D:\GitProjects\FoxCard\trunk\FoxCard.Client\Assets\Plugins\Demigiant\DOTweenPro\DOTweenPro.dll</HintPath>
