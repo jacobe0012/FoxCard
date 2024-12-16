@@ -19,9 +19,9 @@ namespace Main
     public class LoadDllMono : MonoBehaviour
     {
         // 资源系统运行模式
-        public EPlayMode PlayMode = EPlayMode.HostPlayMode;
+        private EPlayMode PlayMode = EPlayMode.HostPlayMode;
 
-        public bool localTest;
+        private bool localTest = false;
 
         //public static bool isStandAlone = false;
 
@@ -85,6 +85,13 @@ namespace Main
         async UniTask DownloadAssetsAndStartGame()
         {
             Debug.Log($"[{GetType().FullName}] StartLoadDll.cs!");
+
+#if UNITY_EDITOR
+            PlayMode = EPlayMode.EditorSimulateMode;
+#else
+            PlayMode = EPlayMode.HostPlayMode;
+#endif
+
             InitHostServerURL();
             //初始化BetterStreamingAssets插件
             BetterStreamingAssets.Initialize();

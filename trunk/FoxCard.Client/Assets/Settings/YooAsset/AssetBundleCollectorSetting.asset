@@ -21,16 +21,16 @@ MonoBehaviour:
     EnableAddressable: 1
     LocationToLower: 0
     IncludeAssetGUID: 0
-    IgnoreDefaultType: 1
     AutoCollectShaders: 1
+    IgnoreRuleName: NormalIgnoreRule
     Groups:
     - GroupName: Assets
       GroupDesc: 
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/FoxCard/Art_Resources
-        CollectorGUID: 99d451f4a5705ee48b70c6adeaf9dc9e
+      - CollectPath: Assets/FoxCard/Art_Resources/UI
+        CollectorGUID: 3db6f3d37f797134e9ee2f1a2e7d3d2a
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
@@ -47,6 +47,14 @@ MonoBehaviour:
         UserData: 
       - CollectPath: Assets/FoxCard/ConfigJsonData
         CollectorGUID: 9b1f89e559aa0bf44b80360c154b5606
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/FoxCard/Art_Resources/AudioClips
+        CollectorGUID: 8333a0a96a2e8354fbbb0e70b602a0d4
         CollectorType: 0
         AddressRuleName: AddressByFileName
         PackRuleName: PackDirectory
