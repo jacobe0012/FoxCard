@@ -5,7 +5,7 @@
 
 namespace XFramework
 {
-    public partial class UIPanel_sign
+    public partial class UIPanel_Sign
 	{	
 		public const string Kmask = "mask";
 		public const string KTextDesctipt = "TextDesctipt";

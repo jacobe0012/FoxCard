@@ -14,10 +14,10 @@ using UnityEngine.UI;
 
 namespace XFramework
 {
-	[UIEvent(UIType.UIPanel_sign)]
-    internal sealed class UIPanel_signEvent : AUIEvent, IUILayer
+	[UIEvent(UIType.UIPanel_Sign)]
+    internal sealed class UIPanel_SignEvent : AUIEvent, IUILayer
     {
-	    public override string Key => UIPathSet.UIPanel_sign;
+	    public override string Key => UIPathSet.UIPanel_Sign;
 
         public override bool IsFromPool => true;
 		
@@ -27,11 +27,11 @@ namespace XFramework
 		
         public override UI OnCreate()
         {
-            return UI.Create<UIPanel_sign>();
+            return UI.Create<UIPanel_Sign>();
         }
     }
 
-    public partial class UIPanel_sign : UI, IAwake
+    public partial class UIPanel_Sign : UI, IAwake
 	{	
 		public void Initialize()
 		{

@@ -2,7 +2,8 @@
     "name": "MessagePack.UnityEditor",
     "rootNamespace": "",
     "references": [
-        "MessagePack"
+        "MessagePack",
+        "MessagePack.Annotations"
     ],
     "includePlatforms": [
         "Editor"
