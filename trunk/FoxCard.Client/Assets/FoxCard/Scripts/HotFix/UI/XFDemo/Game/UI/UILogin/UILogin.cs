@@ -73,8 +73,9 @@ namespace XFramework
                 });
         }
 
-      
-
-
+        protected override void OnClose()
+        {
+            base.OnClose();
+        }
     }
 }
