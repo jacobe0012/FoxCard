@@ -10,9 +10,7 @@ namespace XFramework
         public const string UICard = nameof(XFramework.UICard);
 
 		public const string UIPanelInGame = nameof(XFramework.UIPanelInGame);
-
-		public const string UIPanel_Sign = nameof(XFramework.UIPanel_Sign);
-
+		
 		public const string UICommonItem = nameof(XFramework.UICommonItem);
 
 		public const string UIPanel_DailySign = nameof(XFramework.UIPanel_DailySign);

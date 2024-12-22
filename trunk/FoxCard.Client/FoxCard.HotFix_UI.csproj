@@ -134,7 +134,6 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\MyData.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\UILayer.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\Tbmail.cs" />
-    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\UIPanel_Sign\UIPanel_Sign.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\item.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\Buff\Buff_100.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Object\LifeCycle\Awake\IAwake.cs" />
@@ -233,7 +232,6 @@
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Mono\Class\Buff\Buff.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\AUIEvent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\Config\ConfigGenScripts\GenScripts\config\tag.cs" />
-    <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFDemo\Game\UI\UIPanel_Sign\Keys\UIPanel_SignKeys.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\LoopScrollRect\LoopScrollRectComponent.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\Mono\UI\Interface\IUIGrayed.cs" />
     <Compile Include="Assets\FoxCard\Scripts\HotFix\UI\XFramework\Runtime\Module\UI\Component\Graphic\GraphicComponent.cs" />

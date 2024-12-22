@@ -249,6 +249,7 @@ public class WebSocketController : ControllerBase
             }
             else
             {
+                rewards = null;
                 Console.WriteLine($"不可签 上次签到时间戳:{playerRes.LastSignTimeStamp}");
             }
 
