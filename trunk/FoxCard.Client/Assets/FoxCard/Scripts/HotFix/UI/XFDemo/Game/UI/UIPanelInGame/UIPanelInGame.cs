@@ -57,7 +57,7 @@ namespace XFramework
 
 
             InitPanel();
-            UIHelper.CreateAsync(UIType.UIPanel_Sign);
+            UIHelper.CreateAsync(UIType.UIPanel_DailySign);
         }
 
         void InitJson()

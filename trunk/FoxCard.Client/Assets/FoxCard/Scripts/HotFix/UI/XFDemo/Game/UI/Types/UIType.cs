@@ -15,6 +15,8 @@ namespace XFramework
 
 		public const string UICommonItem = nameof(XFramework.UICommonItem);
 
+		public const string UIPanel_DailySign = nameof(XFramework.UIPanel_DailySign);
+
         #endregion 1
 
 

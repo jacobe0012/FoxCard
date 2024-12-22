@@ -5925,7 +5925,7 @@ GameObject:
   - component: {fileID: 9058834045157004233}
   - component: {fileID: 2792320686467254620}
   m_Layer: 0
-  m_Name: Panel_Sign
+  m_Name: Panel_DailySign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

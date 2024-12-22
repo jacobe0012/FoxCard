@@ -22,6 +22,8 @@ namespace XFramework
 
 		public const string UICommonItem = "CommonItem";
 
+		public const string UIPanel_DailySign = "Panel_DailySign";
+
         #endregion 1
 
 
