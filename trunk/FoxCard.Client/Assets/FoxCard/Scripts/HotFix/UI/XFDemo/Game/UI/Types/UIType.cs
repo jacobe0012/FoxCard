@@ -11,6 +11,10 @@ namespace XFramework
 
 		public const string UIPanelInGame = nameof(XFramework.UIPanelInGame);
 
+		public const string UIPanel_sign = nameof(XFramework.UIPanel_sign);
+
+		public const string UICommonItem = nameof(XFramework.UICommonItem);
+
         #endregion 1
 
 
