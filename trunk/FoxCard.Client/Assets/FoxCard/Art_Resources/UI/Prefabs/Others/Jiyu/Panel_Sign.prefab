@@ -1315,7 +1315,7 @@ GameObject:
   - component: {fileID: 2237490687632184082}
   - component: {fileID: 3980463845453943822}
   m_Layer: 5
-  m_Name: Panel_Sign11
+  m_Name: Panel_Sign
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
