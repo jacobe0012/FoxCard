@@ -128,6 +128,7 @@ namespace HotFix_UI
         private void OnOpen(object sender, OpenEventArgs e)
         {
             Log.Debug($"OnOpen", debugColor);
+            //TODO:临时登录信息
             SendMessage(CMD.LOGIN, new PlayerData
             {
                 ThirdId = null,
@@ -159,22 +160,22 @@ namespace HotFix_UI
             WebMessageHandler.Instance.PackageHandler(message.Cmd, message.Content);
             //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
 
-            if (message.Cmd == CMD.LOGIN)
-            {
-                SendMessage(CMD.DAILYSIGN);
-                SendMessage(CMD.QUERYRESOURCE);
-                SendMessage(CMD.RECEIVEACHIEVEITEM, 301001);
-                SendMessage(CMD.RECEIVEACHIEVEBOX, 101);
-                SendMessage(CMD.RECEIVEMAILITEM, 1001);
-            }
+            // if (message.Cmd == CMD.LOGIN)
+            // {
+            //     SendMessage(CMD.DAILYSIGN);
+            //     SendMessage(CMD.QUERYRESOURCE);
+            //     SendMessage(CMD.RECEIVEACHIEVEITEM, 301001);
+            //     SendMessage(CMD.RECEIVEACHIEVEBOX, 101);
+            //     SendMessage(CMD.RECEIVEMAILITEM, 1001);
+            // }
 
-            if (message.Cmd == CMD.DAILYSIGN)
-            {
-                var playerData = MessagePackSerializer.Deserialize<Rewards>(message.Content, options);
-                Log.Debug($"playerData[0]:{playerData?.rewards?.Count}", debugColor);
-            }
+            // if (message.Cmd == CMD.DAILYSIGN)
+            // {
+            //     var playerData = MessagePackSerializer.Deserialize<Rewards>(message.Content, options);
+            //     Log.Debug($"playerData[0]:{playerData?.rewards?.Count}", debugColor);
+            // }
 
-            Log.Debug($"Onmsg methodCmd:{message.Cmd} methodArgs:{message.Args} content:{message.Content}", debugColor);
+            //Log.Debug($"Onmsg methodCmd:{message.Cmd} methodArgs:{message.Args} content:{message.Content}", debugColor);
         }
 
         // 尝试重连
