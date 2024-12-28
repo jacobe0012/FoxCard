@@ -24,6 +24,8 @@ namespace XFramework
 
 		public const string UIPanel_DailySign = "Panel_DailySign";
 
+		public const string UIPanelMain = "PanelMain";
+
         #endregion 1
 
 
