@@ -17,9 +17,7 @@ namespace XFramework
 		public const string UICard = "Card";
 
 		public const string UIPanelInGame = "PanelInGame";
-
-		public const string UIPanel_Sign = "Panel_Sign";
-
+		
 		public const string UICommonItem = "CommonItem";
 
 		public const string UIPanel_DailySign = "Panel_DailySign";
