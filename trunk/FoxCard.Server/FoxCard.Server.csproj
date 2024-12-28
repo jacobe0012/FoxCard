@@ -38,10 +38,13 @@
         <LinkBase>Protocol\</LinkBase>
         <Link>Protocol\GameMail.cs</Link>
       </Compile>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Datas\ServerData\" />
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\ServerData\PlayerServerData.cs">
+        <Link>Protocol\ServerData\PlayerServerData.cs</Link>
+      </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\GameSign.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\GameSign.cs</Link>
+      </Compile>
     </ItemGroup>
 
 </Project>

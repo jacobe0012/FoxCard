@@ -15,46 +15,28 @@ namespace HotFix_UI
         public List<UnityEngine.Vector3> ItemList { get; set; }
 
         /// <summary>
-        /// 签到时间戳 ms
-        /// </summary>
-        [Key(1)]
-        public long LastSignTimeStamp { get; set; }
-
-        /// <summary>
-        /// 签到总次数
-        /// </summary>
-        [Key(2)]
-        public int SignCount { get; set; }
-
-        /// <summary>
-        /// 上次登录时间戳 ms
-        /// </summary>
-        [Key(3)]
-        public long LastLoginTimeStamp { get; set; }
-
-        /// <summary>
-        /// 累计登录总次数
-        /// </summary>
-        [Key(4)]
-        public int LoginCount { get; set; }
-
-        /// <summary>
-        /// 连续登录次数
-        /// </summary>
-        [Key(5)]
-        public int ContinuousLoginCount { get; set; }
-
-        /// <summary>
         /// 玩家成就信息
         /// </summary>
-        [Key(6)]
+        [Key(1)]
         public GameAchievement? GameAchieve { get; set; }
 
         /// <summary>
         /// 玩家邮件信息
         /// </summary>
-        [Key(7)]
+        [Key(2)]
         public GameMail? GameMail { get; set; }
+
+        /// <summary>
+        /// 玩家邮件信息
+        /// </summary>
+        [Key(3)]
+        public GameSign? GameSign { get; set; }
+
+        /// <summary>
+        /// 玩家邮件信息
+        /// </summary>
+        [Key(4)]
+        public PlayerServerData? PlayerServerData { get; set; }
 
         public override string ToString()
         {

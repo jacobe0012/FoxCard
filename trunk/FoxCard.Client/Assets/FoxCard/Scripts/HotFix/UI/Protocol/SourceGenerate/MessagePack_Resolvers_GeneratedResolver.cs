@@ -47,7 +47,7 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(15)
+            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(17)
             {
                 { typeof(global::System.Collections.Generic.List<global::HotFix_UI.AchieveItem>), 0 },
                 { typeof(global::System.Collections.Generic.List<global::HotFix_UI.MailItem>), 1 },
@@ -56,14 +56,16 @@ namespace MessagePack.Resolvers
                 { typeof(global::HotFix_UI.AchieveItem), 4 },
                 { typeof(global::HotFix_UI.GameAchievement), 5 },
                 { typeof(global::HotFix_UI.GameMail), 6 },
-                { typeof(global::HotFix_UI.LocationData), 7 },
-                { typeof(global::HotFix_UI.MailItem), 8 },
-                { typeof(global::HotFix_UI.MyData), 9 },
-                { typeof(global::HotFix_UI.MyMessage), 10 },
-                { typeof(global::HotFix_UI.OtherData), 11 },
-                { typeof(global::HotFix_UI.PlayerData), 12 },
-                { typeof(global::HotFix_UI.PlayerResource), 13 },
-                { typeof(global::HotFix_UI.Rewards), 14 },
+                { typeof(global::HotFix_UI.GameSign), 7 },
+                { typeof(global::HotFix_UI.LocationData), 8 },
+                { typeof(global::HotFix_UI.MailItem), 9 },
+                { typeof(global::HotFix_UI.MyData), 10 },
+                { typeof(global::HotFix_UI.MyMessage), 11 },
+                { typeof(global::HotFix_UI.OtherData), 12 },
+                { typeof(global::HotFix_UI.PlayerData), 13 },
+                { typeof(global::HotFix_UI.PlayerResource), 14 },
+                { typeof(global::HotFix_UI.PlayerServerData), 15 },
+                { typeof(global::HotFix_UI.Rewards), 16 },
             };
         }
 
@@ -84,14 +86,16 @@ namespace MessagePack.Resolvers
                 case 4: return new MessagePack.Formatters.HotFix_UI.AchieveItemFormatter();
                 case 5: return new MessagePack.Formatters.HotFix_UI.GameAchievementFormatter();
                 case 6: return new MessagePack.Formatters.HotFix_UI.GameMailFormatter();
-                case 7: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
-                case 8: return new MessagePack.Formatters.HotFix_UI.MailItemFormatter();
-                case 9: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
-                case 10: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
-                case 11: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
-                case 12: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
-                case 13: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
-                case 14: return new MessagePack.Formatters.HotFix_UI.RewardsFormatter();
+                case 7: return new MessagePack.Formatters.HotFix_UI.GameSignFormatter();
+                case 8: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
+                case 9: return new MessagePack.Formatters.HotFix_UI.MailItemFormatter();
+                case 10: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
+                case 11: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
+                case 12: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
+                case 13: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
+                case 14: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
+                case 15: return new MessagePack.Formatters.HotFix_UI.PlayerServerDataFormatter();
+                case 16: return new MessagePack.Formatters.HotFix_UI.RewardsFormatter();
                 default: return null;
             }
         }

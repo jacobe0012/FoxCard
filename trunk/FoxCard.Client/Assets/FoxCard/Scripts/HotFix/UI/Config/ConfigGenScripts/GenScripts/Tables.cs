@@ -17,9 +17,11 @@ public sealed partial class Tables
 {
     public config.Tblanguage Tblanguage {get; private set; }
     public config.Tbcard_group Tbcard_group {get; private set; }
+    public config.Tbconstant Tbconstant {get; private set; }
     public config.Tbitem Tbitem {get; private set; }
     public config.Tbmail Tbmail {get; private set; }
     public config.Tbsign_daily Tbsign_daily {get; private set; }
+    public config.Tbsign_acc7 Tbsign_acc7 {get; private set; }
     public config.Tbtag Tbtag {get; private set; }
     public config.Tbtag_func Tbtag_func {get; private set; }
     public config.Tbtask Tbtask {get; private set; }
@@ -35,12 +37,16 @@ public sealed partial class Tables
         tables.Add("config.Tblanguage", Tblanguage);
         Tbcard_group = new config.Tbcard_group(loader("config_tbcard_group")); 
         tables.Add("config.Tbcard_group", Tbcard_group);
+        Tbconstant = new config.Tbconstant(loader("config_tbconstant")); 
+        tables.Add("config.Tbconstant", Tbconstant);
         Tbitem = new config.Tbitem(loader("config_tbitem")); 
         tables.Add("config.Tbitem", Tbitem);
         Tbmail = new config.Tbmail(loader("config_tbmail")); 
         tables.Add("config.Tbmail", Tbmail);
         Tbsign_daily = new config.Tbsign_daily(loader("config_tbsign_daily")); 
         tables.Add("config.Tbsign_daily", Tbsign_daily);
+        Tbsign_acc7 = new config.Tbsign_acc7(loader("config_tbsign_acc7")); 
+        tables.Add("config.Tbsign_acc7", Tbsign_acc7);
         Tbtag = new config.Tbtag(loader("config_tbtag")); 
         tables.Add("config.Tbtag", Tbtag);
         Tbtag_func = new config.Tbtag_func(loader("config_tbtag_func")); 
@@ -57,9 +63,11 @@ public sealed partial class Tables
 
         Tblanguage.Resolve(tables); 
         Tbcard_group.Resolve(tables); 
+        Tbconstant.Resolve(tables); 
         Tbitem.Resolve(tables); 
         Tbmail.Resolve(tables); 
         Tbsign_daily.Resolve(tables); 
+        Tbsign_acc7.Resolve(tables); 
         Tbtag.Resolve(tables); 
         Tbtag_func.Resolve(tables); 
         Tbtask.Resolve(tables); 
@@ -76,12 +84,16 @@ public sealed partial class Tables
         tables.Add("config.Tblanguage", Tblanguage);
         Tbcard_group = new config.Tbcard_group(await loader("config_tbcard_group")); 
         tables.Add("config.Tbcard_group", Tbcard_group);
+        Tbconstant = new config.Tbconstant(await loader("config_tbconstant")); 
+        tables.Add("config.Tbconstant", Tbconstant);
         Tbitem = new config.Tbitem(await loader("config_tbitem")); 
         tables.Add("config.Tbitem", Tbitem);
         Tbmail = new config.Tbmail(await loader("config_tbmail")); 
         tables.Add("config.Tbmail", Tbmail);
         Tbsign_daily = new config.Tbsign_daily(await loader("config_tbsign_daily")); 
         tables.Add("config.Tbsign_daily", Tbsign_daily);
+        Tbsign_acc7 = new config.Tbsign_acc7(await loader("config_tbsign_acc7")); 
+        tables.Add("config.Tbsign_acc7", Tbsign_acc7);
         Tbtag = new config.Tbtag(await loader("config_tbtag")); 
         tables.Add("config.Tbtag", Tbtag);
         Tbtag_func = new config.Tbtag_func(await loader("config_tbtag_func")); 
@@ -98,9 +110,11 @@ public sealed partial class Tables
 
         Tblanguage.Resolve(tables); 
         Tbcard_group.Resolve(tables); 
+        Tbconstant.Resolve(tables); 
         Tbitem.Resolve(tables); 
         Tbmail.Resolve(tables); 
         Tbsign_daily.Resolve(tables); 
+        Tbsign_acc7.Resolve(tables); 
         Tbtag.Resolve(tables); 
         Tbtag_func.Resolve(tables); 
         Tbtask.Resolve(tables); 
@@ -114,9 +128,11 @@ public sealed partial class Tables
     {
         Tblanguage.TranslateText(translator); 
         Tbcard_group.TranslateText(translator); 
+        Tbconstant.TranslateText(translator); 
         Tbitem.TranslateText(translator); 
         Tbmail.TranslateText(translator); 
         Tbsign_daily.TranslateText(translator); 
+        Tbsign_acc7.TranslateText(translator); 
         Tbtag.TranslateText(translator); 
         Tbtag_func.TranslateText(translator); 
         Tbtask.TranslateText(translator); 

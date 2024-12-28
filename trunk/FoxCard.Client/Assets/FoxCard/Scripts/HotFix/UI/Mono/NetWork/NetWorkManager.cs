@@ -137,7 +137,7 @@ namespace HotFix_UI
                 LocationData = default,
                 OtherData = new OtherData
                 {
-                    Code = "aa9",
+                    Code = "aa8",
                     UnionidId = null
                 }
             });

@@ -1,0 +1,338 @@
+[
+  {
+    "assist": 1,
+    "id": 1,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 10
+      }
+    ]
+  },
+  {
+    "assist": 2,
+    "id": 2,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 20
+      }
+    ]
+  },
+  {
+    "assist": 3,
+    "id": 3,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 30
+      }
+    ]
+  },
+  {
+    "assist": 4,
+    "id": 4,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 40
+      }
+    ]
+  },
+  {
+    "assist": 5,
+    "id": 5,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 50
+      }
+    ]
+  },
+  {
+    "assist": 6,
+    "id": 6,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 60
+      }
+    ]
+  },
+  {
+    "assist": 7,
+    "id": 7,
+    "group_id": 1,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 70
+      }
+    ]
+  },
+  {
+    "assist": 8,
+    "id": 1,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 10
+      }
+    ]
+  },
+  {
+    "assist": 9,
+    "id": 2,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 20
+      }
+    ]
+  },
+  {
+    "assist": 10,
+    "id": 3,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 30
+      }
+    ]
+  },
+  {
+    "assist": 11,
+    "id": 4,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 40
+      }
+    ]
+  },
+  {
+    "assist": 12,
+    "id": 5,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 50
+      }
+    ]
+  },
+  {
+    "assist": 13,
+    "id": 6,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 60
+      }
+    ]
+  },
+  {
+    "assist": 14,
+    "id": 7,
+    "group_id": 2,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 70
+      }
+    ]
+  },
+  {
+    "assist": 15,
+    "id": 1,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 10
+      }
+    ]
+  },
+  {
+    "assist": 16,
+    "id": 2,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 20
+      }
+    ]
+  },
+  {
+    "assist": 17,
+    "id": 3,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 30
+      }
+    ]
+  },
+  {
+    "assist": 18,
+    "id": 4,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 40
+      }
+    ]
+  },
+  {
+    "assist": 19,
+    "id": 5,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 50
+      }
+    ]
+  },
+  {
+    "assist": 20,
+    "id": 6,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 60
+      }
+    ]
+  },
+  {
+    "assist": 21,
+    "id": 7,
+    "group_id": 3,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 70
+      }
+    ]
+  },
+  {
+    "assist": 22,
+    "id": 1,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 10
+      }
+    ]
+  },
+  {
+    "assist": 23,
+    "id": 2,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 20
+      }
+    ]
+  },
+  {
+    "assist": 24,
+    "id": 3,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 30
+      }
+    ]
+  },
+  {
+    "assist": 25,
+    "id": 4,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 40
+      }
+    ]
+  },
+  {
+    "assist": 26,
+    "id": 5,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 50
+      }
+    ]
+  },
+  {
+    "assist": 27,
+    "id": 6,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 60
+      }
+    ]
+  },
+  {
+    "assist": 28,
+    "id": 7,
+    "group_id": 4,
+    "reward": [
+      {
+        "x": 2,
+        "y": 0,
+        "z": 70
+      }
+    ]
+  }
+]

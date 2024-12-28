@@ -47,13 +47,13 @@ namespace XFramework
 
         private void GetReward()
         {
-            WebMessageHandler.Instance.AddHandler(CMD.DAILYSIGN, OnResponseRewardGet);
-            NetWorkManager.Instance.SendMessage(CMD.DAILYSIGN);
+            WebMessageHandler.Instance.AddHandler(CMD.RECEIVEDAILYSIGN, OnResponseRewardGet);
+            NetWorkManager.Instance.SendMessage(CMD.RECEIVEDAILYSIGN, 1);
         }
 
         private async void OnResponseRewardGet(object sender, WebMessageHandler.Execute e)
         {
-            WebMessageHandler.Instance.RemoveHandler(CMD.DAILYSIGN, OnResponseRewardGet);
+            WebMessageHandler.Instance.RemoveHandler(CMD.RECEIVEDAILYSIGN, OnResponseRewardGet);
             var message = MessagePackSerializer.Deserialize<Rewards>(e.data);
             if (message == null)
             {

@@ -10,9 +10,9 @@
         public const int QUERYRESOURCE = 20;
 
         /// <summary>
-        /// 每日签到
+        /// 领取每日签到 传入1:正常签到 2:看广告签到
         /// </summary>
-        public const int DAILYSIGN = 30;
+        public const int RECEIVEDAILYSIGN = 30;
 
         /// <summary>
         /// 领取单个成就
@@ -23,13 +23,13 @@
         /// 领取成就宝箱
         /// </summary>
         public const int RECEIVEACHIEVEBOX = 41;
-        
+
         /// <summary>
         /// 领取邮件
         /// </summary>
         public const int RECEIVEMAILITEM = 50;
-        
-        
+
+
         // //0,1   登录
         // //public const int LOGIN = (MainCmd.loginCmd << 16) + LoginCmd.loginVerify;
         //

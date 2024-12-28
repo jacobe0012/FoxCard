@@ -1,0 +1,266 @@
+[
+  {
+    "constant_name": "battle_speed_border",
+    "constant_value": 5000
+  },
+  {
+    "constant_name": "battle_speed_max",
+    "constant_value": 100000
+  },
+  {
+    "constant_name": "battle_force_factor",
+    "constant_value": 500000
+  },
+  {
+    "constant_name": "battle_impact_damage_min",
+    "constant_value": 1
+  },
+  {
+    "constant_name": "battle_obstacle_speed_value",
+    "constant_value": 10000
+  },
+  {
+    "constant_name": "battle_obstacle_damage_value",
+    "constant_value": 2
+  },
+  {
+    "constant_name": "battle_obstacle_damage_toplayer_value",
+    "constant_value": 1
+  },
+  {
+    "constant_name": "battle_monster_force_factor_value",
+    "constant_value": 10
+  },
+  {
+    "constant_name": "battle_speed_converted_force_factor",
+    "constant_value": 100
+  },
+  {
+    "constant_name": "battle_speed_converted_atk",
+    "constant_value": 50
+  },
+  {
+    "constant_name": "battle_force_factor_angle",
+    "constant_value": 10
+  },
+  {
+    "constant_name": "battle_overspeed_reduce",
+    "constant_value": 300
+  },
+  {
+    "constant_name": "battle_continuous_collision_attenuation",
+    "constant_value": 500
+  },
+  {
+    "constant_name": "battle_continuous_collision_attenuation_min",
+    "constant_value": 3000
+  },
+  {
+    "constant_name": "battle_continuous_collision_max_num",
+    "constant_value": 15
+  },
+  {
+    "constant_name": "battle_player_restore_time_min",
+    "constant_value": 100
+  },
+  {
+    "constant_name": "battle_player_restore_unit",
+    "constant_value": 5
+  },
+  {
+    "constant_name": "battle_monster_restore_time_min",
+    "constant_value": 100
+  },
+  {
+    "constant_name": "battle_monster_restore_unit",
+    "constant_value": 5
+  },
+  {
+    "constant_name": "battle_restore_time_max",
+    "constant_value": 1100
+  },
+  {
+    "constant_name": "battle_elastic",
+    "constant_value": 3000
+  },
+  {
+    "constant_name": "battle_scence_element_quality_atk",
+    "constant_value": 10
+  },
+  {
+    "constant_name": "battle_super_force",
+    "constant_value": 10000
+  },
+  {
+    "constant_name": "battle_bounds_force",
+    "constant_value": 40000
+  },
+  {
+    "constant_name": "battle_module_force_refresh_time",
+    "constant_value": 3000
+  },
+  {
+    "constant_name": "battle_module_refresh_time",
+    "constant_value": 1000
+  },
+  {
+    "constant_name": "user_level_upperlimit",
+    "constant_value": 100
+  },
+  {
+    "constant_name": "equip_level_upperlimit",
+    "constant_value": 160
+  },
+  {
+    "constant_name": "energy_restore",
+    "constant_value": 1200
+  },
+  {
+    "constant_name": "equip_quality_mergeclick",
+    "constant_value": 4
+  },
+  {
+    "constant_name": "change_name_cost",
+    "constant_value": 200
+  },
+  {
+    "constant_name": "change_name_cd",
+    "constant_value": 86400
+  },
+  {
+    "constant_name": "name_character_upperlimit",
+    "constant_value": 18
+  },
+  {
+    "constant_name": "damage_floating_interval_1",
+    "constant_value": 25000
+  },
+  {
+    "constant_name": "damage_floating_interval_2",
+    "constant_value": 55000
+  },
+  {
+    "constant_name": "damage_floating_interval_3",
+    "constant_value": 100000
+  },
+  {
+    "constant_name": "equip_default_weapon_id",
+    "constant_value": 101
+  },
+  {
+    "constant_name": "equip_default_weapon_skill",
+    "constant_value": 100110
+  },
+  {
+    "constant_name": "patrol_time_upperlimit",
+    "constant_value": 86400
+  },
+  {
+    "constant_name": "patrol_unit_time",
+    "constant_value": 600
+  },
+  {
+    "constant_name": "patrol_once_time",
+    "constant_value": 18000
+  },
+  {
+    "constant_name": "patrol_once_times_day",
+    "constant_value": 3
+  },
+  {
+    "constant_name": "patrol_once_cost_energy",
+    "constant_value": 15
+  },
+  {
+    "constant_name": "patrol_once_ad_times",
+    "constant_value": 1
+  },
+  {
+    "constant_name": "shop_daily_ad_cd",
+    "constant_value": 300
+  },
+  {
+    "constant_name": "task_daily_time",
+    "constant_value": 86400
+  },
+  {
+    "constant_name": "task_weekly_time",
+    "constant_value": 604800
+  },
+  {
+    "constant_name": "battle_rule_merge_num",
+    "constant_value": 2
+  },
+  {
+    "constant_name": "battle_shop_refresh_price",
+    "constant_value": 500
+  },
+  {
+    "constant_name": "battle_area_shop_num",
+    "constant_value": 5
+  },
+  {
+    "constant_name": "battle_area_config_num",
+    "constant_value": 5
+  },
+  {
+    "constant_name": "battle_area_prepare_num",
+    "constant_value": 10
+  },
+  {
+    "constant_name": "battlepass_reward_more_once_exp",
+    "constant_value": 100
+  },
+  {
+    "constant_name": "battlepass_reward_more_times_upperlimitp",
+    "constant_value": 20
+  },
+  {
+    "constant_name": "battlepass_exp_diamond_ratio",
+    "constant_value": 2
+  },
+  {
+    "constant_name": "fund_switch_time",
+    "constant_value": 30
+  },
+  {
+    "constant_name": "share_reward_limit",
+    "constant_value": 1
+  },
+  {
+    "constant_name": "share_reward_mail",
+    "constant_value": 20005
+  },
+  {
+    "constant_name": "share_reward",
+    "constant_value": 100
+  },
+  {
+    "constant_name": "battleshop_refresh_price",
+    "constant_value": 30
+  },
+  {
+    "constant_name": "battleshop_refresh_num",
+    "constant_value": 3
+  },
+  {
+    "constant_name": "battletech_refresh_num",
+    "constant_value": 3
+  },
+  {
+    "constant_name": "piggy_bank_unlock_chapter",
+    "constant_value": 10003
+  },
+  {
+    "constant_name": "piggy_refresh_time",
+    "constant_value": 30
+  },
+  {
+    "constant_name": "energy_shop_item",
+    "constant_value": 8010005
+  },
+  {
+    "constant_name": "energy_shop_item_num",
+    "constant_value": 1
+  }
+]

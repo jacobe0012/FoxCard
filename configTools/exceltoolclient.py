@@ -284,7 +284,9 @@ def genfixedexcel(index,excel_path,output_path):
         listHandleArr.append(r"fund_reward")
         listHandleArr.append(r"monopoly_shop")
         listHandleArr.append(r"turntable_level")     
-        listHandleArr.append(r"turntable_score")  
+        listHandleArr.append(r"turntable_score") 
+        listHandleArr.append(r"sign_acc7") 
+         
         if resultName in listHandleArr:
             handleList(ws,worksheet,index)
         # 保存luban.__tables__和兼容后的配置表

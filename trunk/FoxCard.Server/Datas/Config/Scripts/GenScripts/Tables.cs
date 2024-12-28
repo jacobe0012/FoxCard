@@ -14,9 +14,11 @@ namespace cfg
    
 public sealed partial class Tables
 {
+    public config.Tbconstant Tbconstant {get; }
     public config.Tbitem Tbitem {get; }
     public config.Tbmail Tbmail {get; }
     public config.Tbsign_daily Tbsign_daily {get; }
+    public config.Tbsign_acc7 Tbsign_acc7 {get; }
     public config.Tbtag_func Tbtag_func {get; }
     public config.Tbtask Tbtask {get; }
     public config.Tbtask_type Tbtask_type {get; }
@@ -26,12 +28,16 @@ public sealed partial class Tables
     public Tables(System.Func<string, JSONNode> loader)
     {
         var tables = new System.Collections.Generic.Dictionary<string, object>();
+        Tbconstant = new config.Tbconstant(loader("config_tbconstant")); 
+        tables.Add("config.Tbconstant", Tbconstant);
         Tbitem = new config.Tbitem(loader("config_tbitem")); 
         tables.Add("config.Tbitem", Tbitem);
         Tbmail = new config.Tbmail(loader("config_tbmail")); 
         tables.Add("config.Tbmail", Tbmail);
         Tbsign_daily = new config.Tbsign_daily(loader("config_tbsign_daily")); 
         tables.Add("config.Tbsign_daily", Tbsign_daily);
+        Tbsign_acc7 = new config.Tbsign_acc7(loader("config_tbsign_acc7")); 
+        tables.Add("config.Tbsign_acc7", Tbsign_acc7);
         Tbtag_func = new config.Tbtag_func(loader("config_tbtag_func")); 
         tables.Add("config.Tbtag_func", Tbtag_func);
         Tbtask = new config.Tbtask(loader("config_tbtask")); 
@@ -44,9 +50,11 @@ public sealed partial class Tables
         tables.Add("config.Tbtask_score", Tbtask_score);
         PostInit();
 
+        Tbconstant.Resolve(tables); 
         Tbitem.Resolve(tables); 
         Tbmail.Resolve(tables); 
         Tbsign_daily.Resolve(tables); 
+        Tbsign_acc7.Resolve(tables); 
         Tbtag_func.Resolve(tables); 
         Tbtask.Resolve(tables); 
         Tbtask_type.Resolve(tables); 
@@ -57,9 +65,11 @@ public sealed partial class Tables
 
     public void TranslateText(System.Func<string, string, string> translator)
     {
+        Tbconstant.TranslateText(translator); 
         Tbitem.TranslateText(translator); 
         Tbmail.TranslateText(translator); 
         Tbsign_daily.TranslateText(translator); 
+        Tbsign_acc7.TranslateText(translator); 
         Tbtag_func.TranslateText(translator); 
         Tbtask.TranslateText(translator); 
         Tbtask_type.TranslateText(translator); 
