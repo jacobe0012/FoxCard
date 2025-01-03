@@ -28,11 +28,12 @@ namespace MessagePack.Formatters.HotFix_UI
             }
 
             global::MessagePack.IFormatterResolver formatterResolver = options.Resolver;
-            writer.WriteArrayHeader(5);
+            writer.WriteArrayHeader(6);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::System.Collections.Generic.List<UnityEngine.Vector3>>(formatterResolver).Serialize(ref writer, value.ItemList, options);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameAchievement>(formatterResolver).Serialize(ref writer, value.GameAchieve, options);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameMail>(formatterResolver).Serialize(ref writer, value.GameMail, options);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameSign>(formatterResolver).Serialize(ref writer, value.GameSign, options);
+            global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameSignAcc7>(formatterResolver).Serialize(ref writer, value.GameSignAcc7, options);
             global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.PlayerServerData>(formatterResolver).Serialize(ref writer, value.PlayerServerData, options);
         }
 
@@ -65,6 +66,9 @@ namespace MessagePack.Formatters.HotFix_UI
                         ____result.GameSign = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameSign>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     case 4:
+                        ____result.GameSignAcc7 = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.GameSignAcc7>(formatterResolver).Deserialize(ref reader, options);
+                        break;
+                    case 5:
                         ____result.PlayerServerData = global::MessagePack.FormatterResolverExtensions.GetFormatterWithVerify<global::HotFix_UI.PlayerServerData>(formatterResolver).Deserialize(ref reader, options);
                         break;
                     default:

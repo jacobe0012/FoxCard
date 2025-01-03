@@ -22,7 +22,7 @@ public class LoginCommandHandler : HandleBase, ICommandHandler
         var db = _redis.GetDatabase();
         var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content, options);
         var inputContentStr = JsonConvert.SerializeObject(playerData);
-       
+
         //Console.WriteLine($"PlayerData:{JsonConvert.SerializeObject(playerData)}");
         //long timestamp = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds();
         //var playerdata = await db.StringGetAsync(player.Id.ToString());
@@ -123,7 +123,11 @@ public class LoginCommandHandler : HandleBase, ICommandHandler
             {
                 MailItems = mailItems
             },
-            GameSign = new GameSign(),
+            GameSign = new GameSign
+            {
+                isSignedToday = false
+            },
+            GameSignAcc7 = new GameSignAcc7(),
             PlayerServerData = new PlayerServerData()
         };
         return playerRes;

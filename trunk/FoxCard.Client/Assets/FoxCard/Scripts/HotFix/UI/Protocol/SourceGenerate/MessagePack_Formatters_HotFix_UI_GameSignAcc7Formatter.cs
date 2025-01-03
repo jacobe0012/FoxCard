@@ -16,10 +16,10 @@
 
 namespace MessagePack.Formatters.HotFix_UI
 {
-    public sealed class GameSignFormatter : global::MessagePack.Formatters.IMessagePackFormatter<global::HotFix_UI.GameSign>
+    public sealed class GameSignAcc7Formatter : global::MessagePack.Formatters.IMessagePackFormatter<global::HotFix_UI.GameSignAcc7>
     {
 
-        public void Serialize(ref global::MessagePack.MessagePackWriter writer, global::HotFix_UI.GameSign value, global::MessagePack.MessagePackSerializerOptions options)
+        public void Serialize(ref global::MessagePack.MessagePackWriter writer, global::HotFix_UI.GameSignAcc7 value, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (value == null)
             {
@@ -27,11 +27,14 @@ namespace MessagePack.Formatters.HotFix_UI
                 return;
             }
 
-            writer.WriteArrayHeader(1);
+            writer.WriteArrayHeader(4);
+            writer.Write(value.Signed7GroupId);
+            writer.Write(value.SignedDay);
             writer.Write(value.isSignedToday);
+            writer.Write(value.MaxSignedDay);
         }
 
-        public global::HotFix_UI.GameSign Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
+        public global::HotFix_UI.GameSignAcc7 Deserialize(ref global::MessagePack.MessagePackReader reader, global::MessagePack.MessagePackSerializerOptions options)
         {
             if (reader.TryReadNil())
             {
@@ -40,14 +43,23 @@ namespace MessagePack.Formatters.HotFix_UI
 
             options.Security.DepthStep(ref reader);
             var length = reader.ReadArrayHeader();
-            var ____result = new global::HotFix_UI.GameSign();
+            var ____result = new global::HotFix_UI.GameSignAcc7();
 
             for (int i = 0; i < length; i++)
             {
                 switch (i)
                 {
                     case 0:
+                        ____result.Signed7GroupId = reader.ReadInt32();
+                        break;
+                    case 1:
+                        ____result.SignedDay = reader.ReadInt32();
+                        break;
+                    case 2:
                         ____result.isSignedToday = reader.ReadBoolean();
+                        break;
+                    case 3:
+                        ____result.MaxSignedDay = reader.ReadInt32();
                         break;
                     default:
                         reader.Skip();

@@ -47,7 +47,7 @@ namespace MessagePack.Resolvers
 
         static GeneratedResolverGetFormatterHelper()
         {
-            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(17)
+            lookup = new global::System.Collections.Generic.Dictionary<global::System.Type, int>(18)
             {
                 { typeof(global::System.Collections.Generic.List<global::HotFix_UI.AchieveItem>), 0 },
                 { typeof(global::System.Collections.Generic.List<global::HotFix_UI.MailItem>), 1 },
@@ -57,15 +57,16 @@ namespace MessagePack.Resolvers
                 { typeof(global::HotFix_UI.GameAchievement), 5 },
                 { typeof(global::HotFix_UI.GameMail), 6 },
                 { typeof(global::HotFix_UI.GameSign), 7 },
-                { typeof(global::HotFix_UI.LocationData), 8 },
-                { typeof(global::HotFix_UI.MailItem), 9 },
-                { typeof(global::HotFix_UI.MyData), 10 },
-                { typeof(global::HotFix_UI.MyMessage), 11 },
-                { typeof(global::HotFix_UI.OtherData), 12 },
-                { typeof(global::HotFix_UI.PlayerData), 13 },
-                { typeof(global::HotFix_UI.PlayerResource), 14 },
-                { typeof(global::HotFix_UI.PlayerServerData), 15 },
-                { typeof(global::HotFix_UI.Rewards), 16 },
+                { typeof(global::HotFix_UI.GameSignAcc7), 8 },
+                { typeof(global::HotFix_UI.LocationData), 9 },
+                { typeof(global::HotFix_UI.MailItem), 10 },
+                { typeof(global::HotFix_UI.MyData), 11 },
+                { typeof(global::HotFix_UI.MyMessage), 12 },
+                { typeof(global::HotFix_UI.OtherData), 13 },
+                { typeof(global::HotFix_UI.PlayerData), 14 },
+                { typeof(global::HotFix_UI.PlayerResource), 15 },
+                { typeof(global::HotFix_UI.PlayerServerData), 16 },
+                { typeof(global::HotFix_UI.Rewards), 17 },
             };
         }
 
@@ -87,15 +88,16 @@ namespace MessagePack.Resolvers
                 case 5: return new MessagePack.Formatters.HotFix_UI.GameAchievementFormatter();
                 case 6: return new MessagePack.Formatters.HotFix_UI.GameMailFormatter();
                 case 7: return new MessagePack.Formatters.HotFix_UI.GameSignFormatter();
-                case 8: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
-                case 9: return new MessagePack.Formatters.HotFix_UI.MailItemFormatter();
-                case 10: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
-                case 11: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
-                case 12: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
-                case 13: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
-                case 14: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
-                case 15: return new MessagePack.Formatters.HotFix_UI.PlayerServerDataFormatter();
-                case 16: return new MessagePack.Formatters.HotFix_UI.RewardsFormatter();
+                case 8: return new MessagePack.Formatters.HotFix_UI.GameSignAcc7Formatter();
+                case 9: return new MessagePack.Formatters.HotFix_UI.LocationDataFormatter();
+                case 10: return new MessagePack.Formatters.HotFix_UI.MailItemFormatter();
+                case 11: return new MessagePack.Formatters.HotFix_UI.MyDataFormatter();
+                case 12: return new MessagePack.Formatters.HotFix_UI.MyMessageFormatter();
+                case 13: return new MessagePack.Formatters.HotFix_UI.OtherDataFormatter();
+                case 14: return new MessagePack.Formatters.HotFix_UI.PlayerDataFormatter();
+                case 15: return new MessagePack.Formatters.HotFix_UI.PlayerResourceFormatter();
+                case 16: return new MessagePack.Formatters.HotFix_UI.PlayerServerDataFormatter();
+                case 17: return new MessagePack.Formatters.HotFix_UI.RewardsFormatter();
                 default: return null;
             }
         }

@@ -27,15 +27,21 @@ namespace HotFix_UI
         public GameMail? GameMail { get; set; }
 
         /// <summary>
-        /// 玩家邮件信息
+        /// 玩家签到信息
         /// </summary>
         [Key(3)]
         public GameSign? GameSign { get; set; }
 
         /// <summary>
-        /// 玩家邮件信息
+        /// 玩家签到信息
         /// </summary>
         [Key(4)]
+        public GameSignAcc7? GameSignAcc7 { get; set; }
+
+        /// <summary>
+        /// 玩家服务器存储信息
+        /// </summary>
+        [Key(5)]
         public PlayerServerData? PlayerServerData { get; set; }
 
         public override string ToString()

@@ -45,6 +45,17 @@
         <LinkBase>Protocol\</LinkBase>
         <Link>Protocol\GameSign.cs</Link>
       </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\GameSignAcc7.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\GameSign7.cs</Link>
+      </Compile>
+      <Compile Update="..\FoxCard.Client\Assets\FoxCard\Scripts\HotFix\UI\Protocol\Protocol\ServerData\ServerRootData.cs">
+        <Link>Protocol\ServerData\ServerRootData.cs</Link>
+      </Compile>
+      <Compile Update="Datas\ServerData\ServerRootData.cs">
+        <LinkBase>Protocol\</LinkBase>
+        <Link>Protocol\ServerData\ServerRootData.cs</Link>
+      </Compile>
     </ItemGroup>
 
 </Project>

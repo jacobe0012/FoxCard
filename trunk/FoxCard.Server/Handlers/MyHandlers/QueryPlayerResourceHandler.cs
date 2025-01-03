@@ -1,5 +1,6 @@
 ﻿using System.Collections.Concurrent;
 using System.Net.WebSockets;
+using FoxCard.Server.Datas;
 using HotFix_UI;
 using MessagePack;
 using Newtonsoft.Json;
@@ -28,11 +29,16 @@ public class QueryPlayerResourceHandler : HandleBase, ICommandHandler
         var db = _redis.GetDatabase();
         var rv = await db.StringGetAsync(GetRedisDBStr(1, openId));
         playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
+        var serverRootData = await GetServerRootData();
+        playerRes.GameSignAcc7.Signed7GroupId = serverRootData.Signed7GroupId;
+        playerRes.GameSignAcc7.MaxSignedDay = serverRootData.MaxSignedDay;
+        await SetPlayerResDB(openId, playerRes);
+
         playerRes.PlayerServerData = null;
         message.Content =
             MessagePackSerializer.Serialize(playerRes, options);
 
-        var outputContentStr = rv.ToString();
+        var outputContentStr = playerRes.ToString();
 
         var context = new Context
         {
@@ -41,5 +47,25 @@ public class QueryPlayerResourceHandler : HandleBase, ICommandHandler
             outputContentStr = outputContentStr
         };
         return context;
+    }
+
+    public async Task<ServerRootData?> GetServerRootData()
+    {
+        var db = _redis.GetDatabase();
+        var rv = await db.StringGetAsync(ServerConst.ServerRootName);
+        if (rv.IsNullOrEmpty)
+        {
+            //TODO:初始化服务器Root数据
+            var serverdate = new ServerRootData
+            {
+                Signed7GroupId = 2,
+                MaxSignedDay = 3
+            };
+            db.StringSetAsync(ServerConst.ServerRootName, JsonConvert.SerializeObject(serverdate));
+            return serverdate;
+        }
+
+        var serverRootData = JsonConvert.DeserializeObject<ServerRootData>(rv);
+        return serverRootData;
     }
 }

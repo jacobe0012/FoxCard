@@ -137,7 +137,7 @@ namespace HotFix_UI
                 LocationData = default,
                 OtherData = new OtherData
                 {
-                    Code = "aa8",
+                    Code = "aa3",
                     UnionidId = null
                 }
             });
@@ -160,14 +160,14 @@ namespace HotFix_UI
             WebMessageHandler.Instance.PackageHandler(message.Cmd, message.Content);
             //var playerData = MessagePackSerializer.Deserialize<PlayerData>(message.Content);
 
-            // if (message.Cmd == CMD.LOGIN)
-            // {
-            //     SendMessage(CMD.DAILYSIGN);
-            //     SendMessage(CMD.QUERYRESOURCE);
-            //     SendMessage(CMD.RECEIVEACHIEVEITEM, 301001);
-            //     SendMessage(CMD.RECEIVEACHIEVEBOX, 101);
-            //     SendMessage(CMD.RECEIVEMAILITEM, 1001);
-            // }
+            if (message.Cmd == CMD.LOGIN)
+            {
+                //SendMessage(CMD.DAILYSIGN);
+                SendMessage(CMD.QUERYRESOURCE);
+                // SendMessage(CMD.RECEIVEACHIEVEITEM, 301001);
+                // SendMessage(CMD.RECEIVEACHIEVEBOX, 101);
+                // SendMessage(CMD.RECEIVEMAILITEM, 1001);
+            }
 
             // if (message.Cmd == CMD.DAILYSIGN)
             // {
