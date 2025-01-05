@@ -19,7 +19,7 @@ MonoBehaviour:
     assetLoadType: 0
     compressDataPackage: 0
     VideoUrl: 
-    DST: D:\GitProjects\FoxCard\trunk\FoxCard.Client\
+    DST: D:\GitProjects\FoxCard\trunk\FoxCard.Client\Build
     StreamCDN: 
     bundleHashLength: 32
     bundlePathIdentifier: StreamingAssets;
@@ -51,7 +51,7 @@ MonoBehaviour:
     ScriptOnly: 0
     Il2CppOptimizeSize: 0
     profilingFuncs: 1
-    Webgl2: 1
+    Webgl2: 0
     fbslim: 0
     DeleteStreamingAssets: 1
     ProfilingMemory: 0
@@ -63,7 +63,7 @@ MonoBehaviour:
     enableRenderAnalysis: 0
     enablePerfAnalysis: 0
     iOSAutoGCInterval: 10000
-    enableIOSPerformancePlus: 0
+    enableIOSPerformancePlus: 1
     brotliMT: 1
   CompressTexture:
     halfSize: 0

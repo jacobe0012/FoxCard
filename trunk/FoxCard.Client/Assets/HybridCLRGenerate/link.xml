@@ -36,14 +36,13 @@
     <type fullname="MessagePack.Formatters.ListFormatter`1" preserve="all" />
     <type fullname="MessagePack.IFormatterResolver" preserve="all" />
     <type fullname="MessagePack.Internal.CodeGenHelpers" preserve="all" />
+    <type fullname="MessagePack.Internal.GeneratedAssemblyMessagePackResolverAttribute" preserve="all" />
     <type fullname="MessagePack.MessagePackCompression" preserve="all" />
     <type fullname="MessagePack.MessagePackReader" preserve="all" />
     <type fullname="MessagePack.MessagePackSecurity" preserve="all" />
     <type fullname="MessagePack.MessagePackSerializer" preserve="all" />
     <type fullname="MessagePack.MessagePackSerializerOptions" preserve="all" />
     <type fullname="MessagePack.MessagePackWriter" preserve="all" />
-    <type fullname="MessagePack.Resolvers.StandardResolver" preserve="all" />
-    <type fullname="MessagePack.Resolvers.StaticCompositeResolver" preserve="all" />
   </assembly>
   <assembly fullname="MessagePack.Annotations">
     <type fullname="MessagePack.IgnoreMemberAttribute" preserve="all" />
@@ -140,6 +139,7 @@
     <type fullname="UnityEngine.Color32" preserve="all" />
     <type fullname="UnityEngine.ColorUtility" preserve="all" />
     <type fullname="UnityEngine.Component" preserve="all" />
+    <type fullname="UnityEngine.Debug" preserve="all" />
     <type fullname="UnityEngine.DefaultExecutionOrder" preserve="all" />
     <type fullname="UnityEngine.DisallowMultipleComponent" preserve="all" />
     <type fullname="UnityEngine.Events.UnityAction" preserve="all" />
@@ -164,8 +164,6 @@
     <type fullname="UnityEngine.Rect" preserve="all" />
     <type fullname="UnityEngine.RectOffset" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
-    <type fullname="UnityEngine.RuntimeInitializeLoadType" preserve="all" />
-    <type fullname="UnityEngine.RuntimeInitializeOnLoadMethodAttribute" preserve="all" />
     <type fullname="UnityEngine.SceneManagement.LoadSceneMode" preserve="all" />
     <type fullname="UnityEngine.SceneManagement.LocalPhysicsMode" preserve="all" />
     <type fullname="UnityEngine.Screen" preserve="all" />
@@ -181,6 +179,11 @@
     <type fullname="UnityEngine.Vector2" preserve="all" />
     <type fullname="UnityEngine.Vector3" preserve="all" />
     <type fullname="UnityEngine.Vector4" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.IMGUIModule">
+    <type fullname="UnityEngine.GUI" preserve="all" />
+    <type fullname="UnityEngine.GUILayout" preserve="all" />
+    <type fullname="UnityEngine.GUILayoutOption" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.InputLegacyModule">
     <type fullname="UnityEngine.Input" preserve="all" />
@@ -244,10 +247,13 @@
   </assembly>
   <assembly fullname="UnityWebSocket.Runtime">
     <type fullname="UnityWebSocket.CloseEventArgs" preserve="all" />
+    <type fullname="UnityWebSocket.CloseStatusCode" preserve="all" />
     <type fullname="UnityWebSocket.ErrorEventArgs" preserve="all" />
+    <type fullname="UnityWebSocket.IWebSocket" preserve="all" />
     <type fullname="UnityWebSocket.MessageEventArgs" preserve="all" />
     <type fullname="UnityWebSocket.OpenEventArgs" preserve="all" />
     <type fullname="UnityWebSocket.WebSocket" preserve="all" />
+    <type fullname="UnityWebSocket.WebSocketState" preserve="all" />
   </assembly>
   <assembly fullname="Wx">
     <type fullname="WeChatWASM.WX" preserve="all" />

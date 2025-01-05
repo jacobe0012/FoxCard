@@ -10,6 +10,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
+using MessagePack.Unity;
 using Newtonsoft.Json.Linq;
 using UnityEngine.Networking;
 
@@ -46,7 +47,8 @@ namespace XFramework
             ConfigManager.Instance.SwitchLanguages(Tblanguage.L10N.zh_cn);
 
             base.Init();
-            Startup.Initialize();
+            //MessagePackInitializer
+            MessagePack.Resolvers.StaticCompositeResolver staticCompositeResolver;
             ResourcesSingleton.Instance.Init();
             JsonManager.Instance.Init();
             RedDotManager.Instance.Init();
