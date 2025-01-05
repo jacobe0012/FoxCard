@@ -66,8 +66,8 @@ public class ReceiveDailySignHandler : HandleBase, ICommandHandler
         var context = new Context
         {
             message = message,
-            inputContentStr = "",
-            outputContentStr = ""
+            inputContentStr = signType.ToString(),
+            outputContentStr = rewards?.ToString()
         };
         return context;
     }

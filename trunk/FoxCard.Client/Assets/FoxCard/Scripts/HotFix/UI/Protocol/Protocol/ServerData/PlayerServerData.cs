@@ -35,5 +35,12 @@ namespace HotFix_UI
         /// </summary>
         [Key(4)]
         public int ContinuousLoginCount { get; set; }
+
+
+        /// <summary>
+        /// 7日签到上次签到时间戳 ms
+        /// </summary>
+        [Key(5)]
+        public long Last7SignTimeStamp { get; set; }
     }
 }

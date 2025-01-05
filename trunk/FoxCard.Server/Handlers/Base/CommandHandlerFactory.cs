@@ -29,6 +29,7 @@ public class CommandHandlerFactory
             CMD.RECEIVEACHIEVEITEM => new ReceiveAchieveItemHandler(_redis, _connections),
             CMD.RECEIVEACHIEVEBOX => new ReceiveAchieveBoxHandler(_redis, _connections),
             CMD.RECEIVEMAILITEM => new ReceiveMailItemHandler(_redis, _connections),
+            CMD.RECEIVEDAILYSIGN7 => new ReceiveDailySign7Handler(_redis, _connections),
             // 类似的命令可以继续添加
             _ => throw new NotImplementedException($"未实现命令 {command} 的处理程序。")
         };

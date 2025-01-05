@@ -164,6 +164,7 @@ namespace HotFix_UI
             {
                 //SendMessage(CMD.DAILYSIGN);
                 SendMessage(CMD.QUERYRESOURCE);
+                SendMessage(CMD.RECEIVEDAILYSIGN7, 2);
                 // SendMessage(CMD.RECEIVEACHIEVEITEM, 301001);
                 // SendMessage(CMD.RECEIVEACHIEVEBOX, 101);
                 // SendMessage(CMD.RECEIVEMAILITEM, 1001);

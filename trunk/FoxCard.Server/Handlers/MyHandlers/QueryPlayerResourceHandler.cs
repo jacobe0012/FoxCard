@@ -49,23 +49,5 @@ public class QueryPlayerResourceHandler : HandleBase, ICommandHandler
         return context;
     }
 
-    public async Task<ServerRootData?> GetServerRootData()
-    {
-        var db = _redis.GetDatabase();
-        var rv = await db.StringGetAsync(ServerConst.ServerRootName);
-        if (rv.IsNullOrEmpty)
-        {
-            //TODO:初始化服务器Root数据
-            var serverdate = new ServerRootData
-            {
-                Signed7GroupId = 2,
-                MaxSignedDay = 3
-            };
-            db.StringSetAsync(ServerConst.ServerRootName, JsonConvert.SerializeObject(serverdate));
-            return serverdate;
-        }
-
-        var serverRootData = JsonConvert.DeserializeObject<ServerRootData>(rv);
-        return serverRootData;
-    }
+    
 }

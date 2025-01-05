@@ -138,10 +138,10 @@ public class WebSocketController : ControllerBase
         ICommandHandler handler = commandHandlerFactory.CreateHandler(message.Cmd);
         var context = await handler.HandleAsync(message, webSocket);
 
-        string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode}" : "";
+        string errorStr = message.ErrorCode != 0 ? $"ErrorCode:{message.ErrorCode},Content:" : "";
         stopwatch.Stop();
         MyLogger.Log(message.Cmd.ToString(), _connections[webSocket], context.inputContentStr,
-            $"ErrorCode:{errorStr},Content:{context.outputContentStr}",
+            $"{errorStr}{context.outputContentStr}",
             stopwatch);
         // 调用处理器的 HandleAsync 方法
         return context.message;

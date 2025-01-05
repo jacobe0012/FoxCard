@@ -32,15 +32,23 @@ public class ReceiveDailySign7Handler : HandleBase, ICommandHandler
         var rv = await db.StringGetAsync(redisKey);
         var playerRes = JsonConvert.DeserializeObject<PlayerResource>(rv);
 
-        if (CanSignOrLoginToday(playerRes.PlayerServerData.LastSignTimeStamp, out var date, out var utclong))
+        if (CanSignOrLoginToday(playerRes.PlayerServerData.Last7SignTimeStamp, out var date, out var utclong))
         {
-            playerRes.PlayerServerData.LastSignTimeStamp = utclong;
-            playerRes.PlayerServerData.SignCount++;
-            Console.WriteLine($"签到时间:{date.ToShortDateString()}");
-            var tbsignDaily = MyConfig.Tables?.Tbsign_daily.Get(date.Day);
-            if (tbsignDaily != null)
+            playerRes.PlayerServerData.Last7SignTimeStamp = utclong;
+            playerRes.GameSignAcc7.SignedDay++;
+            playerRes.GameSignAcc7.isSignedToday = true;
+            var serverData = await GetServerRootData();
+
+            Console.WriteLine($"7日签到时间:{date.ToShortDateString()}");
+            var tbsignAcc7 =
+                MyConfig.Tables?.Tbsign_acc7.DataList.Where(a =>
+                        a.groupId == serverData.Signed7GroupId && a.id == playerRes.GameSignAcc7.SignedDay)
+                    .FirstOrDefault();
+
+
+            if (tbsignAcc7 != null)
             {
-                rewards.rewards = tbsignDaily.reward;
+                rewards.rewards = tbsignAcc7.reward;
                 if (signType == 2)
                 {
                     for (int i = 0; i < rewards.rewards.Count; i++)
@@ -57,7 +65,7 @@ public class ReceiveDailySign7Handler : HandleBase, ICommandHandler
         else
         {
             rewards = null;
-            Console.WriteLine($"不可签 上次签到时间戳:{playerRes.PlayerServerData.LastSignTimeStamp}");
+            Console.WriteLine($"7日签到不可签 上次签到时间戳:{playerRes.PlayerServerData.Last7SignTimeStamp}");
         }
 
         message.Content =
@@ -66,8 +74,8 @@ public class ReceiveDailySign7Handler : HandleBase, ICommandHandler
         var context = new Context
         {
             message = message,
-            inputContentStr = "",
-            outputContentStr = ""
+            inputContentStr = signType.ToString(),
+            outputContentStr = rewards?.ToString()
         };
         return context;
     }

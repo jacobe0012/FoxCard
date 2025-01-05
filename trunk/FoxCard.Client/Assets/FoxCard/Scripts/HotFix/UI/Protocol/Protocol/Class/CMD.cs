@@ -15,6 +15,11 @@
         public const int RECEIVEDAILYSIGN = 30;
 
         /// <summary>
+        /// 领取每周7日签到 传入1:正常签到 2:看广告签到
+        /// </summary>
+        public const int RECEIVEDAILYSIGN7 = 31;
+
+        /// <summary>
         /// 领取单个成就
         /// </summary>
         public const int RECEIVEACHIEVEITEM = 40;

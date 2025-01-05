@@ -13,7 +13,7 @@ namespace HotFix_UI
         public int Signed7GroupId { get; set; }
 
         /// <summary>
-        /// 七天签到到第几天了   1-7
+        /// 七天签到到第几天了   0-7
         /// </summary>
         [Key(1)]
         public int SignedDay { get; set; }
