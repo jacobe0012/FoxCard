@@ -65,5 +65,5 @@ if __name__ == "__main__":
     # 替换为你游戏或应用程序的窗口标题
     game_window_title = "Path of Exile 2"  # 例如 "Path of Exile"
     # 替换为你想保存截图的文件夹路径
-    save_folder = r"D:\YoloTest\data\rawimg"  # 例如 "C:\\Users\\YourUsername\\Desktop\\screenshots"
+    save_folder = r".\data\rawimg"  # 例如 "C:\\Users\\YourUsername\\Desktop\\screenshots"
     capture_game_every_10_seconds(game_window_title, save_folder)

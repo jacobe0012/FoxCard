@@ -1,6 +1,6 @@
-train: D:\YoloTest\datasets\mycoco\images\train  # train images
-val: D:\YoloTest\datasets\mycoco\images\val  # val images
-test: D:\YoloTest\datasets\mycoco\images\test  # test images （可选）
+train: .\mycoco\images\train  # train images
+val: .\mycoco\images\val  # val images
+test: .\mycoco\images\test  # test images （可选）
 
 # number of classes
 nc: 9
