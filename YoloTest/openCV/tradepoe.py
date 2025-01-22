@@ -6,7 +6,7 @@ from PIL import ImageGrab
 import time
 import random
 from pynput.mouse import Button, Controller
-
+from paddleocr import PaddleOCR
 
 
 click_threshold=0.8
@@ -64,7 +64,7 @@ def check_and_click_invite(window, template_path, click_threshold=0.6):
     # 使用OpenCV模板匹配
     result = cv2.matchTemplate(screenshot_gray, template, cv2.TM_CCOEFF_NORMED)
     min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(result)
-
+    
     # 如果匹配度超过阈值，模拟点击
     if max_val >= click_threshold:
         print("邀请弹窗检测到，点击确定按钮")
@@ -73,7 +73,19 @@ def check_and_click_invite(window, template_path, click_threshold=0.6):
         # 计算目标点击位置并添加随机偏移
         target_x = window_left + button_center[0] 
         target_y = window_top + button_center[1] 
+        w, h = template.shape[1], template.shape[0]
+        region = screenshot_gray[h:target_y + h, w:target_x + w]
+    
+        # 使用PaddleOCR识别匹配区域的文字
+        region = screenshot[max_loc[1]:max_loc[1] + h, max_loc[0]:max_loc[0] + w]
+        ocr = PaddleOCR(use_angle_cls=True, lang='ch')  # 设置中文识别
+        region+=10
+        resultocr = ocr.ocr(region, cls=True)
 
+        # 打印识别结果
+        if resultocr[0] is not None:
+            for line in resultocr[0]:
+                print(f"Detected text: {line[1]}")
         # 加入随机偏移量（模拟人类点击不完全准确）
         random_offset_x = random.randint(-5, 5)  # 随机偏移范围：-5 到 5
         random_offset_y = random.randint(-5, 5)
@@ -116,8 +128,20 @@ def monitor_poe_invite(template_path):
             print("未检测到邀请弹窗或匹配失败")
 
         time.sleep(3)  # 每3秒检查一次
-
+# Step 2: 使用PaddleOCR识别文字
+def recognize_text_in_region(image, loc, template_width, template_height):
+    # 假设loc为模板匹配位置的坐标，切割区域
+    x, y = loc[0][0], loc[1][0]
+    region = image[y:y + template_height, x:x + template_width]
+    
+    # 使用PaddleOCR识别该区域的文字
+    ocr = PaddleOCR(use_angle_cls=True, lang='ch')  # 设置中文识别
+    result = ocr.ocr(region, cls=True)
+    
+    # 打印识别结果
+    for line in result[0]:
+        print(f"Detected text: {line[1]}")
 if __name__ == "__main__":
     # 模板图片路径（请提供邀请弹窗“确定”按钮的截图）
-    template_path = "D:\\gitProject\\FoxCard\\YoloTest\\openCV\\pics\\comehome.png"
+    template_path = "D:\\gitProject\\FoxCard\\YoloTest\\openCV\\pics\\e.png"
     monitor_poe_invite(template_path)

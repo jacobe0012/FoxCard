@@ -28,7 +28,7 @@ def select_area(image_path, scale_factor=1.0):
 
     # 载入图像
     image = cv2.imread(image_path)
-    
+
     # 缩放图像，避免显示不完全
     height, width = image.shape[:2]
     new_width = int(width * scale_factor)
