@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "9CFv7lZbnrgYmU9YeiCwzhU4mDP3cbrueZBcHepJ9N8=",
+  "Source": "TicTacToe",
+  "BasePath": "_content/TicTacToe",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TicTacToe\\wwwroot",
+      "Source": "TicTacToe",
+      "ContentRoot": "D:\\GitProjects\\FoxCard\\OrleansSamples\\orleans\\TicTacToe\\wwwroot\\",
+      "BasePath": "_content/TicTacToe",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\GitProjects\\FoxCard\\OrleansSamples\\orleans\\TicTacToe\\wwwroot\\app.js",
+      "SourceId": "TicTacToe",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\GitProjects\\FoxCard\\OrleansSamples\\orleans\\TicTacToe\\wwwroot\\",
+      "BasePath": "_content/TicTacToe",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\app.js"
+    }
+  ]
+}
