@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\GitProjects\\FoxCard\\OrleansSamples\\orleans\\TicTacToe\\wwwroot\\app.js",
+      "PackagePath": "staticwebassets\\app.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.TicTacToe.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.TicTacToe.props",
+      "PackagePath": "build\\TicTacToe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.TicTacToe.props",
+      "PackagePath": "buildMultiTargeting\\TicTacToe.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.TicTacToe.props",
+      "PackagePath": "buildTransitive\\TicTacToe.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
