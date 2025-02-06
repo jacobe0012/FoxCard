@@ -14,18 +14,18 @@ keep_pressing = False
 def start_typing1():
     while keep_pressing:
         keyboard_controller.press('t')  # 按下 T 键
-        time.sleep(random.uniform(0.02, 0.08))  # 给时间按键反应
+        #time.sleep(random.uniform(0.02, 0.08))  # 给时间按键反应
         keyboard_controller.release('t')  # 松开数字 1
-        time.sleep(random.uniform(0.10, 0.15))  # 随机间隔 2-3 秒
+        time.sleep(random.uniform(0.3, 0.3))  # 随机间隔 2-3 秒
 
 # 模拟按下 "T" 键和开始按数字 "1"
 def start_typing():
     # 持续按数字 1
     while keep_pressing:
         keyboard_controller.press('1')  # 按下数字 1
-        time.sleep(random.uniform(0.08, 0.15))  # 给时间按键反应
+        #time.sleep(random.uniform(0.08, 0.15))  # 给时间按键反应
         keyboard_controller.release('1')  # 松开数字 1
-        time.sleep(random.uniform(1.8, 2.5))  # 随机间隔 2-3 秒
+        time.sleep(random.uniform(2, 2))  # 随机间隔 2-3 秒
         
 
 
@@ -33,7 +33,7 @@ def start_typing():
 def stop_typing():
     global keep_pressing
     keep_pressing = False  # 停止按数字 1
-    #keyboard_controller.release('t')  # 按下 T 键
+    keyboard_controller.release('t')  # 按下 T 键
 
 # 当按下鼠标侧键时，启动或停止按数字 "1"
 def on_click(x, y, button, pressed):
