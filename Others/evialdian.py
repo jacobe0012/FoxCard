@@ -16,7 +16,7 @@ def start_typing1():
         keyboard_controller.press('t')  # 按下 T 键
         #time.sleep(random.uniform(0.02, 0.08))  # 给时间按键反应
         keyboard_controller.release('t')  # 松开数字 1
-        time.sleep(random.uniform(0.3, 0.3))  # 随机间隔 2-3 秒
+        time.sleep(random.uniform(0.25, 0.25))  # 随机间隔 2-3 秒
 
 # 模拟按下 "T" 键和开始按数字 "1"
 def start_typing():
